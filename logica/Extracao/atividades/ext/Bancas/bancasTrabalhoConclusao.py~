@@ -1,0 +1,40 @@
+from bancas import *
+class BancaTrabalhoConclusao(Bancas):
+
+	alunos = None
+	nivel  = None
+
+	def processaItem(self, partesDoItem):
+		partes = partesDoItem[1].rpartition(". ")
+		if partes[1] == "":
+			self.local = ""
+			partes = partes[0]
+		else:
+			p = partes[2].split('-')
+			self.local = p[1].strip().rstrip('.')
+			self.curso = p[0].split('(')[1].split(')')[0].split('em')[1]
+
+			partes = partes[0].rpartition(". ")
+			if partes[1] == "":
+				self.ano = ""
+				partes = partes[0]
+			else: 
+				self.ano = partes[2]
+
+			partes = partes[0].rpartition(".")
+			if partes[1] == "":
+				self.titulo = ""
+				partes = partes[0].strip()
+			else: 
+				self.titulo = partes[2]
+				p = partes[0].partition("..")
+				if p[1] == "":
+					self.autores = partes[0]
+					self.alunos = ""
+				else:
+					self.autores = p[0]
+					alunos = p[2].split(',')
+					if len(alunos) > 0:
+						self.alunos = alunos
+					else:
+						self.alunos = p[2]

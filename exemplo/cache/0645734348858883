@@ -1,0 +1,1847 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Fabiola Aiub Sperotto)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0645734348858883" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4706082J3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4706082J3"><div class="infpessoa">
+<h2 class="nome">Fabiola Aiub Sperotto</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0645734348858883</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 01/12/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Bacharelado em Matemática pela Universidade Federal do Rio Grande do Sul (2000), graduação em Formação Pedagógica Matemática-EAD pela Universidade Luterana do Brasil (2006) é Mestre em Matemática Aplicada pela Universidade Federal do Rio Grande do Sul (2003) e Doutora em Engenharia Mecânica pela Universidade Federal do Rio Grande do Sul (2007). Atualmente é professora (classe Adjunta III) da Universidade Federal do Rio Grande (FURG). Áreas de concentração: Matemática, com ênfase em Matemática Aplicada, atuando principalmente nas áreas de educação (ensino superior), dispersão de poluentes, soluções de equações diferenciais, fenômenos de transporte.Integra o corpo docente do PROFMAT (Mestrado Profissional em Matemática em Rede Nacional).<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fabiola Aiub Sperotto</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SPEROTTO, F. A.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Instituto de Matemática, Estatística e Física. <br class="clear" />Avenida Itália, km 08, Pavilhão J- sala 6<br class="clear" />Bairro Carreiros<br class="clear" />96201900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (051) 32335104</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia Mecânica<span class="ajaxCAPES" data-param="&codigoCurso=42001013046P9&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Soluções de Equações Advectivo-Difusivas Utilizando Split, Série Geométrica e Transformação de Bäcklund, Ano de obtenção: 2007. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0586975941517922'><img src='images/curriculo/logolattes.gif' /></a>Jorge Rodolfo Silva Zabadal. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: forno-panela; controle on-line; Equações Advectivo-Difusivas; Transformação de Bäcklund.<br class="clear" />Grande área: Engenharias / Área: Engenharia Mecânica / Subárea: Fenômenos de Transporte / Especialidade: Transferência de Calor. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Matemática Aplicada<span class="ajaxCAPES" data-param="&codigoCurso=42001013063P0&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Determinação do Autolvalor Dominante da Equação de Transporte em Geometria Cartesiana e Meio Infinito usando Derivada Fracionária,Ano de Obtenção: 2003.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9362686215096702'><img src='images/curriculo/logolattes.gif' /></a>Marco T. Menna Barreto de Vilhena.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: Autovalor, equação de transporte; derivada fracionária.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" />Grande Área: Engenharias / Área: Engenharia Mecânica / Subárea: Fenômenos de Transporte. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Formação Pedagogica Matemática- EAD<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Luterana do Brasil, ULBRA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Bacharelado em Matemática<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Formação Pedagógica de Docentes.  (Carga horária: 578h). <br class="clear" />Universidade Luterana do Brasil, ULBRA, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Centro Universitário La Salle - Canoas, UNILASALLE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: horista, Enquadramento Funcional: professora assistente</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2009 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Análise Matemática<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Adjunto III, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Adjunto II, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de participação em Projeto de Ensino: Café com a Matemática: O Romance das Equações Álgebricas</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Adjunto I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas: Álgebra Linear e Geometria Analítica.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: professor adjunto nível 1, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas: 2 semestre 2009: Álgebra Linear e Geometria Analítica, Elementos de Matemática, Introdução à Matemática.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Alimentos, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Instituto de Matemática, Estatística e Física, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora Adjunta do curso de Licenciatura em Ciências - EaD.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Bioquímica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Matemática, Estatística e Física, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Representante da Câmara de Ensino.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 11/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Profissional em Matemática, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Profissional em Matemática, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física - Licenciatura e Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 10/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2013 - 07/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Profissional em Matemática, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2012 - 04/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Bioquímica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2012 - 04/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Quimica e Alimentos, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2012 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Profissional em Matemática, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2012 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Matemática, Estatística e Física, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Conselho do Instituto de Matemática, Estatística e Física.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2012 - 09/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2012 - 09/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física - Licenciatura e Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Bioquímica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Profissional em Matemática, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica Naval, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Matemática, Estatística e Física, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro de conselho do Instituto de Matemática, Estatística e Física.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 07/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Bioquímica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Espacial e Medidas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Quimica e Alimentos, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica Naval, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 06/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil Empresarial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 06/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica Empresarial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 06/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Elementar<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 06/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil Empresarial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas- Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física - Licenciatura e Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Química - Licenciatura, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_E-book: Elabora&ccedil;&atilde;o de Material para o Ensino de Matem&aacute;tica em todos os n&iacute;veis'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">E-book: Elaboração de Material para o Ensino de Matemática em todos os níveis<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esta proposta de ensino e pesquisa pretende elaborar e-books sobre temas matemáticos relevantes escolhidos a partir da leitura e discussão de textos selecionados de livros ou artigos. A inovação pretendida por esta proposta está na produção de um material didático de apoio para ser utilizado em todos os níveis de ensino, com uma linguagem clara e direta. Além disso, pretende-se que este material seja de fácil acesso e auxilie os estudantes a construírem o conhecimento matemático de maneira mais significativa, contribuindo para a formação de acadêmicos capazes de atuar no mercado profissional com o auxílio das tecnologias digitais de informação e comunicação. Projeto Nº: 325899/2013 Propesp/FURG.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Fabiola Aiub Sperotto - Integrante / Cristiana A. Poffal - Integrante / Bárbar Denicol do Amaral  Rodriguez - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Produ&ccedil;&atilde;o de Material para Curso de Forma&ccedil;&atilde;o Continuada para Professor de Matem&aacute;tica da Educa&ccedil;&atilde;o B&aacute;sica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção de Material para Curso de Formação Continuada para Professor de Matemática da Educação Básica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A presente proposta tem como objetivo a elaboração de um material de apoio pedagógico baseado em atividades alternativas que será utilizado em um curso que terá como público-alvo professores da educação básica das escolas das redes públicas estadual e municipal do município de Rio Grande. O curso será dividido em módulos, conforme o assunto abordado, inicialmente, Geometria Plana e Funções Polinomiais. Os módulos consistirão de uma revisão dos conceitos e a apresentação de atividades alternativas. Tais atividades visam, sobretudo, melhorar o ensino e a aprendizagem, contribuir para o desenvolvimento de um diálogo entre o saber matemático e o saber pedagógico, estreitando, assim a relação entre professores e alunos. O desenvolvimento do projeto proporcionará ampla interação entre a Universidade e a comunidade escolar. Esta iniciativa busca promover a formação continuada bem como a fundamentação teórica e atualização docente em relação aos conteúdos relacionados ao curso e sugerindo práticas alternativas de ensino incluindo o uso de tecnologias. Além disso, o projeto visa oportunizar aos acadêmicos de graduação e pós-graduação dos cursos de Matemática, convivência com a realidade social e prática profissional. Nesta fase inicial do projeto será desenvolvido o material didático que servirá de apoio durante as oficinas. Projeto registrado na PROPESP/FURG 655091/2013. Ata de aprovação na Unidade: 08/2013. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Fabiola Aiub Sperotto - Coordenador / Cristiana A. Poffal - Integrante / Bárbar Denicol do Amaral  Rodriguez - Integrante / Cinthya Maria Schneider Meneghetti - Integrante / Daiane Silva de Freitas - Integrante.<br class="clear" /></div>
+</div><a name='PP_Elabora&ccedil;&atilde;o e Produ&ccedil;&atilde;o de Material parao Ensino de C&aacute;lculo, &Aacute;lgebra Linear e Geometria Anal&iacute;tica.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Elaboração e Produção de Material parao Ensino de Cálculo, Álgebra Linear e Geometria Analítica.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visa o aprimoramento do material didático, inicialmente produzido nos anos de 2011 e 2012 para as disciplinas semestrais de Cálculo I, Cálculo II, Cálculo III, Álgebra Linear e Geometria Analítica e para a disciplina anual de Cálculo Diferencial e Integral I. O projeto tem por objetivo a elaboração de um material de fácil acesso e entendimento para os alunos, auxiliando na diminuição dos altos índices de reprovação e prevê a inclusão de novos tópicos e curiosidades, bem como dados históricos e exercícios cuja resolução incentive a utilização de recursos computacionais.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Fabiola Aiub Sperotto - Integrante / Cristiana A. Poffal - Integrante / Bárbar Denicol do Amaral  Rodriguez - Coordenador / Cinthya Maria Schneider Meneghetti - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Projeto Caf&eacute; com a Matem&aacute;tica: O romance das Equa&ccedil;&otilde;es Alg&eacute;bricas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Café com a Matemática: O romance das Equações Algébricas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Desativado; Natureza: Outra. <br class="clear" /><br class="clear" />Integrantes: Fabiola Aiub Sperotto - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Equações Diferenciais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Álgebra/Especialidade: Algebra Linear. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Mecânica / Subárea: Fenômenos de Transporte. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Geometria. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		ZABADAL, J. ; POFFAL, C. A. ; <b>SPEROTTO, F. A.</b> ; RIBEIRO, V.G ; GARCIA, R.L. . Exact Solution To Korteweg-De Vries Equation using Split Induced by Scaling. In: XXXII -Cilamce- Congresso Ibero-Latino Americano de Métodos Computacionais em Engenharia, 2011, Ouro Preto. Anais do XXXII-CILAMCE 2011, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZABADAL, J. ; POFFAL, C. A. ; <b>SPEROTTO, F. A.</b> ; BECK, Daniel . Exact Solutions to the Two-dimensional Helmholtz Equation Using Bäcklund Transformations. In: IV Southern Conference on Computational Modeling e IX Encontro Regional de Matemática Aplicada e Computacional, 2010, Rio Grande. IV Southern Conference on Computational Modeling e IX Encontro Regional de Matemática Aplicada e Computacional, 2010. p. 33-38. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POFFAL, C. A. ; ZABADAL, J. ; <b>SPEROTTO, F. A.</b> . The Use of Differential Constraints on Simulation of Pollutant Dispersion in Water Bodies. In: Congresso Ibero-Latino-Americano de Métodos Computacionais em Engenharia, 2009, Armação dos Búzios. Congresso Ibero-Latino-Americano de Métodos Computacionais em Engenharia, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POFFAL, C. A. ; ZABADAL, J. ; <b>SPEROTTO, F. A.</b> . Simulation of pollutant dispersion in water bodies using differential constraints. In: Cilamce- Congresso Ibero Latino Americano de Métodos Computacionais em Engenharia, 2008, Maceió. Anais do XXIX CILAMCE, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZABADAL, J. ; POFFAL, C. A. ; <b>SPEROTTO, F. A.</b> . Simulation of the ladle furnance preheating process using split and geometric series. In: Brazilian Congress of Thermal Engineering and Sciences, 2008, Belo Horizonte. Brazilian Congress of Thermal Engineering and Sciences, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>SPEROTTO, F. A.</b> ; ZABADAL, J. ; LEITE, S. B. . Dominant Eigenvalue Determination by the Fractional Derivative Method in Infinite Plane Geometry. In: International Conference on Transport Theory, 2003, Rio de Janeiro. International Conference on Transport Theory, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>SPEROTTO, F. A.</b> ; SEGATTO, C. F. ; ZABADAL, J. . Método para a resolução do autovalor dominante da equação de transporte de nêutrons em uma placa usando derivada fracionária. In: International Nuclear Atlantic Conference, 2002, Rio de Janeiro. INAC. Rio de Janeiro, 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b> . Cálculo do Autovalor Dominante da Equação de Transporte de Nêutrons em uma Placa usando Derivada Fracionária. In: XXV Congresso Nacional de Matemática Aplicada e Computacional, 2002, Nova Friburgo. XXV CNMAC, 2002. v. Unico. p. 445-445. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b> . Cálculo do Autovalor Dominante da Equação de Transporte de Nêutrons em uma Placa usando Derivada Fracionária. In: Encontro Regional de Matamática Aplicada e Computacional, 2002, Porto Alegre. Encontro Regional de Matamática Aplicada e Computacional, 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINATTO, M. ; MENEGHETTI, C. M. S. ; <b>SPEROTTO, F. A.</b> . Atividades de Geometria para o Ensino Médio. Ciência e Natura<sup><img id='01008307_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01008307' /></sup>, 2014. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; PEREIRA, E. C..  Participação em banca de Maria Conceição da Silva dos Santos.Uma análise do ensino da geometria no ensino fundamental na cidade de Santa Rosa..
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; PINHO, D.; SAAD, A. S..  Participação em banca de Aline Michele Jappe.Uma nova metodologia no ensino de Área e Perímetro..
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; PINHO, D.; SAAD, A. S..  Participação em banca de Grasieli Klein Krindges Lautenschleger.Trabalhando a Geometria no Meio em que Vivemos.
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; PEREIRA, E. C..  Participação em banca de Nilsa de Oliveira Preissler Copetti.APLICAÇÕES DO TANGRAM NO ENSINO FUNDAMENTAL DO MUNICÍPIO DE ALEGRIA.
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; PEREIRA, E. C..  Participação em banca de Janete Maria Savariz.ENSINO DA GEOMETRIA POR MEIO DO SOFTWARE GEOGEBRA.
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; PINHO, D.; SAAD, A. S..  Participação em banca de Cléria Vogt.Construção do número nas séries iniciais.
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; DALLASTA, M. N..  Participação em banca de Diana Speth.Uma reflexão sobre o lúdico em aulas de Matemática.
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; DALLASTA, M. N..  Participação em banca de Daniela de Campos Freitas.O lúdico no ensino de Matemática.
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; DALLASTA, M. N..  Participação em banca de Tânia Beatriz Schueller dos Santos.A importância do Estágio Supervisionado em EaD.
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; GAUTERIO, E. G.; PINHO, D.; SAAD, A. S..  Participação em banca de Vladiane Silva dos Santos.Educação Financeira na Escola: Um Alento para a Vida..
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigues, B. D. A.; <b>SPEROTTO, F. A.</b>; Schutz, L.. Seleção de Professor Substituto.
+							2010. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>SPEROTTO, F. A.</b>; Lazo, M. J.; Silva, M. P. M.. Seleção para Professor Assistente.
+							2010. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Nuclear Atlantic Conference. Método para a resolução do autovalor dominante da equação de transporte de nêutrons em uma placa usando derivada fracionária. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CNMAC. Calculo do Autovalor Dominante da Equação de Transporte de Nêutrons em uma placa usando Derivada Fracionária. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Teoria de Transporte de Partículas Neutras. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Regional de Matemática Aplicada e Computacional.Cálculo do autovalor dominante da equação de transporte de neutrons em uma placa usando derivada fracionária.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ll Congresso em Física da Camada Limite Planetária e Modelagem de Processos de Dispersão. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXlV Congresso Nacional de Matemática Aplicada e Computacional. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ezequiel Bobsin Strasburg. Atividades de Trigonometria para o Ensino Fundamental com o uso do software GeoGebra.
+							2014.
+						
+					Dissertação  (Mestrado em Mestrado Profissional em Matemática)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Fabiola Aiub Sperotto. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariângela Andrade Martinatto. Geometria Espacial no Ensino Médio: sugestões de atividades e avaliações para o conteúdo de Prismas e Pirâmides.
+							2013.
+						
+					Dissertação  (Mestrado em Mestrado Profissional em Matemática)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Co-Orientador: Fabiola Aiub Sperotto. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Grasieli Klein K. Lautenschleger.
+							Trabalhando a Geometria no Meio em que Vivemos.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. Orientador: Fabiola Aiub Sperotto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Janete Savariz.
+							ENSINO DA GEOMETRIA POR MEIO DO SOFTWARE GEOGEBRA.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. Orientador: Fabiola Aiub Sperotto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nilsa de Oliveira Copetti.
+							APLICAÇÕES DO TANGRAM NO ENSINO FUNDAMENTAL DO MUNICÍPIO DE ALEGRIA.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. Orientador: Fabiola Aiub Sperotto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Conceição da Silva dos Santos.
+							UMA ANÁLISE DO ENSINO DA GEOMETRIA NO ENSINO FUNDAMENTAL NA CIDADE DE SANTA ROSA.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. Orientador: Fabiola Aiub Sperotto.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aline Michel Jappe.
+							PERÍMETRO E ÁREA: UMA PROPOSTA PARA O ENSINO FUNDAMENTAL.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática- PROLIC/EAD)  - Universidade Federal do Rio Grande. Orientador: Fabiola Aiub Sperotto.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Bolsista da PROPESQ durante ano de 1999, na área de álgebra aplicada, orientada pelo Prof. Dr. Vilmar Trevisan.
+Participação no Congresso Nacional de Matemática Aplicad e Computacional, realizado em Belo Horizonte de 10 a 13 de 2001.
+Participação no II Congresso da Camada Limite Planetária e Modelagem de Processos de Dispersão, realizado em Santa Maria de 28 a 30 de 2001.
+Participação no Curso Teoria de Transporte de Partículas Neutras realizado na PUCRS de 14 a 17 de janeiro de 2002.
+Disciplinas cursadas na Universidade Federal do Rio Grande do Sul, como aluna especial no período de 2004: Psicologia da Educação A, Psicologia da Educação B, História da Matemática, Educação Matemática no Brasil.
+Estágio de Docência realizado na Universidade Federal do Rio Grande do Sul, concluído em junho de 2006. As aulas foram ministradas para o Departamento de Engenharia Nuclear.
+</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/03/2015 &agrave;s 24:44:28</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0645734348858883" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,59 @@
+import urllib2
+import re
+import sets
+import datetime
+import time
+import os
+
+from string import *				#Manipular a descricao do projeto
+from htmlentitydefs import name2codepoint
+
+class Pesquisador:
+	
+	idMembro       = None	# Identificador sequencial
+	idLattes       = None 	# Identificador do Curriculo Lattes
+	nomeInicial    = ''	# Primeiro nome do Docente
+	textoResumo    = ''	# Resumo do curriculo		
+	foto 	       = ''
+	listaPeriodo   = None
+	curriculoHTML  = None
+
+	atualizacaoCV  = ''
+	url	       = ''
+
+	def __init__(self, idMembro, identificador, nome, periodo):
+		self.idMembro    = idMembro
+		self.idLattes    = identificador
+		print nome
+		self.nomeInicial = nome
+		self.periodo     = periodo
+		self.criarListaDePeriodos(self.periodo)
+
+		p = re.compile('[a-zA-Z]+')		
+		if p.match(identificador):
+		    self.url = 'http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id='+identificador
+		else:
+		    self.url = 'http://lattes.cnpq.br/'+self.idLattes
+		
+
+	def criarListaDePeriodos(self, periodoDoMembro):
+		self.listaPeriodo = []
+		periodoDoMembro = re.sub('\s+', '', periodoDoMembro)
+
+		if periodoDoMembro == '': # se nao especificado o periodo, entao aceitamos todos os items do CV Lattes
+			self.listaPeriodo = [[0,10000]] 
+		else:
+			lista = periodoDoMembro.split("&")
+			for i in range(0,len(lista)):
+				ano = lista[i].partition("-")
+				ano1 = ano[0]
+				ano2 = ano[2]	
+			
+				if ano1.lower()=='hoje':
+					ano1=str(datetime.datetime.now().year)
+				if ano2.lower()=='hoje' or ano2=='':
+					ano2=str(datetime.datetime.now().year)
+			
+				if ano1.isdigit() and ano2.isdigit():
+					self.listaPeriodo.append([int(ano1), int(ano2)])
+				

@@ -1,0 +1,6 @@
+from bancaTrabalhoConclusao import *
+class BancaMestrado(BancaTrabalhoConclusao):
+
+	def __init__(self, idMembro, partesDoItem, nivel):
+		self.nivel = nivel
+		self.processaItem(partesDoItem)

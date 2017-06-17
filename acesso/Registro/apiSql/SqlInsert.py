@@ -1,0 +1,72 @@
+"""
+Classe SqlInsert
+Esta classe implementa uma instrucao de INSERT no banco de dados
+"""
+import string
+
+from SqlInstruction import *
+
+class SqlInsert (SqlInstruction):
+
+	columns = None		#Armazena as colunas
+	values = None		#Armazena os valores
+	sql = ''		#Armazena a instrucao SQL
+
+	def __init__(self):
+		self.columns = []
+		self.values = []
+	""" 
+	metodo setRowData()
+	@param column: coluna da tabela
+	@param value: valor a ser armazenado
+	"""
+	def setRowData(self, column, value):
+		'Atribui valores as colunas que serao inseridas no banco de dados'
+		if isinstance(value, str) :
+			value = self.addSlashes(value)	#Adicione o caracter de escape nas aspas				
+			self.setColumnValue(column, "'%s'" % (value))
+		elif isinstance(value, bool):
+			if value:
+				self.setColumnValue(column, 'TRUE')
+			else: 
+				self.setColumnValue(column, 'FALSE')
+		elif value == None:
+			self.setColumnValue(column, 'NULL')
+		else:
+			self.setColumnValue(column, str(value))
+
+	""" 
+	metodo setCriteria()
+	Nao e necessario no contexto desta classe, portanto lanca uma excecao 
+	se for executado.
+	"""
+	def setCriteria (self, criteria):
+		raise NotImplementedError ('Fora de contexto - uso incorreto do metodo.')
+
+	""" 
+	metodo getInstruction()
+	"""
+	def getInstruction (self) :
+		'Retorna a instrucao INSERT no formato de string plana'
+		delimiter = ', '
+		self.sql = string.Template("""INSERT INTO $table ($columns) VALUES ($values);""")
+		#Monta um string contendo o nome das colunas		
+		strColumns = delimiter.join(self.columns)
+		strValues  = delimiter.join(self.values)
+		dicToSubstitute = {'table':self.table, 'columns': strColumns, 'values':strValues} #Cria o dicionario para o Template
+		self.clear()
+		return self.sql.substitute(dicToSubstitute)					  #Retorna a string plana
+
+	"""
+	metodo setColumnValue()
+	@param column: coluna da tabela
+	@param value: valor para coluna  
+	"""
+	def setColumnValue(self, column, value):
+		'Adiciona um valor a uma coluna da tabela'
+		self.columns.append(column)
+		self.values.append(value)
+	
+	def clear(self):
+		self.columns = []
+		self.values = []

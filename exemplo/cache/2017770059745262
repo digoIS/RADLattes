@@ -1,0 +1,3380 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Regina Barwaldt)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2017770059745262" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4772776H0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4772776H0"><div class="infpessoa">
+<h2 class="nome">Regina Barwaldt</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/2017770059745262</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 29/09/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Análise de Sistemas pela Universidade Católica de Pelotas, mestrado em Ciência da Computação pela Universidade Federal do Rio Grande do Sul e doutorado em Informática na Educação também pela Universidade Federal do Rio Grande do Sul. Atualmente é Professora Adjunta do Centro de Ciências Computacionais (C3/FURG) e do Programa de Pós-Graduação em Computação/ FURG, Coordenadora do Curso de Especialização em Tecnologias da Informação e Comunicação na Educação TIC-Edu/FURG e avaliadora de cursos de graduação do BASIS do Ministério da Educação. Tem experiência na área de Ciência da Computação, com ênfase em Informática na Educação, atuando principalmente nos seguintes temas: Acessibilidade em Interfaces Web, Tecnologias Assistivas, Informática na Educação Especial, Inclusão Digital, Educação a Distância, Interface Humano Computador e Computação Ubíqua.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Regina Barwaldt</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BARWALDT, Regina</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Reitoria, Pró-Reitoria de Graduação. <br class="clear" />Av. Itália km 8<br class="clear" />Carreiros<br class="clear" />96201-900 - Rio Grande, RS - Brasil<br class="clear" />URL da Homepage: <a target="blank" href="http://www.furg.br">http://www.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Informática na Educação<span class="ajaxCAPES" data-param="&codigoCurso=42001013075P9&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Ferramenta com recurso de Voz: Uma Proposta para favorecer o processo de Interação e Inclusão dos Cegos em Ambientes Virtuais de Aprendizagem, Ano de obtenção: 2008. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0796125660056539'><img src='images/curriculo/logolattes.gif' /></a>Lucila Maria Costi Santarosa. <br class="clear" />Palavras-chave: Ambientes Virtuais de Aprendizagem; Acessibilidade na Web; Inclusão digital; Interaçao social; Tecnologia da Informação e Comunicação.<br class="clear" />Grande área: Ciências Humanas / Área: Educação / Subárea: Educação Especial. <br class="clear" />Grande Área: Ciências Humanas / Área: Educação / Subárea: Educação Especial / Especialidade: Acessibilidade a Web. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: E Commerce / Especialidade: Interfaces Web. <br class="clear" />Setores de atividade: Formação Permanente e Outras Atividades de Ensino, Inclusive Educação À Distância e Educação Especial. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Computação<span class="ajaxCAPES" data-param="&codigoCurso=42001013004P4&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Elaboração de um Guia de Recomendações para auxiliar o projeto de Sites Institucionais por não-especialistas,Ano de Obtenção: 2002.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2202679279260042'><img src='images/curriculo/logolattes.gif' /></a>Prof. Dr. Marcelo Soares Pimenta.<br class="clear" />Palavras-chave: interface Web, usabilidade, sites institucionais; guidelines.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: E Commerce / Especialidade: Interfaces Web. <br class="clear" />Setores de atividade: Outras Atividades de Prestação de Serviços em Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Ciência da Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Católica de Pelotas, UCPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aperfeiçoamento em Programa Especial de Formação Pedagógica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Instituto Federal Sul-Rio-Grandense, IFSUL, Brasil.
+		
+	<br class="clear" />Título: Relatório da Prática de Ensino. Ano de finalização: 2007. <br class="clear" />Orientador: Profa. Laizi da Silva das Neves. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Análise de Sistemas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Católica de Pelotas, UCPEL, Brasil.
+		
+	<br class="clear" />Título: Perfil Setorial das Empresas, Produtos e Serviços de Informática de Pelotas. <br class="clear" />Orientador: Claudio Leite Gastal. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Los Trayectos de Formación para la Enseñanza.  (Carga horária: 5h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação dos Avaliadores do Basis.  (Carga horária: 24h). <br class="clear" />Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Adjunto, Enquadramento Funcional: Estatutário, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Pró-Reitoria de Extensão e Cultura, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Comitê de Extensão. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora do curso de Especialização em Tecnologias da Informação e Comunicação na Educação   TIC-Edu.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado em Engenharia da Computação, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos e Tecnologias para Ambientes Mistos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Atividade de Integração Curricular III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Comissão Permanente do Pessoal Docente - CPPD, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />1º Suplente.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Quimica Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Algoritmos Computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Interface Homem Máquina<br class="clear" />Sistemas Corporativos I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2012 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , ICHI - Instituto de Ciências Humanas e da Informação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Programa de Extensão Universitária em Tecnologias Assistivas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2012 - 05/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-Reitoria de Graduação - PROGRAD/FURG, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Comissão Assessora para Análise das Propostas submetidas ao PDE/MONITORIA -PROGRAD.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2011 - 06/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Computação e Cálculo Numérico<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2011 - 05/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-Reitoria de Graduação - PROGRAD/FURG, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Comissão Assessora para Análise das propostas submetidas ao PDE/MONITORIA.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2011 - 01/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Algoritmos Computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Análise e Desenvolvimento de Sistema, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Engenharia de Software II<br class="clear" />Sistemas de Informação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Curso Integrado em Informática no IFRS em Rio Grande<br class="clear" />Banco de dados<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Ministério da Educação, MEC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Avaliador do BASis</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Integrante do Banco de Avaliadores do Sistema Nacional de Avaliação da Educação Superior</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Avaliador de Curso - SINAES-Basis. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul, IFRS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor vistante, Enquadramento Funcional: Dedicação Exclusiva, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ministrou disciplina de Banco de dados no Curso Técnico de Sistemas para Internet.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2010 - 02/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Desenvolvvimento de Software, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Engenharia de Software II<br class="clear" />Sistemas de Informação<br class="clear" />Banco de dados<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto Federal Sul-rio-grandense - Pelotas, IFSUL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Contrato, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas: Curso Superior de Tecnologia em Sistemas para Internet: Elaboração de Projetos, Gerencia de Projetos e Projeto de banco de dados Relacional; Curso Técnico de Nível Médio em Química: Informática; Curso Técnico de Nível Médio em Manutenção e Suporte em Informática: Montagem e Manutenção de Computadores e Interoperabilidade entre Sistemas Operacionais.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsa, Carga horária: 180</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formadora no Curso de Capacitação de Professores a Distância em Informática na Educação Especial, ministrado pelo CINTED/NIEE da UFRGS, 180h.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsa, Carga horária: 180</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formadora no Curso de Capacitação de Professores a Distância em Informática na Educação Especial, ministrado pelo CINTED/NIEE da UFRGS, 180h.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsa, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formadora no Curso de Capacitação de Professores a Distância em Informática na Educação Especial, ministrado pelo CINTED/NIEE da UFRGS, 180h.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsa, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formadora no Curso de Capacitação de Professores a Distância em Informática na Educação Especial.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsa, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria à distância e em serviço de professores em informática na educação especial. Organizado pelo CINTED e NIEE da UFRGS.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Bolsa, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formadora no Curso de Capacitação de Professores a Distância em Informática na Educação Especial.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 08/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Centro Interdisciplinar de Novas Tecnologias da Educação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Formadora no Curso de Capacitação de Professores a Distância em Informática na Educação Especial.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2007 - 08/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Centro Interdisciplinar de Novas Tecnologias da Educação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Formadora no Curso de Capacitação de Professores a Distância em Informática na Educação Especial.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 06/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Centro Interdisciplinar de Novas Tecnologias da Educação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Monitora no Curso de Capacitação de Professores a Distância em Informática na Educação Especial.. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade da Região da Campanha, URCAMP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor titular, Enquadramento Funcional: Professor titular, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2003 - 03/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração de Empresas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução a Informática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2003 - 03/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução a Informática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2003 - 03/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Informática e Sociedade<br class="clear" />Interface Homem-Maquina<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2002 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução a Informática<br class="clear" />Multimidia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2001 - 12/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Gerência de Informática na Empresa<br class="clear" />Projetos de Sistemas I<br class="clear" />Sistemas Operacionais I<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Arrozeira Floresta Ltda, ARROZ, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Contrato, Enquadramento Funcional: Assessoria e Suporte Técnico em Informática, Carga horária: 0</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Contrato temporário, Enquadramento Funcional: Assessoria Técnica</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2003 - 02/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Suporte Técnico. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Serviço Nacional de Aprendizagem Comercial - RS, SENAC/RS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor, Enquadramento Funcional: CLT, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professora no curso de Sistemas de Informaçao, responsável pela disciplina Organizaçao de Computadores.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Harter Pneus e Rodas, HARTER, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Consultoria</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Consultoria na definição estratégica e no planejamento de infraestruturas tecnológicas</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Assessoria, Carga horária: 0</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/2002 - 9/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Informática, Pelotas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Outro.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2002 - 5/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Informática, Pelotas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Consultor.
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Unimed Pelotas Soc Cooperativa do Trab Médico Ltda, UNIMED, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: , Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2000 - 10/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Técnico Adm de Sistemas em Redes. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Banco de Crédito Nacional, BCN, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1988 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: efetivo, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/1988 - 7/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Ag Pelotas, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Gerente Operacional.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Modelo para monitor cadeia produtiva av&iacute;cola de corte, atrav&eacute;s da tecnologia RFID'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelo para monitor cadeia produtiva avícola de corte, através da tecnologia RFID<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto visa desenvolver um modelo para monitorar cadeia produtiva avícola de corte de aves, através da Tecnologia RFID (Radio Frequency Identification), utilizando conexão wireless, com objetivo de monitorar ações de forma mais eficiente, como: fornecimento da ração, água, e a freqüência com que os animais visitam estações de alimentação (comedouros). O trabalho será executado pela Universidade Federal do Rio Grande (FURG), em parceria com a Escola Técnica Estadual Santa Isabel (ETESI) localizado em São Lourenço do Sul. Pela estrutura apresentada a equipe irá acompanhar o desenvolvimento do projeto com um grupo de aves-piloto como forma de avaliar e validar o modelo através da aplicação de testes até se obter um modelo aplicável e aceitável através das atualizações das versões. As ferramentas tecnológicas envolvidas na modelagem dos dados (esquema do modelo), linguagem de programação, base de dados, frameworks para a implementação, serão open source , como forma de viabilidade de custo e por questões de serem recursos mais fáceis de gerenciamento e conhecimento, haja vista, que os bolsistas envolvidos são  alunos do ensino técnico. Pretende-se, também, aproximar as instituições, possibilitando a troca de informações e experiências entre as realidades acadêmicas das duas instituições, promovendo uma aproximação entre mesmas. Comprometem-se em participar e socializar com as demais IES do país, os resultados alcançados e disseminar a idéia de cooperação interinstitucional, tendo também o objetivo em fomentar o interesse pelas áreas da engenharia, além de se estabelecer a consciência da sua importância para o desenvolvimento do país.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Regina Barwaldt - Coordenador / Diana Francisca Adamatti - Integrante / Gilberto Barwaldt - Integrante / Simone de Souza Mendes - Integrante / Delton Dorneles da Silva - Integrante / Henrique Ehlert Pollnow - Integrante / Marcio Rozante Aguiar - Integrante / Felipe Bittencourt de Souza - Integrante / Bruno Pereira Franco - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Grupo de Pesquisa em Inform&aacute;tica na Educa&ccedil;&atilde;o - INFEDUC'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo de Pesquisa em Informática na Educação - INFEDUC<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Grupo de Pesquisa em Informática na Educação se constitui a partir de uma abordagem interdisciplinar, articulando pesquisas nas áreas de Informática na Educação.
+ As Linhas de pesquisas contemplam estudos que envolvem a cognição e  aprendizagem em ambientes virtuais; desenvolvimento de sistemas e recursos computacionais e suas implicações IHC; e educação, tecnologia e sociedade no contexto da inclusão digital.
+
+
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. </div>
+</div><a name='PP_Projetos de pesquisa, Campus S&atilde;o Gabriel, Centro de Ci&ecirc;ncias Economia e Inform&aacute;tica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projetos de pesquisa, Campus São Gabriel, Centro de Ciências Economia e Informática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Desativado; Natureza: Pesquisa. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Tecnologias Acess&iacute;veis: recursos e servi&ccedil;os utilizados como Inclus&atilde;o dos Alunos com Defici&ecirc;ncias Espec&iacute;ficas de Gradua&ccedil;&atilde;o na FURG'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tecnologias Acessíveis: recursos e serviços utilizados como Inclusão dos Alunos com Deficiências Específicas de Graduação na FURG<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Como justificativas do projeto, o grupo de pesquisa de Informática na Educação (INFOEDUC) pretende constituir a partir de uma abordagem interdisciplinar com o Núcleo de Estudos e Ações Inclusivas (NEAI/FURG), vinculando ações através do programa de extensão universitária (Proext 2011   Mec/SeSu), pesquisar novas TA s, desenvolver e disponibilizar soluções acessíveis para que os professores e alunos  possam usar como ferramentas auxiliares em sala de aula.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Regina Barwaldt - Coordenador / Daniel siedersberger - Integrante / Fernanda Rodrigues - Integrante.<br class="clear" /></div>
+</div><a name='PP_Tecnologias Assistivas: recursos e servi&ccedil;os utilizados para a Inclus&atilde;o S&oacute;cio-Digital de Pessoas com Defici&ecirc;ncias'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tecnologias Assistivas: recursos e serviços utilizados para a Inclusão Sócio-Digital de Pessoas com Deficiências<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto visa atender uma clientela diversa, das quais dois grupos se destacam: a) Professores da rede regular de ensino fundamental e médio da cidade do Rio Grande, que tenham alunos incluídos, de forma que possam aplicar junto a seus alunos as TA's, com intuito de inclusão digital e melhoria na qualidade de ensino; b) Pessoas com deficiência em sua relação com o mercado de trabalho, através de cursos de capacitação oferidos pelo LabNEAI em parceria com a empresas da iniciativa privada da cidade do Rio Grande, qualificando-os também no auxílio da melhoria dos mesmos, como forma de aumento de renda familiar, empregabilidade, garantindo o desenvolvimento sustentável destas pessoas. Este programa terá abrangência local, mas pretende-se expandir para as cidades vizinhas de Rio Grande.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (5)  / Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Regina Barwaldt - Integrante / Carla Imaraya Meyer de Felippe - Coordenador / Diana Francisca Adamatti - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Programa Ci&ecirc;ncia sem Fronteiras - jovens talentos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa Ciência sem Fronteiras - jovens talentos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Reformular a aplicação web da biblioteca da FURG de forma a torná-la o mais compatível
+possível com os padrões propostos pela W3C, proporcionando, assim, interoperabilidade
+adequada entre aplicativos de acessibilidade.. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Regina Barwaldt - Coordenador / Pércoles Tiago Napivoski - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista do CCEI</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: MCSul 2012</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Informática na Educação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: E Commerce/Especialidade: Interfaces Web. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Informação/Especialidade: Tecnologia da Informação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Engenharia de Software/Especialidade: Tecnologias Assistivas. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Informação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Computação Ubíqua. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Solenidade de Colação de Grau, URCAMP- Campus Livramento-Curso de Informática. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARWALDT, Regina</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BARWALDT, Regina</b> ; SANTAROSA, Lucila Maria Conti ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6223538827801940" target="_blank">PASSERINO, Liliana Maria</a> . Uma ferramenta de autoria síncrona acessível para cegos: estudo de caso no curso PROINESP. RENOTE. Revista Novas Tecnologias na Educação<sup><img id='16791916_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16791916' /></sup>, v. 06, p. 01-10, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16791916&volume=06&issue=&paginaInicial=01&titulo=Uma ferramenta de autoria síncrona acessível para cegos: estudo de caso no curso PROINESP&sequencial=1&nomePeriodico=RENOTE. Revista Novas Tecnologias na Educação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARWALDT, Regina</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>BARWALDT, Regina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0796125660056539" target="_blank">SANTAROSA, Lucila Maria Costi</a> . Possibilidade de Inclusão dos invisuais no mercado de trabalho e na formação acadêmica através de um sistema falante: desafios e superações.. Revista do CCEI<sup><img id='14152061_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14152061' /></sup>, v. 10, n.18, p. 70-80, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14152061&volume=10&issue=&paginaInicial=70&titulo=Possibilidade de Inclusão dos invisuais no mercado de trabalho e na formação acadêmica através de um sistema falante: desafios e superações.&sequencial=2&nomePeriodico=Revista do CCEI" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARWALDT, Regina</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><b>BARWALDT, Regina</b> ; KICH JUNIOR, Nelson ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0850374679460425" target="_blank">SILVA, Lizandra Menna Barreto</a> ; DALMOLIN, Michele Marques . Ferramenta auxiliar para monitoramento na Avaliação Fisica. Revista do CCEI<sup><img id='14152061_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14152061' /></sup>, Bagé- RS, v. 8, n.13, p. 42-49, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14152061&volume=8&issue=&paginaInicial=42&titulo=Ferramenta auxiliar para monitoramento na Avaliação Fisica&sequencial=3&nomePeriodico=Revista do CCEI" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARWALDT, Regina</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>BARWALDT, Regina</b> ; SILVA, Leticia M B ; FLORES, Tatiana O . Proposta de uma ferramenta para auxiliar no processo de ensino- aprendizagem. Revista do CCEI<sup><img id='14152061_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14152061' /></sup>, Bagé - RS, v. 6, p. 82-88, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14152061&volume=6&issue=&paginaInicial=82&titulo=Proposta de uma ferramenta para auxiliar no processo de ensino- aprendizagem&sequencial=4&nomePeriodico=Revista do CCEI" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; AGUIAR, M. R. ; BARWALDT, G. ; ADAMATTI, D. ; SOUZA, F. B. . Sustentabilidade Tecnológica em Cadeia Produtiva Avícola de Corte, Através da Tecnologia RFID. In: 31º Seminário de Extensão Universitária, 2013, Florianópolis/SC. SEURS, 2013. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AGUIAR, M. R. ; <b>BARWALDT, Regina</b> ; ADAMATTI, D. ; BARWALDT, G. . Sustainable Technologies in Poultry Production Chain Cutting Using RFID Technology. In: HCITOCH 2013, 2013, Roma. IGI Global. Hershey, Pennsylvania - USA: IGI Global, 2013. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; ADAMATTI, D. F. ; FELIPPE, C. I. M. ; GUIMARAES, M. ; LUZ JUNIOR, D. M. . Um Modelo de Ferramenta Computacional Aplicada ao Processo de Aprendizagem Especial: As Tecnologias Assistivas. In: Workshop de Desafios da Computação Aplicada à Educação, 2012, Curitiba/PR. Desafie - CSBC 2012, SBC, 2012. p. 1-10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FELIPPE, C. I. M. ; <b>BARWALDT, Regina</b> ; ADAMATTI, D. F. . Formação Continuada: Preparando Professores para o Atendimento Educacional Especializado Através das Salas de Recursos Multifuncionais. In: Congresso Nacional de Diversidade e Inclusão, 2012, São José dos Campos / SP. CONADI 2012, 2012. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ADAMATTI, D. ; <b>BARWALDT, Regina</b> ; FELIPPE, C. I. M. . The Accessibility at University by Assistive Technologies. In: II Congreso Internacional de Computación e Informática, 2012, Ciudad del Carmen. CONACI 2012. Berlin: Springer, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUZ JUNIOR, D. M. ; SALOMAO, H. L. R. ; <b>BARWALDT, Regina</b> ; ADAMATTI, D. F. ; FELIPPE, C. I. M. . Tecnologias Assistivas: Recursos e Serviços Utilizados para a Inclusão Sócio-Digital de Pessoas com Deficiências.. In: Seminário de Extensão Universitária da Região Sul, 2012, Rio Grande. SEURS 2012. Rio Grande: Editora FURG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; ADAMATTI, D. F. ; FELIPPE, C. I. M. . Tecnologias Assistivas e Pessoas com Necessidades Especiais: Desenvolvimento Sustentável. In: III Congresso Baiano de Educação Inclusiva: Práticas, Formação e Lugares, 2011, Salvador. III Congresso Baiano de Educação Inclusiva: Práticas, Formação e Lugares, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; ADAMATTI, D. F. ; FELIPPE, C. I. M. . Tecnologias Assistivas e Acessibilidade para Pessoas com Necessidade Especiais em Rio Grande. In: II Seminário de Políticas Públicas e Educação: constituindo a cidadania?, 2011, Rio Grande, RS. II Seminário de Políticas Públicas e Educação, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0796125660056539" target="_blank">SANTAROSA, Lucila Maria Costi</a> . Recursos Acessíveis: uma alternativa para as PNEE's em EAD. In: 1º Congresso Internacional de Educação à Distância da UFPEL, 2010, Pelotas. 1º Congresso Internacional de Educação à Distância da UFPEL, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; SANTAROSA, Lucila Maria Conti . EVOC: uma solução para incluir as PNEE's em um curso na modalidade à distância. In: XV II - CIESC Iberian American Conference on High Education in Computer Science, 2009, Pelotas. CLEI 2009, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; FLORES, Tatiana O ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0850374679460425" target="_blank">SILVA, Lizandra Menna Barreto</a> . Software Multimídia Direcionado para o Vestibular. In: Ciência e Consciência 2003, 2003, Pelotas. XII Congresso de Iniciaçao Científica, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; DALMOLIN, Michele Marques ; KICH JUNIOR, Nelson . Implementaçao de um Sistema para Avaliaçao Física - SAF. In: Ciência e Consciência - 2003, 2003, Pelotas. Xii Congresso de Iniciaçao Científica, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; SILVA, Leticia M B ; FLORES, Tatiana O . Ferramenta para auxiliar no processo de ensino aprendizagem. In: SIRC/RS'2002 I Simpósio de Informática da Região Centro do RS, 2002, Santa Maria - RS. SIRC/RS '2002, 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GELATTI, G. J ; ADAMATTI, D. ; FELIPPE, C. I. M. ; <b>BARWALDT, Regina</b> . Tecnologia Assistiva: Proposta de Aplicativo Móvel com Intuito de Aumentar a Comunicação de Pessoas com Deficiência e/ou Necessidades Específicas. In: V Congresso de Comunicação Alternativa, 2013, Gramado. CBCA 2013. Porto Alegre: UFRGS, 2013. p. 1-5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNG, M. O. ; BARBOSA, R. M. ; <b>BARWALDT, Regina</b> . Proposta de um Modelo Fisioterápico para Ambientes Assistivos por Computação. In: Sintec 2012, 2012, Rio Grande, RS. II Seminário Internacional de Educação em Ciências, FURG. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FELIPPE, C. I. M. ; <b>BARWALDT, Regina</b> ; ADAMATTI, D. F. . Pressupostos da Educação Básica na Formação Continuada do Professor no Atendimento Educacional Especializado para as Salas de Recursos Multifuncionais - Tecnologia Assistiiva. In: V Seminário Nacional sobre Educação e Inclusão Social de Pessoas com Necessidades Educacionais Especiais, 2012, Natal/RN. V Seminário Nacional sobre Educação e Inclusão Social de Pessoas com Necessidades Educacionais Especiais. Natal - RN: Editora UFRN. p. 1-10. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		ADAMATTI, D. F. ; <b>BARWALDT, Regina</b> ; FELIPPE, C. I. M. . Assistive Technologies: Accessibility to People with Disabilities. In: International Conference on Health and Social Care Information Systems and Technologies, 2012, Algarve / PortugaL. HCIST 2012, 2012. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, G. ; BASCELAR, E. ; SEUS, V. ; FERREIRA, D. ; OTERO, T. F. ; TREVISAN, G. ; CHAVES, T. ; <b>BARWALDT, Regina</b> ; ADAMATTI, D. . Criação de um Software para Reserva de Salas da FURG. In: MPU 2012, 2012, Rio Grande, RS. Mostra de Produção Universitária. Rio Grande - RS: Editora FURG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIEDERSBERGER, D. ; RODRIGUES, F. ; CASSALES, V. ; <b>BARWALDT, Regina</b> ; ADAMATTI, D. F. . Acessibilidade: Inclusão de Alunos com necessidades Auditivas na FURG. In: Mostra de Produção Universitária, 2012, Rio Grande, RS. MPU 2012. Rio Grande - RS: Editora FURG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JUNG, M. O. ; BARBOSA, R. M. ; <b>BARWALDT, Regina</b> . PROPOSTA DE UM MODELO FISIOTERÁPICO PARA AMBIENTES ASSISTIVOS. In: Mostra de Produção Universitária, 2012, Rio Grande, RS. MPU 2012. Rio Grande - RS: Editora FURG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TREVISAN, G. ; <b>BARWALDT, Regina</b> . ACESSIBILIDADE WEB: UMA NOVA PROPOSTA PARA O SITE DA UNIVERSIDADE FEDERAL DO RIO GRANDE. In: Mostra de Produção Universitária, 2012, Rio Grande, RS. MPU 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; ADAMATTI, D. F. ; FELIPPE, C. I. M. ; SALOMAO, H. L. R. . Tecnologias Assistivas: Recursos e Serviços Utilizados para a Inclusão Sócio-Digital de Pessoas com Deficiências. In: X Mostra de Produção Universitária, 2011, Rio Grande. MPU 2011, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Utilização de mapas conceituais como recurso para representação do conhecimento. In: 3ª Jornada de Pós-Graduação, Pesquisa e Extensão, 2005, Bagé. Congrega Urcamp 2005, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; RAMOS, Rodrigo da Silva ; PERES, Marcio Ribeiro . Acessibilidade tecnológica para Pessoas com Necessidades Educacionais Especiais. In: 3ª Jornada de Pós-Graduação, Pesquisa e Extensão, 2005, Bagé. Congrega Urcamp 2005, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; FREITAS, Adilson da Rosa ; VIEIRA, Marcia Baltar . A Importância dos Recursos de Informática nas Prefeituras. In: I Simpósio de Sistemas de Informação e Gestão Empresarial, 2004, São Gabriel, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; VIEIRA, Marcia Baltar . O uso da Informática como uma ferramenta auxiliar para os Professores da Rede Municipal. In: I Simpósio de Sistemas de Informação e Gestão Empresarial, 2004, São Gabriel, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; VIEIRA, Marcia Baltar . A Importância do Controller para as Organizações. In: I Simpósio de Sistemas de Informação e Gestão Empresarial, 2004, São Gabriel, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; VIEIRA, Marcia Baltar . Cooperativas de Trabalho versus Competitividade. In: I Simpósio de Sistemas de Informação e Gestão Empresarial, 2004, São Gabriel, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; VIEIRA, Marcia Baltar ; FREITAS, Adilson da Rosa . Elaboração de Guidelines para auxiliar na construção de interfaces Web. In: I Simpósio de Sistemas de Informação e Gestão Empresarial, 2004, São Gabriel. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; FREITAS, Adilson da Rosa ; VIEIRA, Marcia Baltar . Proposta e Avaliação de Ambientes de Especificação de E-Commerce. In: I Simpósio de Sistemas de Informação e Gestão Empresarial, 2004, São Gabriel, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0850374679460425" target="_blank">SILVA, Lizandra Menna Barreto</a> . Sistema para acompanhamento da saúde do desportista. In: I Simpósio de Sistemas de Informação e Gestão Empresarial, 2004, São Gabriel, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; RODRIGUES, Franciele Pereira ; GRESSLER, Tiago Cabreira . Ferramenta Auxiliar para Preparação ao Vestibular. In: 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003, Bagé. 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; ALMEIDA, Anderson Carvalho de . Ferramenta Auxiliar para Cadastro e Consulta de Websites. In: 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003, Bagé. 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; VIEIRA, Marcia Baltar . Cooperativismo em suas dimensões mercadológicas. In: 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003, Bagé. 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; VIEIRA, Marcia Baltar . Trabalho Cooperativo em Equipes Virtuais. In: 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003, Bagé, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; VIEIRA, Marcia Baltar ; FREITAS, Adilson . Controladoria. In: 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003, Bagé. 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; FREITAS, Adilson ; VIEIRA, Marcia Baltar . Estudo do Perfil das Micro e Pequenas Empresas de São Gabriel. In: 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003, Bagé, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; FREITAS, Adilson ; VIEIRA, Marcia Baltar . Desafios autogestionários nas cooperativas de trabalho. In: 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003, Bagé. 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Implementação de um Sistema para Avaliação Fisica- SAF. In: 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003, Bagé. 2ª Mostra de Iniciação Científica e 2ª Jornada de Pós-Graduação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; SILVA, Leticia M B ; FLORES, Tatiana O . Utilização de um software tutor na prática pedagógica infantil. In: XI Congresso de Iniciação Científica, 2002, Pelotas - RS. Ciência e Consciência. Pelotas -RS: Educat - Editora da Universidade Católica de Pelotas, 2002. p. 83-83. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Introdução de um novo paradigma de ensino na educação infantil. In: I Jornada de Iniciação Científica e I Mostra de Pós-Graduação, Pesqusa e Extensão, 2002, Bagé - RS. I Jornada de Iniciação Científica e I Mostra de Pós-Graduação, Pesqusa e Extensão. Bagé- RS: EDIURCAMP- Editora da URCAMP, 2002. p. 255-255. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BARWALDT, Regina</b> ; ADAMATTI, D. ; FELIPPE, C. I. M. . The Aceessibility at University by Assistive Technologies. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Grupo de Pesquisa em Informática na Educação. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Tecnologias Assistivas: recursos de hardware  e software  para Pessoas com  Necessidades Especiais. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Evoc: uma ferramenta com recurso de voz para favorecer o processo de interação e inclusão dos cegos em ambientes virtuais de aprendizagem. 2009. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0796125660056539" target="_blank">SANTAROSA, Lucila Maria Costi</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6223538827801940" target="_blank">PASSERINO, Liliana Maria</a> . Uma ferramenta de autoria síncrona acessível para cegos: um estudo de caso no curso PROINESP. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> ; SANTAROSA, Lucila Maria Conti ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6223538827801940" target="_blank">PASSERINO, Liliana Maria</a> . Ferramenta com recurso de voz: uma proposta para favorecer o processo de interaçao e inclusão dos cegos em Ambientes Virtuais de Aprendizagem. 2008. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		SANTAROSA, Lucila Maria Conti ; <b>BARWALDT, Regina</b> . Promovendo inclusao e acessibilidade tecnológica através de soluções sonoras para pessoas com limitações visuais na formação profissional e acadêmica pelo ambiente de EAD Teleduc Special: alternativas e desafios. 2006. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Informática na Educaçao. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . O Perfil do Profissional de Informática. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Incubadoras Tecnológicas. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Software aprenda brincando: um software para auxiliar na alfabetizaçao infantil. 2002. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BARWALDT, Regina</b> . Recurso acessível com áudio para cegos integrada em um ambiente virtual de aprendizagem. 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . MCSUL 2012. 2012. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . II Seminário Nacional de Inclusão Digital  (Comitê de Programa). 2013.
+							(Comitê de Programa).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . II Seminário Nacional de Inclusão Digital. 2013.
+							(Comitê de Programa).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Conferência Sul em Modelagem Computacional - MCSUL (Comitê de Programa). 2012.
+							(Comitê de Programa).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Professora Conteudista.
+							2010. (Desenvolvimento de material didático ou instrucional - Produção de material). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . MCSul 2012 - Simpósio Sul-Brasileiro de Modelgaem Computacional. 2012. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; BOTELHO, S. S. C..  Participação em banca de Ivete Martins Pinto. Ambientes Tecnológicos Lúdicos de Autoria (ATLA): uma proposta para potencialização dos processos de ensino e aprendizagem. 2011. Exame de qualificação (Doutorando em Pós-Graduação em Educação em Ciências)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WERHLI, A. V.; <b>BARWALDT, Regina</b>; Karina dos Santos Machado.  Participação em banca de Renan Martinez da Luz. Produzindo técnicas de dobramento de proteína modelo HP com ajuda da inteligência humana. 2013. Exame de qualificação (Mestrando em Modelagem Computacional)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>.  Participação em banca de Ana Sílvia de Souza Farias. Evolução das TIC's: perspectivas para renovação da Escola. 2011. Monografia (Aperfeiçoamento/Especialização em Mídias na Educação)  - Instituto Federal Sul-rio-grandense - Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>.  Participação em banca de Viviane Couto de Andrade. Novos Atores Escolares:resignificando práticas e papéis através do uso das mídias. 2011. Monografia (Aperfeiçoamento/Especialização em Mídias na Educação)  - Instituto Federal Sul-rio-grandense - Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>.  Participação em banca de Fabíola Mattos Pereira. Metodologia do ensino superior em análise: avaliação das mídias utilizadas e suas contribuições no processo ensino-aprendizagem em um curso superior de tecnologia. 2011. Monografia (Aperfeiçoamento/Especialização em Mídias na Educação)  - Instituto Federal Sul-rio-grandense - Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>.  Participação em banca de Eva Simone Rodrigues Valim Goetten. A importância  de trabalhar as mídias em sala de aula com o tema: preservação da água. 2010. Monografia (Aperfeiçoamento/Especialização em Pós-Graduação Lato Sensu Mídias na Educação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>.  Participação em banca de Rita de Cássia Antunes. Mídias Versus Bullying: construção coletiva de uma cultura de paz.. 2010. Monografia (Aperfeiçoamento/Especialização em Pós-Graduação Lato Sensu Mídias na Educação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>.  Participação em banca de Zenir Carmen Bez Trombeta. Resgatando o folclore através das mídias. 2010. Monografia (Aperfeiçoamento/Especialização em Pós-Graduação Lato Sensu Mídias na Educação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; BOTELHO, S. S. C..  Participação em banca de Fernanda Mota.Biblioteca para utilização conjunta do topobo e de ambientes duais de aprendizagem.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; MIRANDA, Lélio Luiz de Faria; MELGAREJO, José Erlei.  Participação em banca de Marco Antônio Rodrigues..Sistema de Automatização para Gerenciamento da Bib. da Esc. Est. de Ensino Médio XV de Novembro.
+							2005. Trabalho de Conclusão de Curso (Graduação em Informática)  - Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; LEAL, Alzira Elaine Mello; OLIVEIRA, Jaques Viglemar Machado.  Participação em banca de Fábio Blini.Software de auxílio ao fonoaudiólogo no tratamento de crianças surdas.
+							2005. Trabalho de Conclusão de Curso (Graduação em Informática)  - Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; SOUZA, Carlos Eduardo Gerzson de; PIRES, Victor Paulo Kloeckner.  Participação em banca de Rodrigo Fontes.Tecnologia VRML aplicada na Web.
+							2005. Trabalho de Conclusão de Curso (Graduação em Informática)  - Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; SOUZA, Carlos Eduardo Gerzson de; FIGUEIREDO, Beraldo Lopes.  Participação em banca de Valmir Costa Santos.Transmissão de Rádio e sua aplicação em redes de computadores.
+							2001. Trabalho de Conclusão de Curso (Graduação em Informática)  - Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; SOUZA, Carlos Eduardo Gerzson de; MENNA, Hélio Lemos.  Participação em banca de Pablo R Schmidt.Programa de alfabelização de crianças implantado através de um software multimídia.
+							2001. Trabalho de Conclusão de Curso (Graduação em Informática)  - Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; LEAL, Alzira Elaine Mello; OLIVEIRA, Jaques Viglemar Machado.  Participação em banca de Lize m Castro e Simone Boscaine.Metodologias de ensino à distância via internet.
+							2001. Trabalho de Conclusão de Curso (Graduação em Informática)  - Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; SIMONETTO, Eugênio de Oliveira; VIEIRA, Luiz Eduardo.  Participação em banca de Marcos L Macedo e Norton S Silveira.Implentação de um software do tipo multimídia, tendo como aplicação o Museu Gaúcho da FEB.
+							2001. Trabalho de Conclusão de Curso (Graduação em Informática)  - Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; VIEIRA, Luiz Eduardo; MIRANDA, Lélio Luiz de Faria.  Participação em banca de Leticia M B Silva e Rosimeri M Pacheco e Tatiana O Flores.Projeto de desenvolvimento de um site de classificados on-line Anuncie Tche .
+							2001. Trabalho de Conclusão de Curso (Graduação em Informática)  - Universidade da Região da Campanha. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>. Membro titular da Comissão Examinadora do Concurso Público.
+							2010. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Avaliação de cursos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; FETTER, W.. Avaliação (INEP/MEC) Reconhecimento de Curso de Graduação.
+							2013. Instituto Blumenauense de Ensino Superior. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; SOARES, S. N.. Avaliação (INEP/MEC) autorização do curso presencial em Jogos Digitais ..
+							2012. Faculdade Impacta de Tecnologia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; BEGOSSO, L. C.. Avaliação (INEP/MEC) Reconhecimento de Curso de Graduação.
+							2011. INSTITUTO DE ENSINO SUPERIOR DE OLINDA. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; MAURELL, J. R. P.; VANIEL, B. V.; WERHLI, A. V.. Presidente de Banca para seleçao de Tutor/Bolsista a distância - Curso TICEDU.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; SANTOS, R. A. P.; SCHROEDER, G. N.; VANIEL, B. V.. Presidente de Banca para seleçao de Tutor Presencial- Curso TICEDU.
+							2012.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>; JELINEK, K. R.; VANIEL, B. V.. Presidente de Banca para seleçao de Tutor/Bolsista a distância - Curso TICEDU.
+							2012.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>. Avaliadora de Trabalhos na X Mostra da Produção Universitária.
+							2011.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>. Avaliadora de pôsteres.
+							2004.
+							Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b>. Avaliadora de Trabalhos Orais.
+							2004.
+							Universidade da Região da Campanha. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de Formação em Avaliação da Extensão. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso da Sociedade Brasileira de Computação. Um Modelo de Ferramenta Computacional Aplicada ao Processo de Aprendizagem Especial: As Tecnologias Assistivas. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congreso Internacional de Computación e Informática. The Aceessibility at University by Assistive Technologies. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasileiro de Informática na Educação -SBIE 2012. Painel dos Grupos de Pesquisa de Informática na Educação - PGIE. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso Baiano de Educação Inclusiva e I Simpósio Brasileiro de Educação Inclusiva:  Práticas, Formação e Lugares. Tecnologias Assistivas e Pessoas com Necessidades Especiais: desenvolvimento sustentável. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Fórum sobre a Pesquisa, o Desenvolvimento e a Inovação Tecnológica na FURG. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Congresso Internacional de Educação à Distância da UFPEL. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro de NAPNEs do IFRS.Proposta para Implementação do  Núcleo de Atendimento às Pessoas com Necessidades Especiais NAPNE no   Campus Rio Grande.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Capacitação dos Avaliadores do BASis.Capacitação dos Avaliadores do BASis.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Capacitação de Professores e Tutores para ações de EAD na FURG.Capacitação de Professores e Tutores para ações de EAD na FURG.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">11º Fórum Internacional Software Livre. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">INEP - MEC.Capacitação dos Avaliadores do Basis nos Instrumentos de Avaliação para Autorização, Reconhecimento e Renovação de Reconhecimeto de Cursos Tecnológicos. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBIE20.Evoc: uma ferramenta com recurso de voz para favorecer o processo de interação e inclusão dos cegos em ambientes virtuais de aprendizagem.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Simpósio Internacional de Informática Educativa - SIIE 2008).Sesiones de Comunicaciones.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congrega URCAMP 2005. 3 ª Jornada de Pós-Graduação, Pesquisa e Extensão. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ATTID 2005: III Seminário e II Oficinas.III Seminário e II Oficinas - ATIID2005 -Oficina sobre Acessibilidade na Web. 2005. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Fórum Internacional. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Congresso da Sociedade Brasileira de Computação. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">infoUYclei 2002. infoUYclei 2002. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário Internacional da Região Su. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Estadual sobre o poder escolar e III Seminário Interinstitucional de Educação.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . I Simposio de Sistemas de Informação e Gestão Empresarial. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Monteiro da Silva. Métricas para interfaces homem computador em sistemas para tecnologias assistivas.
+						Início: 2013.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Co-orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucélia Moreira Chepe. IMPLEMENTAÇÃO DE UMA REDE SOCIAL COMO FERRAMENTA DE     AUXÍLIO PARA INCLUSÃO DIGITAL.
+						Início: 2013.
+						Dissertação (Mestrado em Mestrado em Engenharia da Computação)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mateus Oliveira Jung. Proposta de modelo fisioterápico para ambientes assistivos.
+						Início: 2012.
+						Dissertação (Mestrado em Mestrado em Engenharia da Computação)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriela Trevisan. Uma nova proposta de portal web para Universidade Federal do Rio Grande.
+						Início: 2013. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Ribeiro Peres.
+							Acessibilidade tecnológica para pessoas com Necessidades Educacionais Especiais.
+							2004. 88 f.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade da Região da Campanha. Orientador: Regina Barwaldt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo A Righi.
+							Robótica na Educação.
+							2001. 51 f.
+							Trabalho de Conclusão de Curso. (Graduação em Informática)  - Universidade da Região da Campanha. Orientador: Regina Barwaldt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caio A P Thedy e Silvani M W Melz.
+							Interface Web e Construção de um site com acesso à banco de dados.
+							2001. 56 f.
+							Trabalho de Conclusão de Curso. (Graduação em Informática)  - Universidade da Região da Campanha. Orientador: Regina Barwaldt.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago  Buchweitz Klug.
+							Programa institucional de desenvolvimento do estudante - Bolsa de Monitoria.
+							2011.
+							Orientação de outra natureza - Universidade Federal do Rio Grande. Orientador: Regina Barwaldt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lenise Ferreira Schneider.
+							Estágio Obrigatório.
+							2010.
+							Orientação de outra natureza. (Desenvolvvimento de Software)  - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. Orientador: Regina Barwaldt.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProjetosPesquisaPI"></a><br class="clear" /><div class="inst_back">
+<b>Projetos de pesquisa</b>
+</div>
+<a name="ProjetoDesenvolvimentoTecnologicoPI"></a><br class="clear" /><div class="inst_back">
+<b>Projeto de desenvolvimento tecnológico</b>
+</div>
+<a name="ProjetoExtensaoPI"></a><br class="clear" /><div class="inst_back">
+<b>Projeto de extensão</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BARWALDT, Regina</b> . Grupo de Pesquisa em Informática na Educação. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">
+</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:20:24</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2017770059745262" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

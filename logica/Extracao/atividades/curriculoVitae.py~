@@ -1,0 +1,11 @@
+class CurriculoVitae:
+
+	outraProducao           = None
+	producaoTenica          = None
+	publicacaoBibliografica = None
+	dadosComplementares     = None
+	dadosGerais		= None
+
+	def __init__(self, partesDoItem):
+
+	def __str__(self):

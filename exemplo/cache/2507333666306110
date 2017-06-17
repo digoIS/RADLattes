@@ -1,0 +1,1207 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Jos&eacute; Rodrigo Furlanetto de Azambuja)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2507333666306110" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4719562E6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4719562E6"><div class="infpessoa">
+<h2 class="nome">Jos&eacute; Rodrigo Furlanetto de Azambuja</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/2507333666306110</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 31/10/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Engenharia de Computação pela Universidade Federal do Rio Grande do Sul (2007) e mestrado em PPGC - Programa de Pós Graduação em Computação UFRGS pela Universidade Federal do Rio Grande do Sul (2010). Tem experiência na área de Ciência da Computação, com ênfase em Arquitetura de Sistemas de Computação, atuando principalmente nos seguintes temas: microprocessadores, tolerância a falhas, single event upset, single event effect e single event transients.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">José Rodrigo Furlanetto de Azambuja</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AZAMBUJA, J. R. F.;Azambuja, José Rodrigo;AZAMBUJA, JOSE RODRIGO;AZAMBUJA, J. RODRIGO</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em PPGC - Programa de Pós Graduação em Computação UFRGS<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Designing and Evaluating Hybrid Techniques to Detect Transient Faults in Processors Embedded in FPGAs, Ano de obtenção: 2013. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6532338737692493'><img src='images/curriculo/logolattes.gif' /></a>Fernanda Gusmão de Lima Kastensmidt. <br class="clear" />Co-orientador: Jürgen Becker. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: Tolerância a falhas; efeitos de radiação; processadores.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Arquitetura de Sistemas de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em PPGC - Programa de Pós Graduação em Computação UFRGS<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Análise de Técnicas de Tolerância a Falhas Baseadas em Software para a Proteção de Microprocessadores,Ano de Obtenção: 2010.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6532338737692493'><img src='images/curriculo/logolattes.gif' /></a>Fernanda Gusmão de Lima Kastensmidt.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: Single Event Effect; Single Event Upset; Single Event Transients; Tolerância a falhas; Microprocessadores.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Arquitetura de Sistemas de Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Hardware. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Geração Automática de Hardware para Sistemas Multiprocessados. <br class="clear" />Orientador: Fernanda Gusmão de Lima Kastensmidt. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Doutorando, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Mestrando, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2010 - 6/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Instituto de Informática, Departamento de Informática Aplicada. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio docente: Sistemas Digitais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2009 - 6/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Instituto de Informática, Departamento de Informática Aplicada. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio docente: Sistemas digitais. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Técnica Kaiserslautern, TUK, Alemanha.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de iniciação científica, Carga horária: 22, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Teracom Informática, DATACOM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de iniciação científica, Carga horária: 22</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Dell Computers, DELL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Bolsista de iniciação científica, Carga horária: 22</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2005 - 1/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados , Ufrgs, Instituto de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados<br class="clear" />Apresentação de curso entitulado "Instalação e Configuração de Cluster de Alto Desempenho"<br></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Metro Ethernet'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Metro Ethernet<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Pesquisa e desenvolvimento de um switch/conversor metro Ethernet com uma interface ótica e quatro interfaces em cobre. Após a pesquisa de componentes, foi desenvolvida a placa PCB do projeto e desenvolvimento do software necessário.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: José Rodrigo Furlanetto de Azambuja - Coordenador.<br class="clear" /></div>
+</div><a name='PP_PinHaT'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PinHaT<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de um software em Java para automaticamente configurar sistemas multiprocessados e programar FPGAs das fabricantes Altera e Xilinx, baseado numa descrição na linguagem XML em alto nível do sistema desejado.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: José Rodrigo Furlanetto de Azambuja - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Electronic Testing</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IEEE Transactions on Nuclear Science</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Hardware. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Azambuja, José Rodrigo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2013.2246798" target="_blank"></a><b>Azambuja, José Rodrigo</b> ; ALTIERI, MAURICIO ; BECKER, JÜRGEN ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> . HETA: Hybrid Error-Detection Technique Using Assertions. IEEE Transactions on Nuclear Science<sup><img id='00189499_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00189499' /></sup>, v. PP, p. 1-8, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2013.2246798&issn=00189499&volume=PP&issue=&paginaInicial=1&titulo=HETA: Hybrid Error-Detection Technique Using Assertions&sequencial=1&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Azambuja, José Rodrigo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/tns.2012.2201750" target="_blank"></a><b>Azambuja, José Rodrigo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4820374332912206" target="_blank">Pagliarini, Samuel</a> ; ALTIERI, MAURICIO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> ; HUBNER, MICHAEL ; BECKER, JÜRGEN ; FOUCARD, GILLES ; VELAZCO, RAOUL . A Fault Tolerant Approach to Detect Transient Faults in Microprocessors Based on a Non-Intrusive Reconfigurable Hardware. IEEE Transactions on Nuclear Science<sup><img id='00189499_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00189499' /></sup>, v. 59, p. 1117-1124, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/tns.2012.2201750&issn=00189499&volume=59&issue=&paginaInicial=1117&titulo=A Fault Tolerant Approach to Detect Transient Faults in Microprocessors Based on a Non-Intrusive Reconfigurable Hardware&sequencial=2&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AZAMBUJA, J. R. F.;Azambuja, José Rodrigo;AZAMBUJA, JOSE RODRIGO;AZAMBUJA, J. RODRIGO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10836-011-5218-7" target="_blank"></a><b>AZAMBUJA, J. R. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4820374332912206" target="_blank">Pagliarini, Samuel</a> ; Rosa, Lucas ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> . Exploring the Limitations of Software-based Techniques in SEE Fault Coverage. Journal of Electronic Testing<sup><img id='09238174_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09238174' /></sup>, v. 27, p. 541-550, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10836-011-5218-7&issn=09238174&volume=27&issue=&paginaInicial=541&titulo=Exploring the Limitations of Software-based Techniques in SEE Fault Coverage&sequencial=3&nomePeriodico=Journal of Electronic Testing" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Azambuja, José Rodrigo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2011.2109398" target="_blank"></a><b>Azambuja, José Rodrigo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5972648122852171" target="_blank">Lapolli, Ângelo</a> ; Rosa, Lucas ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> . <![CDATA[Detecting SEEs in Microprocessors Through a Non-Intrusive Hybrid Technique]]>. IEEE Transactions on Nuclear Science<sup><img id='00189499_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00189499' /></sup>, v. 58, p. 993-1000, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2011.2109398&issn=00189499&volume=58&issue=&paginaInicial=993&titulo=<![CDATA[Detecting SEEs in Microprocessors Through a Non-Intrusive Hybrid Technique]]>&sequencial=4&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Tarrillo, Jimmy</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TNS.2011.2170855" target="_blank"></a>Tarrillo, Jimmy ; <b>Azambuja, José Rodrigo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> ; Fonseca, Evaldo Carlos Pereira ; Galhardo, Rafael ; Goncalez, Odair . <![CDATA[Analyzing the Effects of TID in an Embedded System Running in a Flash-Based FPGA]]>. IEEE Transactions on Nuclear Science<sup><img id='00189499_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00189499' /></sup>, v. 12, p. 1-8, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TNS.2011.2170855&issn=00189499&volume=12&issue=&paginaInicial=1&titulo=<![CDATA[Analyzing the Effects of TID in an Embedded System Running in a Flash-Based FPGA]]>&sequencial=5&nomePeriodico=IEEE Transactions on Nuclear Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ICCSE.2012.54" target="_blank"></a>FERGER, M. ; KADI, M. AL ; HUBNER, M. ; KOEDAM, M. ; SINHA, S. ; GOOSSENS, K. ; ALMEIDA, G. MARCHESAN ; <b>AZAMBUJA, J. RODRIGO</b> ; Becker, J. . Hardware / Software Virtualization for the Reconfigurable Multicore Platform. In: 2012 IEEE 15th International Conference on Computational Science and Engineering (CSE), 2012, Paphos. 2012 IEEE 15th International Conference on Computational Science and Engineering, 2012. p. 341. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUARESCHI, W. ; <b>AZAMBUJA, J. RODRIGO</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> ; REIS, R. . Configurable test bed design for nanosats to qualify commercial and customized integrated circuits. In: Aerospace Conference, 2013 IEEE, 2012, Big Sky. Aerospace Conference, 2013 IEEE, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/LATW.2011.5985914" target="_blank"></a><b>AZAMBUJA, JOSE RODRIGO</b> ; LAPOLLI, ANGELO ; ALTIERI, MAURICIO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> . Evaluating the efficiency of data-flow software-based techniques to detect SEEs in microprocessors. In: 2011 12th Latin American Test Workshop  LATW, 2011, Beach of Porto de Galinhas. 2011 12th Latin American Test Workshop (LATW). v. 12. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2020876.2020914" target="_blank"></a><b>AZAMBUJA, JOSE RODRIGO</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4820374332912206" target="_blank">Pagliarini, Samuel</a> ; ALTIERI, MAURICIO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> ; HÜBNER, MICHAEL ; BECKER, JÜRGEN . Using dynamic partial reconfiguration to detect sees in microprocessors through non-intrusive hybrid technique. In: the 24th symposium, 2011, Jo&amp;#227;o Pessoa. Proceedings of the 24th symposium on Integrated circuits and systems design - SBCCI &apos;11. New York: ACM Press. p. 161. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2282096485836278" target="_blank">FERREIRA, R.</a> ; <b>AZAMBUJA, J. R. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3762855185207010" target="_blank">MOREIRA, A.</a> ; CARRO, L. . Correction of Soft Errors in Control and Data Flow Program Segments. In: Workshop on Design for Reliability (DFR), 2011, Creta. 3rd HiPEAC Workshop on Design for Reliability. Held in conjunction with the 6th International Conference on High Performance and Embedded Architectures and Compilers, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/RADECS.2011.6131362" target="_blank"></a><b>AZAMBUJA, JOSE RODRIGO</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4820374332912206" target="_blank">Pagliarini, Samuel</a> ; ALTIERI, MAURICIO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> ; HUBNER, MICHAEL ; BECKER, JURGEN ; FOUCARD, GILLES ; VELAZCO, RAOUL . Non-intrusive reconfigurable HW/SW fault tolerance approach to detect transient faults in microprocessor systems. In: 2011 12th European Conference on Radiation and Its Effects on Components and Systems (RADECS), 2011, Sevilla. 2011 12th European Conference on Radiation and Its Effects on Components and Systems. p. 643. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/NASNIT.2011.6111143" target="_blank"></a>M. Miknahad ; SANDER, O. ; CARRO, L. ; <b>AZAMBUJA, J. R. F.</b> ; Becker, J. . Using Quadded logic in nanoPLAs to aggressively increase circuit yield. In: 15th North-East Asia Symposium on Nano, Information Technology and Reliability (NASNIT), 2011, Macao. 15th North-East Asia Symposium on Nano, Information Technology and Reliability (NASNIT), 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AZAMBUJA, J. R. F.</b> ; Fernando Sousa ; Lucas Rosa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> . Evaluating the Efficiency of Software-only Techniques to Detect SEU and SET in Microprocessors. In: Latin American Symposium on Circuits and Systems, 2010, Foz do Iguaçú. Proceedings of the 1st Latin American Symposium on Circuits and Systems, 2010. v. 1. p. 300-303. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/LATW.2010.5550346" target="_blank"></a><b>AZAMBUJA, J. R. F.</b> ; Fernando Sousa ; Lucas Rosa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> . The limitations of software signature and basic block sizing in soft error fault coverage. In: IEEE Latin-American Test Workshop, 2010, Punta Del Este. Proceedings of the 11th IEEE Latin-American Test Workshop, 2010. p. 1-8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/IOLTS.2009.5195990" target="_blank"></a><b>AZAMBUJA, J. R. F.</b> ; Fernando Sousa ; Lucas Rosa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> . Evaluating large grain TMR and selective partial reconfiguration for soft error mitigation in SRAM-based FPGAs. In: International On-Line Testing Symposium, 2009, Sessimbra-Lisbon. Proceedings of the 15th IEEE International On-Line Testing Symposium (IOLTS 2009), 2009. v. 15. p. 101-106. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/1404371.1404426" target="_blank"></a>PILOTTO, CONRADO ; <b>Azambuja, José Rodrigo</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">Kastensmidt, Fernanda Lima</a> . Synchronizing triple modular redundant designs in dynamic partial reconfiguration applications. In: the twentyfirst annual symposium, 2008, Gramado. Proceedings of the twenty-first annual symposium on Integrated circuits and system design - SBCCI &apos;08. New York: ACM Press. v. 21. p. 199-204. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/RADECS.2008.5782729" target="_blank"></a><b>AZAMBUJA, J. R. F.</b> ; PILOTTO, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> . Mitigating Soft Errors in SRAM-based FPGAs by Using Large Grain TMR with Selective Partial Reconfiguration. In: European Workshop on Radiation Effects on Components and Systems, 2008, Jyväskylä. Proceedings of the 8th european workshop on radiation effects on components and systems, 2008. v. 8. p. 288-293. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AZAMBUJA, J. R. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6520929342922805" target="_blank">KUAMOTO, Leonardo Seiji</a> ; DONASSOLO, Bruno . Aplicação de Curso na Área de Cluster de Alto Desempenho. In: Workshop de Processamento Paralelo Distribuído, 2005, Porto Alegre. Workshop de Processamento Paralelo Distribuído. Porto Alegre: GPPD, 2005. v. 1. p. 115-116. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AZAMBUJA, J. R. F.</b> ; Fernando Sousa ; Lucas Rosa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6532338737692493" target="_blank">KASTENSMIDT, F. L.</a> . Non-Intrusive Hybrid Signature-Based Technique to Detect SEU and SET Faults in Microprocessors. In: European Conference on Radiation and its Effects on Components and Systems, 2010, Tyrol. Proceedings of the 11th european workshop on radiation effects on components and systems, 2010. v. 11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AZAMBUJA, J. R. F.</b> ; HALLER, T. ; BOBDA, C. . Automatic Generation of Adaptive Multiprocessor Systems. In: Reconfigurable Communication-centric SoCs, 2007, Montpellier. Proceedings of the 3rd International Workshop on Reconfigurable Communication-centric Systems-on-Chip, 2007. p. 192-193. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>AZAMBUJA, J. R. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6520929342922805" target="_blank">KUAMOTO, Leonardo Seiji</a> ; DONASSOLO, Bruno . Insatalação e configuração de Clusters. 2005. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Latin-american Symposium on Circuits and Systems.Evaluating the Efficiency of Software-only Techniques to Detect SEU and SET in Microprocessors.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Microelectronics School. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International On-Line Testing Symposium.Evaluating Large Grain TMR and Selective Partial Reconfiguration for Soft Error Mitigation in SRAM-based FPGAs.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Microelectronic School. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Symposium on Integrated Circuits and Systems Design.Synchronizing Triple Modular Redundant Designs in Dynamic Partial Reconfiguration Applications.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Microelectronic School. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International School on Effects of Radiation on Embedded Systems for Space Applications. 2007. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola Regional de Alto Desempenho. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola Regional de Alto Desempenho. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop de Processamento Paralelo e Distribuído.Aplicação de Curso na Área de Cluster de Alto Desempenho. 2005. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Symposium on Computer Architecture and High Performance Computing.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop em Sistemas Computacionais de Alto Desempenho. 2004. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:19:52</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2507333666306110" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

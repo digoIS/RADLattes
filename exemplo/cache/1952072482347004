@@ -1,0 +1,2305 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Paulo Francisco Butzen)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=1952072482347004" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4778321Y1&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4778321Y1"><div class="infpessoa">
+<h2 class="nome">Paulo Francisco Butzen</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/1952072482347004</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 23/05/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui gradua&ccedil;&atilde;o  em Engenharia da Computa&ccedil;&atilde;o pela Universidade Federal do Rio Grande do Sul(2004), gradua&ccedil;&atilde;o  em Ci&ecirc;ncia da Computa&ccedil;&atilde;o pela Universidade de Santa Cruz do Sul(1999), mestrado em Computa&ccedil;&atilde;o pela Universidade Federal do Rio Grande do Sul(2007) e doutorado em Microeletr&ocirc;nica pela Universidade Federal do Rio Grande do Sul(2012). Atualmente &eacute; Professor Adjunto da Universidade Federal do Rio Grande. Atuando principalmente nos seguintes temas:Digital Integrated Circuit Design, Logic gates, CMOS technology, Aging Effects, Reliability e Modeling. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Paulo Francisco Butzen<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BUTZEN, P. F.;Butzen, Paulo;Butzen, P.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande do Sul, Instituto de Informática, Departamento de Informática Aplicada. <br class="clear" />Avenida Bento Gonçalves 9500 Bloco 4<br class="clear" />Agronomia<br class="clear" />91509-900 - Porto Alegre, RS - Brasil<br class="clear" />URL da Homepage: <a target="blank" href="http://www.ufrgs.br">http://www.ufrgs.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Microeletrônica<span class="ajaxCAPES" data-param="&codigoCurso=42001013078P8&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Aging Aware Design Techniques and CMOS Gate Degradation Estimative, Ano de obtenção: 2012. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1149542159006335'><img src='images/curriculo/logolattes.gif' /></a>Renato Perez Ribas. <br class="clear" />Co-orientador: André Inácio Reis. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: Digital Integrated Circuit Design; Logic gates; CMOS technology; Aging Effects; Reliability; Modeling. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Grande Área: Engenharias / Área: Engenharia Elétrica. <br class="clear" />Grande Área: Outros / Área: Microeletrônica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Computação<span class="ajaxCAPES" data-param="&codigoCurso=42001013004P4&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Leakage Current Modeling in Sub-micrometer CMOS Complex Gates,Ano de Obtenção: 2007.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1149542159006335'><img src='images/curriculo/logolattes.gif' /></a>Renato Perez Ribas.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: Low Power Circuits; Leakage Current; CMOS.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Microeletrônica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia da Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Teste e caracterização de ASICs implementados na tecnologia AMI 0.5um CMOS. <br class="clear" />Orientador: Renato Perez Ribas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação interrompida em 1999 em Ciência da Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade de Santa Cruz do Sul, UNISC, Brasil.
+		
+	<br class="clear" />Ano de interrupção: 1999</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">XII Escola de Microeletrônica. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">11ª Escola de Microeletrônica.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Escola de Microeletrônica. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uso da Tecnologia da Informação nas Empresas.  (Carga horária: 3h). <br class="clear" />LB Consultoria Juridica em TI.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">IV Escola de Microeletrônica. <br class="clear" />Universidade Federal de Santa Catarina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">III Escola de Microeletrônica. <br class="clear" />Universidade Federal de Santa Maria.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>WS Informática, WS INFORMÁTICA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Professor, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/1998 - 11/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Informática Básica, Nível: Aperfeiçoamento</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Corel Draw<br class="clear" />Microsoft Office<br class="clear" />Microsoft Windows<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Adjunto, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Automação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Atividade de Integração Curricular III<br class="clear" />Circuitos Elétricos e Eletrônica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Circuitos Elétricos e Eletrônica<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Doutorando, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Mestrando, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Bolsista de Iniciação cientifica, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Instituto de Informática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio Docência: Disciplina: Circuitos Digitais. Curso: Engenharia de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Instituto de Informática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio Docência: Diciplina de Concepção de Circuitos Integrados II. Curso: Engenharia de Computação.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 07/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Instituto de Informática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio Docência: Disciplina Técnicas Digitais para Computação. Curso: Engenharia de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2002 - 10/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Instituto de Informática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Bolsa de Iniciação Científica: Implementação de um visualizador de circuitos lógicos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2001 - 03/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Instituto de Informática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Bolsa de Iniciação Científica: Desenvolvimento de uma plataforma de hardware (contador de pontos) para ser utilizada em um sistema para orientação e caracterização de rochas sedimentares. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Nangate do Brasil S/A Tecnologia em Microeletronica, NANGATE DO BRASI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Engenheiro de Computação, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2007 - 02/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Library Design Team, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Gerente do Library Design Team.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2007 - 02/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Library Design Team, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Geração Automática de Layout'>Geração Automática de Layout</a><br class="clear" /><a href='#LP_Design de células lógicas em tecnologias CMOS nanométricas'>Design de células lógicas em tecnologias CMOS nanométricas</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>University of Minnesota, UMN, Estados Unidos.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Pesquisador Visitante, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>PD3 TECNOLOGIA EM REDES E SISTEMAS DIGITAIS S/C LTDA, PD3, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Estagiário, Carga horária: 30</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2003 - 01/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Grupo de Sistemas Embarcado, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Desenvolvimento de sistemas embarcados para redes de computadores. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Gera&ccedil;&atilde;o Autom&aacute;tica de Layout'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Geração Automática de Layout</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Implementação e validação de estratégias de geração automática de layout de portas lógicas a partir de sua descrição SPICE e/ou diagrama stick.. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Microeletrônica. <br class="clear" />Palavras-chave: Logic design; Automatic Layout Generarion.</div>
+</div><a name='LP_Design de c&eacute;lulas l&oacute;gicas em tecnologias CMOS nanom&eacute;tricas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Design de células lógicas em tecnologias CMOS nanométricas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Desenvolver e implementar técnicas de design de portas lógicas considerando novas regras de desenho presentes em tecnologias nanométricas. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Microeletrônica. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Palavras-chave: Logic design; CMOS gates; CMOS.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Synaptic Project - FP7 European Community'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Synaptic Project - FP7 European Community<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Synaptic é um projeto do tipo FP7 aprovado pela Comissão de Comunidades Européias para financiamento. O projeto visa a pesquisa para automatizar a síntese de estruturas regulares em tecnologias avançadas. Os parceiros deste projeto são a Nangate A/S (Dinamarca), a ST microeletrônica (Itália), Thales (França), IMEC (Bélgica), Politécnico de Milão (Itália), Politécnica de Catalunya (Espanha), LeadingEdge (Italia) e UFRGS (Brasil). A proposta do projeto Synaptic foi a melhor avaliada em sua chamada (teve nota 14.5 sobre 15) e foi a primeira das quatro aprovadas a ser chamada para financiamento. Trata-se de um projeto de pesquisa que envolve universidades e empresas, para desenvolver metodologias de projeto e as ferramentas de CAD associadas para projeto regular em tecnologias avançadas. Veja a homepage do projeto em: http://www.synaptic-project.eu/Synaptic é um projeto do tipo FP7 aprovado pela Comissão de Comunidades Européias para financiamento. O projeto visa a pesquisa para automatizar a síntese de estruturas regulares em tecnologias avançadas. Os parceiros deste projeto são a Nangate A/S (Dinamarca), a ST microeletrônica (Itália), Thales (França), IMEC (Bélgica), Politécnico de Milão (Itália), Politécnica de Catalunya (Espanha), LeadingEdge (Italia) e UFRGS (Brasil). A proposta do projeto Synaptic foi a melhor avaliada em sua chamada (teve nota 14.5 sobre 15) e foi a primeira das quatro aprovadas a ser chamada para financiamento. Trata-se de um projeto de pesquisa que envolve universidades e empresas, para desenvolver metodologias de projeto e as ferramentas de CAD associadas para projeto regular em tecnologias avançadas. Veja a homepage do projeto em: http://www.synaptic-project.eu/. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Paulo Francisco Butzen - Integrante / André Inácio Reis - Coordenador / Vinicius Dal Bem - Integrante / Renato Perez Ribas - Integrante / Leomar Soares da Rosa Junior - Integrante / Felipe de Souza Marques - Integrante / Digeorgia Natalie da Silva - Integrante / Nivea Schuch - Integrante / Osvaldo Martinello Jr - Integrante / Vinicius Callegaro - Integrante.<br class="clear" />Financiador(es): Comission of the European Communities - Auxílio
+										financeiro.</div>
+</div><a name='PP_Reliability Aware Aging Tolerant Design'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Reliability Aware Aging Tolerant Design<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Device reliability issues such as Bias Temperature Instability (BTI), Hot Carrier Injection (HCI), and Time Dependent Dielectric Breakdown (TDDB) have emerged as serious problems undermining the performance and yield of VLSI systems in advanced CMOS technologies. ITRS recognizes these reliability issues as major roadblocks for continuing CMOS scaling beyond the 32nm technology node. Circuit aging manifests itself as degradation in chip performance over time. The time it takes for a chip to show significant slow down from its fresh state can be in the order of a few months to a few years depending on the operating conditions. Circuit aging has been an unfamiliar notion to chip designers until recent where the heat dissipation, operating voltage margins, and manufacturing variability has become unacceptable in high-performance systems. To effectively deal with this adverse phenomenon, my group has been developing innovative design-for-reliability techniques that make chips inherently resilient to aging or equip chips with intelligent measures to adaptively compensate for aging. Most of the previous research on this topic has been confined to understanding the aging behavior of a single transistor. As a result, the impact of aging on higher-level circuits and systems has not been well understood and there has virtually been no work on design-for-reliability techniques to resolve this adverse phenomenon. As we have experienced with other artifacts of Moore's law, technology is now reaching a point where device reliability can no longer be dealt with at the device level alone. Our vision is to embrace a new design paradigm where the circuit aging issues are handled at every single stage of the design starting from the process development to circuit design and system architecture. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (2) Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Paulo Francisco Butzen - Integrante / Chris H. Kim - Coordenador / Keane, John - Integrante / Venkatraman, Shrinivas - Integrante.<br class="clear" /></div>
+</div><a name='PP_Ferramentas Computacionais para Projeto de Circuitos e Sistemas Integrados'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ferramentas Computacionais para Projeto de Circuitos e Sistemas Integrados<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Convênio de colaboração em P&D entre a UFRGS e a empresa dinamarquesa Nangate A/S, que permitiu a implantação do laboratório de pesquisa Nangate-UFRGS Research Lab nas instalações do Instituto de Informática da UFRGS. O projeto apresenta as seguintes linhas de investigação: Análise Estatística de Variação de Processos de Microeletrônica CMOS; Geração de Redes Lógicas; Mapeamento Tecnológico; Modelos de Consumo de Potência; Teste de Bibliotecas de Células. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Paulo Francisco Butzen - Integrante / André Inácio Reis - Integrante / Vinicius Dal Bem - Integrante / Leomar Soares da Rosa Junior - Integrante / Renato Perez Ribas - Coordenador / Felipe de Souza Marques - Integrante / Carlos Eduardo Klock - Integrante / Digeorgia Natalie da Silva - Integrante / Nivea Schuch - Integrante / Osvaldo Martinello Jr - Integrante / Vinicius Callegaro - Integrante.<br class="clear" />Financiador(es): Nangate - AS - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Microeletr&ocirc;nica: Introdu&ccedil;&atilde;o ao Projeto F&iacute;sico de Portas L&oacute;gicas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microeletrônica: Introdução ao Projeto Físico de Portas Lógicas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo principal do curso é apresentar aspectos fundamentais do projeto de portas lógicas projetadas em tecnologia CMOS, explorando principalmente os principiais conceitos e características relacionadas ao desenvolvimento de circuitos integrados que utilizam a metodologia baseada em biblioteca de células. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (40) . <br class="clear" /><br class="clear" />Integrantes: Paulo Francisco Butzen - Integrante / Cristina Meinhardt - Coordenador / Denis Teixeira Franco - Integrante / Vagner Santos da Rosa - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DAC/ISSCC Student Design Contest, Design Automation Conference & International Solid-State Circuits Conference. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOMES, I. A. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>GOMES, I. A. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . Projeto de um Bloco de Memória SRAM em Tecnologias CMOS Nanométricas de 16nm. Revista Junior de Iniciação Científica em Ciências Exatas e Engenharia<sup><img id='22360093_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22360093' /></sup>, v. 1, p. 31-40, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22360093&volume=1&issue=&paginaInicial=31&titulo=Projeto de um Bloco de Memória SRAM em Tecnologias CMOS Nanométricas de 16nm&sequencial=1&nomePeriodico=Revista Junior de Iniciação Científica em Ciências Exatas e Engenharia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BUTZEN, P. F.;Butzen, Paulo;Butzen, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.microrel.2012.06.092" target="_blank"></a><b>BUTZEN, P. F.</b> ; Dal BEM, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">RIBAS, Renato Perez</a> . Design of CMOS logic gates with enhanced robustness against aging degradation. Microelectronics and Reliability<sup><img id='00262714_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00262714' /></sup>, v. 52, p. 1822-1826, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.microrel.2012.06.092&issn=00262714&volume=52&issue=&paginaInicial=1822&titulo=Design of CMOS logic gates with enhanced robustness against aging degradation&sequencial=2&nomePeriodico=Microelectronics and Reliability" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Keane, John</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TVLSI.2010.2041258" target="_blank"></a>Keane, John ; Venkatraman, Shrinivas ; <b>BUTZEN, P. F.</b> ; KIM, C. H. . An Array-Based Test Circuit for Fully Automated Gate Dielectric Breakdown Characterization. IEEE Transactions on Very Large Scale Integration (VLSI) Systems (Print)<sup><img id='10638210_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='10638210' /></sup>, v. 19, p. 787-895, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TVLSI.2010.2041258&issn=10638210&volume=19&issue=&paginaInicial=787&titulo=An Array-Based Test Circuit for Fully Automated Gate Dielectric Breakdown Characterization&sequencial=3&nomePeriodico=IEEE Transactions on Very Large Scale Integration (VLSI) Systems (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BUTZEN, P. F.;Butzen, Paulo;Butzen, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1166/jolpe.2010.1070" target="_blank"></a><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Leakage Analysis Considering the Effect of Inter-Cell Wire Resistance for Nanoscaled CMOS Circuits. Journal of Low Power Electronics (Print)<sup><img id='15461998_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15461998' /></sup>, v. 6, p. 192-200, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1166/jolpe.2010.1070&issn=15461998&volume=6&issue=&paginaInicial=192&titulo=Leakage Analysis Considering the Effect of Inter-Cell Wire Resistance for Nanoscaled CMOS Circuits&sequencial=4&nomePeriodico=Journal of Low Power Electronics (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BUTZEN, P. F.;Butzen, Paulo;Butzen, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.mejo.2010.03.003" target="_blank"></a><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">ROSA JR, L. S.</a> ; CHIAPPETTA F., E.J.D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Standby Power Consumption Estimation by Interacting Leakage Current Mechanisms in Nanoscaled CMOS Digital Circuits. Microelectronics Journal<sup><img id='09598324_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09598324' /></sup>, v. 41, p. 247-255, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.mejo.2010.03.003&issn=09598324&volume=41&issue=&paginaInicial=247&titulo=Standby Power Consumption Estimation by Interacting Leakage Current Mechanisms in Nanoscaled CMOS Digital Circuits&sequencial=5&nomePeriodico=Microelectronics Journal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BUTZEN, P. F.;Butzen, Paulo;Butzen, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.microrel.2010.07.140" target="_blank"></a><b>BUTZEN, P. F.</b> ; Dal BEM, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Transistor Network Restructuring Against NBTI Degradation. Microelectronics and Reliability<sup><img id='00262714_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00262714' /></sup>, v. 50, p. 1298-1303, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.microrel.2010.07.140&issn=00262714&volume=50&issue=&paginaInicial=1298&titulo=Transistor Network Restructuring Against NBTI Degradation&sequencial=6&nomePeriodico=Microelectronics and Reliability" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Leakage Current in Sub-Micrometer CMOS Gates. In: Ricardo Reis. (Org.). Advanced Topics on VLSI Design. 1ed.Porto Alegre: Instituto de Informatica da UFRGS, 2009, v. , p. 211-240. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Efeitos Físicos Nanométricos em Circuitos Integrados Digitais. In: J. Mattos, L. Rosa Jr.; M. Pilla. (Org.). Desafios e Avanços em Computação: o Estado da Arte. Pelotas, RS: Editora e Gráfica Universitária, 2009, v. , p. 225-244. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, F. G. R. G. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . Performance and Power Consumption Analysis of Full Adders Designed in 32nm Technology. In: Simpósio Sul de Microeletrônica, 2013, Porto Alegre. Proceedings do Simpósio Sul de Microeletrônica, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, C. S. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Aging Effects Analysis of Flip-flops. In: Simpósio Sul de Microeletrônica, 2013, Porto Alegre. Proceedings do Simpósio Sul de Microeletrônica, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMPECK, A. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . A Tool to Evaluate Stuck-Open Faults in CMOS Logic Gates. In: Simpósio Sul de Microeletrônica, 2013, Porto Alegre. Proceedings do Simpósio Sul de Microeletrônica, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, I. A. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . Design of 16nm SRAM Architecture. In: SIM 2012 - South Symposium on Microelectronics, 2012, São Miguel das Missões. Proceedings of SIM 2012 - South Symposium on Microelectronics, 2012. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. N. ; MACHADO, I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . Full Adders Architectures Evaluation for 32nm Technology. In: South Symposium on Microelectronics (SIM 2012), 2012, São Miguel das Missões. Proceedings of South Symposium on Microelectronics (SIM 2012), 2012. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, C. S. ; SILVA, A. N. ; GOMES, I. A. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . Evaluating the Efficacy of Low Power Process to Design Low Power Circuits. In: South Symposium on Microelectronics (SIM 2012), 2012, São Miguel das Missões. Proceedings of South Symposium on Microelectronics (SIM 2012), 2012. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Logic Gates Design for Aging Enhancement. In: South Symposium on Microelectronics, 2012, São Miguel das Missões. Proceedings of South Symposium on Microelectronics, 2011. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; <b>BUTZEN, P. F.</b> ; MARRANGHELLO, F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Area Overhead and Performance Impact of Regular Transistor Layout Design in Digital Integrated Circuit. In: 26th South Symposium on Microelectronics - SIM2011, 2011, Novo Hamburgo. Proceedings of South Symposium on Microelectronics - SIM2011, 2011. p. 67-70. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2020876.2020901" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; <b>BUTZEN, P. F.</b> ; KLOCK, C. E. ; CALLEGARO, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Area impact analysis of via-configurable regular fabric for digital integrated circuit design. In: 24th Symposium on Integrated Circuits and Systems Design - SBCCI 2011, 2011, João Pessoa. Proceedings of 24th Symposium on Integrated Circuits and Systems Design - SBCCI 2011, 2011. p. 103-108. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ICCD.2011.6081409" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; <b>BUTZEN, P. F.</b> ; MARRANGHELLO, F. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Impact and optimization of lithography-aware regular layout in digital circuit design. In: 29th IEEE International Conference on Computer Design - ICCD 2011, 2011, Amherst. Proceedings of 29th IEEE International Conference on Computer Design - ICCD 2011, 2011. p. 279-284. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Designing NBTI Robust Gates. In: South Symposium on Microelectronics, 2010, Porto Alegre. Proceedings. Porto Alegre: EDIPUCRS, 2010. p. 193-196. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Routing Resistance Influence in Loading Effect on Leakage Analysis. In: International19th International Workshop on Power And Timing Modeling Optimization and Simulation, 2009, Delft. Lecture Notes in Computer Science, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Loading Effect Analysis Considering Routing Resistance. In: 24th South Symposium on Microelectronics, 2009, Pelotas. Proceedings of the 24th South Symposium on Microelectronics. Pelotas: Editora e Gráfica Universitária PREC-UFPel, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/1366110.1366207" target="_blank"></a><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">DA ROSA JUNIOR, L. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8745722630222073" target="_blank">CHIAPPETTA FILHO, E. J. D.</a> ; MOURA, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Simple and Accurate Method for Fast Static Current Estimation in CMOS Complex Gates with Interaction of Leakage Mechanisms. In: 18th ACM Great Lakes symposium on VLSI (GLSVLSI), 2008, Orlando, Florida. Proceedings of 18th ACM Great Lakes symposium on VLSI (GLSVLSI). New York: ACM, 2008. p. 407-410. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">DA ROSA JUNIOR, L. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8745722630222073" target="_blank">CHIAPPETTA FILHO, E. J. D.</a> ; MOURA, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Accurate Method for Subthreshold and Gate Leakage Current Estimation in CMOS Complex Gates. In: XXIII South Symposium on Microelectronics (SIM), 2008, Bento Gonçalves. Proceedings of XXIII South Symposium on Microelectronics (SIM). Porto Alegre: Evangraf, 2008. p. 23-26. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/CICC.2008.4672036" target="_blank"></a>Keane, John ; Venkatraman, Shrinivas ; <b>BUTZEN, P. F.</b> ; KIM, C. H. . An array-based test circuit for fully automated gate dielectric breakdown characterization. In: IEEE Custom Integrated Circuits Conference, 2008. Custom Integrated Circuits Conference, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">ROSA JR, L. S.</a> ; CHIAPPETTA F., E.J.D. ; MOURA, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Subthreshold and Gate Leakage Estimation in Complex Gates. In: 17th ACM/IEEE International Workshop on Logic and Synthesis, 2008, Lake Tahoe. Workshop Notes of the 17th ACM/IEEE International Workshop on Logic and Synthesis, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-540-74442-9_46" target="_blank"></a><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; KIM, C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Subthreshold Leakage Modeling and Estimation of General CMOS Complex Gates. In: International Workshop on Power and Timing Modeling, Optimization and Simulation - PATMOS, 2007, Goteborg, Sweden. Integrated Circuit and System Design. Power and Timing Modeling, Optimization and Simulation. Heidelberg: Springer Berlin, 2007. v. 4644. p. 474-484. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Modeling and Estimating Leakage Current in Pass Transistor Logic Networks. In: XIII Workshop Iberchip, 2007, Lima, Peru. Proceedings of XIII Workshop Iberchip. Lima: Hozlo S.R.L., 2007. p. 295-298. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ISVLSI.2007.68" target="_blank"></a><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; KIM, C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Modeling subthreshold leakage current in general transistor networks. In: EEE Computer Society Annual Symposium on VLSI (ISVLSI), 2007, Porto Alegre, Brazil. Proceedings of the IEEE Computer Society Annual Symposium on VLSI. Los Alamitos: IEEE Computer Society, 2007. p. 512-513. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1550331989844475" target="_blank">MANCUSO, R. L. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1267895146453984" target="_blank">SCHNEIDER, F. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">DA ROSA JUNIOR, L. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Leakage Behavior in CMOS and PTL Logic Styles for Logic Synthesis Orientation. In: International Workshop on Logic & Synthesis, 2007, San Diego, USA. IWLS Workshop Notes, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1550331989844475" target="_blank">MANCUSO, R. L. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1267895146453984" target="_blank">SCHNEIDER, F. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Subthreshold leakage estimation in CMOS complex gates. In: XXII South Symposium on Microelectronics, 2007, Porto Alegre. Proceedings of XXII South Symposium on Microelectronics. Porto Alegre: SBC, 2007. p. 47-50. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/1228784.1228852" target="_blank"></a><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; KIM, C. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Modeling and Estimating Leakage Current in Series-Parallel CMOS Networks. In: Great Lakes Symposium on VLSI, 2007, Stresa-Lago Maggiore, Italy. Proceedings of 17h Great Lakes Symposium on VLSI. New York: ACM, 2007. p. 269-274. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1267895146453984" target="_blank">SCHNEIDER, F. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Leakage Reduction Technique for CMOS Complex gates. In: South Symposium on Microelectronics, 2006, Porto Alegre. Proceedings. Porto Alegre: SBC, 2006. p. 111-114. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1550331989844475" target="_blank">MANCUSO, R. L. C.</a> ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Logic Cell Power Characterization Through Electrical Simulation. In: South Symposium on Microelectronics, 2006, Porto Alegre. Proceedings. Porto Alegre: SBC, 2006. p. 103-106. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUN, J. V. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; AZZOLIN, R. . Caracterização temporal de Flip-Flops D. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMPECK, A. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . SIMULADOR DE FALHAS STUCK-OPEN PARA PORTAS LÓGICAS CMOS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, F. G. R. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . PROJETO DE SOMADORES DE 1 BIT EM TECNOLOGIAS NANOMÉTRICAS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ULLOA, G. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . DESENVOLVIMENTO DE UMA FERRAMENTA EDUCACIONAL PARA O ESTUDO DE FAMÍLAS LÓGICAS MOS ESTÁTICAS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, I. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . DESENVOLVIMENTO DE UMA FERRAMENTA PARA A CARACTERIZAÇÃO TEMPORAL DE PORTAS LÓGICAS CMOS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WIECZORECK, I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . EMPREGO DE REDUNDÂNCIA PARA AUMENTAR A CONFIABILIDADE DE CIRCUITOS CMOS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, L. A. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . MECANISMO DE INJEÇÃO DE FALHAS DO TIPO SET EM CIRCUITOS COMBINACIONAIS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHIVITTZ, R. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . Automatização da caracterização do consumo de potência estática em circuitos CMOS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AFONSO, R. M. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . AVALIAÇÃO ELÉTRICA DE LATCHES EM TECNOLOGIA CMOS NANOMÉTRICA. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TOLEDO, S. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . AVALIAÇÃO DE TRÊS ARQUITETURAS DE SOMADORES PROJETADOS EM TECNOLOGIAS CMOS NANOMÉTRICAS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STERZ, A. P. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; ROSA, V. S. . Avaliação Elétrica de Diferentes Portas Lógicas XOR CMOS. In: 11ª Mostra da Produção Universitária MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária MPU, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMPECK, A. L. ; AGUIAR, Y. Q. ; MACIEL, B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . Projeto de um Somador Tolerante a Falhas com Baixo Consumo de Potência. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Anais da Mostra de Produção Universitária - MPU FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STERZ, A. P. ; NUNES, C. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . Avaliação do Desempenho e Consumo de Potência de Portas Lógicas CMOS em Tecnologias Nanométricas. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Anais da Mostra de Produção Universitária - MPU FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUN, J. V. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . Projeto de Flip-Flops tipo D com Baixo Consumo de Potência. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Anais da Mostra de Produção Universitária - MPU FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AGUIAR, Y. Q. ; MACIEL, B. ; ZIMPECK, A. L. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . Otimização do Dimensionamento dos Transistores de um Circuito Somador para Redução de Atrasos e Consumo de Potência. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Anais da Mostra de Produção Universitária - MPU FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, C. S. ; SILVA, A. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . Avaliação de Famílias Lógicas para Circuitos com Baixo Consumo de Potência. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Anais da Mostra de Produção Universitária - MPU FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. N. ; NUNES, C. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> ; <b>BUTZEN, P. F.</b> . Avaliação da Eficácia de Modelos de Transistores no Projeto de Circuitos com Baixo Consumo de Energia. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Anais da Mostra de Produção Universitária - MPU FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, I. A. C. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a> . Projeto de um Bloco de Memória SRAM na Tecnologia de 16nm. In: Mostra de Produção Universitária - FURG, 2011, Rio Grande. Anais da Mostra de Produção Universitária - FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, D. C. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Evaluation of Standard Cell Libraries with Different Templates and Gate design approaches. In: IX Student Forum on Microelectronics, 2009, Natal. IX Student Forum on Microelectronics. Natal, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CHIAPPETTA F., E.J.D. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">ROSA JR, L. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . A Simple Model to Estimate Intrinsic Power Consumption in CMOS Logic Gates. In: VIII Student Forum on Microelectronics, 2008, Gramado. VIII Student Forum on Microelectronics. Porto Alegre: SBC, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOURA, D. S. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">ROSA JR, L. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Fast Algorithm to Leakage Power Reduction by Input Vector Control. In: VIII Student Forum on Microelectronics, 2008, Gramado. VIII Student Forum on Microelectronics. Porto Alegre: SBC, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7961411251558874" target="_blank">BOCCASIUS, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2551929851696855" target="_blank">ALMEIDA, M. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Design, Implementation and Test of a 64 bytes SRAM using a CMOS Technology. In: Microelectronics Students Forum, 2005, Florianopolis. Proceedings, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; POLI, R. E. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> . Análise Comparativa de Área de Famílias Lógicas NMOS PTL. In: Salão de Iniciação Científica da UFRGS, 2003, Porto Alegre. Proceedings, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> . Uma Ferramenta para Visualização de Circuitos Lógicos. In: Salão de Iniciação Científica da UFRGS, 2002, Porto Alegre. Proceedings, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; ABEL, M. ; DE ROS, L. F. . Um Banco de Dados Inteligente para Gerência de Descrições Petrográficas: Contador de Pontos. In: Salão de Iniciação Científica da UFRGS, 2002, Porto Alegre. Proceedings, 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Designing NBTI Robust Gates. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Routing Resistance Influence in Loading Effect on Leakage Analysis. 2009. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Loading Effect Analysis Considering Routing Resistance. 2009. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">ROSA JR, L. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8745722630222073" target="_blank">CHIAPPETTA FILHO, E. J. D.</a> ; MOURA, D. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Accurate Method for Subthreshold and Gate Leakage Current Estimation in CMOS Complex Gates. 2008. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8745722630222073" target="_blank">CHIAPPETTA FILHO, E. J. D.</a> ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">ROSA JR, L. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . A Simple Model to Estimate Intrinsic Power Consumption in CMOS Logic Gates. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1267895146453984" target="_blank">SCHNEIDER, F. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Leakage Reduction Technique for CMOS Complex gates. 2006. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7961411251558874" target="_blank">BOCCASIUS, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2551929851696855" target="_blank">ALMEIDA, M. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Design, Implementation and Test of a 64 bytes SRAM using a CMOS Technology. 2005. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; POLI, R. E. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> . Análise Comparativa de Área de Famílias Lógicas NMOS PTL. 2003. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> . Uma Ferramenta para Visualização de Circuitos Lógicos. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; ABEL, M. ; DE ROS, L. F. . Um Banco de Dados Inteligente para Gerência de Descrições Petrográficas: Contador de Pontos. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CALLEGARO, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2054259785006041" target="_blank">MARQUES, F. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">ROSA JR, L. S.</a> ; KLOCK, C. E. ; HANSEN, R. ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . SwitchCraft. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1423810014480514" target="_blank">DA ROSA JUNIOR, L. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . Leakage Estimator. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1267895146453984" target="_blank">SCHNEIDER, F. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2846614269371078" target="_blank">REIS, A. I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> . LRTD - Leakage Reduction By Transistor Duplication. 2006. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; MARTINELLO JR, O. ; SCHUCH, N. . Introdução à Circuitos Digitais. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; SCHUCH, N. . Introdução a Circuitos Digitais. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; SCHUCH, N. . Introdução a Circuitos Digitais. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1149542159006335" target="_blank">RIBAS, R. P.</a> ; <b>BUTZEN, P. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7047373918053490" target="_blank">DAL BEM, V.</a> ; MARTINELLO JR, O. ; SCHUCH, N. . Introdução a Circuitos Digitais. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BUTZEN, P. F.</b>; BRISOLARA, L. B.; SOARES, R. I..  Participação em banca de Melissa de Souza Rabassa Colvara. Análise de Métodos de Mapeamento tecnológico para Dispositivos QCA. 2013. Dissertação (Mestrado em COMPUTAÇÃO) - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORTADELLA, J.; <b>BUTZEN, P. F.</b>; BAMPI, S..  Participação em banca de Lucas Machado. KL-Cut Based Remapping. 2013. Dissertação (Mestrado em Microeletrônica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCO, D. T.; ROSA, V. S.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a>; <b>BUTZEN, P. F.</b>.  Participação em banca de Cícero Souza Nunes.Avaliação de famílias lógicas para circuitos com baixo consumo de potência.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCO, D. T.; ROSA, V. S.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a>; <b>BUTZEN, P. F.</b>.  Participação em banca de Augusto Neutzling Silva.Avaliação de circuitos somadores focando baixo consumo de potência.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCO, D. T.; ROSA, V. S.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a>; <b>BUTZEN, P. F.</b>.  Participação em banca de Iuri Albandes Cunha Gomes.Arquitetura de um Bloco de SRAM na Tecnologia de 16nm.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6816603089210442" target="_blank">MEINHARDT, C.</a>; <b>BUTZEN, P. F.</b>.  Participação em banca de Rafael Florentino de Oliveira e Mateus Teixeira Borges.Uma Ferramenta para a Análise da Confiabilidade de Circuitos Lógicos Combinacionais.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Encontro de Grupos de PEsquisa.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Fórum sobre a Pesquisa, o Desenvolvimento e a Inovação Tecnológica na FURG. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simposio Sul de Microeletrônica.Designing NBTI Robust Gates.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Símposio Sul de Microeletrônica.Loading Effect Analysis Considering Routing Resistance.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Workshop on Power And Timing Modeling Optimization and Simulation.Routing Resistance Influence in Loading Effect on Leakage Analysis. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Chip in the Pampa. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Símposio Sul de Microeletrônica.Accurate Method for Subthreshold and Gate Leakage Current Estimation in CMOS Complex Gates.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Microeletrônica e Nanotecnologias. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Chip on the Island. Desing, Implementation and Test of a 64 bytes SRAM using a CMOS Technology. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Chip in the Pampa. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop em Sistemas Computacionais de Alto Desempenho. 2002. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Automação Inteligente.
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop on Intelligent Assembly and Disassembly. 2001. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Forum de Estudantes em Microeletrônica. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Augusto Neutzling Silva.
+							Avaliação de circuitos somadores focando baixo consumo de potência.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Paulo Francisco Butzen.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cícero Souza Nunes.
+							Avaliação de famílias lógicas para circuitos com baixo consumo de potência.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Paulo Francisco Butzen.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Iuri Albandes Cunha Gomes.
+							Arquitetura de um Bloco de SRAM na Tecnologia de 16nm.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Paulo Francisco Butzen.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Paula Sterz.
+							Projeto de Portas Lógicas para Circuitos Integrados de Baixo Consumo de Potência.
+							2011.
+							Iniciação Científica. (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande. Orientador: Paulo Francisco Butzen.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cícero Souza Nunes.
+							Monitoria Práticas Inovadoras - Disciplina Circuitos Elétricos e Eletrônica.
+							2011.
+							Orientação de outra natureza. (Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Paulo Francisco Butzen.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Iuri Albandes Cunha Gomes.
+							Monitoria Práticas Inovadoras - Disciplina Circuitos Elétricos e Eletrônica.
+							2011.
+							Orientação de outra natureza. (Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Paulo Francisco Butzen.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Revisor das seguintes conferências:
+DAC - Design Automation Conference
+ISQED - International Symposium on Quality Electronic Design
+ASQED - Asia Symposium & Exhibits on Quality Electronic Design
+SIM - South Symposium on Microelectronics
+
+Aprovação em Concurso Público:
+CTI / FURG (2008) - Terceiro Colocado
+UFFS (2010) - Primeiro Colocado
+FURG (2010) - Primeiro Colocado
+UFPEL (2010) - Terceiro Colocado
+UFPEL (2010) - Primeiro Colocado</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:20:16</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=1952072482347004" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

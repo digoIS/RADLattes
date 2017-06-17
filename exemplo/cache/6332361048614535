@@ -1,0 +1,1500 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Jo&atilde;o Francisco Prolo Filho)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4777973J0&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=6332361048614535" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4777973J0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4777973J0"><div class="infpessoa">
+<h2 class="nome">Jo&atilde;o Francisco Prolo Filho</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/6332361048614535</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 07/01/2015</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Matemática Aplicada e Computacional pela Universidade Federal do Rio Grande do Sul - UFRGS (2004), mestrado (2007) e doutorado (2012) em Matemática Aplicada pela Universidade Federal do Rio Grande do Sul - UFRGS. Atualmente é professor adjunto 2 na Universidade Federal do Rio Grande. Atua nas áreas de Matemática Aplicada e Engenharia, particularmente enfocando o desenvolvimento de métodos analíticos e espectrais associados à Equação de Boltzmann e suas aplicações em transporte de nêutrons, transferência radiativa e dinâmica de gases rarefeitos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">João Francisco Prolo Filho<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PROLO FILHO, J. F.;Prolo Filho, J. F.;FILHO, J. F. PROLO</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Instituto de Matemática, Estatística e Física. <br class="clear" />Av. Itália, km 8 s/ número, Anexo pav. 2, sala L14<br class="clear" />Campus Carreiros<br class="clear" />96203900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32336796<br class="clear" />URL da Homepage: <a target="blank" href="http://www.imef.furg.br">http://www.imef.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Matemática Aplicada<span class="ajaxCAPES" data-param="&codigoCurso=42001013063P0&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Abordagens espectronodais para modelos multidimensionais em transporte de partículas, Ano de obtenção: 2012. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9653562335342426'><img src='images/curriculo/logolattes.gif' /></a>Liliane Basso Barichello. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: Transporte de neutrons multidimensional; Equação linearizada de Boltzmann; Ordenadas Discretas.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Matemática Aplicada<span class="ajaxCAPES" data-param="&codigoCurso=42001013063P0&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: A equação de Boltzmann e a modelagem de fluidos em micro e macroescalas,Ano de Obtenção: 2007.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9653562335342426'><img src='images/curriculo/logolattes.gif' /></a>Liliane Basso Barichello.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: Dinâmica de Gases; Equação de Boltzmann; Modelos Cinéticos; Ordenadas Discretas.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada / Especialidade: Transformadas Integrais. <br class="clear" />Grande Área: Engenharias / Área: Engenharia Mecânica / Subárea: Fenômenos de Transporte. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Bach Matemática Aplicada e Computacional<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto 2, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto 1, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Progressão funcional por titulação - Conclusão do doutorado</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente 1, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Reitoria, Pró-Reitoria de Pesquisa e Pós-Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de Bolsas Institucionais PROPESP/DIPESQ - FG1.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01279E - Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01279B - Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Reitoria, Pró-Reitoria de Pesquisa e Pós-Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Comitê de Ciência, Tecnologia e Inovação - CCTI.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2014 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01351A - Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01351U - Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 02/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01277U - Cálculo Diferencial e Integral I - SI<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 02/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Oceanologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01159U - Elementos de Álgebra<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01351B - Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 04/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01277U - Cálculo Diferencial e Integral I - SI<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 04/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Oceanologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01159U - Elementos de Álgebra<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01277U - Cálculo Diferencial e Integral I - SI<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Oceanologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01159U - Elementos de Álgebra<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01107C - Cálculo Diferencial e Integral I - EQA<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: PIBIC-CNPq, Carga horária: 12</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Monitor, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitoria das disciplinas Mat01355 e Mat01110, sob a supervisão do professor Alveri Alves Sant'ana.</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_M&eacute;todos de Invers&atilde;o Num&eacute;rica para a Transformada de Laplace'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Métodos de Inversão Numérica para a Transformada de Laplace<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste projeto, pretende-se estudar e analisar técnicas de inversão numérica para a Transformada de Laplace. Além disso, pretende-se elaborar algoritmos para ilustrar a aplicação destes métodos em problemas da área de matemática aplicada.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: João Francisco Prolo Filho - Integrante / Cristiana Andrade Poffal - Integrante / Leonardo Ramos Emmendorfer - Integrante / Bárbara Denicol do Amaral Rodriguez - Coordenador / Carlos Eduardo Souza Ferreira - Integrante / Gleyber Amaral - Integrante / Juciara Ferreira - Integrante.<br class="clear" /></div>
+</div><a name='PP_Abordagem espectronodal para o estudo de fen&ocirc;menos de transporte de part&iacute;culas atrav&eacute;s de modelos multidimensionais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Abordagem espectronodal para o estudo de fenômenos de transporte de partículas através de modelos multidimensionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de soluções de caráter analítico para o tratamento de problemas de transporte de partículas multidimensionais, através do uso de métodos espectrais. Edital  ARD FAPERGS 003/2012 - Até R$ 20.000,00. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: João Francisco Prolo Filho - Coordenador / Liliane Basso Barichello - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Auxílio
+										financeiro.</div>
+</div><a name='PP_Desenvolvimento de solu&ccedil;&otilde;es de car&aacute;ter anal&iacute;tico e estudos de aspectos computacionais para modelos de transporte de part&iacute;culas em geometrias multidimensionais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de soluções de caráter analítico e estudos de aspectos computacionais para modelos de transporte de partículas em geometrias multidimensionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de soluções de caráter analítico, baseadas na utilização de métodos espectrais associados à esquemas de colocação, principalmente para problemas bidimensionais modelados pela equação de transporte.
+Edital MCT/CNPq 14/2009 - Universal - Faixa A - Até R$ 20.000,00. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: João Francisco Prolo Filho - Integrante / Luciana Chimendes Cabrera - Integrante / Liliane Basso Barichello - Coordenador / Carmo Kamphorst - Integrante / Patrícia Rodrigues Fortes - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Desenvolvimento de solu&ccedil;&otilde;es de car&aacute;ter anal&iacute;tico e estudo de aspectos computacionais para modelos da din&acirc;mica de gases rarefeitos e transfer&ecirc;ncia radiativa'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de soluções de caráter analítico e estudo de aspectos computacionais para modelos da dinâmica de gases rarefeitos e transferência radiativa<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Estudo de métodos de solução, de caráter basicamente analítico, bem como de aspectos computacionais associados, relativos à modelos de transporte de partículas e modelos difusivos. Em particular enfoca-se o tratamento da Equação de Boltzmann e sua versão linearizada bem como a equação de transporte, em aplicações na dinâmica de gases rarefeitos, problemas acoplados de condução e radiação e outros problemas de transferência radiativa.
+Projeto Nº: 7780. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: João Francisco Prolo Filho - Integrante / Liliane Basso Barichello - Coordenador / Carmo Kamphorst - Integrante / Anderson Tres - Integrante / Mariza de Camargo - Integrante / Patrícia Rodrigues Fortes - Integrante / Carlos Eduardo Souza Ferreira - Integrante / Luis Renato Godinho - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Projeto Pr&eacute;-C&aacute;lculo - IMEF/FURG'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Pré-Cálculo - IMEF/FURG<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Tendo em vista as dificuldades encontradas pelos alunos dos cursos de Ciências Exatas e da Terra e Engenharias nas disciplinas de Cálculo Diferencial e Integral e disciplinas afins, com relação a determinados conceitos de matemática do ensino fundamental e médio, serão oferecidas aulas de reforço ministradas por professores do IMEF que abordarão estes conceitos. Este projeto tem como principal objetivo o fortalecimento da base matemática dos estudantes, visando melhorias no entendimento e aproveitamento nos cursos de Cálculo Diferencial e Integral e áreas afins, reduzindo assim, os índices de reprovação e evasão estudantil e aumentando o sucesso acadêmico dos graduandos.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: João Francisco Prolo Filho - Integrante / Andre Meneghetti - Integrante / Cinthya Maria Schneider - Integrante / Daiane Silva de Freitas - Integrante / Denise Maria Varella Martinez - Integrante / Eneilson Campos Fontes - Integrante / Rodrigo Soares - Integrante / Edite Taufer - Integrante / Wilian Correa Marques - Coordenador.<br class="clear" />Financiador(es): Universidade Federal do Rio Grande - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Mecânica / Subárea: Fenômenos de Transporte. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Transformadas Integrais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Mecânica / Subárea: Fenômenos de Transporte/Especialidade: Dinâmica dos Gases. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TRES, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.3139/124.110413" target="_blank"></a>TRES, A. ; PICOLOTO, C. B. ; <b>FILHO, J. F. PROLO</b> ; DA CUNHA, R. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> . Explicit formulation of a nodal transport method for discrete ordinates calculations in two-dimensional fixed-source problems. Kerntechnik (1987)<sup><img id='09323902_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09323902' /></sup>, v. 79, p. 155-162, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3139/124.110413&issn=09323902&volume=79&issue=&paginaInicial=155&titulo=Explicit formulation of a nodal transport method for discrete ordinates calculations in two-dimensional fixed-source problems&sequencial=1&nomePeriodico=Kerntechnik (1987)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARICHELLO, L. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/00411450.2014.922103" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> ; <b>PROLO FILHO, J. F.</b> . General Expressions for Auxiliary Equations of a Nodal Formulation for Two-Dimensional Transport Calculations. Journal of Computational and Theoretical Transport<sup><img id='23324309_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='23324309' /></sup>, v. 43, p. 1-22, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1080/00411450.2014.922103&issn=23324309&volume=43&issue=&paginaInicial=1&titulo=General Expressions for Auxiliary Equations of a Nodal Formulation for Two-Dimensional Transport Calculations&sequencial=2&nomePeriodico=Journal of Computational and Theoretical Transport" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Barichello, L.B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.anucene.2011.02.004" target="_blank"></a>Barichello, L.B. ; Cabrera, L.C. ; Prolo Filho, J.F. . An analytical approach for a nodal scheme of two-dimensional neutron transport problems. Annals of Nuclear Energy<sup><img id='03064549_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03064549' /></sup>, v. 38, p. 1310-1317, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.anucene.2011.02.004&issn=03064549&volume=38&issue=&paginaInicial=1310&titulo=An analytical approach for a nodal scheme of two-dimensional neutron transport problems&sequencial=3&nomePeriodico=Annals of Nuclear Energy" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SCHERER, C. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00033-008-7084-4" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8459695229160758" target="_blank">SCHERER, C. S.</a> ; <b>Prolo Filho, J. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> . An analytical approach to the unified solution of kinetic equations in rarefied gas dynamics. I. Flow problems. Zeitschrift fur Angewandte Mathematik und Physik (Printed ed.)<sup><img id='00442275_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00442275' /></sup>, v. 60, p. 70-115, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00033-008-7084-4&issn=00442275&volume=60&issue=&paginaInicial=70&titulo=An analytical approach to the unified solution of kinetic equations in rarefied gas dynamics. I. Flow problems&sequencial=4&nomePeriodico=Zeitschrift fur Angewandte Mathematik und Physik (Printed ed.)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SCHERER, C. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00033-008-7113-3" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8459695229160758" target="_blank">SCHERER, C. S.</a> ; <b>Prolo Filho, J. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> . An analytical approach to the unified solution of kinetic equations in the rarefied gas dynamics. II. Heat transfer problems. Zeitschrift fur Angewandte Mathematik und Physik (Printed ed.)<sup><img id='00442275_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00442275' /></sup>, v. 60, p. 651-687, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00033-008-7113-3&issn=00442275&volume=60&issue=&paginaInicial=651&titulo=An analytical approach to the unified solution of kinetic equations in the rarefied gas dynamics. II. Heat transfer problems&sequencial=5&nomePeriodico=Zeitschrift fur Angewandte Mathematik und Physik (Printed ed.)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENEGHETTI, A. ; MENEGHETTI, C. M. S. ; FREITAS, D. S. ; MARTINEZ, D. M. V. ; TAUFER, E. ; FONTES, E. C. ; SOARES, R. B. ; MARQUES, W. C. ; <b>PROLO FILHO, J. F.</b> . Pré-Cálculo. 2. ed. Rio Grande: Editora da FURG, 2013. v. 1. 170p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PROLO FILHO, J. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> . An analytical discrete ordinates solution for a nodal model of a two-dimensional neutron transport problem. In: International Conference on Mathematics & Computational Methods Applied to Nuclear Science & Engineering, 2013, Sun Valley. International Conference on Mathematics & Computational Methods Applied to Nuclear Science & Engineering, 2013. p. 2350-2360. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> ; CABRERA, L. C. ; <b>PROLO FILHO, J. F.</b> . An Analytical Discrete Ordinates Solution for Two Dimensional Problems Based on Nodal Schemes. In: International Nuclear Atlantic Conference, 2009, Rio de Janeiro. INAC2009, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PROLO FILHO, J. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> . General expressions for auxiliary equations in nodal formulations. In: 23rd International Conference on Transport Theory, 2013, Santa Fe. ICTT-23, 2013. p. 36-37. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PROLO FILHO, J. F.</b> ; CABRERA, L. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> . Recent developments on explicit formulations for nodal schemes of two-dimensional neutron transport problems. In: 22nd International Conference on Transport Theory, 2011, Portland. ICTT-22, 2011. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> ; <b>PROLO FILHO, J. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8459695229160758" target="_blank">SCHERER, C. S.</a> . Concise and Accurate Solutions for Kinetic Equations of the Rarefied Gas Dynamics. In: II Mostra de Nanociência e Nanotecnologia - CNANO 2008, 2008, Porto Alegre. II Mostra de Nanociência e Nanotecnologia - CNANO 2008, 2008. p. 38. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> ; CABRERA, L. C. ; GOLBERT, D. ; KAMPHORST, C. ; <b>PROLO FILHO, J. F.</b> ; REICHERT, J. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8459695229160758" target="_blank">SCHERER, C. S.</a> . Micro and Nanoflows:an Analysis Based on the Boltzmann Equation. In: Mostra de Nanociência e Nanotecnologia da UFRGS, 2006, Porto Alegre. I Mostra de Nanociência e Nanotecnologia da UFRGS. Porto Alegre, 2006. p. 3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PROLO FILHO, J. F.</b> ; CABRERA, L. C. ; SCHERER, Caio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> . Desenvolvimento de soluções de caráter analítico e estudo de aspectos computacionais de modelos da dinâmica de gases rarefeitos e tranferência radiativa. In: I Mostra de Pesquisa e Pós-Graduação - MOSTRAUFRGS, 2005, Porto Alegre. I MOSTRAUFRGS, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PROLO FILHO, J. F.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9653562335342426" target="_blank">BARICHELLO, L. B.</a> . Fluxo de um gás rarefeito: uma análise em termos do número de Knudsen. In: XXVII Congresso Nacional de Matemática Aplicada e Computacional -CNMAC, 2004, Porto Alegre. XXVII Congresso Nacional de Matemática Aplicada e Computacional -CNMAC, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PROLO FILHO, J. F.</b> ; FERREIRA, C. E. S. . Formulação nodal aplicada à problemas de transporte bidimensional em geometria cartesiana. 2014. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARROS, R. C.; <b>PROLO FILHO, J. F.</b>; CUNHA, R. D.; BORGES, V..  Participação em banca de Camila Becker. Formulações espectronodais em cálculos neutrônicos multidimensionais. 2013. Exame de qualificação (Doutorando em Engenharia Mecânica)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JELINEK, K. R.; SCHUTZ, L.; <b>PROLO FILHO, J. F.</b>; ZIEBELL, J. S.; FLORA, S. S. D.. Concurso publico para seleção de professor adjunto A.
+							2014. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum das Engenharias e das Ciências Exatas: Desafios e Tendências na Formação Profissional. 2014. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">School in Microfluidics. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Curso de aperfeiçoamento para professores de matemática. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop em problemas inversos. 2003. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mimetic finite difference methods for boundary value problems. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Como identificar parâmetros em equações a derivadas parciais. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Regional de Matemática Aplicada e Computacional. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Propagação de ondas em meios desordenados. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Noções da teoria de distribuição e aplicações. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Matemática.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Eduardo Souza Ferreira. Não definido..
+						Início: 2013.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Co-orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pamela Cristina Bortoleti Domingues. Abordagens analíticas e numéricas para o tratamento de problemas unidimensionais de radiação.. Início: 2014. Iniciação científica (Graduando em Engenharia Civil)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Djidenou Hans Amos Montcho.
+							Abordagens analíticas e numéricas para o tratamento de problemas unidimensionais de radiação.
+							2014.
+							Iniciação Científica. (Graduando em Matemática Aplicada)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: João Francisco Prolo Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anderson Boito.
+							Abordagens espectrais para o estudo de fenômenos de transporte de nêutrons e radiação através de modelos multidimensionais.
+							2012.
+							Iniciação Científica. (Graduando em Engenharia Mecânica)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: João Francisco Prolo Filho.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/03/2015 &agrave;s 24:44:32</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=6332361048614535" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

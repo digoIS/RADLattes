@@ -1,0 +1,2897 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Cristina Meinhardt)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=6816603089210442" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4764249J4&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4764249J4"><div class="infpessoa">
+<h2 class="nome">Cristina Meinhardt</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/6816603089210442</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 14/10/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Engenharia de Computação pela Universidade Federal do Rio Grande (2003) e mestrado em Computação pela Universidade Federal do Rio Grande do Sul (2006). Atualmente é professor assistente da Universidade Federal do Rio Grande (Furg) e candidata a doutorado no PPGC / UFRGSl. Tem experiência na área de Ciência da Computação, com ênfase em Hardware, atuando principalmente nos seguintes temas: microeletronica, low-power, transistores nanométricos,, ferramentas de cad e projeto.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cristina Meinhardt<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MEINHARDT, Cristina;Meinhardt, Cristina</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Centro de Ciências Computacionais. <br class="clear" />Av. Italia km 8<br class="clear" />Carreiros<br class="clear" />96201-900 - Rio Grande, RS - Brasil<br class="clear" />URL da Homepage: <a target="blank" href="http://www.c3.furg.br">http://www.c3.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Computação<span class="ajaxCAPES" data-param="&codigoCurso=42001013004P4&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Estudo de modelos de células menos sensíveis a variabilidade para Structured ASIC  (provisório), <br class="clear" />Orientador: Ricardo Reis. <br class="clear" />Palavras-chave: ferramentas de CAD; leiaute; Microeletronica; regular layout; structured ASIC.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Computação<span class="ajaxCAPES" data-param="&codigoCurso=42001013004P4&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Síntese de circuitos estruturados compostos por blocos lógicos básicos,Ano de Obtenção: 2007.<br class="clear" />Orientador: Ricardo Reis.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: microeletrônica; regularidade de leiaute; ferramentas de CAD.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Implementação de um protocolo de tolerância a falhas para bancos de dados distribuídos. <br class="clear" />Orientador: Nelson Lopes Duarte Filho. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Escola Técnica Federal de Pelotas.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Politecnico di Torino, POLITO, Itália.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Pesquisador visitante, Enquadramento Funcional: pesquisador visitante, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Intercambio realizado como parte do projeto Alfa- Nicron (http://tima.imag.fr/qlf/alfa-nicron/index.htm) financiado pela Uniao Europeia para cooperaçao academica entre America Latina e Uniao Europeia. O projeto visa o desenvolvimento de atividades relacionadas ao projeto de sistemas tolerantes a falhas. Trabalho realizado durante o intercambio: desenvolvimento de uma arquitetura tolerante a falhas através das técnicas de lockstep e rollback.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Electronic CAD & Reliability Group, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Arquitetura de Computadores'>Arquitetura de Computadores</a><br class="clear" /><a href='#LP_Microeletronica'>Microeletronica</a><br class="clear" /><a href='#LP_Tolerância a Falhas'>Tolerância a Falhas</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: professor assistente, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor substituto 3 grau, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas: Arquitetura de Computadores I e Eletrônica Digital</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: bolsista instituição, Enquadramento Funcional: estagiaria, Carga horária: 12, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">estágio técnico supervisionado no Laboratório de Tecnologia Pesqueira da FURG, desenvolvendo base de dados oceanograficos bolsa de auxilio técnico fornecida pela FURG</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: bosista de iniciação científic, Enquadramento Funcional: bolsista, Carga horária: 20, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">bolsa PIBIC- CNPq Levantamento estatistico dos dados acadêmicos do periodo de 1985 aos dias atuais com o objetivo de estabelecer métricas estatísticas de controle de qualidade para as disciplinas, cursos e departamentos da instituuição.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Automação e Instrumentação - Prominp, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Sistemas de Computação para Automação com uso de CLPs<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Sistemas Digitais - Microeletrônica'>Sistemas Digitais - Microeletrônica</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Sistemas de Computação 1<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Tópicos Especiais - Microeletrônica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Eletrônica Digital<br class="clear" />Arquitetura de Computadores I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2003 - 12/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Departamento de Oceanografia, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />desenvolvimento da base de dados oceanográficso para o laboratório de tecnologia pesqueira da FURG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2003 - 10/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Departamento de Física, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Estudo de ferramentas de ensino de arquiteturas de computadores'>Estudo de ferramentas de ensino de arquiteturas de computadores</a><br class="clear" /><a href='#LP_Teste de simuladores de arquiteturas de computadores'>Teste de simuladores de arquiteturas de computadores</a><br class="clear" /><a href='#LP_Estudo da relevância do uso de cross-compilers e simuladores de arquiteturas no ensino'>Estudo da relevância do uso de cross-compilers e simuladores de arquiteturas no ensino</a><br class="clear" /><a href='#LP_Estatística aplicada'>Estatística aplicada</a><br class="clear" /><a href='#LP_Bancos de dados SQL'>Bancos de dados SQL</a><br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Estudo de ferramentas de ensino de arquiteturas de computadores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de ferramentas de ensino de arquiteturas de computadores</div>
+</div><a name='LP_Teste de simuladores de arquiteturas de computadores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Teste de simuladores de arquiteturas de computadores</div>
+</div><a name='LP_Estudo da relev&acirc;ncia do uso de cross-compilers e simuladores de arquiteturas no ensino'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo da relevância do uso de cross-compilers e simuladores de arquiteturas no ensino</div>
+</div><a name='LP_Estat&iacute;stica aplicada'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estatística aplicada</div>
+</div><a name='LP_Bancos de dados SQL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bancos de dados SQL</div>
+</div><a name='LP_Sistemas Digitais - Microeletr&ocirc;nica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistemas Digitais - Microeletrônica</div>
+</div><a name='LP_Arquitetura de Computadores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Arquitetura de Computadores</div>
+</div><a name='LP_Microeletronica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microeletronica</div>
+</div><a name='LP_Toler&acirc;ncia a Falhas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tolerância a Falhas</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Projeto de ferramentas para o posicionamento de circuitos integrados'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de ferramentas para o posicionamento de circuitos integrados<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto visa o desenvolvimento de ferramentas de CAD para a geração automática de posicionamento para as células de um circuito integrado. Diferentes estruturas de dados e algoritmos serão investigados visando otimizar o wirelength final do circuito.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . Número de orientações: 2</div>
+</div><a name='PP_Estudo de modelos de c&eacute;lulas menos sens&iacute;veis aos efeitos da variabilidade aplicadas para projetos de circuitos integrados regulares'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo de modelos de células menos sensíveis aos efeitos da variabilidade aplicadas para projetos de circuitos integrados regulares<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho trata de pesquisa de soluções para a síntese física de circuitos integrados menos susceptíveis aos efeitos de variabilidade decorrentes do uso de tecnologias de fabricação com dimensões nanométricas. A regularidade de projeto é uma das alternativas para lidar com os atuais problemas de fabricação em tecnologias submicrônicas. Projetos regulares são menos suscetíveis aos problemas de litografia, aumentam o yield e diminuem o tempo gasto em re-projeto. Além disso, circuitos regulares apresentam maior previsibilidade de resultados de potência, atraso e yield, principalmente pelo fato das células estarem pré-caracterizadas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . Financiador(es): Universidade Federal do Rio Grande - Bolsa.Número de orientações: 1</div>
+</div><a name='PP_PROJETO DE CIRCUITOS INTEGRADOS DE BAIXO CONSUMO DE POT&Ecirc;NCIA'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PROJETO DE CIRCUITOS INTEGRADOS DE BAIXO CONSUMO DE POTÊNCIA<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nos últimos anos houve um grande crescimento da indústria de dispositivos eletrônicos portáteis. Como esses aparelhos são alimentados por uma bateria, o consumo de energia é uma grande restrição no projeto dos circuitos integrados presentes nestes equipamentos. Uma das técnicas para diminuir o consumo é reduzir a tensão de alimentação abaixo da tensão de limiar dos transistores MOSFET. Em contrapartida, o desempenho do circuito também sofre uma drástica redução. Este projeto científico, tecnológico e de inovação tem como principal objetivo a definição das melhores alternativas para diferentes tipos de circuitos de baixo consumo, tais como somadores, células de memória e circuitos seqüenciais projetados em tecnologias nanométricas. Além disso, o projeto prevê um amplo estudo de famílias lógicas caracterizando-as quanto ao baixo consumo de potência.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (5) . Financiador(es): Universidade Federal do Rio Grande - Bolsa.Número de orientações: 1</div>
+</div><a name='PP_T&eacute;cnicas de toler&acirc;ncia a falhas em circuitos integrados'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Técnicas de tolerância a falhas em circuitos integrados<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A evolução da tecnologia de fabricação CMOS (Complementary Metal-Oxide Semiconductor) tem permitido reduções drásticas das dimensões dos transistores, o que permite aumentar o número de transistores que podem ser integrados em um único chip e também as freqüências de operação dos sistemas. Para tornar isto possível, algumas modificações nas técnicas e materiais de fabricação são necessárias, bem como a redução na tensão de alimentação dos transistores. Em função destas 
+modificações, e também devido à redução das dimensões dos transistores, os circuitos fabricados em tecnologia CMOS estado-da-arte estão se tornado vulneráveis a falhas permanentes e transientes. Este projeto tem como objetivos a avaliação, implementação e automação de diferentes técnicas propostas na literatura para tornar os circuitos mais tolerantes a falhas, assim como, a investigação de diferentes tipos de falhas em circuitos integrados.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Cristina Meinhardt - Coordenador / Paulo Francisco Butzen - Integrante.<br class="clear" />Número de orientações: 1</div>
+</div><a name='PP_Projeto de sistemas eletronicos confiaveis'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de sistemas eletronicos confiaveis<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de arquiteturas confiáveis, ou seja, tolerantes a falhas, através da utilizacao das técnicas de lockstep e rollback.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Cristina Meinhardt - Integrante / Ricardo Reis - Integrante / Massimo Violante - Integrante / Matteo SONZA REORDA - Coordenador.<br class="clear" />Financiador(es): EuropeAid Union - Bolsa.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_Elabora&ccedil;&atilde;o de um sistema de acompanhamento  estat&iacute;stico dos resultados do ensino na FURG- 2000/2001'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Elaboração de um sistema de acompanhamento  estatístico dos resultados do ensino na FURG- 2000/2001<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visou utilizar os dados acadêmicos disponivies no CPD da FURG como uma ferramenta estatistica auxiliar na administração das comissões de curso da instituição.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Cristina Meinhardt - Integrante / Tabajara Lucas de Almeida - Coordenador / Cleuza I R de Almeida - Integrante / Carilene Welter - Integrante / Caroline C Pereira - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Microeletr&ocirc;nica: Introdu&ccedil;&atilde;o ao Projeto F&iacute;sico de Portas L&oacute;gicas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Microeletrônica: Introdução ao Projeto Físico de Portas Lógicas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo principal do curso é apresentar aspectos fundamentais do projeto de portas lógicas projetadas em tecnologia CMOS, explorando principalmente os principiais conceitos e características relacionadas ao desenvolvimento de circuitos integrados que utilizam a metodologia baseada em biblioteca de células.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (40) . <br class="clear" /><br class="clear" />Integrantes: Cristina Meinhardt - Coordenador / Paulo Francisco Butzen - Integrante / denis Teixeira Franco - Integrante / Glauco César Dias Delevedove - Integrante / Igor Avila Pereira - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Implanta&ccedil;&atilde;o e automa&ccedil;&atilde;o de um sistema estat&iacute;stico para controle de dados acad&ecirc;micos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Implantação e automação de um sistema estatístico para controle de dados acadêmicos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Implementação de um portal WEB disponibilizando tratamentos estatisticos aos professores e alunos da FURG, utilizando somente software livre e tendo como metas a qualidade dos resultados comparavel a obtida com um software estatistico proprietário.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Cristina Meinhardt - Integrante / Odorico Machado Mendizabal - Integrante / Tabajara Lucas de Almeida - Coordenador / Cleuza I R de Almeida - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear" />Número de produções C, T & A: 9</div>
+</div><a name='PP_Elabora&ccedil;&atilde;o de um sistema de acompanhamento  estat&iacute;stico dos resultados do ensino na FURG- 2001/2002'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Elaboração de um sistema de acompanhamento  estatístico dos resultados do ensino na FURG- 2001/2002<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto objetivou aplicar tratamentos estatísticos aos dados acadêmicos disponíveis no CPD da FURG, gerando resultados gráficos e tabelas entregas aos coordenadores dos cursos onde foi aplicado tais tratamentos.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Cristina Meinhardt - Integrante / Tabajara Lucas de Almeida - Coordenador / Cleuza I R de Almeida - Integrante / Odorico  Machado Mendizabal - Integrante / Celso Lopes Rodrigues - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IEEE Transactions on Industrial Electronics (1982. Print)</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Hardware. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Estatística/Especialidade: Fundamentos da Estatística. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOMES, I. A. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>GOMES, I. A. C. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . Projeto de um Bloco de Memória SRAM em Tecnologias CMOS Nanométricas de 16nm. ICCEEg - Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia<sup><img id='22360093_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22360093' /></sup>, v. 4, p. 31-40, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22360093&volume=4&issue=&paginaInicial=31&titulo=Projeto de um Bloco de Memória SRAM em Tecnologias CMOS Nanométricas de 16nm&sequencial=1&nomePeriodico=ICCEEg - Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Violante, Massimo</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TIE.2011.2134054" target="_blank"></a>Violante, Massimo ; <b>MEINHARDT, Cristina</b> ; REIS, R. A. L. ; Reis, Ricardo ; Sonza Reorda, Matteo . A Low-Cost Solution for Deploying Processor Cores in Harsh Environments. IEEE Transactions on Industrial Electronics (1982. Print)<sup><img id='02780046_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02780046' /></sup>, v. 58, p. 2617-2626, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TIE.2011.2134054&issn=02780046&volume=58&issue=&paginaInicial=2617&titulo=A Low-Cost Solution for Deploying Processor Cores in Harsh Environments&sequencial=2&nomePeriodico=IEEE Transactions on Industrial Electronics (1982. Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMPECK, A. L. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . A Tool to Evaluate Stuck-Open Faults in CMOS Logic Gates. In: 28 Simpósio Sul de Microeletrônica, 2013, Porto Alegre. 28 Simpósio Sul de Microeletrônica, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/LASCAS.2013.6519063" target="_blank"></a><b>Meinhardt, Cristina</b> ; Reis, Ricardo . FinFET basic cells evaluation for regular layouts. In: 2013 IEEE 4th Latin American Symposium on Circuits and Systems (LASCAS), 2013, Cusco. 2013 IEEE 4th Latin American Symposium on Circuits and Systems (LASCAS), 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMPECK, A. L. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . A new methodology to evaluate the Holding Time in CMOS Logic Gates with Stuck-Open Fault. In: SForum 13th Microelectronics Students Forum - Chip in Curitiba, 2013, Curitiba. SForum 13th Microelectronics Students Forum - Chip in Curitiba, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TOLEDO, S. P. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . A Comparative Analysis of Two Strategies to Compute BTI Degradation in CMOS Logic Gates. In: SForum 13th Microelectronics Students Forum - Chip in Curitiba, 2013, curitiba. SForum 13th Microelectronics Students Forum - Chip in Curitiba, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, I. ; SCHIVITTZ, R. B. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. ; Reis, Ricardo . An Automatic Flow for Timing and Static Power Cell Characterization. In: SForum 13th Microelectronics Students Forum - Chip in Curitiba, 2013, Curitiba. SForum 13th Microelectronics Students Forum - Chip in Curitiba, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMPECK, A. L. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . DESENVOLVIMENTO DE UMA FERRAMENTA PARA AVALIAR O COMPORTAMENTO DE PORTAS LÓGICAS CMOS NA PRESENÇA DE FALHAS STUCK-OPEN. In: CRICTE - Congresso Regional de Iniciação Cientifica e Tecnologica em Engenharia, 2013, Passo Fundo. CRICTE - Congresso Regional de Iniciação Cientifica e Tecnologica em Engenharia, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, I. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . FERRAMENTA PARA A CARACTERIZAÇÃO TEMPORAL DE PORTAS LÓGICAS CMOS. In: CRICTE - Congresso Regional de Iniciação Cientifica e Tecnologica em Engenharia, 2013, Passo Fundo. CRICTE - Congresso Regional de Iniciação Cientifica e Tecnologica em Engenharia, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TOLEDO, S. P. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . ANÁLISE DE DUAS ESTRATÉGIAS PARA AVALIAR A DEGRADAÇÃO CAUSADA PELO EFEITO BTI NO ATRASO DE PORTAS LÓGICAS CMOS. In: CRICTE - Congresso Regional de Iniciação Cientifica e Tecnologica em Engenharia, 2013, Passo Fundo. CRICTE - Congresso Regional de Iniciação Cientifica e Tecnologica em Engenharia, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FOGACA, M. ; CORNETET, L. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . Uma implementação de Simulated Annealing para posicionamento de células em circuitos VLSI. In: CRICTE - Congresso Regional de Iniciação Cientifica e Tecnologica em Engenharia, 2013, Passo Fundo. CRICTE - Congresso Regional de Iniciação Cientifica e Tecnologica em Engenharia, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/LASCAS.2012.6180361" target="_blank"></a><b>Meinhardt, Cristina</b> ; Reis, Ricardo . Evaluation of process variability on current for nanotechnologies devices. In: 2012 IEEE 3rd Latin American Symposium on Circuits and Systems (LASCAS), 2012, Playa del Carmen. 2012 IEEE 3rd Latin American Symposium on Circuits and Systems (LASCAS). p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, I. A. C. ; <b>Meinhardt, Cristina</b> ; BUTZEN, P. F. . Design of 16nm SRAM Architecture. In: Simposio Sul de Microeletronica - SIM 2012, 2012, Sao Miguel das Missoes. Anais do Simposio Sul de Microeletronica - SIM 2012, 2012. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. N. ; MACHADO, I. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . Full Adders Architectures Evaluation for 32nm Technology. In: Simposio Sul de Microeletronica - SIM 2012, 2012, Sao Miguel das Missoes. Anais do Simposio Sul de Microeletronica - SIM 2012, 2012. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, C. S. ; SILVA, A. N. ; GOMES, I. A. C. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . Evaluating the Efficacy of Low Power Process to Design Low Power Circuits. In: Simposio Sul de Microeletronica - SIM 2012, 2012, Sao Miguel das Missoes. Anais do Simposio Sul de Microeletronica - SIM 2012, 2012. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, C. S. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . Energy Evaluation of Nanometer CMOS Technologies. In: SForum - The 12th Microelectronics Students Forum, 2012, Brasilia. SForum - The 12th Microelectronics Students Forum, 2012. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. N. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . Full Adder Cells Evaluation for Subthreshold Operation on 32nm CMOS Technology. In: SForum - The 12th Microelectronics Students Forum, 2012, Brasilia. SForum - The 12th Microelectronics Students Forum, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6268652442201954" target="_blank">GUEX, Jerson P.</a> ; <b>MEINHARDT, Cristina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . Impact of Process Variability considering Transistor Networks Delay. In: SIM 2011, 2011, Porto Alegre. SIM 2011, 2011. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6268652442201954" target="_blank">GUEX, Jerson P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . Estudo do impacto da variabilidade em um conjunto de blocos básicos para composição de leiautes regulares. In: XVI Iberchip Workshop, 2010, Foz do Iguaçu. XVI Iberchip Workshop, 2010. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6268652442201954" target="_blank">GUEX, Jerson P.</a> ; <b>MEINHARDT, Cristina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . A Case Study about Variability Impact in a Set of Basic Blocks Designed to Regular Layouts. In: SIM 2010, 2010, Porto Alegre. SIM 2010, 2010. p. 71-74. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diones Fischer ; Marcio Macedo ; Matheus Muller Korb ; <b>MEINHARDT, Cristina</b> . ESTUDO DA INFLUÊNCIA DA TEMPERATURA NO COMPORTAMENTO ELÉTRICO DE TRANSISTORES EM TECNOLOGIAS NANOMÉTRICAS. In: XXIV CRICTE, 2010, Rio Grande. XXIV CRICTE - Anais, 2010. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Christian Silva ; Eduardo Teixeira ; Mauro Barbat ; <b>MEINHARDT, Cristina</b> . IMPLEMENTAÇÃO DE UM SIMULADOR DE SISTEMA DE MEMÓRIA CACHE. In: XXIV CRICTE, 2010, Rio Grande. XXIV CRICTE - Anais, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Machado ; <b>MEINHARDT, Cristina</b> . UMA IMPLEMENTAÇÃO DO ALGORITMO BOOTH USANDO MANIPULAÇÃO DE BITS. In: XXIV CRICTE, 2010, Rio Grande. XXIV CRICTE - Anais, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		VIOLANTE, M. ; <b>MEINHARDT, Cristina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> ; REORDA, M. S. . A Low-Cost SEE Mitigation Solution for Soft-Processors Embedded in Systems on Programmable Chips. In: DATE 2009, 2009, Nice - França. DATE Proceedings, 2009. p. 352-358. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; VIOLANTE, M. ; REORDA, M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . Recovery Scheme for Hardening System on Programmable Chips. In: LATW, 2009, Buzios. IEEE Digital Library - IEEE Xplore IEEE Catalog Number: CFP09LAT Library of Congress: 2009901807, 2009. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIOLANTE, M. ; REORDA, M. S. ; <b>MEINHARDT, Cristina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . An On-Board Data-Handling Computer for Deep-Space Exploration Built Using Commercial-Of-The-Shelf SRAM-Based FPGAs. In: 24th IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems, 2009, Chicago. Proceeding of 24th IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems, 2009. p. 254-262. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> ; TAVARES, Reginaldo da Nobrega . Leiautes Regulares Baseados em Matrizes de Células. In: IWS09 Iberchip XV Workshop, 2009, Buenos Aires. Anais of Iberchip XV Workshop  2009, 2009. p. 127-132. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; VIOLANTE, M. ; REORDA, M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . An Experimental Analysis of the Lockstep Architecture. In: SIM 2009, 2008, Bento Gonçalves. Proceedings of SIM 2009, 2008. p. 89-93. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; VIOLANTE, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> ; REORDA, M. S. . Recovery Scheme for Hardening System on Programmable Chips. In: DECIDE 2008, 2008, Mexico. Proceedings of DECIDE 2008, 2008. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MEINHARDT, Cristina</b> ; TAVARES, Reginaldo da Nobrega ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . Logic and Physical Synthesis of Cell Arrays. In: 14th IEEE International Conference on Electronics, Circuits and Systems, 2007, Marrakesh. ICECS 2007 -  IEEE International Conference on Electronics, Circuits and Systems, 2007. p. 1292-1295. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; VIOLANTE, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> ; REORDA, M. S. . An experimental Analysis of the Lockstep Architecture on the LEON Case Study. In: DECIDE, 2007, Buenos Aires. DECIDE 2007, 2007. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; TAVARES, Reginaldo da Nobrega ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . Exploring Regular Approaches for IC Design. In: SIM - Symphosium International of Microeletronics, 2006, Porto Alegre. SIM Proceedings, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Menezes, C. ; <b>MEINHARDT, Cristina</b> ; TAVARES, Reginaldo da Nobrega ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . Design of Regular Layouts to Improve Predictability. In: 6th IEEE International Caribbean Conference on Devices, Circuits and Systems   ICCDCS 2006, 2006, Playa del Carmen. Proceedings of the 6th International Caribbean Conference on Devices, Circuits and Systems,, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		TAVARES, Reginaldo da Nobrega ; <b>MEINHARDT, Cristina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . orBDDs Direct Mapping for Structured Logic Circuits. In: 13th IEEE International Conference on Electronics, Circuits and Systems - ICECS 2006, 2006, Nice, Franca. Proceedings of IEEE International Conference on Electronics, Circuits and Systems, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; TAVARES, Reginaldo da Nobrega ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . A viewer for regular matrix circuit placements. In: 20th SIM, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TAVARES, Reginaldo da Nobrega ; <b>MEINHARDT, Cristina</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . Logic Synthesis for a Configurable Cell Matrix. In: 20th SIM, 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; MENDIZABAL, Odorico Machado ; ALMEIDA, Tabajara Lucas de ; ALMEIDA, Cleuza I R de . Sistema estatístico de controle de dados acadêmicos da FURG. In: CRICTE 2003, 2003, Itajai. CRICTE 2003, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; MENDIZABAL, Odorico Machado ; DUARTE FILHO, Nelson Lopes ; PEDONE, Fernando . Inserindo Tolerância a falhas em bancos de dados. In: CRICTE 2003, 2003, Itajai, SC. CRICTE 2003 Anais, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; CALHEIROS, Rodrigo Neves ; MENDIZABAL, Odorico Machado ; OLIVEIRA, Vinicius M . Aplicação de Processamento Paralelo e Distribuído na Robótica. In: ERAD, 2003, Santa Maria. ERAD 2003, 2003. v. 1. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FOGACA, M. ; VARGAS, A. P. ; <b>MEINHARDT, Cristina</b> . Proposta de Ferramenta para o Auxílio no Aprendizado de Memória Cache em Arquitetura de Computadores. In: Computer on the Beach, 2013, Florianópolis. Computer on the Beach - ANAIS 2013. Florianópolis, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, F. G. R. G. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . Performance and Power Consumption Analysis of Full Adders Designed in 32nm Technology. In: 28 Simpósio Sul de Microeletrônica, 2013, Porto Alegre. 28 Simpósio Sul de Microeletrônica, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUN, J. V. F. ; BUTZEN, P. F. ; <b>Meinhardt, Cristina</b> ; AZZOLIN, R. Z. . Caracterização temporal de Flip-Flops D. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMPECK, A. L. ; <b>Meinhardt, Cristina</b> ; BUTZEN, P. F. . SIMULADOR DE FALHAS STUCK-OPEN PARA PORTAS LÓGICAS CMOS. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, F. G. R. G. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . PROJETO DE SOMADORES DE 1 BIT EM TECNOLOGIAS NANOMÉTRICAS. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ULLOA, G. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . DESENVOLVIMENTO DE UMA FERRAMENTA EDUCACIONAL PARA O ESTUDO DE FAMÍLAS LÓGICAS MOS ESTÁTICAS. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, I. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . DESENVOLVIMENTO DE UMA FERRAMENTA PARA A CARACTERIZAÇÃO TEMPORAL DE PORTAS LÓGICAS CMOS. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WIECZORECK, I. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . EMPREGO DE REDUNDÂNCIA PARA AUMENTAR A CONFIABILIDADE DE CIRCUITOS CMOS. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, L. A. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . MECANISMO DE INJEÇÃO DE FALHAS DO TIPO SET EM CIRCUITOS COMBINACIONAIS. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHIVITTZ, R. B. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . Automatização da caracterização do consumo de potência estática em circuitos CMOS. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AFONSO, R. M. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . AVALIAÇÃO ELÉTRICA DE LATCHES EM TECNOLOGIA CMOS NANOMÉTRICA. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TOLEDO, S. P. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . AVALIAÇÃO DE TRÊS ARQUITETURAS DE SOMADORES PROJETADOS EM TECNOLOGIAS CMOS NANOMÉTRICAS. In: 11ª Mostra da Produção Universitária   MPU, 2012, Rio Grande. 11ª Mostra da Produção Universitária   MPU, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; REIS, R. A. L. . A Yield-driven Regular Layout Synthesis. In: VLSI-SoC 2012's Ph.D. Forum, 2012, Santa Cruz - EUA. VLSI-SoC 2012's Ph.D. Forum, 2012. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZIMPECK, A. L. ; AGUIAR, Y. Q. ; MACIEL, B. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . PROJETO DE UM SOMADOR TOLERANTE A FALHAS COM BAIXO CONSUMO DE POTÊNCIA. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Mostra de Produção Universitária - MPU FURG. Rio Grande: FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WIECZORECK, I. ; MENDIZABAL, Odorico Machado ; <b>MEINHARDT, Cristina</b> . ELICITAÇÃO DE REQUISITOS PARA O DESENVOLVIMENTO DE FERRAMENTAS EDUCACIONAIS PARA O ENSINO DE ORGANIZAÇÃO E ARQUITETURA DE COMPUTADORES. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Mostra de Produção Universitária - MPU FURG. Rio Grande: FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">STERZ, A. P. ; NUNES, C. S. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . AVALIAÇÃO DO DESEMPENHO E CONSUMO DE POTÊNCIA DE PORTAS LÓGICAS CMOS EM TECNOLOGIAS NANOMÉTRICAS. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Mostra de Produção Universitária - MPU FURG. Rio Grande: FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, I. A. C. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . PROJETO DE UM BLOCO DE MÉMORIA SRAM NA TECNOLOGIA DE 16NM. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Mostra de Produção Universitária - MPU FURG. Rio Grande: FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUN, J. V. F. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . Projeto de flip-flops tipo D com baixo consumo de potência. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Mostra de Produção Universitária - MPU FURG. Rio Grande: FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AGUIAR, Y. Q. ; MACIEL, B. ; ZIMPECK, A. L. ; BUTZEN, P. F. ; <b>MEINHARDT, Cristina</b> . OTIMIZAÇÃO DO DIMENSIONAMENTO DOS TRANSISTORES DE UM CIRCUITO SOMADOR PARA REDUÇÃO DE ATRASOS E CONSUMO DE POTÊNCIA. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Mostra de Produção Universitária - MPU FURG. Rio Grande: FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, C. S. ; SILVA, A. N. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . Avaliação de Famílias Lógicas para Circuitos com Baixo Consumo de Potência. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Mostra de Produção Universitária - MPU FURG. Rio Grande: FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. N. ; NUNES, C. S. ; <b>MEINHARDT, Cristina</b> ; BUTZEN, P. F. . AVALIAÇÃO DA EFICÁCIA DE MODELOS DE TRANSISTORES NO PROJETO DE CIRCUITOS COM BAIXO CONSUMO DE ENERGIA. In: Mostra de Produção Universitária - MPU FURG, 2011, Rio Grande. Mostra de Produção Universitária - MPU FURG. Rio Grande: FURG, 2011. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diones Fischer ; Marcio Macedo ; <b>MEINHARDT, Cristina</b> . ESTUDO DOS ATRASOS CAUSADOS PELA TEMPERATURA EM TRANSISTORES DE NOVAS TECNOLOGIAS. In: MPU - Mostra de Produção Universitaria, 2010, Rio Grande. MPU 2010, 2010. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Macedo ; Diones Fischer ; <b>MEINHARDT, Cristina</b> . COMPARAÇÃO ENTRE OS EFEITOS DA TEMPERATURA EM TRANSISTORES DE NOVAS TECNOLOGIAS NANOMÉTRICAS. In: MPU - Mostra de Produção Universitaria, 2010, Rio Grande. MPU 2010, 2010. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Muller Korb ; <b>MEINHARDT, Cristina</b> . ESTUDO DA INFLUÊNCIA DA TENSÃO VGS NO COMPORTAMENTO DA CORRENTE DE TRANSISTORES EM 16 NANÔMETROS. In: MPU - Mostra de Produção Universitaria, 2010, Rio Grande. MPU 2010, 2010. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; TAVARES, Reginaldo da Nobrega ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . OrBDD Logic Synthesis: Improving Timing Through Fan out Managing. In: SForum, 2008, Gramado - Brasil. SForum, 2008. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		Menezes, C. ; <b>MEINHARDT, Cristina</b> ; TAVARES, Reginaldo da Nobrega ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . A Regular Layout Approach for ASICs. In: IEEE Computer Society Annual Symposium on Emerging VLSI Technologies and Architectures, 2006, Karlsruhe. Proceedings of the IEEE Computer Society Annual Symposium on Emerging VLSI Technologies and Architectures. Washington: IEEE Computer Society, 2006. v. 1. p. 424-425. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; TAVARES, Reginaldo da Nobrega ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4585719152284650" target="_blank">REIS, Ricardo</a> . A matrix cell viewer. In: Iberchip 2005, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; MENDIZABAL, Odorico Machado ; SOARES, Rafael Iankowisk ; FREITAS, André Luis C de . CRIAÇÃO DE UM SISTEMA DE MANUTENÇÃO DE OFICINAS DA FURG ATRAVÉS DE:PHP, JAVA E MYSQL. In: Ciência e Consciência 2003 - XII Congesso de Iniciação Cientifica UCPEL, 2003, Pelotas, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; ALMEIDA, Tabajara Lucas de ; MENDIZABAL, Odorico Macho ; ALMEIDA, Cleuza I R de . Sistema Estatístico de Controle de Dados Acadêmicos da FURG - ano 1985-2001 - FURG. In: I Mostra da Produção Universitária, 2002, Rio Grande. I Mostra da Produção Universitária FURG, 2002. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; ALMEIDA, Tabajara Lucas de ; MENDIZABAL, Odorico Machado ; ALMEIDA, Cleuza I R de . Implementação e Automação de um Sistema Estatístico para os Dados Acadêmicos da FURG - 2002. In: II Mostra da Produção Universitária, 2002, Rio Grande. II Mostra da Produção Universitária, 2002. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; ALMEIDA, Tabajara Lucas de ; MENDIZABAL, Odorico Machado ; ALMEIDA, Cleuza I R de . Implementação e automação de um sistema estatístico para o curso de Engenharia de Computação -FURG. In: X CIC, 2001, Pelotas, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; MENDIZABAL, Odorico Machado ; ALMEIDA, Tabajara Lucas de ; ALMEIDA, Cleuza I R de . Implementação e automação de um sistema estatístico para controle de dados acadêmicos . In: 9 CIC Ufpel, 2000, Pelotas, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> ; WELTER, Carilene ; PEREIRA, Caroline C ; ALMEIDA, Cleuza I R de ; ALMEIDA, Tabajara Lucas de . Implantação e automação de um sistema estatístico para controle de dados acadêmicos. In: XV CRICTE, 2000, RIo Grande, 2000. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . Sistemas de Computação para Automação com uso de CLPs - Prominp. 2012. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCO, D. T.; ROSA, V. S.; <b>MEINHARDT, Cristina</b>; BUTZEN, P. F..  Participação em banca de Alexandra L. Zimpeck.Falhas Stuck-Open e Stuck-On: Análise do comportamento em nanotecnologias e desenvolvimento de uma ferramenta de simulação de falhas em portas lógicas CMOS.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TERRES, M. A. S. M.; ROSA, V. S.; GOMES, Sebastião Cícero Pinheiro; <b>MEINHARDT, Cristina</b>.  Participação em banca de Marco Antônio de S. M. Terres..Desenvolvimento do Software Embarcado para o Controle de Robô Manipulador de um Elo Flexível..
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, C. S.; ROSA, V. S.; BUTZEN, P. F.; <b>MEINHARDT, Cristina</b>; FRANCO, D. T..  Participação em banca de Cícero Souza Nunes.Avaliação de famílias lógicas para circuitos com baixo consumo de potência.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, A. N.; BUTZEN, P. F.; <b>MEINHARDT, Cristina</b>; FRANCO, D. T.; ROSA, V. S..  Participação em banca de Augusto Neutzling Silva.Avaliação de circuitos somadores focando baixo consumo de potência.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, I. A. C.; <b>MEINHARDT, Cristina</b>; BUTZEN, P. F.; FRANCO, D. T.; ROSA, V. S..  Participação em banca de Iuri Albandes Cunha Gomes.Arquitetura de um Bloco de SRAM na Tecnologia de 16nm.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b>; BUTZEN, P. F..  Participação em banca de Rafael Florentino de Oliveira e Mateus Teixeira Borges.Uma Ferramenta para a Análise da Confiabilidade de Circuitos Lógicos Combinacionais.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b>; DUARTE FILHO, Nelson Lopes.  Participação em banca de Jean Carlo Hamerski.NetPlot3D - Serviço de Estimativa de Atrasos e Criação de Mapas Topológicos em Redes de Computadores.
+							2006. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b>; GOMES, Sebastião Cícero Pinheiro; BOTELHO, Silvia Silva da Costa.  Participação em banca de Renato Silva das Neves.Localização e Navegação de Robôs Móveis a partir de Mapas Visuais.
+							2006. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LATW. Recovery Scheme for Hardening System on Programmable Chips. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IWS09 Iberchip XV Workshop. Leiautes Regulares Baseados em Matrizes de Células. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VLSISOC 2009. web chair. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Design Automation Conference. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Young Faculty Workshop at DAC2009.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Design Automation Summer School. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBCCI, SBMICRO e SFORUM 2008. OrBDD Logic Synthesis: Improving Timing Through Fan out Managing. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIM 2008.An Experimental Analysis of the Lockstep Architecture.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">EMICRO 2008. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ICECS 2007. Logic and Physical Synthesis of Cell Arrays. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IberChip - VII Workshop Internacional. VII - Iberchip. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">18TH SYMPOSIUM ON INTEGRATED CIRCUITS AND SYSTEMS DESIGN - SBCCI 2005. 18th SBCCI. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Sul de Microeletrônica.SIM 2005 .
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola de Microeletrônica Sul.EMICRO 2005. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Sul de Microeletrônica.SIM 2004.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola de Microeletrônica Su.EMICRO 2004. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIM - 18th South Symposium on Microelectronics.SIM - 18th South Symposium on Microelectronics.
+							2003. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Escola de Microeletrônica da SBC -Região Sul.III Escola de Microeletrônica da SBC -Região Sul. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum Internacional do Software Livre 2003.Fórum Internacional do Software Livre 2003. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ERAD 2003 - Terceira Escola Regional de Alto Desempenho.ERAD 2003 - Terceira Escola Regional de Alto Desempenho. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WSCAD (Workshop de sistemas computacionais de Alto Desempenho). WSCAD (Workshop de sistemas computacionais de Alto Desempenho). 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">10º congresso de Iniciação Cientifica, CIC. 10º congresso de Iniciação Cientifica, CIC. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mini-Curso de PIC.Mini-Curso de PIC. 2002. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Mostra da Produção Universitária.I Mostra da Produção Universitária. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Mostra da Produção Universitária.II Mostra da Produção Universitária. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum Internacional do Software Livre.Fórum Internacional do Software Livre . 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Saecomp - Semana Acadêmica de Engenharia de Computação da FURG.VI Saecomp - Semana Acadêmica de Engenharia de Computação da FURG. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Saecomp - Semana Acadêmica de Engenharia de Computação da FURG.V Saecomp - Semana Acadêmica de Engenharia de Computação da FURG. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9º Congresso de Iniciação Cientifica. UFPel. 9º Congresso de Iniciação Cientifica. UFPel. 2000. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Saecomp - Semana Acadêmica de Engenharia de Computação da FURG.IV Saecomp - Semana Acadêmica de Engenharia de Computação da FURG. 2000. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIM 99 - XIV Microelectronics Seminar.SIM 99 - XIV Microelectronics Seminar.
+							1999. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">11º Encontro Nacional de Informática.11º Encontro Nacional de Informática.
+							1999. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Saecomp - Semana Acadêmica de Engenharia de Computação da FURG.III Saecomp - Semana Acadêmica de Engenharia de Computação da FURG. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Semana acadêmica de Informática.V Semana acadêmica de Informática. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Escola de Microeletrônica da SBC -Região Sul.I Escola de Microeletrônica da SBC -Região Sul. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Semana acadêmica de Informática.IV Semana acadêmica de Informática. 1998. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Escola de Informática da SBC Região Sul.VI Escola de Informática da SBC Região Sul. 1998. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Mostra de Aplicação Tecnológica de Telecomunicações.1º Mostra de Aplicação Tecnológica de Telecomunicações. 1995. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . WESAAC 2010 - Workshop- Escola Sistemas de Agentes, seus Ambientes e Aplicações. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . Iberchip 2010. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . LASCAS. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . IEEE Circuits and Systems Summer School 2010 - Physical Design of Reliable Circuits. 2010. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . LATW. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . VLSI-SoC 2009. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . Chip in the pampa  2008 - SBCCI, SBMicro, SForum. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandra L. Zimpeck. Técnicas de tolerância a falhas em circuitos integrados. Início: 2013. Iniciação científica (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande, Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mateus P. Fogaça. Projeto de ferramentas para o posicionamento de circuitos integrados. Início: 2013. Iniciação científica (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lázaro Aires Pereira. Ambiente de Simulação de Falhas para Portas Lógicas CMOS nanométricas. Início: 2013. Iniciação científica (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ingrid Cardoso Machado. DESENVOLVIMENTO DE UMA FERRAMENTA PARA A CARACTERIZAÇÃO TEMPORAL DE PORTAS LÓGICAS CMOS. Início: 2013. Iniciação científica (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandra L. Zimpeck.
+							Desenvolvimento de uma Ferramenta para Avaliar o Comportamento de Falhas Stuck-Open e Stuck-On em Portas Lógicas CMOS.
+							2013.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Augusto Neutzling Silva.
+							Analise de somadores de um bit trabalhando em baixo consumo de potência.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cícero Souza Nunes.
+							Comparações de famílias lógicas operando em Low Power.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Iuri Gomes.
+							Arquiteturas de Sram de baixa potência.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Samuel Presa Toledo.
+							PROJETO DE CIRCUITOS INTEGRADOS DE BAIXO CONSUMO DE POTÊNCIA   CIRCUITOS SOMADORES.
+							2013.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renato M. Afonso.
+							O objetivo principal do curso é apresentar aspectos fundamentais do projeto de portas lógicas projetadas em tecnologia CMOS, explorando principalmente os principiais conceitos e características relacionadas ao desenvolvimento de circuitos integrados que utilizam a metodologia baseada em biblioteca de células..
+							2012.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Giane Maria dos Santos Ulloa.
+							Uma proposta para a melhoria da aquisição e desenvolvimento de habilidades em disciplinas básicas da Ciência da Computação - Aplicado às disciplinas de Sistemas de Computação 1 e Sistemas de Computação para Automação I.
+							2012.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Vitor Brun.
+							  PROJETO DE CIRCUITOS INTEGRADOS DE BAIXO CONSUMO DE POTÊNCIA   PROJETO DE FLIP-FLOPS.
+							2012.
+							Iniciação Científica. (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luisa Cornetet.
+							Projeto de ferramentas para o posicionamento de circuitos integrados.
+							2012.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ODAIR DOS SANTOS SILVA.
+							PROJETO DE CIRCUITOS INTEGRADOS DE BAIXO CONSUMO DE POTÊNCIA   PROJETO DE FLIP-FLOPS E LATCHES COM BAIXO CONSUMO DE POTÊNCIA.
+							2012.
+							Iniciação Científica. (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Vitor Ferreira Brun.
+							Projeto de circuitos sequenciais com baixo consumo de potência.
+							2011.
+							Iniciação Científica. (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande,
+							Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Italo Wieczorek.
+							PROJETO DE CIRCUITOS INTEGRADOS DE BAIXO CONSUMO DE POTÊNCIA.
+							2011.
+							Iniciação Científica. (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ingrid Cardoso Machado.
+							Estudo de modelos de células menos sensíveis aos efeitos da variabilidade aplicadas para projetos de circuitos integrados regulares.
+							2011.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Macedo Gonçalves.
+							Estudo de blocos básicos para leiautes regulares.
+							2010.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diones Fisher.
+							Estudo de blocos básicos para leiautes regulares.
+							2010.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus Muller Korb.
+							Estudo sobre a geração de leiautes regulares em tecnologias nanométricas.
+							2010.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael  Budim Shivittz.
+							Uma proposta para a melhoria da aquisição e desenvolvimento de habilidades em disciplinas básicas da Ciência da Computação  - Aplicado a disciplina de Sistemas de Computação 1 -.
+							2012.
+							Orientação de outra natureza. (Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Zamberlam.
+							Uma proposta para a melhoria da aquisição e desenvolvimento de habilidades em disciplinas básicas da Ciência da Computação  - Aplicado a disciplina de Sistemas de Computação 1 -.
+							2012.
+							Orientação de outra natureza. (Engenharia de Automação)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Italo Wieczorek.
+							Uma proposta para a melhoria da aquisição e desenvolvimento de habilidades em disciplinas básicas da Ciência da Computação  - Aplicado a disciplina de Sistemas de Computação 1 -.
+							2011.
+							Orientação de outra natureza. (Engenharia de Automação)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Cristina Meinhardt.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="CursosCurtaEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MEINHARDT, Cristina</b> . Sistemas de Computação para Automação com uso de CLPs - Prominp. 2012. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:19:18</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=6816603089210442" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,1874 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Odorico Machado Mendizabal)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=6058299964884859" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4777868A7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4777868A7"><div class="infpessoa">
+<h2 class="nome">Odorico Machado Mendizabal</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/6058299964884859</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 13/10/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Professor assistente na Universidade Federal do Rio Grande - FURG, possui graduação em Engenharia de Computacao pela Fundação Universidade Federal do Rio Grande (2003) e mestrado em Ciência da Computação pela Pontifícia Universidade Católica do Rio Grande do Sul (2005). Tem experiência na área de Ciência da Computação, com ênfase em Sistemas Distribuídos e Tolerância a Falhas, atuando principalmente nos seguintes temas: especificação e verificação de modelos, teste de desempenho de software, aplicações para dispositivos móveis e sistemas adaptativos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Odorico Machado Mendizabal<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MENDIZABAL, O. M.;MENDIZABAL, O</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande. <br class="clear" />Av. Itália km 8<br class="clear" />Carreiros<br class="clear" />96201-900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32336807<br class="clear" />URL da Homepage: <a target="blank" href="http://www.furg.br">http://www.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&codigoCurso=42005019016P8&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Título: Avaliação Quantitativa de Modelos em Gramática de Grafos Baseada em Objetos,Ano de Obtenção: 2005.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3145198954829457'><img src='images/curriculo/logolattes.gif' /></a>Fernando Luís Dotti.<br class="clear" />Bolsista do(a): Hewlett Packard, HP, Brasil. <br class="clear" />Palavras-chave: Sistemas Distribuídos; Gramática de Grafos; Modelos Estocásticos; Model checking; Tolerância a Falhas; métodos formais. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação / Especialidade: Modelagem Computacional. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação / Especialidade: Métodos Formais. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas Distribuídos. <br class="clear" />Setores de atividade: Desenvolvimento de Programas (Software); Outro. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computacao<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: PRONTO - Protocolo Tolerante a Falhas para Bancos de Dados. <br class="clear" />Orientador: Nelson Lopes Duarte Filho e Fernando Pedone. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Dell Computadores do Brasil Ltda, DELL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Analista de Teste de Performance, Carga horária: 44</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Hewlett-Packard Brasil Ltda, HP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Programador C/C++, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço Terceirizado, contratado por Mobiltec Sistemas de Computação Móvel Ltda.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade de Lisboa, UL, Portugal.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Pesquisador, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisador do Grupo Navigators (www.di.fc.ul.pt/navigators) no projeto HIDENETS (HIghly DEpendable ip-based NETworks and Services). Finaciamento: European Commission. IST-FP6-STREP-26979</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsa de Projeto, Enquadramento Funcional: Estagiário, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsa de projeto, Enquadramento Funcional: Estagiário, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto CASCO</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Escola Monteiro Lobato, EML, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Professor temporário, Carga horária: 4</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2005 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Técnico Em Informática, Nível: Aperfeiçoamento</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Computação<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente - DE, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsa de pesquisa, Enquadramento Funcional: Monitor de Disciplina, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Monitor da disciplina de Arquitetura de Computadores</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Apoio Técnico, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Modelagem Semiquantitativa e Quantitativa na Educação em Ciências</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsa de pesquisa, Enquadramento Funcional: Outro, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista voluntário no Projeto SECA</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2002 - 12/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Departamento de Física, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Gerenciamento do Servidor e laboratórios de modo geral, projeto Plano Sul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/2003 - 10/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Ceamecim, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Programação para Web. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Ger&ecirc;ncia Din&acirc;micade M&aacute;quinas Virtuais para Computa&ccedil;&atilde;o em Nuvem'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gerência Dinâmicade Máquinas Virtuais para Computação em Nuvem<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visa uma melhor utilização de recursos computacionais em computação em nuvem. A utilização de máquinas virtuais já vem sendo implantada como uma técnica de melhor utilização das máquinas hospedeiras (físicas) desta infraestrutura. No entanto, a carga de trabalho em que estas máquinas virtuais estão submetidas podem levar o sistema como um todo a perceber degradação em seu desempenho.
+
+O objetivo deste projeto é desenvolver ferramentas de monitoramento de recursos e, baseado em métricas de utilização de recursos, adotar estratégias de prevenção, como por exemplo migrar máquinas virtuais para outras máquinas hospedeiras.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Odorico Machado Mendizabal - Coordenador / Nelson Lopes Duarte Filho - Integrante / Pedro Popiolek - Integrante / Jônata Tyska - Integrante / Vinicius Hax - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Rio Grande - Bolsa.</div>
+</div><a name='PP_Performance Center'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Performance Center<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Devesenvolver habilidades e motodologias inovadoras para o teste de desempenho com foco em infraestruturas virtualizadas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (2)  / Doutorado: (1) . Financiador(es): Dell Computadores do Brasil Ltda - Auxílio
+										financeiro.</div>
+</div><a name='PP_HIDENETS (HIghly DEpendable ip-based NETworks and Services)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">HIDENETS (HIghly DEpendable ip-based NETworks and Services)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: HIDENETS (HIghly DEpendable ip-based NETworks and Services) is a specific targeted research project funded by the European Union under the Information Society Sixth Framework Programme. The project was started in January 2006 and have a duration of 3 years. The aim of HIDENETS is to develop and analyze end-to-end resilience solutions for distributed applications and mobility-aware services in ubiquitous communication scenarios. Technical solutions will be developed for applications with critical dependability requirements in the context of selected use-cases of ad-hoc car-to-car communication with infrastructure service support.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. </div>
+</div><a name='PP_CAP - Centro de Pesquisa e Desenvolvimento de Aplica&ccedil;&otilde;es Paralelas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CAP - Centro de Pesquisa e Desenvolvimento de Aplicações Paralelas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: The Research and Development Center of Parallel Applications (CAP - PUCRS/HP Brazil) is dedicated to the study of high performance computing techniques and methodologies applied on the development of solutions for computational intensive applications. The CAP project has two main research lines: (a) support techniques for parallel programs design and (b) development of high performance applications for distributed memory architectures. (a) Support techniques for the design of parallel programs are not directly related to the parallel solution of a given problem, but they offer alternatives to simplify and optimize the process of developing parallel programs. In this scenario, the CAP team is interested in research topics like: (i) Analytical modeling of parallel programs using Stochastic Automata Networks (SAN); (ii) Formal verification of parallel and distributed programs properties using Objects-Based Graph Grammars (GGBO); (iii) Load-balancing algorithms for dynamic irregular applications over distributed memory platforms; (iv) Structural test methodologies for parallel programs. (b) The development of parallel applications for different categories of distributed memory architectures, such as heterogeneous clusters or computational grids, is another major research line of the CAP team. Our focus is the development of new high performance algorithms and/or programs for scientific or industrial problems using the message passing programming paradigm. Recently, the CAP group has been working on parallel solutions for the following applications: (i) Documents rendering tool for high speed printers (FOP - Formatting Objects Processor); (ii) Visualization of medical data for image-based diagnosis; (iii) Simulation of electrons trajectory on Field Emission Displays .. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Especialização: (0)  / Mestrado acadêmico: (4)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Odorico Machado Mendizabal - Integrante /  Lucas Janssen Baldo - Integrante / Pedro Antônio M. de Campos Velho - Integrante / Gustavo da Silva Serra - Integrante / Thiago Tasca Nunes - Integrante / Mateus Raeder - Integrante / Márcio Bastos Castro - Integrante / Fabio Pasini - Integrante / Luiz Gustavo Leão Fernandes - Coordenador.<br class="clear" />Financiador(es): Hewlett Packard - Cooperação.</div>
+</div><a name='PP_CASCO - Centro de An&aacute;lise de Sistemas Concorrentes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CASCO - Centro de Análise de Sistemas Concorrentes<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição:  O projeto CASCO tem como objetivo o desenvolvimento de métodos de especificação e análise de sistemas concorrentes, bem como o emprego destes métodos em caso relevantes e o suporte a estes métodos através de ferramentas computacionais adequadas. Entre os métodos de especificação trabalhamos mais especificamente com Redes de Autômatos Estocásticos e Gramática de Grafos. O primeiro permitindo análise quantitativa de modelos descritos e o segundo com ênfase em verificação dos modelos descritos. Este projeto foi desenvolvido em parceria com HP-Brasil, utilizando recursos da lei de informática... <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Especialização: (0)  / Mestrado acadêmico: (8)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Odorico Machado Mendizabal - Integrante / Fabio Pasini - Integrante / Osmar Marchi dos Santos - Integrante / Paulo H L Fernandes - Integrante / Afonso Sales - Integrante / Fernando Luís Dotti - Coordenador.<br class="clear" />Financiador(es): Ministério da Ciência e Tecnologia - Cooperação.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista de Informática Teórica e Aplicada: RITA</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas Distribuídos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Teste de Desempenho. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Tolerância a Falhas. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação/Especialidade: Verificação de Modelos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Teoria da Computação/Especialidade: Linguagem Formais e Autômatos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Achievement in Excelence - Engage Others Leadership Competence, Dell. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Team Award, Dell. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Dell Bronze, Dell. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>3</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JACOBI, E. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>JACOBI, E. B. ; POPIOLEK, P. ; HAX, V. A. ; Tyska, J. C ; DUARTE FILHO, Nelson Lopes ; <b>MENDIZABAL, O. M.</b> . O Modelo de Computação em Nuvem e sua Aplicabilidade. Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia<sup><img id='22360093_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22360093' /></sup>, v. 5, p. 1-10, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22360093&volume=5&issue=&paginaInicial=1&titulo=O Modelo de Computação em Nuvem e sua Aplicabilidade&sequencial=1&nomePeriodico=Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>1</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>POPIOLEK, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>POPIOLEK, P. ; <b>MENDIZABAL, O. M.</b> . Monitoring and Analysis of Performance Impact in Virtualized Environments. Journal of Applied Computing Research<sup><img id='22368434_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22368434' /></sup>, v. 2, p. 3, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22368434&volume=2&issue=&paginaInicial=3&titulo=Monitoring and Analysis of Performance Impact in Virtualized Environments&sequencial=2&nomePeriodico=Journal of Applied Computing Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>2</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HAX, V. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>HAX, V. A. ; DUARTE FILHO, Nelson Lopes ; BOTELHO, S. ; <b>MENDIZABAL, O. M.</b> . ROS as a middleware to Internet of Things. Journal of Applied Computing Research<sup><img id='22368434_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22368434' /></sup>, v. 2, p. 5, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22368434&volume=2&issue=&paginaInicial=5&titulo=ROS as a middleware to Internet of Things&sequencial=3&nomePeriodico=Journal of Applied Computing Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>4</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MENDIZABAL, O. M.;MENDIZABAL, O</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.entcs.2007.03.020" target="_blank"></a><b>MENDIZABAL, O. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3145198954829457" target="_blank">DOTTI, F</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8705873746227963" target="_blank">RIBEIRO, L</a> . Stochastic Object-Based Graph Grammars. Electronic Notes in Theoretical Computer Science<sup><img id='15710661_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15710661' /></sup>, v. 184, p. 151-170, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.entcs.2007.03.020&issn=15710661&volume=184&issue=&paginaInicial=151&titulo=Stochastic Object-Based Graph Grammars&sequencial=4&nomePeriodico=Electronic Notes in Theoretical Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>5</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DOTTI, Fernando Luís</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3145198954829457" target="_blank">DOTTI, Fernando Luís</a> ; <b>MENDIZABAL, O. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867718775277531" target="_blank">SANTOS, Osmar Marchi dos</a> . Verifying Fault-Tolerant Distributed Systems Using Object-Based Graph Grammars . Lecture Notes in Computer Science<sup><img id='03029743_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03029743' /></sup>, Brazil, v. 3747, p. 80-100, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03029743&volume=3747&issue=&paginaInicial=80&titulo=Verifying Fault-Tolerant Distributed Systems Using Object-Based Graph Grammars &sequencial=5&nomePeriodico=Lecture Notes in Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>6</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, Arion de Castro Kurtz dos</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span>SANTOS, Arion de Castro Kurtz dos ; VARGAS, André Prisco ; <b>MENDIZABAL, O. M.</b> . O ModelCiências - um portal para o projeto Modelagem Semiquantitativa e Quantitativa na Educação em Ciências. Educar em Revista (Impresso)<sup><img id='01044060_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01044060' /></sup>, Curitiba, v. Especi, p. 217-235, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01044060&volume=Especi&issue=&paginaInicial=217&titulo=O ModelCiências - um portal para o projeto Modelagem Semiquantitativa e Quantitativa na Educação em Ciências&sequencial=6&nomePeriodico=Educar em Revista (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SALVA, T. ; SILVA, R. S. ; VARGAS, André Prisco ; <b>MENDIZABAL, O. M.</b> . BlueGroups: Middleware para Construção de Aplicações Distribuídas em Dispositivos Móveis. In: Computer on the Beach, 2013, Florianópolis. Computer on the Beach, 2013. p. 31-40. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3145198954829457" target="_blank">DOTTI, Fernando Luís</a> . Model Checking the Deferred Update Replication Protocol. In: Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos   SBRC 2013, 2013, Brasilia. 31º Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos   SBRC 2013, 2013. p. 995-1008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, M. M. ; GOULART, M. G. ; GELATTI, G. ; MACHADO, K. S. ; WERHLI, A. V. ; <b>MENDIZABAL, O. M.</b> . Parallel Algorithm for the HP Protein Folding Problem. In: Workshop-Escola de Informática Teórica - WEIT, 2013, Rio Grande. Workshop-Escola de Informática Teórica - WEIT, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POPIOLEK, P. ; <b>MENDIZABAL, O. M.</b> . Monitoramento e Análise do Impacto no Desempenho em Ambientes Virtualizados. In: Escola Regional de Redes de Computadores, 2012, Pelotas. ERRC - 9 Escola Regional de Redes de Computadores, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HAX, V. A. ; BOTELHO, S. ; DUARTE FILHO, Nelson Lopes ; <b>MENDIZABAL, O. M.</b> . Estudo da Viabilidade do ROS como Plataforma para IoT. In: Escola Regional de Redes de Computadores, 2012, Pelotas. ERRC - 9 Escola Regional de Redes de Computadores, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MENDIZABAL, O. M.</b> ; SPIER, M. ; SAAD, R. . Log-Based Approach for Performance Requirements Elicitation and Prioritization. In: IEEE International Requirements Engineering Conference (RE), 2012, Chicago. 20th IEEE International Requirements Engineering Conference, 2012. p. 297-302. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		Casimiro, A. ; <b>MENDIZABAL, O. M.</b> ; Veríssimo, P. . On the Development of Dependable Embedded Applications Using Specialized Wormholes. In: 3rd International Workshop on Dependable Embedded Systems (WDES'06), 2006, Leeds. 3rd Workshop on Dependable Embedded Systems, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MENDIZABAL, O. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3145198954829457" target="_blank">DOTTI, Fernando Luís</a> . Non-Functional Analysis of Distributed Systems in Unreliable Environments using Stochastic Object Based Graph Grammars. In: Third International Conference on Graph Transformation (ICGT), 2005, Natal. Proceedings of. Heidelberg, 2005. v. 4178. p. 80-100. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, Vinicius M ; CALHEIROS, Rodrigo Neves ; <b>MENDIZABAL, O. M.</b> ; MEINHARDT, Cristina . Aplicação de Processamento Paralelo e Distribuído na Robótica. In: ERAD - Escola Regional de Alto Desempenho, 2003, Santa Maria. ERAD 2003 - Terceira Escola Regional de Alto Desempenho, 2003. p. 245-248. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> ; MEINHARDT, Cristina ; PEDONE, Fernando ; DUARTE FILHO, Nelson Lopes . Inserindo Tolerância a Falhas em Bancos de Dados. In: CRICTE - Congresso Regional de Iniciação Científica e Tecnológica, 2003, Itajaí, SC. XVIII Congresso Regional de Iniciação Científica e Tecnológica, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEINHARDT, Cristina ; <b>MENDIZABAL, O. M.</b> ; ALMEIDA, Cleuza ; ALMEIDA, Tabajara Lucas de . Sistema Estatístico de Controle de Dados Acadêmicos da FURG - 1991-2003. In: CRICTE - Congresso Regional de Iniciação Científica e Tecnológica, 2003, Itajaí, SC. XVIII Congresso Regional de Iniciação Científica e Tecnológica, 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GULARTE, A. ; <b>MENDIZABAL, O. M.</b> ; BARBOSA, R. ; ADAMATTI, D. F. . Proposta de Alocação de Redes Virtuais Baseada em DCOP. In: Workshop-Escola de Informática Teórica - WEIT, 2013, Rio Grande. Workshop-Escola de Informática Teórica - WEIT, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MULLER, R. H. ; <b>MENDIZABAL, O</b> . Geração de Carga para Processamento de Transações Online Usando TPC-C. In: MPU - Mostra da Produção Universitária, 2012, Rio Grande. MPU - Mostra da Produção Universitária, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GIL, J. P. S. ; VARGAS, André Prisco ; <b>MENDIZABAL, O</b> . Suprte a Comunicação em Grupo para Dispositivos Móveis Utilizando Wi-Fi. In: MPU - Mostra da Produção Universitária, 2012, Rio Grande. MPU - Mostra da Produção Universitária, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POPIOLEK, P. ; <b>MENDIZABAL, O</b> . Virtualização de Servidores: Monitoramento de Recursos e Análise de Desempenho. In: MPU - Mostra da Produção Universitária, 2012, Rio Grande. MPU - Mostra da Produção Universitária, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POPIOLEK, P. ; <b>MENDIZABAL, O. M.</b> . Gerência Dinâmica de Máquinas Virtuais para Computação em Nuvem. In: 10ª Mostra de Produção Universitária, 2011, Rio Grande. 10ª Mostra de Produção Universitária, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JACOBI, E. B. ; HAX, V. A. ; Tyska, J. C ; DUARTE FILHO, Nelson Lopes ; <b>MENDIZABAL, O. M.</b> . Implementação de uma Infraestrutura para Nuvem Computacional. In: 10ª Mostra de Produção Universitária, 2011, Rio Grande. 10ª Mostra de Produção Universitária, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WIECZOREK, I. A. ; <b>MENDIZABAL, O. M.</b> ; MEINHARDT, Cristina . Elicitação de Requisitos para o Desenvolvimento de Ferramentas Educacionais para o Ensino de Organização e arquitetura de Computadores. In: 10ª Mostra de Produção Universitária, 2011, Rio Grande. 10ª Mostra de Produção Universitária, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LIBARDONI, M. ; VARGAS, André Prisco ; <b>MENDIZABAL, O. M.</b> . Estudo de Tecnologias para Dispositivos Móveis. In: 10ª Mostra de Produção Universitária, 2011, Rio Grande. 10ª Mostra de Produção Universitária, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VELLOSO, Bruno P ; MADSEN, Carlos Alberto Barros C W ; <b>MENDIZABAL, O. M.</b> ; PEREIRA, Juliana Machado ; LAURINO, Débora P ; RODRIGUES, Sheyla Costa . Atualização e Implementação do AVA Mathemolhes. In: CRICTE - Congresso Regional de Iniciação Científica e Tecnológica, 2003, Itajaí, SC. XVIII Congresso Regional de Iniciação Científica e Tecnológica, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> ; VARGAS, André Prisco ; MADSEN, Carlos Alberto Barros C W ; SANTOS, Arion de Castro Kurtz dos . MODELCIÊNCIAS - SISTEMA PARA A FORMAÇÃO DE PROFESSORES ATRAVÉS DA MODELAGEM COMPUTACIONAL SEMIQUANTITATIVA E QUANTITATIVA NA EDUCAÇÃO. In: CRICTE, 2002, Passo Fundo - RS. XVII Congresso regional de iniciação científica e tecnoçógica em engenharia e III feira de protótipos, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEINHARDT, Cristina ; <b>MENDIZABAL, O. M.</b> ; ALMEIDA, Cleuza ; ALMEIDA, Tabajara Lucas de . SECA - Sistema Estatístico de Controle Acadêmico da FURG. In: XVII Congresso regional de iniciação científica e tecnológica em engenharia e III feira de protótipos, 2002, Passo Fundo - RS. XVII Congresso regional de iniciação científica e tecnológica em engenharia e III feira de protótipos, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEINHARDT, Cristina ; <b>MENDIZABAL, O. M.</b> ; ALMEIDA, Tabajara Lucas de ; ALMEIDA, Cleuza . Implementação e Automação de um Sistema Estatístico para os Dados Acadêmicos da FURG - 2002. In: CIC - Congresso de Iniciação Científica, 2002, Rio Grande. Rio Grande, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEINHARDT, Cristina ; <b>MENDIZABAL, O. M.</b> ; ALMEIDA, Tabajara Lucas de ; ALMEIDA, Cleuza . Sistema Estatístico de Controle de Dados Acadêmicos da FURG - ano 1985-2001. In: Mostra da Produção Universitária, 2002, Rio Grande. I Mostra da Produção Universitária/FURG. Rio Grande: Editora da FURG, 2002. p. 42-42. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VARGAS, André Prisco ; MADSEN, Carlos Alberto Barros C W ; <b>MENDIZABAL, O. M.</b> ; SANTOS, Arion de Castro Kurtz dos . Desenvolvimento de um Software de Modelagem Semiquantitativa Utilizando JAVA. In: Mostra da Produção Universitária, 2002, Rio Grande. I Mostra da Produção Universitária/FURG. Rio Grande: Editora da FURG, 2002. p. 84-84. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> ; VARGAS, André Prisco ; SANTOS, Arion de Castro Kurtz dos ; MADSEN, Carlos Alberto Barros C W . MODELCIÊNCIAS - Portal para a formação de professores através da modelagem computacional. In: Mostra da Produção Universitária, 2002, Rio Grande. I Mostra da Produção Científica. Rio Grande: Editora da FURG, 2002. p. 394-394. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> ; MEINHARDT, Cristina ; ALMEIDA, Tabajara Lucas de ; ALMEIDA, Cleuza . Implementação e automação de um sistema estatístico para o curso de Engenharia de Computação -FURG . In: CIC - Congresso de Iniciação Científica, 2001, Pelotas, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> ; MEINHARDT, Cristina ; ALMEIDA, Tabajara Lucas de ; ALMEIDA, Cleuza . Implementação e automação de um sistema estatístico para controle de dados acadêmicos. In: CIC - Congresso de Iniciação Científica, 2000, Pelotas, 2000. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORRADINI, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8705873746227963" target="_blank">RIBEIRO, Leila</a> ; <b>MENDIZABAL, O</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3145198954829457" target="_blank">DOTTI, F</a> . A Formal Model for the Deferred Update Replication Technique. Lecture Notes in Computer Science<sup><img id='03029743_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03029743' /></sup>, 2013. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> . Application Tuning: A log-based Approach. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> ; Casimiro, A. ; Veríssimo, P. . Dependable Middleware for Unpredictable Environments. 2006. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3145198954829457" target="_blank">DOTTI, Fernando Luís</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8705873746227963" target="_blank">RIBEIRO, L</a> . Stochastic Object-Based Graph Grammars. 2005. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEINHARDT, Cristina ; <b>MENDIZABAL, O. M.</b> ; BOTELHO, S. . Estudando Arquiteturas RISC-MIPS Através de Cross-Compilers: Uma Análise Comparativa. 2004. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Casimiro, A. ; BONDAVALLI, A. ; CECCARELLI, A. ; Daidone A. ; FALAI L. ; FREJEK P. ; GIANDOMENICO F. ; G. Huszerl ; KILLIJAN M-O. ; A. Kövi ; Matthiesen E. V. ; <b>MENDIZABAL, O. M.</b> ; MONIZ H. ; RENIER T. ; ROY M. . Resilient Architecture (preliminary version) 2007 (Technical Report). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VARGAS, André Prisco ; <b>MENDIZABAL, O. M.</b> ; MADSEN, Carlos Alberto Barros C W ; SANTOS, Arion de Castro Kurtz dos . ModelCiências: Portal do projeto 'Modelagem Computacional Semiquantitativa e Quantitativa na Educação em Ciências. 2003. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> . Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos. 2013.
+							(Revisor).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> . Escola Regional de Redes de Computadores. 2012.
+							(Membro de Comitê de Programa).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> . JGroups - Desenvolvimento de Sistemas Distribuídos com uso de Comunicação em Grupo. 2005. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> . Curso de C Avançado. 2002. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b> . Curso de C++. 2002. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENDIZABAL, O. M.</b>; EMMENDORFER, L.; MARQUES, W. C..  Participação em banca de Leonardo Fagundes de Mello.Desenvolvimento de um Modelo de Óleo Baseado na Visão Lagrangeana de Partículas.
+							2012. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computacao)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ADAMATTI, D. F.; <b>MENDIZABAL, O. M.</b>; PAULO,.  Participação em banca de Alexander Gularte e Camila Thomasi.M-BRISK: Uma adaptação do algoritmo BRISK para dispositivos móveis.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computacao)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, Nelson Lopes; <b>MENDIZABAL, O</b>; ADAMATTI, D. F..  Participação em banca de Mitchel S. Felske.Desafios Computacionais dos Massively Multiplayer Online Games: um experimento sobre a plataforma SIM3D.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computacao)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dolci, D. B.; <b>MENDIZABAL, O. M.</b>; OLIVEIRA, Vinicius M.  Participação em banca de Rafael de Paula Souza.Bluetooth Zone: Uma Solução em Tecnologia da Informação para Marketing Móvel.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computacao)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, Nelson Lopes; MACHADO, K. S.; <b>MENDIZABAL, O</b>. Concurso para Professor Substituto. Área de conhecimento: Sistemas Operacionais e Redes de Computadores.
+							2011. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CRICTE 2010 - Congresso Regional de Iniciação Científica e Tecnológica em Engenharia. CRICTE 2010 - Congresso Regional de Iniciação Científica e Tecnológica em Engenharia. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MCSul 2010 - Simpósio de Modelagem Computacional do Sul.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MPU 2010 - Mostra de Produção Universitária.MPU 2010.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">6  Fórum Internacional do Software Livre. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Métodos Formais.Stochastic Object-Based Graph Grammars.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ERAD - Escola Regional de Alto Desempenho. ERAD 2004. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Fórum Internacional do Software Livre. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ERAD - Escola Regional de Alto Desempenho. ERAD 2003 - Escola Regional de Alto Desempenho. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII CRICTE - Congresso Regional de Iniciação Científica e Tecnológica em Engenharia. XVIII CRICTE - Congresso Regional de Iniciação Científica e Tecnológica em Engenharia. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIM - 18th South Symposium on Microelectronics.
+							2003. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum Internacional do Software Livre. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Workshop de sistemas computacionais de Alto Desempenho. 2002. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana acadêmica de Engenharia de Computação. 2002. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">YAMIN, A. C. ; MONKS, E. M. ; PINHO, L. B. ; AMARAL, E. H. ; <b>MENDIZABAL, O. M.</b> ; RODRIGUES, S. L. ; MARRONI, F. . Escola Regional de Redes de Computadores. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Paulo Salinas.
+							Suporte a comunicação em grupo para dispositivos móveis utilizando Wi-Fi.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacao)  - Universidade Federal do Rio Grande. Orientador: Odorico Machado Mendizabal.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Senna da Silva e Thyago Salvá.
+							BlueGroups: Middleware para Comunicação em Grupo e Controle de Versão em Dispositivos Móveis.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacao)  - Universidade Federal do Rio Grande. Orientador: Odorico Machado Mendizabal.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro Popiolek.
+							Gerência Dinâmica de Máquinas Virtuais para Computação em Nuvem.
+							2012.
+							Iniciação Científica. (Graduando em Engenharia de Computacao)  - Universidade Federal do Rio Grande. Orientador: Odorico Machado Mendizabal.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro Freire Popiolek.
+							Gerência Dinâmica de Máquinas Virtuais para Computação em Nuvem.
+							2011.
+							Iniciação Científica - Universidade Federal do Rio Grande. Orientador: Odorico Machado Mendizabal.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:20:14</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=6058299964884859" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

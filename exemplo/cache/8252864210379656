@@ -1,0 +1,2970 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Andr&eacute; Luis Castro de Freitas)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8252864210379656" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4707129D6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4707129D6"><div class="infpessoa">
+<h2 class="nome">Andr&eacute; Luis Castro de Freitas</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/8252864210379656</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 10/11/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação em Tecnólogo em Processamento de Dados pela Universidade Católica de Pelotas (1989), graduação em Prog.Especial de Formação Pedagógica de Docentes pelo Centro Federal de Educação Tecnológia de Pelotas (2001), especialização em Informática Industrial pelo Centro Federal de Educação Tecnológica do Paraná (1994), especialização em Ciência da Computação pela Universidade Católica de Pelotas (1995), mestrado em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (1998), mestrado em Educação pela Universidade Federal de Pelotas (2012) e doutorado em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (2003). Atualmente é professor associado da Universidade Federal do Rio Grande, Rio Grande, RS. Tem experiência nas áreas de: Ciência da Computação e Filosofia da Educação. Ênfase em Engenharia de Software, Banco de Dados,  Formação Docente e Filosofia e História da Educação. Atua, principalmente, nos seguintes temas: banco de dados, linguagens de programação, programação orientada a objetos, processamento paralelo e distribuído, educação a distância, tecnologias da informação e comunicação, filosofia da educação e formação de professores. Atualmente é avaliador do SINAES/INEP. Cursa o doutorado em Educação, na Universidade Federal de Pelotas, na linha de Filosofia e História da Educação, bem como o bacharelado em Psicologia, na Universidade Católica de Pelotas.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">André Luis Castro de Freitas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FREITAS, A. L. C.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Centro de Ciências Computacionais. <br class="clear" />Av. Itália km 8 - Campus Carreiros<br class="clear" />Vila Maria<br class="clear" />96021-900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32336623<br class="clear" />Fax: (53) 32336652<br class="clear" />URL da Homepage: <a target="blank" href="http://www.furg.br">http://www.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Educação<span class="ajaxCAPES" data-param="&codigoCurso=42003016014P2&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: -, <br class="clear" />Orientador: Gomercindo Ghiggi. <br class="clear" />Palavras-chave: Educação; Filosofia e História da Educação.<br class="clear" />Grande área: Ciências Humanas / Área: Educação. <br class="clear" />Grande Área: Ciências Humanas / Área: Educação / Subárea: Fundamentos da Educação. <br class="clear" />Setores de atividade: Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Computação<span class="ajaxCAPES" data-param="&codigoCurso=42001013004P4&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Inspeção de Aplicações Java através da Identificação de Padrões de Projeto, Ano de obtenção: 2003. <br class="clear" />Orientador: Ana Maria de Alencar Price. <br class="clear" />Palavras-chave: Engenharia de Software; Orientação a Objetos; Projeto Orientado a Objetos; Padrões de Projeto; Java; Reflexao Computacional. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Projeto de Software. <br class="clear" />Setores de atividade: Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Educação<span class="ajaxCAPES" data-param="&codigoCurso=42003016014P2&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	<br class="clear" />Título: Minhas Experienciações no Espaço Tempo da Sala de Aula: é possível integrar os saberes? Em que condições?,Ano de Obtenção: 2012.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1436864977165746'><img src='images/curriculo/logolattes.gif' /></a>Rosária Ilgenfritz Sperotto.<br class="clear" />Palavras-chave: Educação; Formação de Professores; Tecnologias da Informação e Comunicação; Integração dos Saberes.<br class="clear" />Grande área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem / Especialidade: Métodos e Técnicas de Ensino. <br class="clear" />Setores de atividade: Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Computação<span class="ajaxCAPES" data-param="&codigoCurso=42001013004P4&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Heurísticas para Apoiar a Modelagem de Sistemas Orientados a Objetos,Ano de Obtenção: 1998.<br class="clear" />Orientador: Ana Maria de Alencar Price.<br class="clear" />Palavras-chave: Engenharia de Software; Orientação a Objetos; Projeto Orientado a Objetos.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Projeto de Software. <br class="clear" />Setores de atividade: Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Ciência da Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Católica de Pelotas, UCPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Informática Industrial<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Tecnológica Federal do Paraná, UTFPR, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em andamento em Psicologia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Católica de Pelotas, UCPEL, Brasil.
+		
+	<br class="clear" />Título: -. <br class="clear" />Orientador: -. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Prog.Especial de Formação Pedagógica de Docentes<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Centro Federal de Educação Tecnológia de Pelotas.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1989</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Tecnólogo Em Processamento de Dados<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Católica de Pelotas, UCPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1981 - 1983</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante em Técnico Em Telecomunicações<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Centro Federal de Educação Tecnológia de Pelotas.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Associado, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Curso de Especialização em Mídias na Educação, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução a informática<br class="clear" />Integração em Mídias na Educação<br class="clear" />O uso da informática na prática pedagógica<br class="clear" />O uso de blogs, flogs, webquest na educação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Núcleo Docente Estruturante do Curso de Bacharelado em SIstemas de Informação.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Estágio Supervisionado<br class="clear" />Atividade de Integração Curricular I<br class="clear" />Sistemas de Informação e Programação I<br class="clear" />Sistemas para Internet I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Responsável pelo LABSOFTE - Laboratório de Software Experimental / C3 / FURG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Engenharia de Software'>Engenharia de Software</a><br class="clear" /><a href='#LP_Linguagens de Programação'>Linguagens de Programação</a><br class="clear" /><a href='#LP_Banco de Dados'>Banco de Dados</a><br class="clear" /><a href='#LP_Sistemas de Informação'>Sistemas de Informação</a><br class="clear" /><a href='#LP_Formação de Professores'>Formação de Professores</a><br class="clear" /><a href='#LP_Educação'>Educação</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Curso de Especialização em Aplicações para WEB/UAB, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos para Internet<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2009 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de Curso - Sistemas de Informação - Bacharelado.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2002 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Banco de Dados<br class="clear" />Compiladores<br class="clear" />Estruturas de Dados<br class="clear" />Projeto de Sistemas de Software I<br class="clear" />Projeto de Sistemas de Sofware II<br class="clear" />Sistemas de Informação e Programação I<br class="clear" />Sistemas de Informação e Programação II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2007 - 08/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de Curso - Especialização em Aplicações para WEB - UAB / FURG.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2007 - 08/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Curso de Especialização em Aplicações para WEB/UAB, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Monografia de Conclusão de Curso<br class="clear" />Banco de Dados<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Diretor de Unidade.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Presidente da comissão de criação do curso de Sistemas de Informação - Bacharelado.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2005 - 08/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Chefe de Departamento.</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Católica de Pelotas, UCPEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: Professor assistente, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2001 - 7/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Pós Graduação Em Informática, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Paradigmas de Programação<br class="clear" />UML e Metodologias de Desenvolvimento de Software<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/1998 - 7/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Escola de Informática, Núcleo de Apoio a Projetos de Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Projeto de Software'>Projeto de Software</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1992 - 7/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Paradigmas de Programação<br class="clear" />Linguagem de Programação<br class="clear" />Compiladores<br class="clear" />Algoritmos<br class="clear" />Programação Orientada a Objetos<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Centro Federal de Educação Tecnológia de Pelotas, CEFET/RS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: Professor E1, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1992 - 7/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Técnico Em Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Algoritmos<br class="clear" />Linguagem de Programação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1992 - 7/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Unidade de Processamento de Dados, Coordenadoria de Microinformática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Suporte Técnico. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Cooperativa Central Oeste Catarinense, COOPERCENTRAL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Analista de Sistemas, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Sociedade Pelotense de Assistência e Cultura Hospital Universitário, SPAC-HU, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - 1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Analista de Sistemas, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Prefeitura Municipal de Pelotas, PMPEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989 - 1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Programador de Sistemas, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Cooperativa Sul Rio Grandense de Laticínios Ltda, COSULATI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1985 - 1989</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Digitador/Programador de Sistemas, Carga horária: 40</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Projeto de Software'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Software</div>
+</div><a name='LP_Engenharia de Software'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Engenharia de Software</div>
+</div><a name='LP_Linguagens de Programa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linguagens de Programação</div>
+</div><a name='LP_Banco de Dados'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Banco de Dados</div>
+</div><a name='LP_Sistemas de Informa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistemas de Informação</div>
+</div><a name='LP_Forma&ccedil;&atilde;o de Professores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formação de Professores</div>
+</div><a name='LP_Educa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Educa&ccedil;&atilde;o a Dist&acirc;ncia e Ambiente Virtual de Aprendizagem, para al&eacute;m da simples transmiss&atilde;o de conhecimentos.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação a Distância e Ambiente Virtual de Aprendizagem, para além da simples transmissão de conhecimentos.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto Vinculado ao Curso de Mestrado em Educação, Universidade Federal de Pelotas. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: André Luis Castro de Freitas - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista de Sistemas de Inf.da Faculdade Salesiana Maria Auxiliadora</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Projeto de Software. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor Homenageado, Curso de Engenharia da Computação - FURG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor Homenageado, Curdo de Engenharia da Computação - FURG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor Homenageado, Curso de Engenharia da Computação - FURG. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BORGES, F.S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>BORGES, F.S. ; <b>FREITAS, A. L. C.</b> . Estudo de Caso sobre Programação Orientada a Aspectos Utilizando RMI. Hífen (Uruguaiana. Online)<sup><img id='19836511_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19836511' /></sup>, v. 1, p. 1, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19836511&volume=1&issue=&paginaInicial=1&titulo=Estudo de Caso sobre Programação Orientada a Aspectos Utilizando RMI&sequencial=1&nomePeriodico=Hífen (Uruguaiana. Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FREITAS, A. L. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><b>FREITAS, A. L. C.</b> ; PRICE, A. M. A. . Um Estudo das Metodologias de Análise e Projeto Orientados a Objeto. Thema Homens e Máquinas Revista Tecnológica da Etfpel, Pelotas - RS, v. 1, p. 14-20, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=1&issue=&paginaInicial=14&titulo=Um Estudo das Metodologias de Análise e Projeto Orientados a Objeto&sequencial=2&nomePeriodico=Thema Homens e Máquinas Revista Tecnológica da Etfpel" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Inacabamento e Autonomia: constituindo relações educativas dialógicas. In: XV Fórum de Estudos Leituras de Paulo Freire, 2013, Taquara - RS. Fórum de estudos: leituras de Paulo Freire. Taquara: FACCAT, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, L.A.A. ; <b>FREITAS, A. L. C.</b> . Freire e Marx: os caminhos da dialética. In: XV Fórum de Estudos Leituras de Paulo Freire, 2013, Taquara - RS. Fórum de estudos: leituras de Paulo Freire. Taquara: FACCAT, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Das Relações Dialógicas Apoiadas na Utilização de Tecnologias à Tomada de Consciência. In: II Seminário Diálogos em Educação a Distância, 2013, Rio Grande - RS. Desafios da Interatividade: Convergência entre Mídias e suas Linguagens. Rio Grande - RS: SEAD - FURG, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Reflexão e Ação como Atitutde de Conscientização. In: XI Congresso Nacional de Educação - EDUCERE 2013, 2013, Curitiba. Formação docente e sustentabilidade: um olhar transdiciplinar. Curitiba, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, L.A.A. ; <b>FREITAS, A. L. C.</b> . Educação Ambiental Transformadora:  Conhecer para Transformar, Uma Proposta Marixana. In: XI Congresso Nacional de Educação - EDUCERE 2013, 2013, Curitiba. Formação docente e sustentabilidade: um olhar transdiciplinar. Curitiba, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Da Educação Bancária a Educação Problematizadora: Espaços Educativos Diferenciados e Sua Contribuição para o Ensinar e o Aprender. In: VII Colóquio Internacional Educação e Contemporaneidade, 2013, São Cristovão. -. São Cristóvão, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, L.A.A. ; <b>FREITAS, A. L. C.</b> . Por uma Educação Ambiental Transformadora:  Conhecer para Transformar. In: VII Colóquio Internacional Educação e Contemporaneidade, 2013, São Cristovão. -. São Cristóvão, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Do Diálogo Socrático ao Diálogo Crítico: Reflexão e Ação como Atitude de Conscientizaçã0. In: VIII Colóquio Internacional Paulo Freire, 2013, Recife. Educação como Prática de Liberdade: Saberes, Vivências e (Re) Leituras de Paulo Freire. Recife, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, L.A.A. ; <b>FREITAS, A. L. C.</b> . Freire e Marx, Os Caminhos da Dialética: Ação e Reflexão para Transformação. In: VIII Colóquio Internacional Paulo Freire, 2013, Recife. Educação como Prática de Liberdade: Saberes, Vivências e (Re) Leituras de Paulo Freire. Recife, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . O Diálogo Crítico em Freire: Reflexão e Ação como Atitude de Conscientização. In: IV Seminário Internacional de Educação, 2013, São Paulo. Paulo Freire e a Educação Superior. São Paulo: UNINOVE, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . O Exercício, em Freire, da Conscientização Apoiado no Uso de Tecnologias na Educação. In: I Seminário Diálogos em Educação a Distância, 2012, Rio Grande. Seminário Diálogos em Educação a Distância. Rio Grande: SEAD-FURG, 2012. v. 1. p. 48-60. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . A Conscientização em Espaços Menores: o inacabamento do professor.. In: XIV Fórum de Estudos: Leituras de Paulo Freire, 2012, Erechim. Educação Popular e Transformação Social. Erechim: UFFS, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, L.A.A. ; <b>FREITAS, A. L. C.</b> . A Conscientização, em Freire, Apoiada no Uso de Tecnologias na Educação a Distância. In: XIV Fórum de Estudos: Leituras de Paulo Freire, 2012, Erechim. Educação Popular e Transformação Social. Erechim: UFFS, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. ; SPEROTTO, R. I. . Experienciações no Espaço Tempo da Sala de Aula: Em que condições são possíveis integrar os saberes?. In: IX Seminário de Pesquisa em Educação da Região Sul - ANPED Sul, 2012, Caxias do Sul. A Pós-Graduação e as suas Interlocuções com a Educação Básica. Caxias do Sul, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Experienciações no Espaço Tempo da Sala de Aula:A tecnologia a favor da integração dos saberes. (aceito - não apresentado). In: IV Congresso Internacional de Educação, Pesquisa e Gestão, 2012, Ponta Grossa. Políticas e Práticas Educacionais. Ponta Grossa, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Da Educação Bancária a Educação Problematizadora: Os espaços menores entre esse extremos e a sua contribuição para o ensinar e o aprender. Em que medida isso é possível? (aceito - não apresentado). In: II Fórum Internacional sobre Prática Docente Universitária, 2012, Uberlândia. Planejamento e Avaliação no Contexto Glocal. Uberlandia, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Da Educação Bancária a Educação Problematizadora: Desvelando os espaços menores entre esses extremos e as contribuições para o ensinar e o aprender.. In: VI Seminário Nacional Diálogos com Paulo Freire, 2012, Santa Maria. Educação, cultura e resistências na sociedade contemporânea. Santa Maria, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, L.A.A. ; <b>FREITAS, A. L. C.</b> . Há, em Freire, Espaços na Educação a Distância para a Possibilidade de Conscientização?. In: XIII Fórum de Estudos: Leituras de Paulo Freire, 2011, Santa Rosa - RS. XIII Fórum de Estudos: Leituras de Paulo Freire, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Problematizando a Educação Conscientizadora na Promoção da Atividade de Integração Curricular. In: XIII Fórum de Estudos: Leituras de Paulo Freire, 2011, Santa Rosa - RS. XIII Fórum de Estudos: Leituras de Paulo Freire, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Refletindo Sobre as Verdades no Espaço Tempo da Sala de Aula. In: V Colóquio Internacional "Educação e Contemporaneidade", 2011, São Cristóvão. A Etnomatemática como Aporte às Práticas de Ensino na Educação de Jovens e Adultos. São Cristóvão, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . A Promoção da Atividade de Integração Curricular no Espaço Tempo Sala de Aula. In: VII Congresso Internacional de Educação, 2011, São Leopoldo. Profissão Docente: Há Futuro para este Ofício?. São Leopoldo, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . A Produção de Recursos Tecnológicos na Atividade de Integração Curricular. In: I Fórum Internacional Sobre Prática Docente Universitária, 2011, Uberlânida. Inclusão Social e Tecnologias de Informação e Comunicação. Uberlândia, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, L.A.A. ; <b>FREITAS, A. L. C.</b> . As Práticas Educativas a Serviço da Transformação Social: pela Sustentabilidade da Vida. In: V Colóquio Internacional "Educação e Contemporaneidade", 2011, São Cristóvão. A Etnomatemática como Aporte às Práticas de Ensino na Educação de Jovens e Adultos. São Cristóvão, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Ressignificando as Atividades no Espaço Tempo da Sala de Aula. In: X Congresso Nacional de Educação - EDUCERE, 2011, Curitiba. Formação para mudanças no contexto da educação: políticas, representações sociais e práticas. Curitiba, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . A Atividade de Integração Curricular no Espaço Tempo da Sala de Aula. In: X Congresso Nacional de Educação   EDUCERE, 2011, Curitiba. Formação para mudanças no contexto da educação: políticas, representações sociais e práticas. Curitiba, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, L.A.A. ; <b>FREITAS, A. L. C.</b> . A Prática Docente a Serviço da Transformação Social. In: X Congresso Nacional de Educação   EDUCERE, 2011, Curitiba. Formação para mudanças no contexto da educação: políticas, representações sociais e práticas. Curitiba, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Compreendendo a Atividade de Integração Curricular no Espaço Tempo da Sala de Aula. In: V Seminário Diálogos com Paulo Freire, 2011, Pelotas. Das Práticas Escolares às Pedagogias das Marchas, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARNEIRO, A.P. ; MOREIRA, J.L. ; <b>FREITAS, A. L. C.</b> . TUNING - Técnicas de Otimização de Banco de Dados. Um Estudo Comparativo: Mysql e Postgresql. In: V Escola Regional de Banco de Dados, 2009, Ijuí - RS. V Escola Regional de Banco de Dados. Ijuí - RS, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARNEIRO, A.P. ; MOREIRA, J.L. ; <b>FREITAS, A. L. C.</b> . Um Estudo sobre Técnicas de Otimização de Banco de Dados. In: Seminário de Informática, 2008, Torres - RS. Seminário de Informática, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Um Software para Gerenciamento de Transações de um Sistema de Banco de Dados Distribuído e Replicado Utilizando a Linguagem de Especificação WSDL. In: VI Simpósio de Informática do Planalto Médio, 2005, Passo Fundo - RS. -, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Web Services e Aplicações Distribuídas em Java. In: VI Simpósio de Informática do Planalto Médio, 2005, Passo Fundo - RS, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CONY, C. A. ; BORGES, E. N. ; <b>FREITAS, A. L. C.</b> . Utilização de Algoritmos de Busca por Similaridade em SGBDs Comerciais. In: IV Simpósio de Informática da Região Centro do Rs, 2005, Santa Maria - RS, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . The Essence of Design Patterns In Automatic Identification Tool. In: IV Congresso Brasileiro de Computação, 2004, Itajai - SC. -, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Um Sistema de Banco de Dados Replicado Gerenciado através de Applets Distribuídas. In: III Simpósio de Informática da Região Centro do RS, 2004, Santa Maria - RS, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Inspeção de Aplicações JAVA através da Identificação de Padrões de Projeto. In: III Congresso Brasileiro de Computação, 2003, Itajai - SC. III Congresso Brasileiro de Computação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Proposta de um Sistema de Banco de Dados Distribuído e Replicado utilizando Serviço RMI-JAVA. In: III Congresso Brasileiro de Computação, 2003, Itajai - SC. III Congresso Brasileiro de Computação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; PRICE, A. M. A. . Uma Ferramenta de Inspeção para Aplicações Java Utilizando Reflexão Computacional. In: II Congresso Brasileiro de Computação, 2002, Itajai - SC. II Congresso Brasileiro de Computação, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; PRICE, A. M. A. . Design Patterns Automatic Identification Tool. In: Asse Argentine Symposiun On Software Engineering, 2000, Tandil - Argentina, 2000. p. 117-131. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; PRICE, A. M. A. . Disponibilizando o uso de Design Patterns através de um framework construído em PROLOG++. In: I Simpósio Catarinense de Computação, 2000, Itajai - SC, 2000. p. 13-24. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; PRICE, A. M. A. . Heuristics for Automatic Detection of Design Patterns in Object-Oriented Software. In: V WTES - SBES Simpósio Brasileiro de Engenharia de Software, 2000, João Pessoa - PB, 2000. p. 373-378. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; PRICE, A. M. A. . Formalização de Heurísticas para Apoiar a Modelagem de Sistemas Orientados a Objetos. In: XII Sbes Simpósio Brasileiro Em Engenharia de Software, 1998, Maringá - PR, 1998. p. 313-327. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; PRICE, A. M. A. . Heurísticas para Apoioar a Modelagem de Sistemas Orientados a Objetos. In: Semana Acadêmica - UFRGS, 1997, Porto Alegre - RS, 1997. p. 95-98. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; FREITAS, L.A.A. . Re-significando as Atividades em Sala de Aula. In: I Encontro Internacional de Educação e IV Encontro Municipal de Educação, 2011, Piratini - RS. Escola:espaço de sonhos,construção e possibilidades, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MADSEN, C. A. B. W. ; <b>FREITAS, A. L. C.</b> . AXUL - Um framework PHP para a geração de interfaces XUL. In: VIII Mostra de Produção Universitária, 2009, Rio Grande. XI ENCONTRO DE PÓS-GRADUAÇÃO. Rio Grande, 2009. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, A. H. ; <b>FREITAS, A. L. C.</b> . Um Estudo das Tecnologias de Middleware/Web Services em Aplicações Java. In: V Mostra de Produção Universitária, 2006, Rio Grande - RS, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARRIOS, L. ; <b>FREITAS, A. L. C.</b> . Analise das Funcionalidades do Sistema de Gestão Hospitalar para Modelagem de um Banco de Dados Relacional Utilizando a Linguagem de Especificação XML.. In: IV Mostra de Produção Universitária, 2005, Rio Grande - RS, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, C. ; <b>FREITAS, A. L. C.</b> . Modelagem de Banco de Dados - Peixes como Indicadores Sensíveis a Parâmetros Climáticos Regionais. In: IV Mostra de Produção Universitária, 2005, Rio Grande - RS, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CONY, C. A. ; BORGES, E. N. ; <b>FREITAS, A. L. C.</b> . Módulo de Pesquisa por Similaridade no SGBD Comercial POSTGRESQL. In: IV Mostra de Produção Universitária, 2005, Rio Grande, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BORGES, E. N. ; <b>FREITAS, A. L. C.</b> . Gerenciamento de Filiados da Associação Classista do Pessoal Técnico Administrativo da FURG. In: III Mostra de Produção Universitária, 2004, Rio Grande - RS, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CHIELLE, E. ; <b>FREITAS, A. L. C.</b> . Um Estudo das tecnologias de Middleware/Web Services em Aplicações Java. In: III Mostra de Produção Universitária, 2004, Rio Grande - RS, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZANCANELLA, E. B. ; <b>FREITAS, A. L. C.</b> . Um Estudo de Aplicações Java Utilizando o Middleware RMI. In: II Mostra de Produção Universitária, 2003, Rio Grande - RS, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SELZLER, S. R. ; <b>FREITAS, A. L. C.</b> . Um Estudo de Aplicações com Múltiplas Linhas de Execução Escritas na Linguagem Java. In: I Mostra de Produção Universitária, 2002, Rio Grande - RS, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, P. ; <b>FREITAS, A. L. C.</b> . Uma Avaliação da Conectividade a Banco de Dados MySQL Utilizando a Linguagem Java em Modelo Cliente Servidor. In: I Mostra de Produção Universitária, 2002, Rio Grande - RS, 2002. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; DALFOVO, O. . Autorização de Curso Superior de Tecnologia. 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, A. S. ; <b>FREITAS, A. L. C.</b> . Reconhecimento de Curso superior de Tecnologia. 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; ZANCHETTA, M. . Reconhecimento de Curso superior de Tecnologia. 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NETTO, E. B. W. ; <b>FREITAS, A. L. C.</b> . Reconhecimento de Curso Superior de Tecnologia. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TAVARES, O. L. ; <b>FREITAS, A. L. C.</b> . Reconhecimento de Curso Superior de Tecnologia. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TSUNODA, D. F. ; <b>FREITAS, A. L. C.</b> . Reconhecimento de Curso Superior de Tecnololgia. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, R.C. ; <b>FREITAS, A. L. C.</b> . Autorização de Curso Superior de Tecnologia. 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ANDRADE, A. C. ; <b>FREITAS, A. L. C.</b> . Reconhecimento e Renovação de Reconhecimento. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, R. ; <b>FREITAS, A. L. C.</b> . Reconhecimento e Renovação de Reconhecimento. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BEZERRA, E. P. ; <b>FREITAS, A. L. C.</b> . Autorização de Curso Superior de Tecnologia. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, C. F. ; <b>FREITAS, A. L. C.</b> . Autorização de Curso Superior de Tecnologia. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; MORESI, E. A. D. . Autorização de Curso Superior de Tecnologia. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> ; PICARELLI, J. E. . Autorização de Curso Superior de Tecnologia. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Porposta de um Sistema de Banco de Dados Distribuído e Replicado com a Utilização de Middleware Implementados na Linguagem de Programação Java por Meio de Programação Distribuída (Projeto Pesquisa/FAPERGS/RD). 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Uma Ferramenta para Validação de Heurísticas na Detecção Automática de Padrões de Projeto em Software Orientado a Objetos (Projeto Pesquisa/FAPERGS/PROADE2). 2002. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . O uso da informática na prática pedagógica - UAB - FURG.
+							2013. (Desenvolvimento de material didático ou instrucional - Material Didático). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Alfabetização Digital - Introdução a Informática - UAB - FURG.
+							2013. (Desenvolvimento de material didático ou instrucional - MaterialDidático-UAB-UniversidadeFederaldoRioGrande). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Informática e Internet - UAB - FURG.
+							2012. (Desenvolvimento de material didático ou instrucional - Material Didático - UAB - Universidade Federal do Rio Grande / FURG). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Integração em Mídias - UAB - FURG.
+							2012. (Desenvolvimento de material didático ou instrucional - Material Didático - UAB - Universidade Federal do Rio Grande / FURG). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Metodologia do Estudo e Pesquisa - UAB - IFSul Rio-Grandense.
+							2010. (Desenvolvimento de material didático ou instrucional - Material Didático - UAB - Instituto Federal Sul Rio-Grandense / IFSul Rio-Grandense). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Fundamentos para Internet - UAB - FURG.
+							2010. (Desenvolvimento de material didático ou instrucional - Material Didático - UAB - Universidade Federal do Rio Grande). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Desenvolvimento de Sites para Web - UAB - IFSul Rio-Grandense.
+							2009. (Desenvolvimento de material didático ou instrucional - Material Didático - UAB - Instituto Federal Sul Rio-Grandense / IFSul Rio-Grandense). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Banco de Dados -  UAB - FURG.
+							2008. (Desenvolvimento de material didático ou instrucional - Material Didático - UAB - Universidade Federal do Rio Grande / FURG). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Avaliador do SINAES (Basis). 2013 (Avaliador de Curso) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Avaliador do SINAES(Basis). 2012 (Avaliador de Curso) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Avaliador do SINAES(Basis). 2011 (Avaliador de Curso) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Avaliador do SINAES(Basis). 2010 (Avaliador de Curso) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Avaliador do Sistema UAB (Universidade Aberta do Brasil). 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Avaliador do SINAES (Basis). 2009 (Avaliador de Curso) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Avaliador do SINAES (Basis). 2008 (Avaliador de Curso) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . Avaliador do SINAES (Basis) . 2007 (Avaliador de Curso) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ADAMATTI, D.; BARWALDT, R.; <b>FREITAS, A. L. C.</b>; BICHO, A. L..  Participação em banca de Marcelo Monteiro da Silva. Métrias para interfaces homem computador em sistemas para tecnologias assistivas. 2013. Exame de qualificação (Mestrando em Modelagem Computacional)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b>.  Participação em banca de Patrícia Soares Khairallah. A Educação a Distância na Formação Continuada do Professor. 2012. Monografia (Aperfeiçoamento/Especialização em Curso de Pós-Graduação Lato Sensu em Educação)  - Instituto Federal Sul-Rio-Grandense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b>.  Participação em banca de Iamar Dias Gimba. O Uso da Internet na Educação: mutação de um mundo analógico para um mundo digital. 2012. Monografia (Aperfeiçoamento/Especialização em Curso de Pós-Graduação Lato Sensu em Educação)  - Instituto Federal Sul-Rio-Grandense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b>.  Participação em banca de Artelina de Lourdes Gonçalves Fich. Aplicação de Novas Tecnologias na Educação de Joves e Adultos na Modalidade de Educação a Distância. 2012. Monografia (Aperfeiçoamento/Especialização em Curso de Pós-Graduação Lato Sensu em Educação)  - Instituto Federal Sul-Rio-Grandense. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BICHO, A. L.; <b>FREITAS, A. L. C.</b>; SANTOS, R. A. P..  Participação em banca de Douglas Zanotta Porto.Hawker: um estudo de caso em browser games.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; EMMENDORFER, L.. Banca Examinadora de Concurso Público para Professor Adjunto nas Matérias: Tecnologia da Informação.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; EMMENDORFER, L.; RODRIGUES, C.L.. Banca Examinadora de Concurso Público para Professor Assistente nas Matérias: Tecnologia da Informação.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; EMMENDORFER, L.; BOTELHO, S. S. C.. Banca Examinadora de Concurso Público para Professor Adjunto nas Matérias: Algoritmos, Estruturas de Dados e Organização de Computadores.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; GOMES, S. C. P.; BOTELHO, S. S. C.. Banca Examinadora de Concurso Público para Prossor Adjunto nas Matérias: Ciência da Computação, Algoritmos e Estruturas de Dados.
+							2008. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; BOTELHO, S. S. C.; GOMES, S. C. P.. Banca Examinadora de Concurso Público para Professor Adjunto nas Matérias: Computação/Teoria da Computação, Análise de Algoritmos, Matemática Discreta e Computação e Métodos Numéricos.
+							2005. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOTELHO, S. S. C.; DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; GOMES, S. C. P.. Banca Examinadora de Concurso Público para Professor Adjunto nas Matérias: Fundamentos de Eletro-Eletrônica, Eletrônica Digital, Organização e Arquitetura de Computadores.
+							2003. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b>. Banca para Seleção de Tutores/Bolsistas do Sistema Universidade Aberta do Brasil - Bacharelado em Administração.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GONÇALVES, E.; RODRIGUES, C.L.; <b>FREITAS, A. L. C.</b>. Banca para Seleção de Tutores/Bolsistas do Sistema Universidade Aberta do Brasil.
+							2007.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b>; PINTO, I. M.; BICHO, A. L.. Comissão Examinadora para Seleção de Professor Substituto para as Matérias: Computação, Introdução a Computação e Computação Aplicada.
+							2004.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; BICHO, A. L.. Comissão Examinadora para Seleção de Professor Substituto para as Matérias: Computação e Métodos Numéricos Computacionais.
+							2004.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; OLIVEIRA, V. M.. Comissão Examinadora para Seleção de Professor Substituto para as Matérias: Computação Gráfica, Redes de Computadores e Compiladores.
+							2003.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINTO, I. M.; <b>FREITAS, A. L. C.</b>; OLIVEIRA, V. M.. Comissão Examinadora para Seleção de Professor Substituto para as Matérias:Ensino de Computação Aplicada, Computação e Banco de Dados.
+							2003.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; PINTO, I. M.. Comissão Examinadora para Seleção de Professor Substituto para as Matérias: Ensino de Computação, Redes de Computadores, Organização de Computadores e Banco de Dados.
+							2003.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; <b>FREITAS, A. L. C.</b>; OLIVEIRA, V. M.. Comissão Examinadora para Seleção de Professor Substituto para as Matérias: Banco de Dados, Redes de Computadores e Estrutura de Dados.
+							2002.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário Diálogos com a Educação a Distância.http://www.sedead.furg.br/. 2013. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Seminário Nacional Diálogos com Paulo Freire.-. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro de Defesas Públicas dos Artigos Monográficos do Curso de Pós-Graduação Lato Sensu em Educação: espaço e possibilidades para a educação continuada, modalidade EAD.-.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Seminário Diálogos com Paulo Freire.No Rítmo das Marchas. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Capaciatação do Banco de Avaliadores UAB (Universidade Aberta do Brasil).
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Capaciatação do Banco de Avaliadores do SINAES - a distância - Instrumentos de Autorização. 2010. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Capacitação do Banco de Avaliadores do SINAES.
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>FREITAS, A. L. C.</b> . XXXV Conferência Latino Americano de Informática. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simone Patrícia Laux Muchen.
+							A Possibilidade de Projetos Interdisciplinares no Ensino Médio.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Pós-Graduação Lato Sensu em Educação)  - Instituto Federal Sul-Rio-Grandense. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rosangela de Souza Jardim.
+							Interdisciplinaridade na Educação Profissional:  práticas possíveis?.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Pós-Graduação Lato Sensu em Educação)  - Instituto Federal Sul-Rio-Grandense. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gessy M.de F.Gaspar.
+							Interdisciplinaridade no Ensino Fundamental: unificando saberes.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Pós-Graduação Lato Sensu em Educação)  - Instituto Federal Sul-Rio-Grandense. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruna Flor da Rosa.
+							A Importância da Utilização de Ferramentas Tecnológicas no Gerenciamento das Atividades Administrativas e Pedagógicas do Professor.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Aplicações para WEB/UAB)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cátia de Oliveira Silveira.
+							Análise de Ferramentas Geradoras de Horários Escolares.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Aplicações para WEB/UAB)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Larieti Assis da Silva.
+							Aplicações para Web no Ensino de Língua Inglesa.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Aplicações para WEB/UAB)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Alberto Barros Cruz Westhead Madsen.
+							Framework PHP para geração de Interfaces XUL.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Aplicações para WEB/UAB)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cléber Veleda Balota.
+							Integrando Sistemas de Informações através de WebService utilizando PHP.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Aplicações para WEB/UAB)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Basman Dias de Oliveira Salem.
+							Protegendo seu Banco de Dados.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Aplicações para WEB/UAB)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">David Terra Alves.
+							Evolução do Comércio Eletrônico.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização em Aplicações para WEB/UAB)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diego Saraiva de Oliveira.
+							Um Estudo Comparativo das Tecnologias Web Service.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Erivaldo De Carli.
+							Frameworks e Reúso de Software: Implementação de um Sistema de Efetividade - RH Utilizando o Framework Casca.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aaron Concha V.Hengle & Zenon Gilberto Fraga de Oliveira.
+							Um Estudo sobre Programção Orientada a Aspectos.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Katreen Schmidt.
+							Teste de Software no Paradigma de Orientação a Objetos.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Clarissa Braga Gautério & Ricardo Weikamp Steinmtz.
+							Restrições de Integridade no Banco de Dados PostgreSQL.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe da Silva Borges.
+							Estudo de Caso sobre Programação Orientada a Aspectos Usando Protocolo RMI.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Grasiele Torres Guarienti & Larissa Astrogildo de Freitas.
+							Comércio Eletrônico. XML e Banco de Dados para Aplicações na WEB.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alessandro Pinto Carneiro & Juliano Lucas Moreira.
+							Técnicas de Otimização de Banco de Dados (Tuning).
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nilton Sachetti de Oliveira Filho.
+							MySQL x PostgreSQL - Um Estudo Comparativo de Desempenho Utilizando Orientação a Aspectos.
+							2006. 38 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gabriel Gomes Lobo.
+							Um Estudo Sobre a Tecnololgia de Banco de Dados Objeto-Relacional, Direcionada ao Sistema Gerenciador de Banco de Dados Objeto Relacional PostgreSQL..
+							2006. 72 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo da Silva Romeu.
+							VISQ - Variáveis que Interagem de Modo Semi-Quantitativo.
+							2006. 34 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Cony e Eduardo Nunes Borges.
+							Consultas por Similaridade em SGBDs Comerciais: Estendendo o POSTGRESQL.
+							2005. 90 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande,
+							Fundação Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caetano Almeida.
+							SisIctio - Proposta de uma Ferramenta para Manipulação e Disponibilização dos Dados Referentes as Coletas de Peixes no Sistema Patos-Mirim.
+							2005. 56 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande,
+							Furg. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Laerte Strelow Zarnott.
+							Padrões de Projeto para Programação na Web.
+							2005. 50 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Católica de Pelotas. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leandro Bacelo de la Rocha.
+							Utilização de Bancos de Dados Relacionais através da XML.
+							2004. 87 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Evandro Luis Fantinel.
+							Estudo e Implementação de Bancos de Dados Distribuídos Utilizando Corba.
+							2003. 63 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anibal Maffioletti R.de Deus.
+							JVBI - the Java Visual Interpreter.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Católica de Pelotas. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Márcio Brignol de Moraes.
+							Desenvolvimento de Software para Ambiente Corporativo em plataforma linux.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Católica de Pelotas. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rogério Pazin.
+							Modelagem de um Sistema de Prontuário Informatizado (Dados H) da Clínica Olivé Leite, utilizando a Linguagem UML.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Análise de Sistemas)  - Universidade Católica de Pelotas. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Muller Buttow.
+							Um Estudo sobre Banco de Dados Orientados a Objetos.
+							1999. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Católica de Pelotas. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alessandro Huber dos Santos.
+							Proposta de um Sistema de Banco de Dados Distribuído e Replicado com a Utilização de Middleware/Web Services Implementados na Linguagem de Programação Java por meio de Programação Distribuída..
+							2006. 0 f.
+							Iniciação Científica. (Graduando em Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bianca Neves Machado.
+							Levantamento, Identificação e Alimientação das Informações e Necessidades do Depto de Matemática.
+							2008.
+							Orientação de outra natureza - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Carlos Cabral Júnior.
+							Levantamento de Necessidades e Re-Adequação das Páginas WEB do Depto de Matemática.
+							2008.
+							Orientação de outra natureza - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">John Igor Bandeira.
+							Levantamento de Necessidades e Re-Adequação das Páginas WEB do Depto de Matemática.
+							2007.
+							Orientação de outra natureza. (Engenharia da Computação)  - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciane Rodrigues Botelho.
+							Levantamento, Identificação e Alimentação das Informações e Necessidades no Depto de Matemática.
+							2007.
+							Orientação de outra natureza - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Fagundes de Mello.
+							O Computador como Aliado no Dia a Dia do Aluno.
+							2007.
+							Orientação de outra natureza - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciane Rodrigues Botelho.
+							Levantamento de Atividades do Departamento.
+							2006. 0 f.
+							Orientação de outra natureza - Universidade Federal do Rio Grande. Orientador: André Luis Castro de Freitas.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:19:04</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8252864210379656" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

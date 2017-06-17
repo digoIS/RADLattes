@@ -1,0 +1,2007 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Emanuel da Silva Diaz Estrada)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=3463902649683230" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4232081P5&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4232081P5"><div class="infpessoa">
+<h2 class="nome">Emanuel da Silva Diaz Estrada</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/3463902649683230</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 11/04/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Engenharia de Computação pela Universidade Federal do Rio Grande (2007) e mestrado em Modelagem Computacional (2009) pela mesma instituiçao. Tem experiência na área de Engenharia de Computação, Automação e Robótica.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Emanuel da Silva Diaz Estrada<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESTRADA, E. S. D.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Centro de Ciências Computacionais. <br class="clear" />Av. Italia Km 8<br class="clear" />Carreiros<br class="clear" />96201900 - Rio Grande, RS - Brasil</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Modelagem Computacional<span class="ajaxCAPES" data-param="&codigoCurso=42004012014P9&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Navegação Autônoma para um Robô de Monitoramento de Linhas Subterrâneas de Distribuição de Energia,Ano de Obtenção: 2010.<br class="clear" />Orientador: Silvia Silva da Costa Botelho.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: navegação autônoma; visão computacional; redes neurais; controle pid.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: &#65279;Uma Arquitetura Embarcada para um Robô de Inspeção de Linhas de Linhasde Distribuição Subterrânea. <br class="clear" />Orientador: Silvia Silva da Costa Botelho. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante em Eletrônica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Instituto Federal Sul-Rio-Grandense.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mini-Curso de PIC.  (Carga horária: 45h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Substituto, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2003 - 11/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Centro de Processamento de Dados, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Desenvolvedor WEB.. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_FURGBOL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FURGBOL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Time de futebol de robôs.
+Categoria small size - ROBOCUP. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Marcelo de Paiva Galeriano - Integrante / Silvia Botellho - Coordenador / Paulo Drews Jr. - Integrante / Gisele Simas - Integrante / Renan Almeida - Integrante / Mariane Medeiros - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_FURGBOT'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FURGBOT<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Silvia Silva da Costa Botelho em 25/01/2013.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de plataformas robóticas móveis para participação em eventos de competição e divulgação da área. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (20)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Silvia Botellho - Coordenador / Paulo Drews Jr. - Integrante / Vagner dos Santos Rosa - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_SACI - Sistema Avan&ccedil;ado de Supervis&atilde;o, Inspe&ccedil;&atilde;o e Diagn&oacute;stico de Sistemas El&eacute;tricos: Gera&ccedil;&atilde;o, Transmiss&atilde;o e Distribui&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SACI - Sistema Avançado de Supervisão, Inspeção e Diagnóstico de Sistemas Elétricos: Geração, Transmissão e Distribuição<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de Arquitetura de Hardware e Software para monitoramento, diagnótico e prognóstico da vida útil para equipamentos do sistema elétrico de potência, mais precisamente condutores dedicados a geração, distribuição baseada em redes de sensores móveis composta por robôs móveis de inspeção aérea e subterrânea. FINEP Edital Rede Ct-energ FURG, UFRN e UFRGS.. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (15)  / Especialização: (3)  / Mestrado acadêmico: (6) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Silvia Botellho - Coordenador / Vinicius Oliveira - Integrante / Paulo Drews Jr. - Integrante.<br class="clear" />Financiador(es): Financiadora de Estudos e Projetos - Auxílio
+										financeiro.</div>
+</div><a name='PP_Sistema de Inspe&ccedil;&atilde;o de Redes de Distribui&ccedil;&atilde;o Subterr&acirc;neas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistema de Inspeção de Redes de Distribuição Subterrâneas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de Sistema de Inspeção Visual envolvendo diferentes sensores para a inspeção e avaliação de cabos de energia subterrâneos. Avalação de diferentes tipos de sensores, desenvolvimento de hardware de aquisição e sistema robótico para navegação teleoperada. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Silvia Botellho - Coordenador / Cláudio Dornelles Mello Jr. - Integrante.<br class="clear" />Financiador(es): Agência Nacional de Energia Elétrica - Bolsa.</div>
+</div><a name='PP_TATUBOT - SISTEMA ROB&Oacute;TICO DE INSPE&Ccedil;&Atilde;O PARA LINHAS DE DISTRIBUI&Ccedil;&Atilde;O SUBTERR&Acirc;NEAS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">TATUBOT - SISTEMA ROBÓTICO DE INSPEÇÃO PARA LINHAS DE DISTRIBUIÇÃO SUBTERRÂNEAS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A inspeção de cabos subterrâneos de distribuição de energia
+elétrica é uma atividade onerosa, complexa e de alto risco.
+Iniciativas que permitam facilitar a execução, melhorar a
+segurança e a confiabilidade dos resultados e avaliações
+tornam-se interessantes. Neste projeto é proposto a construção
+de um sistema robótico para a inspeção de dutos e cabos
+subterrâneos de distribuição de energia elétrica. A estrutura é
+composta por um robô e um computador remoto, sendo a
+comunicação entre ambos realizada via rádio. O robô será
+constituído por módulos, munido de sensores e de uma câmera,
+cujo objetivo consiste na inspeção em tempo real de dutos e
+cabos, de forma autônoma ou por telecomando. O dispositivo
+procura identificar e indicar pontos de aquecimento, falhas na
+isolação e a ocorrência de trees na superfície dos cabos. As
+condições físicas e ambientais dos dutos, como interrupções,
+infiltrações e a presença de gases também podem ser avaliadas,
+assim como a realização de diagnósticos e medidas. Os dados
+coletados e os de posicionamento são transmitidos para o
+computador remoto, que será responsável pelo processamento,
+armazenagem e permitir a visualização da operação.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Silvia Botellho - Coordenador / Vinicius Oliveira - Integrante / Gisele Simas - Integrante / Roger Gules - Integrante / ALESSANDRO DE Lima Bicho - Integrante / Cláudio Dornelles Mello Jr. - Integrante / Vitor Irigon Gervini - Integrante / Ulisses Brisolara Corrêa - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_AMADEUS - Arquitetura Modular para Distribui&ccedil;&atilde;o de Energia El&eacute;trica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AMADEUS - Arquitetura Modular para Distribuição de Energia Elétrica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto AMADEUS que visa à implantação de um sistema de gerenciamento e controle da distribuição da energia elétrica da Companhia Estadual de Energia Elétrica do Rio Grande do Sul na cidade de Rio Grande/RS. Destacam-se na composição dessa arquitetura os módulos SCADA e EMS, sendo o primeiro responsável pelo controle e aquisição de dados e o segundo pelo gerenciamento da energia, ocorrendo à troca de informações entre os dois em tempo real visando um estudo aprofundado da qualidade do serviço, auxílio à realização de manobras e contorno de falhas na rede de distribuição elétrica.. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Marcelo de Paiva Galeriano - Integrante / Silvia Botellho - Coordenador / Sauro Martinelli - Integrante / Vinicius Oliveira - Integrante / Rafael Deon - Integrante.<br class="clear" />Financiador(es): Companhia Estadual de Geração e Transmissão de Energia Elétrica - Matriz - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 5</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Modelagem Computacional Aplicada &agrave; Solu&ccedil;&atilde;o de Problemas de Mec&acirc;nica dos Corpos R&iacute;gidos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem Computacional Aplicada à Solução de Problemas de Mecânica dos Corpos Rígidos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo geral deste projeto é proporcionar aos estudantes de graduação a ampliação dos conhecimentos referentes à área de Mecânica dos Corpos Rígidos. Dessa forma, pretende-se despertar o interesse dos alunos pelos conteúdos da disciplina, que terão como motivação o uso de ferramentas computacionais na solução de problemas, fazendo com que os índices de desistência e de reprovação sejam reduzidos e, consequentemente, ocorra uma diminuição da retenção destes estudantes nas disciplinas citadas anteriormente. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Liércio André Isoldi - Coordenador / Elizaldo Domingues dos Santos - Integrante / Fabio Lucas Izaguirre Martins - Integrante / Ruth da Silva Brum - Integrante.<br class="clear" /></div>
+</div><a name='PP_Modelagem Computacional Aplicada &agrave; Solu&ccedil;&atilde;o de Problemas de Mec&acirc;nica dos Materiais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem Computacional Aplicada à Solução de Problemas de Mecânica dos Materiais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo geral deste projeto é proporcionar aos estudantes de graduação a ampliação dos conhecimentos referentes à área de Mecânica dos Corpos Deformáveis. Dessa forma, pretende-se despertar o interesse dos alunos pelos conteúdos da disciplina, que terão como motivação o uso de ferramentas computacionais na solução de problemas, fazendo com que os índices de desistência e de reprovação sejam reduzidos e, consequentemente, ocorra uma diminuição da retenção destes estudantes nas disciplinas citadas anteriormente. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Liércio André Isoldi - Coordenador / Elizaldo Domingues dos Santos - Integrante / Joseane da Silva Porto - Integrante / Camila Gadret de Oliveira - Integrante.<br class="clear" /></div>
+</div><a name='PP_Modelagem Computacional Aplicada &agrave; Solu&ccedil;&atilde;o de Problemas de Mec&acirc;nica dos Fluidos e Transfer&ecirc;ncia de Calor'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem Computacional Aplicada à Solução de Problemas de Mecânica dos Fluidos e Transferência de Calor<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo geral deste projeto é proporcionar aos estudantes de graduação a ampliação dos conhecimentos referentes às áreas de Mecânica dos Fluidos e de Transferência de Calor, que formam a disciplina de Fenômenos de Transporte, utilizando a Modelagem Computacional. Dessa forma, pretende-se despertar o interesse dos alunos pelos conteúdos da disciplina, que terão como motivação o uso de ferramentas computacionais na solução de problemas, fazendo com que os índices de desistência e de reprovação sejam reduzidos e, consequentemente, ocorra uma diminuição da retenção destes estudantes na disciplina de Fenômenos de Transporte. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Liércio André Isoldi - Coordenador / Elizaldo Domingues dos Santos - Integrante / Nathalia da Rosa Lopes - Integrante / Bianca Neves Machado - Integrante.<br class="clear" /></div>
+</div><a name='PP_Uma proposta para a melhoria da aquisi&ccedil;&atilde;o e desenvolvimento de habilidades em disciplinas b&aacute;sicas da Ci&ecirc;ncia da Computa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uma proposta para a melhoria da aquisição e desenvolvimento de habilidades em disciplinas básicas da Ciência da Computação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Os cursos de graduação em Engenharia de Computação, em Engenharia de Automação e em Sistemas de Informação possuem, em seu primeiro ano, a disciplina de Introdução a Ciência da Computação (ICC), cujo núcleo comum é o ensino da elaboração de algoritmos e programas de computador. Com este projeto almejamos despertar o interesse dos alunos, melhorando assim sua capacidade de abstração e possibilitando um melhor aprendizado do raciocínio lógico. Para tanto, são propostas atividades diferenciadas, desafiando os educandos a melhor compreenderem os assuntos básicos relacionados a disciplina de ICC, ajudando-os a resolver problemas e a desenvolver algoritmos básicos. Assim, pretende-se um melhor atendimento e uma maior participação dos alunos nas atividades aqui propostas, minimizando os índices de reprovação na disciplina de ICC, na FURG. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Coordenador / ALESSANDRO DE Lima Bicho - Integrante / Adriano Velasque Werhli - Integrante / Leonardo Ramos Emmendorfer - Integrante / Diana Francisca Adamatti - Integrante / Danúbia Bueno Espíndola - Integrante.<br class="clear" /></div>
+</div><a name='PP_Uma proposta para a melhoria da aquisi&ccedil;&atilde;o e desenvolvimento de habilidades em disciplinas b&aacute;sicas da Ci&ecirc;ncia da Computa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uma proposta para a melhoria da aquisição e desenvolvimento de habilidades em disciplinas básicas da Ciência da Computação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Os cursos de graduação em Engenharia de Computação, em Engenharia de Automação e em Sistemas de Informação possuem, em seu primeiro ano, a disciplina de Introdução a Ciência da Computação (ICC), cujo núcleo comum é o ensino da elaboração de algoritmos e programas de computador. Com este projeto almejamos despertar o interesse dos alunos, melhorando assim sua capacidade de abstração e possibilitando um melhor aprendizado do raciocínio lógico. Para tanto, são propostas atividades diferenciadas, desafiando os educandos a melhor compreenderem os assuntos básicos relacionados a disciplina de ICC, ajudando-os a resolver problemas e a desenvolver algoritmos básicos. Assim, pretende-se um melhor atendimento e uma maior participação dos alunos nas atividades aqui propostas, minimizando os índices de reprovação na disciplina de ICC, na FURG. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / ALESSANDRO DE Lima Bicho - Integrante / Adriano Velasque Werhli - Integrante / Leonardo Ramos Emmendorfer - Integrante / Diana Francisca Adamatti - Coordenador / Danúbia Bueno Espíndola - Integrante.<br class="clear" /></div>
+</div><a name='PP_Rob&oacute;tica Educacional como Atividade Motivadora'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Robótica Educacional como Atividade Motivadora<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto envolve a disciplina de Atividades de Integração
+Curricular I do primeiro ano do curso de Engenharia de Automação,
+totalizando 55 estudantes. Propõe-se o uso de robótica, través de Kits
+educacionais, para a resolução de  desafios. Como resultados espera-se
+uma maior motivação por parte dos alunos nas disciplinas do curso de
+Engenharia de Automação, assim como redução dos índices de reprovação.
+Prevê-se ainda participação de alunos na competição brasileira de
+robótica.
+. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (1) . </div>
+</div><a name='PP_Solu&ccedil;&atilde;o de Problemas de Mec&acirc;nica dos S&oacute;lidos, Mec&acirc;nica dos Fluidos e Transfer&ecirc;ncia de Calor Atrav&eacute;s da Abordagem Num&eacute;rica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Solução de Problemas de Mecânica dos Sólidos, Mecânica dos Fluidos e Transferência de Calor Através da Abordagem Numérica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto está vinculado ao Programa Institucional de Pós-Graduação REUNI de Assitência ao Ensino de Graduação e Educação Básica EDITAL 001/2009, e tem como objetivo geral proporcionar aos estudantes de graduação a ampliação dos conhecimentos referentes às disciplinas de mecânica dos sólidos, mecânica dos fluidos e transferência de calor utilizando a modelagem computacional. Dessa forma, pretende-se que os estudantes tenham um maior rendimento nas disciplinas supracitadas e uma melhor preparação para o mercado de trabalho. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Liércio André Isoldi - Coordenador / Elizaldo Domingues dos Santos - Integrante.<br class="clear" /></div>
+</div><a name='PP_Maratona de Programa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Maratona de Programação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de ensino para desenvolvimento de estrutura e material de apoio à preparação e ao treinamento de estudantes para a participação na competição "Maratona de Programação", promovida pela SBC e que classifica para o concurso de programação da ACM, o ACM International Collegiate Programming Contest. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (4) . <br class="clear" /><br class="clear" />Integrantes: Emanuel da Silva Diaz Estrada - Integrante / Vinicius Oliveira - Coordenador / ALESSANDRO DE Lima Bicho - Integrante / Eder Mateus Nunes Gonçalves - Integrante / Adriano Velasque Werhli - Integrante / Celso Luiz Lopes Rodrigues - Integrante / Leonardo Ramos Emmendorfer - Integrante / Diana Francisca Adamatti - Integrante / Rodrigo Andrade de Bem - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Rio Grande - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: ENGENHARIA DE COMPUTAÇÃO. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Eletrônica Industrial, Sistemas e Controles Eletrônicos/Especialidade: TÉCNICO EM ELETRÔNICA. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Eletrônica Industrial, Sistemas e Controles Eletrônicos/Especialidade: Automação Eletrônica de Processos Elétricos e Industriais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Medidas Elétricas, Magnéticas e Eletrônicas; Instrumentação/Especialidade: Instrumentação Eletrônica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1o. Lugar Robocup Small Size - VI Competição Brasileira de Robótica, SBA, SBC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º lugar Categoria Small Size na Robocup Latin American Open Competition, SBC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1  Lugar na Categoria Robocup Small Size na Competição Brasileira de Robótica, Sociedade Brasileira de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Campeão Brasileiro de Futebol de Robôs Categoria F180, SBA. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Segunda Colocação na categoria Physical Visualization, SBAI. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Best Paper, IV EnRi - CSBC, SBC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Campeão Brasileiro de Futebol de Robôs Categoria F180, SBC. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESTRADA, E. S. D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0011651263573884" target="_blank">CORREA, U. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Arquitetura de navegação autônoma de linhas subterrâneas de distribuição de energia. Vetor (FURG)<sup><img id='01027352_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 18, p. 32-45, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=18&issue=&paginaInicial=32&titulo=Arquitetura de navegação autônoma de linhas subterrâneas de distribuição de energia&sequencial=1&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; Santos, E. D. ; Isoldi, L. A. ; ROCHA, L. A. O. . Genetic Algorithm and Constructal Design for Geometric Optimization of Y&#8208;Shaped Cavities. In: Conferência Sul em Modelagem Computacional (MCSUL), 2012, Rio Grande. V MCSUL, 2012. v. 1. p. 45-50. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, S. A. ; ANTIQUEIRA, L. S. ; CAMPOS, R. L. ; <b>ESTRADA, E. S. D.</b> . UMA METODOLOGIA DE ENSINO COM O AUXÍLIO DA ROBÓTICA EDUCACIONAL. In: Seminário Internacional de Ciência e Educação, 2012, Rio Grande. II Seminário Internacional de Educação em Ciências, 2012. v. 2. p. 834-841. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LOPES, N. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1703205767967772" target="_blank">MACHADO, B. N.</a> ; <b>ESTRADA, E. S. D.</b> ; Isoldi, L. A. ; Santos, E. D. . Projeto Reuni: uma proposta da utilização de Modelagem Computacional no Ensino de Engenharia. In: I Seminário Internacional de Educação em Ciências, 2011, Rio Grande. I SINTEC - Seminário Internacional de Educação em Ciências, 2011. v. 2. p. 252-264. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8560050240967369" target="_blank">Gonçalves, E. M. N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Autonomous navigation for underground energy line inspection robot. In: 1st International Conference on Applied Robotics for the Power Industry (CARPI), 2010, Montreal. 1st International Conference on Applied Robotics for the Power Industry (CARPI), 2010. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Sistema de Navegação para um Robô de Inspeção de Linhas Subterrâneas de Distribuição. In: CBA 2010 - XVIII Congresso Brasileiro de Automática, 2010, Bonito. CBA 2010 - XVIII Congresso Brasileiro de Automática, 2010. p. 2698-2705. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Navigation system for an underground distribution inspection platform using simulation. In: Latin American Robotics Symposium and Intelligent Robotics Meeting, 2010, São Bernardo do Campo. Latin American Robotics Symposium and Intelligent Robotics Meeting, 2010. p. 109-114. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; ALMEIDA, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; GULES, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8560050240967369" target="_blank">Gonçalves, E. M. N.</a> . Uma arquitetura para navegação autônoma de robôs reais e simulados para inspeção de linhas de distribuição de energia subterrâneas. In: IX Simpósio Brasileiro de Automação Inteligente, 2009, Brasilia. IX Simpósio Brasileiro de Automação Inteligente, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8560050240967369" target="_blank">Gonçalves, E. M. N.</a> ; GULES, R. ; MELLO JR., C. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; SANTOS, T. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1832348562646952" target="_blank">SOUTO JR., H. D.</a> ; ALMEIDA, R. . A Mobile System for Duct Inspection. In: Rio Pipeline 2009 Conference and Exhibition, 2009, Rio de Janeiro. Rio Pipeline 2009 Conference and Exhibition, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ESTRADA, E. S. D.</b> ; MELLO JR., C. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8560050240967369" target="_blank">Gonçalves, E. M. N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9991691596465968" target="_blank">Oliveira, G. L.</a> ; ALMEIDA, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . TATUBOT - Robotic System for Inspection of Undergrounded Cable System. In: 5th Latin American Robotics Symposium, 2008, Slavador. IEEE Latin American Robotics Symposium, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE Filho, N. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; MELLO JR., C. D. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0011651263573884" target="_blank">CORREA, U. B.</a> ; DREWS JR., P. . Tatubot - Sistema Robótico de Inspeção para Linhas de Distribuição Elétrica Subterrâneas. In: Simpósio Brasileiro de Sistemas Elétricos, 2008, Belo Horizonte. Simpósio Brasileiro de Sistemas Elétricos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8560050240967369" target="_blank">Gonçalves, E. M. N.</a> ; MELLO JR., C. D. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1832348562646952" target="_blank">SOUTO JR., H. D.</a> ; ALMEIDA, R. ; SANTOS, T. S. . TATUBOT ROBOTIC SYSTEM FOR INSPECTION OF UNDERGROUNDED CABLE SYSTEM. In: Congresso Brasileiro de Automática, 2008, Juiz de Fora. Congresso Brasileiro de Automática, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; DEON, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; MARTINELLI, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> . AMADEUS SCADA - Sistema Supervisorio de Distribuição de Energia Elétrica Baseado na Teoria dos Grafos Orientados. In: Simpósio Brasileiro de Sistemas Elétricos, 2006. SBSE, 2006. p. 345-352. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; DREWS JR., P. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; MEDEIROS, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3122595355314053" target="_blank">SIMAS, G. M.</a> . Building Inexpensive Holonomic Robots To Play Soccer. In: CSBC, 2006, Campo Grande. IV ENRI/JRI, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; DEON, R. ; MARTINELLI, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> . AMADEUS - Arquitetura Modular para a Automação da Distribuição. In: CIDEL, 2006, Buenos Aires. CIDEL 2006, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; DEON, R. ; MARTINELLI, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> . AMADEUS SCADA - Supervisorio de Distribuição de Energia Elétrica Baseado na Teoria dos Grafos Orientados. In: XVI Congresso Brasileiro de Automática, 2006, Salvador. Anais do XVI Congresso Brasileiro de Automática, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0011651263573884" target="_blank">CORREA, U. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> . Arquitetura de Navegação Autônoma para Ambientes Reais e Virtuais de Inspeção de Linhas Subterrâneas de Distribuição de Energia. In: The 3rd Southern Conference on Computational Modeling, 2009, Rio Grande. III MCSul, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BRUM, R. S. ; CORREIA, A. L. G. ; <b>ESTRADA, E. S. D.</b> ; OLIVEIRA, C. G. ; Santos, E. D. ; Isoldi, L. A. . SIMULAÇÃO COMPUTACIONAL DO COMPORTAMENTO MECÂNICO DE UMA TRELIÇA. In: Mostra de Produção Universitária, 2011, Rio Grande. 10a Mostra de Produção Universitária, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0011651263573884" target="_blank">CORREA, U. B.</a> . Tatubot - Sistema Robótico de Inspeção para Linhas de Distribuição Subterrânea. In: XVI Congresso de Iniciação Científica - VI MPU, 2007, Rio Grande. VI Mostra da Produção Universitária, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; DEON, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; MARTINELLI, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . EMS-AMADEUS: Um Sistema Para Automação Da Distribuição De Energia Elétrica. In: V Mostra de Produção Universitária, 2006, Rio Grande. V MPU, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; DEON, R. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; DREWS JR., P. ; NEVES, R . Visão Computacional Aplicada ao Futebol de Robôs: Segmentação de Imagens e Localização de Agentes. In: V Mostra de Produção Universitária, 2006, Rio Grande. V MPU, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; DEON, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Sistema Embarcado Baseado em Robôs Omnidirecionais. In: V Mostra de Produção Universitária, 2006, Rio Grande. V MPU, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; DEON, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . AMADEUS - Arquitetura Modular para Automação da Distribuição de Energia. In: V Mostra de Produção Universitária, 2006, Rio Grande. V MPU, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> . Uma Abordagem para Navegação Robótica de Inspeção de Dutos. 2008. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE Filho, N. L.</a> ; MELLO JR., C. D. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0011651263573884" target="_blank">CORREA, U. B.</a> ; DREWS JR., P. . Tatubot - Sistema Robótico de Inspeção para Linhas de Distribuição Elétrica Subterrâneas. 2008. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; MELLO JR., C. D. . Tatubot - Sistema Robótico de Inspeção para Linhas de Distribuição Subterrâneas. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Sistema Embarcado Baseado em Robôs Ominidirecionais. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNEZ, A. F. ; LONGHI, J. P. C. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . TATUViewer. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE Filho, N. L.</a> ; MELLO JR., C. D. ; <b>ESTRADA, E. S. D.</b> . Arquitetura TATUBOT. 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ProdutosTecnologicos"></a>Produtos tecnológicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; DREWS JR., P. ; ROSA, V. S. ; NUNEZ, A. F. ; LONGHI, J. P. C. ; Isoldi, L. A. ; TEXEIRA, F. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3122595355314053" target="_blank">SIMAS, G. M.</a> ; MORAES, F. C. . Robô FURGBOLV3. 2010. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE Filho, N. L.</a> ; MELLO JR., C. D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> . TATUBOT - Robô de inspeção de distribuição subterrânea. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Toolbox e3 ELIPSE para automação da distribuição de energia elétrica. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4477151075731347" target="_blank">GALERIANO, M. P.</a> ; SANTOS, T. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1832348562646952" target="_blank">SOUTO JR., H. D.</a> ; TADDEI, L. . Robô Móvel Omnidirecional F-180. 2005. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8560050240967369" target="_blank">Gonçalves, E. M. N.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; <b>ESTRADA, E. S. D.</b>.  Participação em banca de André F. Núñez.Um framework para prototipação de nodos físicos em Hiperambientes - Estudos de caso em robótica móvel.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ADAMATTI, D. F.; <b>ESTRADA, E. S. D.</b>; SANTOS, R. A. P..  Participação em banca de Marcelo Monteiro da Costa.Análise de requisitos utilizando a metodologia RUP: Estudo de caso no Nodo móvel subterrâneo do projeto SACI.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8560050240967369" target="_blank">Gonçalves, E. M. N.</a>; DREWS JR., P.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a>.  Participação em banca de Renan Machado de Oliveira.Filtragem e Estimação de Estados com Restrições: Aplicando a Técnica de Projeção de Estimativa no Filtro de Kalman Extendido.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a>; <b>ESTRADA, E. S. D.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8560050240967369" target="_blank">Gonçalves, E. M. N.</a>.  Participação em banca de Leornado da Silva Corrêa.Sistema de Automação Predial Utilizando Rede de Sensores.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; <b>ESTRADA, E. S. D.</b>; WERHLI, A. V..  Participação em banca de Thiago da Silva Santos.PROJETO DE UM SISTEMA ROBÓTICO MÓVEL APLICADO AO FUTEBOL DE ROBÔS.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE Filho, N. L.</a>.  Participação em banca de Alessandro Huber dos Santos.Uma proposta de sistema informatizado de eleições usando redes sem fio.
+							2008. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b>; MELLO JR., C. D.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a>.  Participação em banca de Francis Streliaev Centeno.Sistema Automatizado para medição de energia elétrica residencial e comercial.
+							2008. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; <b>ESTRADA, E. S. D.</b>; MELLO JR., C. D..  Participação em banca de Humberto Dumont Souto Júnior.Implementação de um hardware embarcado para um robô de inspeção de linhas de distribuição subterrâneas.
+							2008. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CBA 2010 - XVIII Congresso Brasileiro de Automática. Sistema de Navegação para um Robô de Inspeção de Linhas Subterrâneas de Distribuição. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III MCSUL - Seminario Sul em Modelagem Computacionmal. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1st UNU-IIST International School on Formal Engineering Methods. 2009. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Competição Brasileira de Robótica. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II MCSUL - Seminário Sul em Modelagem Computacional. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Seminário e Workshop em Engenharia Oceânica. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Sistemas Elétricos.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">5th Latin American Robotics Competition. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Robocup 2007 Atlanta. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I MCSUL - Seminário Sul em Modelagem Computacional. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Collegiate Programming Contest.Participação na Maratona de Programação / Regional - ACM - ICPC.. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Competição Brasileira de Robótica.Brazil Open 2007 - Categoria F-180. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Collegiate Programming Contest.Participação na Maratona de Programação / Final Brasileira - ACM - ICPC.. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Congresso da Sociedade Brasileira de Computação. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro de Robótica Inteligente.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Semana Integrada de Tecnologia em Computação.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana Interna da Engenharia de Computação.Furgbol - Controle.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Collegiate Programming Contest.Participação na Maratona de Programação / Regional - ACM - ICPC. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana Integrada de Tecnologia em Computação e Geomática.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Semana Academica de Engenharia de Computacao da FURG..
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Escola de Microeletrônica. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; PEREIRA, C. E. ; DREWS JR., P. ; ESPINDOLA, D. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE Filho, N. L.</a> ; BUTZEN, P. F. ; EMMENDORFER, L. R. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; WERHLI, A. V. . NAVCOMP - Simpósio em Computação e Automação para a Indústria Naval, Offshore e Subaquática. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; DREWS JR., P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> . WTSUB 2012 - Workshop de Desafios Tecnológicos em Monitoramento, Inspeção e Automação em Ambiente Subaquático - I Escola de Robótica Subaquática. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WERHLI, A. V. ; BICHO, A. L. ; SAADI, A. S. ; KONRATH A. C. ; RODRIGUEZ, B. D. A. ; SCHNEIDER, C. M. ; <b>ESTRADA, E. S. D.</b> ; EMMENDORFER, L. R. ; Isoldi, L. A. ; SCHULTZ, L. ; HAX, V. A. . IV Southern Conference on Computational Modeling (MCSUL) e IX Encontro Regional de Matemática Aplicada e Computacional (ERMAC). 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> . Sede da 1a. Fase da Maratona de Programação. 2008. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProjetoDesenvolvimentoTecnologicoPI"></a><br class="clear" /><div class="inst_back">
+<b>Projeto de desenvolvimento tecnológico</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProgramaComputadorEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Programa de Computador sem registro de patente</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNEZ, A. F. ; LONGHI, J. P. C. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . TATUViewer. 2012. </div>
+</div>
+<br class="clear">
+<a name="OrganizacaoEventosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ESTRADA, E. S. D.</b> ; DREWS JR., P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> . WTSUB 2012 - Workshop de Desafios Tecnológicos em Monitoramento, Inspeção e Automação em Ambiente Subaquático - I Escola de Robótica Subaquática. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; PEREIRA, C. E. ; DREWS JR., P. ; ESPINDOLA, D. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE Filho, N. L.</a> ; BUTZEN, P. F. ; EMMENDORFER, L. R. ; <b>ESTRADA, E. S. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">OLIVEIRA, V. M.</a> ; WERHLI, A. V. . NAVCOMP - Simpósio em Computação e Automação para a Indústria Naval, Offshore e Subaquática. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:19:32</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=3463902649683230" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

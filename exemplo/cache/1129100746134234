@@ -1,0 +1,3153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Leonardo Ramos Emmendorfer)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=1129100746134234" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4701185E9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4701185E9"><div class="infpessoa">
+<h2 class="nome">Leonardo Ramos Emmendorfer</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/1129100746134234</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 22/05/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Professor da FURG  - Universidade Federal do Rio Grande.  Doutor pelo programa pós-graduação em Métodos Numéricos em Engenharia da Universidade Federal do Paraná, na área de Programação Matemática (2007). Possui graduação em Engenharia de Computação pela Fundação Universidade Federal do Rio Grande (1998) e mestrado em Matemática pela Universidade Regional do Noroeste do Estado do Rio Grande do Sul (2001). Tem experiência na área de Ciência da Computação atuando principalmente nos seguintes temas: computação evolutiva, mineração de dados, processos estocásticos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Leonardo Ramos Emmendorfer</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">EMMENDORFER, L. R.;Emmendorfer, Leonardo Ramos</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Centro de Ciências Computacionais. <br class="clear" />Av. Itália, km 8<br class="clear" />Carreiros<br class="clear" />96201900 - Rio Grande, RS - Brasil</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Métodos Numéricos em Engenharia<span class="ajaxCAPES" data-param="&codigoCurso=40001016030P0&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Paraná, UFPR, Brasil.
+		
+	<br class="clear" />Título: Aprendizado da ligação entre genes em computação evolutiva: uma nova abordagem baseada em estatísticas de baixa ordem, Ano de obtenção: 2007. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2815946827655352'><img src='images/curriculo/logolattes.gif' /></a>Aurora Trinidad Ramirez Pozo. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Algoritmos Genéticos; Computação Evolutiva.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Modelagem Matemática<span class="ajaxCAPES" data-param="&codigoCurso=42024013001P8&nivelCurso=M"></span>. <br class="clear" />Universidade Regional do Noroeste do Estado do Rio Grande do Sul, UNIJUI, Brasil.
+		
+	<br class="clear" />Título: Um estudo sobre autômatos celulares aplicados à modelagem em Biologia,Ano de Obtenção: 2001.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9198489380493317'><img src='images/curriculo/logolattes.gif' /></a>Luiz Alberto Díaz Rodrigues.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Modelos Computacionais; Autômatos Celulares; Epidemiologia; Plantas Anuais; Ecossistemas.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Matemática. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Probabilidade e Estatística Aplicadas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante em Processamento de Dados<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Colégio Técnico Industrial da Fundação Universidade do Rio Grande.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Algoritmos evolutivos - uma visão geral da teoria.  (Carga horária: 6h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Effective Statistical Modelling with R.  (Carga horária: 21h). <br class="clear" />Universidade Federal do Paraná, UFPR, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">I Workshop em Métodos Estatísticos Aplicados a Fin. <br class="clear" />Universidade Federal do Paraná, UFPR, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Escola de Verão Métodos Computacionais Em Biologia.  (Carga horária: 80h). <br class="clear" />Laboratório Nacional de Computação Científica.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Estagiário, Carga horária: 12</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Estagiário, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsa concedida pelo Departamento de Matemática</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Estagiário, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista FAPERGS - Iniciação Técnica Projeto REDE TCHÊ (vinculado à RCT)</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Atividades Interdisciplinares<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de Curso.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática discreta<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Sistemas Inteligentes<br class="clear" />Linguagens Formais e Teoria da Computação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1998 - 12/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Departamento de Matemática, Setor de Administração de Recursos Humanos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Automatização do Setor. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/1997 - 11/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante - Mini-curso de Delphi. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1996 - 12/1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Laboratório de Programação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1993 - 12/1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , CPD - Centro de Processamento de Dados, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Projeto Rede Tchê. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Paraná, UFPR, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor, Enquadramento Funcional: Professor substituto, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2005 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , CESEC, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Computação evolutiva através do aprendizado estatístico'>Computação evolutiva através do aprendizado estatístico</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2007 - 09/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Métodos Numéricos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/2005 - 09/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Programação de computadores<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2006 - 07/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Estatística, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Programação de Computadores<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2007 - 02/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, PPG em Métodos Numéricos em Engenharia, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Linguagens de Programação<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Hsbc Bank Brasil Banco Múltiplo, HSBC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Analista de Credit Score, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2004 - 9/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Deselvolvimento de modelos de Credit Score e atualização das metodologias adotadas. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Regional do Noroeste do Estado do Rio Grande do Sul, UNIJUI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Estagiário Bolsa CAPES, Carga horária: 60</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio Obrigatório em função de bolsa de mestrado CAPES. Realizado no curso de Matemática do campus Ijuí, em regime especial.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2000 - 8/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Computacional II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7/2000 - 8/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura plena em Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Computacional II<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade do Contestado, UNC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2004 - 7/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Computação Gráfica<br class="clear" />Sistemas de Computação I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/2000 - 7/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Informática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Estruturas de Dados<br class="clear" />Programação I<br class="clear" />Programação IV<br class="clear" />Sistemas Especialistas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2001 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Pesquisa e Pós-graduação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Agricultura de Precisão'>Agricultura de Precisão</a><br class="clear" /><a href='#LP_Modelagem de processos estocásticos'>Modelagem de processos estocásticos</a><br class="clear" /><a href='#LP_Deselvolvimento de software educacional'>Deselvolvimento de software educacional</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2002 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Curso de Lógica de Programação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2002 - 10/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Implantação da Rede Unificada de Atendimento. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2002 - 10/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Estudo de Viabilidade para Incubadora de Software no Núcleo Universitário de Porto União. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2002 - 7/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Bacharelado em Informática, Porto União. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Grupo de estudos em Redes de Computadores. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2000 - 6/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Informática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Administração da Informática<br class="clear" />Análise de Sistemas I<br class="clear" />Interface Homem-Máquina<br class="clear" />Programação II<br class="clear" />Redes de Computadores II<br class="clear" />Sistemas Operacionais I<br class="clear" />Sistemas Operacionais II<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Faculade Estadual de Filosofia Ciências e Letras de União da Vitória (PR), FAFI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2005 - 05/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, MATEMÁTICA, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Recursos Computacionais para o Ensino da Matemática<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Scadi Informática, SCADI, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Estagiário, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividades de montagem, instalação e configuração de redes de computadores</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1995 - 3/1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Montagem de redes de computadores. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Agricultura de Precis&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agricultura de Precisão</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Desenvolvimento de técnicas de mensuração e correção diferenciada do solo, através do uso de ferramentas matemáticas, estatísticas e computacionais. <br class="clear" />Grande área: Ciências Agrárias / Área: Agronomia. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística. <br class="clear" />Palavras-chave: Agricultura; Modelos Computacionais.</div>
+</div><a name='LP_Modelagem de processos estoc&aacute;sticos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem de processos estocásticos</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Desenvolver modelos computacionais que representem a dinâmica de interação de processos estocásticos reais, notadamente agroecossistemas. . <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística. <br class="clear" />Palavras-chave: Modelos Computacionais; Simulação Monte Carlo; Ecologia; Autômatos Celulares.</div>
+</div><a name='LP_Deselvolvimento de software educacional'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Deselvolvimento de software educacional</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Desenvolvimento de um software educacional voltado a suprir a demanda atual de portadores de deficiência
+. <br class="clear" />Grande área: Ciências Humanas / Área: Educação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Palavras-chave: Software educacional.</div>
+</div><a name='LP_Computa&ccedil;&atilde;o evolutiva atrav&eacute;s do aprendizado estat&iacute;stico'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Computação evolutiva através do aprendizado estatístico</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: 
+O objetivo desta linha  é desenvolver um algoritmos de computação evolutiva, baseados na aquisição de informação a partir das similaridades entre os indivíduos da população e no uso desta informação para guiar a busca. O teorema do esquema, que é uma fundamentação teórica importante da área, já aponta que a existência de similaridades entre os indivíduos está relacionada com a detecção de soluções parciais. Os indivíduos que possuem uma certa sub-estrutura podem ser considerados similares, e este grupo de indivíduos é chamado de esquema. A inferência de modelos estatísticos para representar os melhores indivíduos encontrados é, atualmente, uma abordagem efetiva para computação evolutiva. Modelos cada vez mais complexos vem sendo usados pelos algoritmos de estimação de distribuição (EDAs), o que freqüentemente resulta em uma melhor efetividade. Os EDAs mais efetivos adotam redes Bayesianas, pois estes modelos capturam interações de alta ordem entre as variáveis do problema. O aprendizado da estrutura destes modelos é, entretanto, uma tarefa computacionalmente cara. EDAs baseados em estatísticas de primeira ordem, por sua vez, são computacionalmente mais simples mas não tem se mostrado efetivos em muitos problemas benchmark. Isto é devido à incapacidade dos EDAs de baixa ordem em aprender sobre as ligações entre os genes, que são resultantes da estrutura de interações presentes nestes problemas.. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística / Subárea: Probabilidade e Estatística Aplicadas. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Abordagens h&iacute;bridas para o problema do empacotamento'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Abordagens híbridas para o problema do empacotamento<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Investigamos abordagens híbridas combinatórias para o problema do empacotamento de esferas e elipses.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Leonardo Ramos Emmendorfer - Coordenador / Cassia Cris Beckel - Integrante / Rosana dos Santos - Integrante.<br class="clear" /></div>
+</div><a name='PP_Atividades de Integra&ccedil;&atilde;o Curricular como Componente Did&aacute;tico de Cursos na &Aacute;rea Tecnol&oacute;gica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividades de Integração Curricular como Componente Didático de Cursos na Área Tecnológica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Apoiar a implantação das unidades didáticas de Atividades de Integração Curricular I à IV do novo currículo do Curso de Engenharia de Computação e dos novos cursos de Engenharia de Automação e Bacharelado em Sistemas de Informação. A experiëncia deverá ser imediatamente aproveitado nos cursos referidos, mas pode se tornar disponível para adaptação a qualquer curso, especialmente aos cursos de Engenharia. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (3) . <br class="clear" /><br class="clear" />Integrantes: Leonardo Ramos Emmendorfer - Integrante / Silvia Silva Costa Botelho - Integrante / Adriano Velasque Werhli - Integrante / Celso Luiz Lopes Rodrigues - Coordenador / Nísia Krusche - Integrante / Vinícius Menezes de Oliveira - Integrante.<br class="clear" /></div>
+</div><a name='PP_FURG Multigrupo: Rede Social de Grupos Acad&ecirc;micos de Interesse'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FURG Multigrupo: Rede Social de Grupos Acadêmicos de Interesse<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: o Multigrupo é uma rede de grupos de interesse. Cada nodo da rede é um grupo com área de interesse e vida própria, que mantém relação de cooperação com os demais grupos do Multigrupo. Esta cooperação visa fortalecer ou mesmo viabilizar a atividade típica dos grupos de interesse. No Multigrupo, são compartilhados não só elementos de infraestrutura e recursos humanos, mas também resultados. Além disso, o Multigrupo FURG deve servir como caldo de cultura permanente para reforço da motivação dos grupos existentes e para a formulação e execução de políticas de incentivo à formação de novos grupos, principalmente em nível de graduação e de integração entre pós-graduação e graduação. O Multigrupo FURG poderá ser definido em suas linhas gerais no nível administrativo adequado, buscando uma institucionalização. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (5) Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Leonardo Ramos Emmendorfer - Integrante / Adriano Velasque Werhli - Integrante / Celso Luiz Lopes Rodrigues - Coordenador / Vinícius Menezes de Oliveira - Integrante.<br class="clear" /></div>
+</div><a name='PP_MODELAGEM DA DIN&Acirc;MICA DO FLUXO GRANULAR ATRAV&Eacute;S DE AUT&Ocirc;MATOS CELULARES E SIMULA&Ccedil;&Atilde;O BASEADA EM AGENTES'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MODELAGEM DA DINÂMICA DO FLUXO GRANULAR ATRAVÉS DE AUTÔMATOS CELULARES E SIMULAÇÃO BASEADA EM AGENTES<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Um fluxo de partículas sólidas, macroscópicas e que colidem inelasticamente pode ser
+chamado de fluxo granular. Devido à dissipação de energia, decorrem algumas
+dificuldades de modelagem. As equações de Navier-Strokes não se aplicam a este tipo
+de fluxo, de forma que a busca por representações matemáticas e computacionais tem
+sido recentemente objeto de estudo.
+Os autômatos celulares (ACs) provêem um paradigma de modelagem promissor para o
+fluxo granular, pois um AC descreve o fenômeno com base nas interações locais, que
+ocorrem no nível das partículas. Por outro lado, modelos clássicos baseados na teoria
+cinética do fluxo granular são construídos em um nível observação macroscópico,
+através de equações diferenciais, as quais nem sempre têm solução analítica. Além
+disso, a homogeneização necessária nem sempre é observada na prática, principalmente
+no caso do fluxo lento de grãos.
+A simulação baseada em agentes é uma área que integra simulação computacional e
+sistemas multiagentes, que diverge da simulação estocástica, visto que pode-se
+desenvolver um modelo onde a análise micro e macro podem ser realizadas de forma
+facilitada.
+Este projeto descreve uma proposta de estudo para a evolução automática de modelos
+AC como modelos de fenômenos físicos. Serão investigadas técnicas de computação
+evolutiva existentes, para que seja possível propor e implementar, utilizando a
+simulação baseada em agentes, um modelo adequado de evolução de ACs para
+fenômenos físicos, e então validar a proposta através de problemas de fluxo granular.
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Leonardo Ramos Emmendorfer - Coordenador / Diana Francisca Adamatti - Integrante / Josimara Silveira - Integrante / Thiago Paes - Integrante / Ademar Rodrigues de Moraes - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Auxílio
+										financeiro.</div>
+</div><a name='PP_Um algoritmo evolutivo baseado no aprendizado em ambientes din&acirc;micos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um algoritmo evolutivo baseado no aprendizado em ambientes dinâmicos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Algoritmos de Computação Evolutiva (CE) têm sido aplicados com sucesso a problemas de busca e otimização das diversas áreas de aplicação e com diversos níveis de dificuldade. Pesquisas atuais focam na obtenção de algoritmos que sejam considerados competentes, no sentido de serem capazes de resolver problemas difíceis. Estes algoritmos são capazes de manter um nível adequado de diversidade na população, além de aprender sobre a estrutura do problema ao qual são aplicados, capturando interações importantes e mantendo-as ao longo do processo evolutivo. Para capturar estas informações sobre o problema e assim guiar o processo evolutivo, cada algoritmo adota um mecanismo de aprendizado; podemos citar o aprendizado de redes bayesianas, a indução de classificadores e o aprendizado de regras simbólicas como sendo os mecanismos adotados por algoritmos de CE. Entretanto, o custo computacional do processo de aprendizado escolhido é um fator limitante de alguns algoritmos, já que esta etapa é repetida a cada nova geração. Por outro lado, outros algoritmos são mais baratos computacionalmente, mas apresentam menor capacidade de prospecção do espaço de busca, exigindo a adoção de estratégias híbridas. Estes fatores evidenciam que ainda existe espaço para novas propostas em Computação Evolutiva. Neste projeto, propomos uma nova abordagem para a CE, em torno da hipótese de que o processo evolutivo seja considerado como um ambiente dinâmico, não-estacionário, e a Computação Evolutiva deva, conseqüentemente, ser guiada por técnicas reconhecidamente adequadas ao aprendizado em ambientes dinâmicos, tais como o aprendizado incremental e os ensembles de classificadores. Para realizar o trabalho proposto serão realizados os seguintes passos: levantamento do estado da arte das áreas de CE e de aprendizado em ambientes dinâmicos, escolha de técnicas de aprendizado incremental e ensembles e adequá-las ao problema, desenvolvimento e implementação do novo algoritmo e realização de experimentos . <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (1)  / Mestrado profissionalizante: (0)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Leonardo Ramos Emmendorfer - Integrante / Aurora Trinidad Ramirez Pozo - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Agricultura de Precis&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agricultura de Precisão<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto que visa o desenvolvimento de protótipos tecnológicos na área de agricultura de precisão.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Leonardo Ramos Emmendorfer - Integrante / Marcos Benedito Schimalski - Integrante / Rui Branco - Integrante / Carlos Loch - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Modelagem Computacional de Metapopula&ccedil;&otilde;es'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem Computacional de Metapopulações<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Criação de modelos computacionais para a representação da dinâmica metapopulações.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . Financiador(es): Universidade do Contestado - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Modelagem computacional do tr&aacute;fego urbano com aplica&ccedil;&atilde;o para a cidade de Rio Grande -RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem computacional do tráfego urbano com aplicação para a cidade de Rio Grande -RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Leonardo Ramos Emmendorfer - Coordenador / ANDRÉ PEREIRA BANDEIRA - Integrante.<br class="clear" /></div>
+</div><a name='PP_Desenvolvimento de um software para moderniza&ccedil;&atilde;o da aprendizagem da LIBRAS- Lingua Brasileira de Sinais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de um software para modernização da aprendizagem da LIBRAS- Lingua Brasileira de Sinais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Visa desenvolver uma plataforma computacional para ensino de LIBRAS, respeitando o embasamento pedagógico atualmente disponível para educação especial de surdos.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (1)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . Financiador(es): Fundação de Amparo à Pesquisa e Inovação do Estado de Santa Catarina - Auxílio
+										financeiro.</div>
+</div><a name='PP_RedeTch&ecirc;'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">RedeTchê<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Implantação da RNP - Rede Nacional de Pesquisas -  no Rio Grande do Sul. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (5)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Leonardo Ramos Emmendorfer - Integrante / Liane Tarouco - Coordenador / Rafael Rodrigues Obeleheiro - Integrante / Raquel Coelho - Integrante / Jorge Luiz Jesus da Cunha - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: R.E.V.I. Revista de Estudos do Vale do Iguaçu</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IEEE Transactions on Evolutionary Computation</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: TEMA. Tendências em Matemática Aplicada e Computacional</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Probabilidade e Estatística. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor Poster WESAAC 2010 de SILVEIRA, J. A. ; PAES, T. L. ; EMMENDORFER, L. R. ; ADAMATTI, D. F. . Detectando Padrões Comportamentais de Agentes Através de Árvores de Decisão, FURG. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>SANTOS, R. ; <b>EMMENDORFER, L. R.</b> . Uma Estratégia Híbrida para o Problema de Empacotamento. ICCEEg - Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia,<sup><img id='22360093_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22360093' /></sup>, v. 1, p. 1-7, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22360093&volume=1&issue=&paginaInicial=1&titulo=Uma Estratégia Híbrida para o Problema de Empacotamento&sequencial=1&nomePeriodico=ICCEEg - Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia," tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NEVES, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>NEVES, C. ; BRUM, R. S. ; KIRINUS, E. ; SANTOS, R. ; <b>EMMENDORFER, L. R.</b> . Modelagem Ambiental: Perspectivas e Contribuições. Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia<sup><img id='22360093_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22360093' /></sup>, v. 1, p. 15-20, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22360093&volume=1&issue=&paginaInicial=15&titulo=Modelagem Ambiental: Perspectivas e Contribuições&sequencial=2&nomePeriodico=Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Emmendorfer, Leonardo Ramos</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TEVC.2009.2025455" target="_blank"></a><b>Emmendorfer, Leonardo Ramos</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a> . <![CDATA[Effective Linkage Learning Using Low-Order Statistics and Clustering]]>. IEEE Transactions on Evolutionary Computation<sup><img id='1089778X_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='1089778X' /></sup>, v. 13, p. 1233-1246, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TEVC.2009.2025455&issn=1089778X&volume=13&issue=&paginaInicial=1233&titulo=<![CDATA[Effective Linkage Learning Using Low-Order Statistics and Clustering]]>&sequencial=3&nomePeriodico=IEEE Transactions on Evolutionary Computation" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EMMENDORFER, L. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>EMMENDORFER, L. R.</b> . Um modelo computacional para a propagação de plantas anuais. Vetor (FURG)<sup><img id='01027352_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 16, p. 49-54, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=16&issue=&paginaInicial=49&titulo=Um modelo computacional para a propagação de plantas anuais&sequencial=4&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ARIATTI, Marcos Aurélio</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>ARIATTI, Marcos Aurélio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1828808943547003" target="_blank">FELTRIN, Caren Coden</a> ; <b>EMMENDORFER, L. R.</b> . Uma ferramenta computacional para o apoio ao ensino de integrais. Face em Revista<sup><img id='16760573_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16760573' /></sup>, v. 8, p. 261-270, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16760573&volume=8&issue=&paginaInicial=261&titulo=Uma ferramenta computacional para o apoio ao ensino de integrais&sequencial=5&nomePeriodico=Face em Revista" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FELTRIN, Caren Coden</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1828808943547003" target="_blank">FELTRIN, Caren Coden</a> ; <b>EMMENDORFER, L. R.</b> ; RAFIKOV, Marat . Determinação dos Regimes Dinâmicos em um Sistema Lotka-Volterra. Face em Revista<sup><img id='16760573_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16760573' /></sup>, União da Vitória - PR, v. 5, p. 153-164, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16760573&volume=5&issue=&paginaInicial=153&titulo=Determinação dos Regimes Dinâmicos em um Sistema Lotka-Volterra&sequencial=6&nomePeriodico=Face em Revista" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EMMENDORFER, L. R.;Emmendorfer, Leonardo Ramos</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9198489380493317" target="_blank">RODRIGUES, Luiz Alberto Diaz</a> . Um Modelo de Autômatos Celulares para o Espalhamento Geográfico de Epidemias. TEMA. Tendências em Matemática Aplicada e Computacional<sup><img id='16771966_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16771966' /></sup>, São Carlos, v. 2, p. 73-80, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16771966&volume=2&issue=&paginaInicial=73&titulo=Um Modelo de Autômatos Celulares para o Espalhamento Geográfico de Epidemias&sequencial=7&nomePeriodico=TEMA. Tendências em Matemática Aplicada e Computacional" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, J. A. (Org.) ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1606080164385644" target="_blank">KRUSCHE, N.</a> (Org.) ; ADAMATTI, D. F. (Org.) ; <b>Emmendorfer, Leonardo Ramos</b> (Org.) . Anais da V Conferência  Sul em Modelagem Computacional   VMCSul. 1. ed. Rio Grande: Editora da FURG, 2012. v. 1. 305p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ADAMATTI, D. F. ; WERHLI, A. V. ; LUGO. G. G. ; <b>EMMENDORFER, L. R.</b> . Anais do IV Workshop- Escola de Sistemas de Agentes, seus Ambientes e apliCações.. , 2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAES, T. ; SILVEIRA, J. ; ADAMATTI, D. F. ; <b>EMMENDORFER, L. R.</b> . Detectando Padrões Comportamentais de Agentes Através de Árvores de Decisão.. In: Adamatti, D. .F... (Org.). Workshop-Escola de Sistemas de Agentes, seus Ambientes e apliCações - Artigos Selecionados das quatro primeiras edições.. Rio Grande: , 2010, v. 1, p. 204-208. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a> . A Clustering-based Approach for Linkage Learning Applied to Multimodal Optimization. In: Ying-ping Chen,; Meng-Hiot Lim. (Org.). Linkage in evolutionary computation. Studies in Computational Intelligence. New York: Springer, 2008, v. 157, p. 225-248. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BECKEL, C. ; ORO, N. ; <b>Emmendorfer, Leonardo Ramos</b> . Heurística para o posicionamento de elipses tangentes no interior de um polígono de n lados. In: V Conferência Sul em Modelagem Computacional - V MCSUL, 2012, Rio Grande. Anais da V Conferência  Sul em Modelagem Computacional   VMCSul, 2012. v. 1. p. 289-295. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2320801888927350" target="_blank">BECKEL, C. C.</a> ; <b>Emmendorfer, Leonardo Ramos</b> ; ORO, N. . An adaptation of the Hook and Jeeves optimization algorithm for the maximization of the dimensions of an ellipse inscribed in a given non-convex polygon.. In: 5th LNCC Meeting on Computational Modeling, 2012, Petrópilis/RJ. Proceedings of the  5th LNCC Meeting on Computational Modeling, 2012. v. 1. p. 1-8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GAMBETA-LEITE, M. R. S. ; SOUZA, R. V. ; SPOLAVORI, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1606080164385644" target="_blank">KRUSCHE, N.</a> ; <b>Emmendorfer, Leonardo Ramos</b> . Estudo de caso sobre o acoplamento de um modelo de previsão numérica ao planejamento de alocação de berços no Porto de Rio Grande.. In: V Conferência  Sul em Modelagem Computacional   VMCSul, 2012, Rio Grande/RS. Anais da V Conferência  Sul em Modelagem Computacional   VMCSul, 2012. v. 1. p. 248-252. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARCOS, P. B. ; <b>Emmendorfer, Leonardo Ramos</b> . Orpheu - A Performance-Oriented System for Musical Accompaniment: An Approach Using   the Markov Decision Process.. In: Congresso Brasileiro de Automática, 2012, Campina Grande. Anais do Congresso Brasileiro de Automática, 2012. p. 2024-2030. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; ADAMATTI, D. F. ; SILVEIRA, J. ; PAES, T. . Detectando Padrões Comportamentais de Agentes Através de Árvores de Decisão. In: IV Workshop-Escola de Sistemas de Agentes, seus Ambientes e apliCações, 2010, Rio Grande. Anais do IV Wesaac, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PAES, T. ; SILVEIRA, J. ; ADAMATTI, D. F. ; <b>EMMENDORFER, L. R.</b> . Poder de Captura das Árvores de Decisão para o Comportamento de Agentes. In: Congresso Regional de Iniciação Científica e Tecnológica em Engenharia - CRICTE, 2010, Rio Grande. Anais, 2010. v. 1. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ADAMATTI, D. F. ; PAES, T. ; SILVEIRA, J. ; <b>EMMENDORFER, L. R.</b> . Effectiveness of Decision Trees for Detecting the Behavior of Agents. In: IV Conferência Sul de Modelagem Computacional, 2010, Rio Grande. Anais, 2010. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAIUTA, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a> ; <b>EMMENDORFER, L. R.</b> ; VERGILIO, S. . Selecting Software Reliability Models with a Neural Network Meta Classifier. In: International Joint Conference on Neural Networks (IJCNN2008), 2008, Hong Kong. International Joint Conference on Neural Networks (IJCNN2008), 2008. p. 201-209. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a> . Otimização Multimodal através de Computação Evolutiva e Análise de Agrupamentos. In: VI ENIA - Encontro Nacional de Inteligência Artificial, 2007, Rio de Janeiro. XXVII Congresso da Sociedade Brasileira de Computação, 2007. p. 412-422. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a> . An Empirical Evaluation of Linkage Learning Strategies for Multimodal Optimization. In: 2007 IEEE Congress on Evolutionary Computation (CEC), 2007, Cingapura. 2007 IEEE Congress on Evolutionary Computation (CEC), 2007. p. 326-333. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a> . An Incremental Approach for Niching and Building Block Detection via Clustering. In: 7th  International Conference on Intelligent Systems Design and Applications, 2007, Rio de Janeiro. 7th ISDA, 2007. p. 303-308. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a> ; TRALESKI, Rodrigo . Using Prior Knowledge to Improve the performance of an Estimation of Distribution Algorithm Applied to Feature Selection.. In: Fifth International Conference on Hybrid Intelligent Systems., 2005, Rio de Janeiro. Proceedings of the Fifth International Conference on Hybrid Intelligent Systems., 2005. p. 303-308. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORENZ, W. ; WERHLI, A. V. ; <b>EMMENDORFER, L. R.</b> . Descoberta de conhecimento em bancos de dados aplicada ao caso de alunos com subsídio. In: XIX Seminário de Iniciação Científica, 2011, Ijuí. Anais do XIX Seminário de Iniciação Científica, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . On the design of populational clustering. In: International Conference on Evolutionary Computation, 2010, Valencia, Espanha. Proceedings, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9198489380493317" target="_blank">RODRIGUES, Luiz Alberto Diaz</a> . Espalhamento Geográfico de Epidemias : Contatos Locais e Não Locais. In: CLAB - Congresso Latino Americano de Biomatemática, 2001, Campinas - SP. Anais, 2001. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORENZ, W. ; SILVA, R. ; <b>Emmendorfer, Leonardo Ramos</b> ; WERHLI, A. V. . Data Mining aplicado ao caso de alunos com subsídio no núcleo de assistência estudantil  NAE da Universidade Federal do Rio Grande. In: XI SImpósio de Informática da UNIFRA, 2012, Santa Maria/RS. Anais do XI SImpósio de Informática da UNIFRA, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, R. ; <b>EMMENDORFER, L. R.</b> . Uma estratégia híbrida para o problema de empacotamento de duas elipses.. In: XVII Encontro Regional de Estudantes de Matemática do Sul, 2011, Curitiba. Anais do XVII Encontro Regional de Estudantes de Matemática do Sul, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORENZ, W. ; WERHLI, A. V. ; <b>EMMENDORFER, L. R.</b> . Data Mining aplicado ao caso de alunos com subsídio do núcleo de assistência estudantil da Universidade Federal do Rio Grande - FURG. In: 10a Mostra de Produção Universitária - MPU, 2011, Rio Grande. Anais, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVEIRA, J. ; PAES, T. ; ADAMATTI, D. F. ; <b>EMMENDORFER, L. R.</b> . Modelagem da Dinâmica do Fluxo Granular Através de Autômatos Celulares e Simulação Baseada em Agentes. In: MPU - Mostra de produção universitária, 2010, Rio Grande. Mostra de Produção Universitária 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a> . Abordagens para a Computação Evolutiva Através do Aprendizado de Máquina e da Inferência Estatística. In: VII Seamana Acadêmica do Programa de Pós-Graduação em Métodos Numéricos em Engenharia, 2006, Curitiba. Caderno de Resumos, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1828808943547003" target="_blank">FELTRIN, Caren Coden</a> ; ARIATTI, Marcos Aurélio . Software Calderiv: feramenta computacional para o apoio ao ensino de derivadas. In: VI Encontro de Iniciação Científica, 2006, União da Vitória. Anais, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9198489380493317" target="_blank">RODRIGUES, Luiz Alberto Diaz</a> ; MISTRO, Diomar Cristina ; CAVALIN, Cristiane Feltrin ; <b>EMMENDORFER, L. R.</b> . Um modelo matemático discreto para a dispersão de febre aftosa em bovinos. In: IV Congresso Latinoamericano de Biologia Matemática, 2005, Tandil. Anais, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAVALIN, Cristiane Feltrin ; <b>EMMENDORFER, L. R.</b> ; MISTRO, Diomar Cristina ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9198489380493317" target="_blank">RODRIGUES, Luiz Alberto Diaz</a> . Um modelo matemático discreto para a dispersão de febre aftosa em bovinos. In: XXVII CNMAC - Congresso Nacional de Matemática Aplicada e Computacional, 2004, Porto Alegre. Resumos da comunicações, 2004. p. 46-46. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SEBBEN, Lucas Giovani ; ARIATTI, Marcos Aurélio ; <b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1828808943547003" target="_blank">FELTRIN, Caren Coden</a> . Uma ferramenta computacional para o apoio ao ensino de cálculo diferencial e integral. In: XXVII CNMAC - Congresso Nacional de Matemática Aplicada e Computacional, 2004, Porto Alegre. Resumo da comunicações, 2004. p. 203-203. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MOISSA, Fred Helmut ; <b>EMMENDORFER, L. R.</b> . O uso do computador no diagnóstico de defeitos no sistema de injeção eletrônica. In: VII SEDEPE - Seminário de Pesquisa Discente, 2003, Caçador. Resumos, 2003. v. 1. p. 45-45. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; MOISSA, Fred Helmut . O uso do computador no diagnóstico de defeitos no sistema de injeção eletrônica. In: II Encontro de Iniciação Científica, 2003, União da Vitória, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; WOLF, Edimar . Inteligência Artificial:Simulando o funcionamento .... In: III Encontro de Iniciação Científica, 2003, União da Vitória. Anais, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; SALDANHA, Margarete Aparecida Kobus . Aplicações de Sistemas Muitiagentes com ênfase em Algoritmos Genéticos. In: II Encontro de Iniciação Científica, 2002, União da Vitória - PR, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . Modelos Computacionais Para a Dinâmica de Metapopulações Interagentes. In: I Seminário de Pesquisa Docente, 2002, Canoinhas - SC, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SALDANHA, Margarete Aparecida Kobus ; <b>EMMENDORFER, L. R.</b> . Aplicações de Sistemas Muitiagentes com ênfase em Algoritmos Genéticos. In: Vi SEDEPE - Seminário de Pesquisa Discente, 2002, Curitibanos - SC. Resumos, 2002. v. 1. p. 16-16. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9198489380493317" target="_blank">RODRIGUES, Luiz Alberto Diaz</a> . Um Autômato Celular como Modelo para a Sucessão de Plantas Anuais. In: VI ERMAC - Encontro Regional de Matemática Aplicada e Computacional, 2000, Santa Cruz do Sul - RS. Anais do VI ERMAC, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9198489380493317" target="_blank">RODRIGUES, Luiz Alberto Diaz</a> . Um modelo de Autômatos Celulares para Espalhamento Geográfico de Epidemias. In: XXIII CNMAC - Congresso Nacional de Matemática Aplicada e Computacional, 2000, Santos. Resumo das Comunicações, 2000. v. 1. p. 51-51. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; NOGUEIRA, J. H. M. . Um Software de Controle de Estados Finitos. In: XIII CRICTE - Congresso Regional de Iniciação Científica e Tecnológica m Engenharia, 1997, Porto Alegre. Proceedings do XIII CRICTE, 1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAIUTA, R. ; <b>EMMENDORFER, L. R.</b> . Aplicando técnicas de mineração de dados em ambientes corporativos. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . Algoritmo Evolutivo Auto-organizado. 2006. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . IV Workshop-Escola de Sistemas de Agentes, seus Ambientes e apliCações (comitê de programa) 2010 (Evento). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . Projetos Auxílio Recém Doutor (ARD FAPERGS). 2010 2010 (Seleção de projetos). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIHLER, Norlei Fernando ; <b>EMMENDORFER, L. R.</b> . 20th Brazilian Symposium on Artificial Intelligence  - SBIA (comitê de programa) 2010 (Evento). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . CLEI 2009 - Conferência Lationamericana de Informática (comitê de programa) 2009 (Evento). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . WCAMA - Workshop de Computação Aplicada ao Meio Ambiente (comitê de programa) 2009 (Evento). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARIATTI, Marcos Aurélio ; <b>EMMENDORFER, L. R.</b> . III MCSUL - South Conference on Computational Modelling (comitê de programa) 2009 (Evento). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . ENIA 2007 - Encontro Nacional de Inteligência Artificial (comitê de programa) 2007 (Evento). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . DOCRED. 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; WAGNER, Harley Miguel . Labirintus. 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . SARH . 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . Automata . 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; THORMANN, M. N. ; OLIVEIRA, F. A. D. . Atlas Eletrônico do Rio Grande do Sul. 1994. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; OLIVEIRA, F. A. D. ; THORMANN, M. N. . Software de Apresentação Click Show. 1993. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2320801888927350" target="_blank">BECKEL, C. C.</a> ; SANTOS, R. ; <b>EMMENDORFER, L. R.</b> . Introdução ao software MatLab. 2011. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . Delphi 2.0.
+							1997. (Desenvolvimento de material didático ou instrucional - Minicurso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>; CHAVES NETO, A.; COELHO, L. S.; AOKI, A. R..  Participação em banca de André Luiz de Abreu. Intervalo de confiança bootstrap. 2011. Dissertação (Mestrado em Métodos Numéricos em Engenharia) - Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CHAVES NETO, A.; MARQUES, J. M.; KAVISKY, E.; <b>EMMENDORFER, L. R.</b>.  Participação em banca de Rudinei Luiz Bogo. Análise de correlação canônica e análise de agrupamentos aplicadas aos acidentes da BR-116 entre janeiro de 2007 e novembro de 2009. 2011. Dissertação (Mestrado em Métodos Numéricos em Engenharia) - Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CHAVES NETO, A.; GUIMARAES, I.; <b>EMMENDORFER, L. R.</b>.  Participação em banca de Rogério de Jesus Hultmann. Estudo da confiabilidade de pneus de rodagem. 2011. Dissertação (Mestrado em Métodos Numéricos em Engenharia) - Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a>; COSTA, Eduardo; <b>EMMENDORFER, L. R.</b>.  Participação em banca de Bruno Ramos Gutierre.Aprendizado de Regras por Nuvem de Partículas.
+							2006. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Informática)  - Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Marcelo José Schmitt.Modelo de Workflow para o centro obstétrico do hopspital APMI.
+							2003. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Cleber de Almeida.Telefonia IP - VoIP.
+							2003. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Clovis Fabiano Sledz.Reconhecimento de sinais manuais pelo computador.
+							2003. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Domicio Scaramella.Sistema de Controle para secagem de madeiras em estufa.
+							2003. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Informática)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Deverson Fabio Tonial.Desenvolvimento de um frontend Internet para sistema de Automação de biblioteca.
+							2002. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Informática)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Herdelon Rubens de Matos.Data Warehouse: estudo da tecnologia e desenvolvimento de um modelo.
+							2002. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Informática)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Márcio José Danielviz.A estimulação da inteligência na pessoa portadora de síndrome de Down através de uma interface educativa.
+							2002. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Informática)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Alceu Jorge Mikolaiewski.Geoprocessamento de área e volume em reservas minerais.
+							2002. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Informática)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Carlos Eduardo Otto.Estudo de caso - criando uma VPN no Windows 2000 Server.
+							2002. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Informática)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Jean Pierre Berthier.Desenvolvimento de um modelo de sala de aula virtual utilizando a Internet.
+							2002. Trabalho de Conclusão de Curso (Graduação em Bacharelado em Informática)  - Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>.  Participação em banca de Revelino Antonio Bianco.Ingressando no marketing digital.
+							2002. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade do Contestado. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BICHO, A.L.; FILHO, N.L.D.; <b>EMMENDORFER, L. R.</b>. Concurso para professor assitente, área de Engenharia de Software -  Centro de Ciências Computacionais.
+							2010. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>; WERHLI, A. V.; GONÇALVES, G. A.. Concurso para professor assitente, área de  Sistemas de Informação Distribuídos-  Centrtro de Ciências Computacionais.
+							2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>; GIRARDI. Professor Assistente para área de Programação e Estrutura de Dados. UNIPAMPA.
+							2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>; FILHO, N.L.D.; FREITAS, A.L.C.F. Concurso para professor assistente do Centro de Ciências Computacionais.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dolci, D.; Leite, A. V.; <b>EMMENDORFER, L. R.</b>. Concurso para professor adjunto para o Colégio Técnico Industrial.
+							2008. Colégio Técnico Industrial Professor Mário Alquati. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>. Presidente da banca examinadora do concurso para professor assistente do Departamento de Matemática da Faculdade Estadual de União da Vitória-PR.
+							2007. Faculade Estadual de Filosofia Ciências e Letras de União da Vitória (PR). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1828808943547003" target="_blank">FELTRIN, Caren Coden</a>. Concurso para professor assistente do Departamento de Matemática da Faculdade Estadual de União da Vitória-PR.
+							2006. Faculade Estadual de Filosofia Ciências e Letras de União da Vitória (PR). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a>; <b>EMMENDORFER, L. R.</b>; VERGILIO, S.. Defesa de proposta de mestrado de Christian Alberti: Um Algoritmo de Computação Evolutiva baseado em Ensembles de Classificadores.
+							2007.
+							Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2815946827655352" target="_blank">POZO, Aurora Trinidad Ramirez</a>; <b>EMMENDORFER, L. R.</b>; VERGILIO, S.. Defesa de proposta de mestrado de Rafael Caiuta: Explorando Técnicas de Aprendizado de Máquina para Avaliar a Atividade de Teste e a Confiabilidade de Software.
+							2007.
+							Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>. Representante discente da pós-graduação da UFPR junto à comissão do PROF/CAPES.
+							2006.
+							Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>. Defesa de proposta de mestrado de Luis Claudio Brito Patricio: Algoritmos de Estimativa de Distribuição Paralelos.
+							2005.
+							Universidade Federal do Paraná. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>. Avaliação de projetos PAPe e PROFIPE.
+							2002.
+							Universidade do Contestado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b>; SACHWEH, Maria da Salete; PEDRASSANI, Daniela; SCHIMALSKI, Marcos Benedito; BRANCO, Rui. Avaliação de projetos de pesquisa do Fundo de Apoio à Pesquisa - FAP.
+							2000.
+							Universidade do Contestado. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Encontro acadêmico em Modelagem Computacional.Perspectiva do mercado de trabalho para os egressos de cursos em Modelagem Computacional.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Emmendorfer, Leonardo Ramos</b> ; ADAMATTI, D. F. ; WERHLI, A. V. ; BICHO, A.L. ; DIMURO, G. P. ; BOLTELHO, S. . IV Workshop-Escola de Sistemas de Agentes, seus Ambientes e apliCações. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . IV MCSUL - Conferência sul de Modelagem Computacional. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . IX ERMAC - Encontro Regional de Matemática Aplicada e Computacional. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . VI ENIA - Encontro Nacional de Inteligência Artificial. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> ; SCHEER, SERGIO ; ALES, V. T. . VIII Semana do Programa de Pós-Graduação em Métodos Numéricos em Engenharia. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . VII Semana Acadêmica do Programa de Pós-Graduação em Métodos Numéricos em Engenharia. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . 3o. Seminário de Grupos de Pesquisa. 2005. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>EMMENDORFER, L. R.</b> . 1o. Seminário de Iniciação Científica da ACAFE. 2005. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cassia Cris Beckel. Modelagem Computacional e Otimização de secções cônicas em polígonos irregulares de n lados.
+						Início: 2011.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Betito. Computação evolucionária aplicada à predição da estrutura terciária de proteínas utilizando o modelo AB.
+						Início: 2010.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande. (Co-orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rosana dos Santos. Uma estratégia híbrida para o problema do empacotamento de elipses.
+						Início: 2010.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ademar Rodrigues de Moraes. Em andamento.
+						Início: 2010.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jonilson Heil.
+							Análise de regressão linear estatística dos acidentes aéreos na aviação civil no Brasil.
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em MATEMÁTICA)  - Faculade Estadual de Filosofia Ciências e Letras de União da Vitória (PR). Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pablo Werlang.
+							Simulação Comportamental de Organismos Artificiais.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago Lipinski Paes.
+							Poder das árvores de decisão para a captura do comportamento de agentes: Experimentos em cenários com diversas complexidades.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Josimara de Ávila Silveira.
+							Poder das árvores de decisão para a captura do comportamento de agentes: Experimentos em cenários com diversas complexidades.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Wagner Gadea Lorenz.
+							Modelagem estatística e computacional do comportamento de alunos bolsistas de programas de apoio do Núcleo de Assistência Estudantil da Universidade Federal do Rio Grande..
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Vaz Pereira.
+							DATA MINING APLICADO À BASE DE DADOS DO QUESTIONÁRIO SOCIOECONÔMICO DO VESTIBULAR DA FURG.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roger Sá da Silva.
+							DATA MINING APLICADO À BASE DE DADOS DO QUESTIONÁRIO SOCIOECONÔMICO DO VESTIBULAR DA FURG.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro de Botelho Marcos.
+							Um sistema de acompanhamento musical orientado a performance: Uma abordagem utilizando o Processo de Decisão de Markov.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fábio José Machado.
+							Processamento digital de imagens aplicado a detecção e mensuração de nós em lâminas de madeira.
+							2003. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Norlei Fernando Bihler.
+							Sistema para interpretação de análise de solos para as culturas de milho, soja e feijão.
+							2003. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Cristina Feger.
+							Rede Unificada de Atendimento.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Informática)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Grasiele Bosse.
+							Sistema de Controle de Produção de Mudas.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Informática)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fabiane Schaikoski.
+							Sistema de aplicação Netcounter.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Informática)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adelar Fediuk.
+							Estudo sobre a viabilidade de implementação de um sistema de boot unniversal.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Informática)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">José Acácio Dombroski.
+							Considerações sobre a implantação da rede de computadores em uma unidade do poder judiciário.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Informática)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lúcio Cesar Gasparoto.
+							Psicologia cognitiva e design de interface.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Informática)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Margarete Aparecida Kobus Saldanha.
+							Sistemas Multi Agentes com ênfase em Algoritmos Genéticos para mercado de ações.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Informática)  - Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro de Botelho Marcos.
+							Um sistema de acompanhamento musical orientado a performance: Uma abordagem utilizando o Processo de Decisão de Markov.
+							2010.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago Lipinski Paes.
+							MODELAGEM DA DINÂMICA DO FLUXO GRANULAR ATRAVÉS DE AUTÔMATOS CELULARES E SIMULAÇÃO BASEADA EM AGENTES.
+							2009.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jeronimo Berbetz Neto.
+							Apoio ao desenvolvimento de algoritmos de computação evolutiva baseados em ensembles e aprendizado incremental de classificadores.
+							2006.
+							Iniciação Científica. (Graduando em Bacharelado em Informática)  - Universidade Federal do Paraná,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fred Helmut Moissa.
+							O uso do computador no diagnóstigo de defeitos no sistema de injeção eletrônica dos automóveis.
+							2003. 0 f.
+							Iniciação Científica. (Graduando em Bacharelado em Informática)  - Universidade do Contestado,
+							Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Margarete Aparecida Kobus Saldanha.
+							Estudo de Sistema Multi-Agente com ênfase em Algoritmos Genéticos.
+							2002. 0 f.
+							Iniciação Científica. (Graduando em Bacharelado em Informática)  - Universidade do Contestado,
+							Universidade do Contestado. Orientador: Leonardo Ramos Emmendorfer.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:19:57</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=1129100746134234" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

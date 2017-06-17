@@ -1,0 +1,201 @@
+MARCACAO HTML
+
+<h2>Nome Completo</h2>
+<h2>Bolsa de Produtividade</h2>
+
+<p>Texto Resumo</p>
+
+<h1></h1>
+
+<div>
+Nome em citacao 
+Sexo
+Endereco
+</div>
+<div class='layout-cell-pad-5'></div>
+<div class='layout-cell-pad-5 text-align-right'></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+RETORNO DO PARSER
+
+Direção e administração, DESCRICAO
+Conselhos, Comissões e Consultoria, DESCRICAO
+
+MODELO DE DADOS
+
+SE vinculo ENTAO
+	[TITULO]
+	[PERIODO, TIPO DE VINCULO, ENQUADRAMENTO FUNCIONAL, REGIME]
+SE outras informacoes ENTAO
+	[TITULO, DESCRICAO]
+SE atividades ENTAO
+	{[PERIODO, DESCRICAO, ORGAO], [CARGO]}
+
+ALGORITMO dE EXTRACAO DO MODELO DE DADOS
+
+GOOD TIMES ARE COMING...
+
+-------------------------------------------------
+decode('utf8', 'replace')
+find(patternIntegrante)
+compile('[a-zA-Z]+')
+
+<html>
+<head>Hello</head>
+<body>
+<img src="">
+<div class="infoPessoal"
+	<h2>LUCIANO MACIEL</h2>
+	<ul>
+		<li>ENDERECO CURRICULO</li>
+		<li>ENDERECO PROFISSIONAL</li>
+	</ul>
+	<hr>
+	<p class="resumo"> 
+		<script></script>
+	<span> RESUMO OFERECISO PELO AUTOR</span>
+	</p>
+</div>
+
+</div><br class="clear" />
+
+<div class="title-wrapper">
+	<a name="Identificacao"><h1>Identifica&ccedil;&atilde;o</h1></a>
+	<hr class="separator">
+
+	<div class="layout-cell layout-cell-12 data-cell">
+	
+	<div class="layout-cell layout-cell-3 text-align-right">
+		<div class="layout-cell-pad-5 text-align-right">
+			<b>Nome</b>
+		</div>
+	</div>
+
+	<div class="layout-cell layout-cell-9">
+		<div class="layout-cell-pad-5">Luciano Maciel Ribeiro<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img' title='Dados cadastrais validados junto a Receita Federal do Brasil' />
+		</div>
+	</div>
+	
+	<div class="layout-cell layout-cell-3 text-align-right">
+		<div class="layout-cell-pad-5 text-align-right">
+			<b>Nome em citações bibliográficas</b>
+		</div>
+	</div>
+
+	<div class="layout-cell layout-cell-9">
+	<div class="layout-cell-pad-5">RIBEIRO, Luciano Maciel</div>
+	</div>
+	</div>
+</div>
+
+<div class="title-wrapper">
+	<a name="Endereco"><h1>Endere&ccedil;o</h1></a>
+	<hr class="separator">
+
+	<div class="layout-cell layout-cell-12 data-cell">
+
+		<div class="layout-cell layout-cell-3 text-align-right">
+			<div class="layout-cell-pad-5 text-align-right">
+				<b>Endereço Profissional</b>
+			</div>
+		</div>
+
+		<div class="layout-cell layout-cell-9">
+			<div class="layout-cell-pad-5">Universidade Federal do Rio Grande. <br class="clear" />Avenida Itália, Km 8, S/N<br class="clear" />Centro<br class="clear" />96201-900 - Rio Grande, RS - Brasil<br class="clear" />URL da Homepage: <a target="blank" href="http://www.furg.br">http://www.furg.br</a>
+			</div>
+		</div>
+	</div>
+	<br class="clear" />
+</div>
+<br class="clear" />
+
+<div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao"><h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1></a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em Educação em Ciências<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Teias Científicas como Locus do Conhecimento no Estabelecimento de Parques Científico-Tecnológicos, <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8800859024101679'><img src='images/curriculo/logolattes.gif' /></a>Silvia Silva da Costa Botelho. <br class="clear" />Co-orientador: Nelson Lopes Duarte Filho. <br class="clear" />Palavras-chave: Parques Tecnológicos; Inovação tecnológica.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Administração<span class="ajaxCAPES" data-param="&codigoCurso=42007011007P1&nivelCurso=M"></span>. <br class="clear" />Universidade do Vale do Rio dos Sinos, UNISINOS, Brasil.
+		
+	<br class="clear" />Título: Avaliação de competências na construção de Mapa Estratégico para gestão de cursos na modalidade EAD,Ano de Obtenção: 2007.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7441849125904075'><img src='images/curriculo/logolattes.gif' /></a>Adolfo Alberto Vanti.<br class="clear" />Palavras-chave: EAD; Sistemas de Informação; Ambientes de Aprendizagem; Estratégia; Desenvolvimento de competências.<br class="clear" />Grande área: Ciências Sociais Aplicadas / Área: Administração / Subárea: Administração de Empresas / Especialidade: Sistemas de Informação. <br class="clear" />Setores de atividade: Educação Superior. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em MBA em Tecnologia da Informação e Comunicação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 555h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Título: Intranet e Gestão do Conhecimento: Ferramentas que podem proporcionar vantagens para as organizações. <br class="clear" />Orientador: Patrícia Beatriz de Macedo Vianna. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Gestão Empresarial<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 375h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Título: Instituições de Ensino que aprendem. <br class="clear" />Orientador: Jorge Augusto Elias. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Desenvolvimento e Gerenciamento de Sistemas de Inf<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 480h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: O uso de tesauros na Gestão do Conhecimento. <br class="clear" />Orientador: Claudio Omar Iahnke Nunes. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aperfeiçoamento em Teleformar -  Curso de Formação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 160h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	Ano de finalização: 2002. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Ciências Econômicas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: A influência da Tecnologia de Informação na Economia Digital. <br class="clear" />Orientador: Carla Theresinha Amaral. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Divisão de Ensino Superior.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" />
+</body>
+</html>

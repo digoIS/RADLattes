@@ -1,0 +1,2273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Celiane Costa Machado)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2142170327088391" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4798317T2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4798317T2"><div class="infpessoa">
+<h2 class="nome">Celiane Costa Machado</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/2142170327088391</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 14/09/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Matemática pela Universidade Federal do Rio Grande (1995), mestrado em Matemática Aplicada pela Universidade Federal do Rio Grande do Sul (1999) e doutorado em Matemática Aplicada pela Universidade Federal do Rio Grande do Sul (2007). Atualmente é professor adjunto da Universidade Federal do Rio Grande. Tem experiência na área de Educação e Matemática, com ênfase em Educação Matemática e Matemática Aplicada, atuando principalmente nos seguintes temas: ensino de matemática e controle de estruturas flexíveis.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Celiane Costa Machado</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MACHADO, Celiane Costa</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Departamento de Matemática. <br class="clear" />Avenida Itália, KM 08<br class="clear" />Carreiros<br class="clear" />96201900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32336796<br class="clear" />URL da Homepage: <a target="blank" href="http://furg.br">http://furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Matemática Aplicada<span class="ajaxCAPES" data-param="&codigoCurso=42001013063P0&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: MODELAGEM MATEMÁTICA E CONTROLE ATIVO DE UM MANIPULADOR COM UM ELO FLEXÍVEL, Ano de obtenção: 2007. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8466423633226889'><img src='images/curriculo/logolattes.gif' /></a>Álvaro Luiz de Bortoli. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Modelagem; Controle; Estruturas Flexíveis.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada / Especialidade: Modelagem Dinâmica de Estruturas Flexíveis e Controle. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Matemática Aplicada<span class="ajaxCAPES" data-param="&codigoCurso=42001013063P0&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Um Estudo Sobre o Controle de Estruturas Flexíveis Ativadas por Escoamentoes de Fluidos,Ano de Obtenção: 1999.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5895086145314795'><img src='images/curriculo/logolattes.gif' /></a>Sebastião Cícero Pinheiro Gomes.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada / Especialidade: Análise Numérica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Matemática Aplicada<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 420h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Matemática<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 400h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Matemática<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor substituto, Enquadramento Funcional: Professor substituto, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Calculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Quimica Licenciatura e Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2013 - 02/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Calculo III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 02/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 08/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 04/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 04/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Alimentos, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 10/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 07/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação em Ciências, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Tópico Especial: Tendências Metodológicas no Ensino de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 07/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Formação de Professores na Narrativa da Docência, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Formação de Professores na Narrativa da Docência - Planejamento de Sala de Aula<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Alimentos, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 07/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação em Ciências, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Tópico Especial: Matemática no Ciberespaço: formação e prática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação em Ciências, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Tópico Especial: Matemática no Ciberespaço: formação e práticas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Integral<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Elementar<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Elementar<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2008 - 07/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2004 - 9/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2004 - 9/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e  Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/2002 - 9/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro de comissão permanente.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/2002 - 9/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro de comissão permanente.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2003 - 1/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2002 - 3/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2002 - 3/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1999 - 12/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1999 - 7/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1998 - 12/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1998 - 12/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1997 - 12/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Plena em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1997 - 12/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1997 - 12/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1997 - 7/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática III<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Prefeitura Municipal de São José do Norte, PMSJN, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Contrato Temporário, Enquadramento Funcional: Professor do Ensino Fundamental, Carga horária: 20</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Investiga&ccedil;&otilde;es sobre a pr&aacute;tica docente na Universidade e na Escola'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Investigações sobre a prática docente na Universidade e na Escola<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Inúmeras mudanças têm ocorrido na sociedade referentes aos avanços tecnológicos, sendo estes voltados, especialmente para a educação, evidenciando, desta forma, a necessidade de buscar estratégias pedagógicas no sentido de proporcionar um ensino mais compromissado com o educando. Então, este projeto tem por finalidade investigar os processos de ensino e aprendizagem e desenvolver ações que contemplem a formação docente envolvendo a universidade e a escola, repercutindo na comunidade. Além disso, pretende-se fomentar espaços de formação docente, voltada para uma atualização constante, devido as mudanças e transformações as quais vem ocorrendo em todos os campos do saber. Espera-se com essa pesquisa ampliar o olhar investigativo e crítico de professores, de modo a propiciar ações pedagógicas inovadoras que atendam a demanda da sociedade contemporânea.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Especialização: (3)  / Mestrado acadêmico: (4)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Celiane Costa Machado - Coordenador / Suvania Acosta de Oliveria - Integrante / Liliane Silva Antiqueira - Integrante / Marilia N. Dall Asta - Integrante / Sicero A. de Miranda - Integrante / Elaine C. Pereira - Integrante / Vanessa Silva da Luz - Integrante / Sandra Christ Hartwig - Integrante / Leandro da Silva Saggiomo - Integrante / Ramon da Silva Cunha - Integrante / Kelvin dos Anjos - Integrante / Aline de Lima Brum - Integrante.<br class="clear" /></div>
+</div><a name='PP_Programa Institucional de Bolsa de Inicia&ccedil;&atilde;o &agrave; Doc&ecirc;ncia FURG (Subprojeto Matem&aacute;tica)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa Institucional de Bolsa de Iniciação à Docência FURG (Subprojeto Matemática)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto tem por objetivo aproximar a Universidade e Escolas da rede pública promovendo a iniciação à docência de graduandos de cursos de licenciatura, a formação continuada de professores da rede pública além de contribuir com as ações de ensino na educação básica.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (20)  / Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Celiane Costa Machado - Coordenador / Ioni Gonçalves Colares - Integrante / Moacir Langoni de Souza - Integrante / Sonia Marisa Hefler - Integrante / Billy Graeff Bastos - Integrante / Luiz Fernando Mackedanz - Integrante / Eliane Misiak - Integrante / Cláudia da Silva Cousin - Integrante.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa.<br class="clear" />Número de produções C, T & A: 13 / Número de orientações: 4</div>
+</div><a name='PP_Forma&ccedil;&atilde;o de professores e pr&aacute;tica docente no ensino de Matem&aacute;tica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formação de professores e prática docente no ensino de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto de pesquisa tem por objetivos analisar e interpretar práticas de formação e de atuação de professores de Matemática de forma a compreender como se constitui o professor de Matemática, identificando as estratégias mais eficientes e reconhecendo quais saberes docentes são importantes para um exercício pleno da profissão. A pesquisa será realizada com professores da educação básica buscando uma integração entre a universidade e as escolas de forma a intensificar a aproximação entre ambas e enriquecer a qualidade da educação com um todo. Será realizado um estudo bibliográfico sobre metodologias voltadas ao ensino de Matemática e uso de tecnologias identificando suas qualidades e seus limites. Além disso, estudar e refletir sobre processos de formação inicial e continuada de professores analisando a forma como estes processos interferem em sua prática docente.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Celiane Costa Machado - Coordenador / PRISCILA - Integrante / Robson Teixeira Porto - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 2 / Número de orientações: 2</div>
+</div><a name='PP_Programa Institucional de Bolsa de Inicia&ccedil;&atilde;o &agrave; Doc&ecirc;ncia FURG (Subprojeto Matem&aacute;tica)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa Institucional de Bolsa de Iniciação à Docência FURG (Subprojeto Matemática)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto tem por objetivo promover a iniciação à docência, a formação continuada e contribuir com a eduação básica. O subprojeto Matemática desenvolve suas ações em parceria com 3 escolas da rede pública da cidade de Rio Grande.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (13) . <br class="clear" /><br class="clear" />Integrantes: Celiane Costa Machado - Coordenador / Maria do Carmo Galiazzi - Integrante / Ioni Gonçalves Colares - Integrante / Moacir Langoni de Souza - Integrante / Aline Guerra Dytz - Integrante.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa.</div>
+</div><a name='PP_Estudo Te&oacute;rico e Experimental sobre o Controle Robusto de Estruturas Flex&iacute;veis'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo Teórico e Experimental sobre o Controle Robusto de Estruturas Flexíveis<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A presente pesquisa tem o objetivo de estudar o controle ativo de uma estrutura flexível sujeita a uma perturbação externa oriunda do contato de um fluido com a mesma. O modelo estrutural utilizado é obtido a partir do formalismo discreto. Resultados anteriores foram obtidos projetando o controlador usando as técnicas LQG/LTR (Linear Qaudratic Gaussian/ Loop Transfer Recovery) e alocação de pólos. A proposta de trabalho consiste então em estudar um problema semelhante porém com as técnicas de controle robusto H2 e Hinfinito, já que são técnicas recentes e de relevância na teoria de controle nos tempos atuais. Propomos inicialmente fazer um estudo teórico seguido do desenvolvimento de projetos de controladores sendo feitos testes de robustez. Finalmente será feita a validação experimental dos projetos de controle robustos desenvolvidos.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Celiane Costa Machado - Coordenador / Sebastião Cícero Pinheiro Gomes - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Controle de Estruturas Flexíveis. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende PoucoLê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende BemLê Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Patronesse da Turma de Formandos do Curso de Matemática (Licenciatura), FURG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor Homenageado do Curso de Matemática (Licenciatura), FURG. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DALL ASTA, M. N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>DALL ASTA, M. N. ; <b>MACHADO, Celiane Costa</b> ; MIRANDA, S. A. ; PEREIRA, E. C. . Origami: do real ao imaginário numa perspectiva interdisciplinar entre Arte e Matemática. Revista Interdisciplinaridade<sup><img id='21790094_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='21790094' /></sup>, v. 1, p. 38-44, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21790094&volume=1&issue=&paginaInicial=38&titulo=Origami: do real ao imaginário numa perspectiva interdisciplinar entre Arte e Matemática&sequencial=1&nomePeriodico=Revista Interdisciplinaridade" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORAES, M. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8170137558538373" target="_blank">MORAES, M. C.</a> ; LAURINO, D. P. ; <b>MACHADO, Celiane Costa</b> . O EXPERIENCIAR DE UM PROFESSOR: A RECORRÊNCIA PARA A CULTURA DIGITAL NO ENSINAR. Colabor@ (Curitiba)<sup><img id='15198529_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15198529' /></sup>, v. 8, p. 1, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15198529&volume=8&issue=&paginaInicial=1&titulo=O EXPERIENCIAR DE UM PROFESSOR: A RECORRÊNCIA PARA A CULTURA DIGITAL NO ENSINAR&sequencial=2&nomePeriodico=Colabor@ (Curitiba)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORAES, M. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8170137558538373" target="_blank">MORAES, M. C.</a> ; LAURINO, D. P. ; <b>MACHADO, Celiane Costa</b> . PRÁTICAS DOCENTES ATUALIZADAS NA ECOLOGIA DIGITAL. RENOTE. Revista Novas Tecnologias na Educação<sup><img id='16791916_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16791916' /></sup>, v. 11, p. 1-10, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16791916&volume=11&issue=&paginaInicial=1&titulo=PRÁTICAS DOCENTES ATUALIZADAS NA ECOLOGIA DIGITAL&sequencial=3&nomePeriodico=RENOTE. Revista Novas Tecnologias na Educação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORAES, Maritza Costa</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		MORAES, Maritza Costa ; PEREIRA, Débora Laurino ; <b>MACHADO, Celiane Costa</b> . TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO: A ROBÓTICA POSSIBILITANDO A APRENDIZAGEM DAS CIÊNCIAS EM SALA DE AULA.. Enseñanza de las Ciencias<sup><img id='02124521_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02124521' /></sup>, v. extra, p. 1409-1413, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02124521&volume=extra&issue=&paginaInicial=1409&titulo=TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO: A ROBÓTICA POSSIBILITANDO A APRENDIZAGEM DAS CIÊNCIAS EM SALA DE AULA.&sequencial=4&nomePeriodico=Enseñanza de las Ciencias" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, Celiane Costa</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, Celiane Costa</b> . UM NOVO ALGORITMO PARA A MODELAGEM DINÂMICA DE MANIPULADORES FLEXÍVEIS. Revista Brasileira de Controle Automação, v. 13, n.2, p. 134-140, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=13&issue=&paginaInicial=134&titulo=UM NOVO ALGORITMO PARA A MODELAGEM DINÂMICA DE MANIPULADORES FLEXÍVEIS&sequencial=5&nomePeriodico=Revista Brasileira de Controle Automação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, Celiane Costa</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pineiro ; BORTOLI, Álvaro Luis de . CONTROLE DE ESTRUTURAS FLEXÍVEIS SUJEITAS A PERTURBAÇÕES EXTERNAS UTILIZANDO A TÉCNICA DE ALOCAÇÃO DE PÓLOS. Vetor (FURG)<sup><img id='01027352_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, Rio Grande, v. 1, p. 7-19, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=1&issue=&paginaInicial=7&titulo=CONTROLE DE ESTRUTURAS FLEXÍVEIS SUJEITAS A PERTURBAÇÕES EXTERNAS UTILIZANDO A TÉCNICA DE ALOCAÇÃO DE PÓLOS&sequencial=6&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; PINHO, Denise Sena . PRECEPÇÕES ACERCA DO PIBID MATEMÁTICA FURG. In: Maria do Carmo Galiazzi; Ioni Gonçalves Colares. (Org.). COMUNIDADES APRENDENTES DE PROFESSORES - o PIBID na FURG. 1ed.Ijuí: Unijuí, 2013, v. I, p. 201-216. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINHO, Denise Sena ; <b>MACHADO, Celiane Costa</b> . Saberes Docentes na Formação Acadêmico Profissional: Experiência do Subprojeto PIBID da Matemática. In: XI ENEM - Encontro Nacional de Educação Matemática, 2013, Curitiba, PR. Anais do XI Encontro Nacional de Educação Matemática: Retrospectivas e Perspectivas. Curitiba, PR: Sociedade Brasileira de Educação Matemática   Regional Paraná, 2013. v. 01. p. 1-9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, Rejane Conceição Silveira ; <b>MACHADO, Celiane Costa</b> . Ensino de Estatística a Partir do Contexto Escolar. In: XI ENEM - Encontro Nacional de Educação Matemática, 2013, Curitiba, PR. Anais do XI Encontro Nacional de Educação Matemática: Educação Matemática - Retrospectiva e Prespectivas. Curitiba, PR: Sociedade Brasileira de Educação Matemática   Regional Paraná, 2013. v. 01. p. 1-9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PORTO, Robson Teixeira ; <b>MACHADO, Celiane Costa</b> . Concepções de licenciandos acerca das estratégias de ensino de matemática. In: I Seminário Internacional de Educação em Ciências, 2011, Rio Grande. Anais do I Seminário Internacional de Educação em Ciências, 2011. v. 2. p. 228-235. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PORTO, Robson Teixeira ; <b>MACHADO, Celiane Costa</b> . Concepções de licenciandos acerca do planejamento docente de matemática. In: XIII Conferência Interamericana de Educação Matemática - CIAEM, 2011, Recife. Anais do XIII CIAEM, 2011. p. 1-8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORAES, Maritza Costa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8358366460360383" target="_blank">LAURINO, Debora Pereira</a> ; <b>MACHADO, Celiane Costa</b> . Utilizando um ambiente virtual de aprendizagem para investigar saberes nas práticas pedagógicas.. In: VIII Encontro Nacional de Pesquisa em Educação em Ciências e I CIEC - Congreso Iberoamericano de Investigacion en Enseñanza de las Ciencias, 2011, Campinas. VIII Encontro Nacional de Pesquisa em Educação em Ciências e I CIEC - Congreso Iberoamericano de Investigacion en Enseñanza de las Ciencias, 2011. v. 1. p. 1-10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MONTE, Luciane Rosa ; MOÇO, Priscila Pedroso ; DAVILA, Thais Gonçalves ; <b>MACHADO, Celiane Costa</b> ; PINHO, Denise Sena . Construção de sólidos geométricos no estudo de geometria espacial. In: III Jornada Nacional de Educação Matemática e XVI Jornada Regional de Educação Matemática, 2010, Passo Fundo. III Jornada Nacional de Educação Matemática e XVI Jornada Regional de Educação Matemática, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1703205767967772" target="_blank">MACHADO, Bianca Neves</a> ; DUARTE, Carla Forni ; <b>MACHADO, Celiane Costa</b> ; PINHO, Denise Sena ; RICARDO, Juliana Silva ; OLIVEIRA, Mara Rubia ; PORTO, Robson Teixeira . A inserção de materiais concretos no ensino de matemática. In: III Jornada Nacional de Educação Matemática e XVI Jornada Regional de Educação Matemática, 2010, Passo Fundo. III Jornada Nacional de Educação Matemática e XVI Jornada Regional de Educação Matemática, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ANTIQUEIRA, Liliane Silva ; MEDEIROS, Liliane Silveira ; OLIVEIRA,  Suvania Acosta ; <b>MACHADO, Celiane Costa</b> ; MORAES, Maritza Costa . Oficinas educacionais auxiliando professores de educação básica. In: III Jornada Nacional de Educação Matemática e XVI Jornada Regional de Educação Matemática, 2010, Passo Fundo. III Jornada Nacional de Educação Matemática e XVI Jornada Regional de Educação Matemática, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENDES, Patricia Wyse ; MOÇO, Priscila Pedroso ; <b>MACHADO, Celiane Costa</b> ; NOVELLO, Tanise Paula . Uso de material concreto no ensino de trigonometria.. In: IX Congresso Nacional de Educação - EDUCERE, 2009, Curitiba. Anais do ... Congresso Nacional de Educação. Curitiba: Editora Universitária Champagnat, 2009. v. 1. p. 4706-4714. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORAES, Maritza Costa ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8358366460360383" target="_blank">LAURINO, Debora Pereira</a> ; <b>MACHADO, Celiane Costa</b> . Tecnologias como Produção de Aprendizagem na Educação em Ciências. In: VII ENPEC- Encontro Nacional de Pesquisa em Educação em Ciências, 2009, Florianópolis. VII ENPEC- Encontro Nacional de Pesquisa em Educação em Ciências, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinheiro ; BORTOLI, Álvaro Luis de ; ROSA, Vagner Santos da . Adaptive Neuro-Fuzzy Friction Compensation Mechanism to Robotic Actuators. In: Seventh International Conference on Intelligent System Design and Application - ISDA´2007, 2007, Rio de Janeiro. ISDA´2007, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinnheiro ; BORTOLI, Álvaro Luis de . Hinf Control Applied to a one Link Flexible Manipulator. In: 19th International Congress of Mechanical Engineering, 2007, Brasília. 19th International Congress of Mechanical Engineering, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, Sebastião Cícero Pinnheiro ; GERVINI, Vitor Irigon ; Daniel Silva Guimarães Silva ; <b>MACHADO, Celiane Costa</b> . Controle de um manipulador Flexível Utilizando Redes Neurais. In: Congresso Brasileiro de Automática, 2006, Salvador. Congresso Brasileiro de Automática, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinnheiro ; BORTOLI, Álvaro Luis de . Modelagem e Controle de Vibrações de um Manipulador Flexível. In: 64o. Seminário Brasileiro de Análise, 2006, São Paulo. Anais do 64o. Seminário Brasileiro de Análise, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinheiro ; BORTOLI, Álvaro Luis de . Active Control of Flexible Structures Submitted to Incompressible Flows. In: International Mechanical Engineering Congress & Exhibition, 2002, New Orleans. ASME Proceedurings of International Mechanical Engineering Congress. New Orleans: ASME, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinnheiro ; GERVINI, Vitor Irigon . Controle de um Manipulador Flexível Utilizando uma Rede Neural Artificial para Identificação e Compensação de Atritos não Lineares. In: Congresso Brasileiro de Automática, 2001, Uberlândia. Anais do COBEM 2001, 2001. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinheiro ; BORTOLI, Álvaro Luis de . Controle Robusto de Estruturas Flexíveis Ativadas por Escoamento de Fluidos. In: Congresso Brasileiro de Automática, 2000, Florianópolis. Anais do XIII CBA/2000, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinheiro ; BORTOLI, Álvaro Luis de . Um Estudo sobre o Controle Robusto de Estruturas Flexíveis Ativadas por Escomento de Fluidos. In: Congresso Nacional de Engenharia Mecânica, 2000, Natal. Anais do CONEM/2000, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; PEREIRA, Adriana Elisa Ladeira ; GOMES, Sebastião Cícero Pinheiro ; BORTOLI, Álvaro Luis de . Um novo Algoritmo para a Modelagem Dinâmica de Manipuladores Flexíveis. In: Congresso Brasileiro de Automática, 2000, Florianópolis. Anais do XIII CBA/2000, 2000. p. 2233-2238. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinheiro ; BORTOLI, Álvaro Luis de . Controle de Estruturas Flexíveis Ativados por Escoamentos de Fluidos. In: Congresso Brasileiro de Engenharia Mecânica, 1999, Águas de Lindóia. Anais do COBEM/1999, 1999. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINHO, Denise Sena ; <b>MACHADO, Celiane Costa</b> . Acadêmicos da Licenciatura em Matemática: Sistematização e Reflexão Acerca de Práticas em Sala de Aula. In: XI Encontro sobre Investigação na Escola - 'Tecendo saberes docentes em Redes de conversa no pampa.', 2012, Bagé. XI Encontro sobre Investigação na Escola -, 2012. v. 1. p. 1-3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORAES, Maritza Costa ; <b>MACHADO, Celiane Costa</b> ; PINHO, Denise Sena . O aprender da formação inicial com a formação continuada. In: X Encontro Sobre Investigação na Escola, 2010, Rio Grande. X Encontro Sobre Investigação na Escola, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENDES, Patricia Wyse ; MOÇO, Priscila Pedroso ; <b>MACHADO, Celiane Costa</b> . A trigonometria e sua utilização na prática. In: VIII Mostra da Produção Universitária - FURG, 2009, Rio Grande. VIII Mostra da Produção Universitária - IV Seminário de Ensino, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PORTO, Robson Teixeira ; DUARTE, Carla Forni ; <b>MACHADO, Celiane Costa</b> . Explorando a geometria por meio das embalagens. In: VIII Mostra da Produção Universitária - FURG, 2009, Rio Grande. VIII Mostra da Produção Universitária - IV Seminário de Ensino, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1703205767967772" target="_blank">MACHADO, Bianca Neves</a> ; RICARDO, Juliana Silva ; <b>MACHADO, Celiane Costa</b> . O ensino de matemática através do jogo. In: VIII Mostra da Produção Universitária - FURG, 2009, Rio Grande. VIII Mostra da Produção Universitária - IV Seminário de Ensino, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA,  Suvania Acosta ; ANTIQUEIRA, Liliane Silva ; MEDEIROS, Liliane Silveira ; MORAES, Maritza Costa ; <b>MACHADO, Celiane Costa</b> . Utilizando uma metodologia diferenciada no ensino de matemática. In: VIII Mostra da Produção Universitária - FURG, 2009, Rio Grande. VIII Mostra da Produção Universitária - IV Seminário de Ensino, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MONTE, Luciane Rosa ; DAVILA, Thais Gonçalves ; <b>MACHADO, Celiane Costa</b> . Contextualizando matrizes. In: VIII Mostra da Produção Universitária - IV Seminário de Ensino, 2009, Rio Grande. VIII Mostra da Produção Universitária - IV Seminário de Ensino, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAVILA, Cássia Gonçalves ; PEDROTTI, Vagner ; SILVA, Rejane Conceição Silveira ; <b>MACHADO, Celiane Costa</b> . Contextualizando a Matemática. In: 11ª Mostra de Produção Universitária, 2012, Rio Grande. Iniciação Científica, 2012. v. único. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> . Controle Ativo de Estruturas Flexíveis Ativadas por Escoamentos de Fluidos. In: I Mostra da Produção Universitária, 2002, Rio Grande. I Mostra da Produção Universitária. Rio Grande: Editora da FURG, 2002. p. 105-105. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; GOMES, Sebastião Cícero Pinheiro ; BORTOLI, Álvaro Luis de . Controle Robusto de Estruturas Flexíveis Sujeitas a Perturbações Externas. In: Encontro Regional de Matemática Aplicada e Computacional ERMAC, 2000, Santa Cruz. Anais do VI ERMAC/2000, 2000. p. 44-45. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, Celiane Costa</b> ; SENA, Denise Vieira de . Investigação sobre Aprendizagem Matemática nas Séries do Primeiro Grau. In: Congresso de Iniciação Científica FURG/UFPEL, 1993, Rio Grande. Anais do Congresso de Iniciação Científica FURG/UFPEL. Rio Grande: Editora da FURG, 1993. p. 46-46. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8358366460360383" target="_blank">LAURINO, Debora Pereira</a>; SCHMIDT, Elisabeth Brandão; SATO, Michele Tomoko; Bonilla, Maria Helena Silveira; <b>MACHADO, Celiane Costa</b>; ARAUJO, Marcia Santiago.  Participação em banca de Tanise Paula Novello. Cooperar no enatuar de professores e tutores. 2011. Tese (Doutorado em Educação Ambiental)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUCAS, Elvira Do Carmo Pereira; <b>MACHADO, Celiane Costa</b>; HOOD, Carlos Sidney Socot. Seleção para professor substituto.
+							2004. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RETAMOSO, Mario Rocha; <b>MACHADO, Celiane Costa</b>; BELLICANTA, Leandro Sebben. Seleção para professor substituto.
+							2004. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HOOD, Carlos Sidney Scott; <b>MACHADO, Celiane Costa</b>; PEREIRA, Adriana Ladeira; TRIACA, Fernando Vitório. Seleção para professor substituto.
+							2003. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, Adriana Elisa Ladeira; <b>MACHADO, Celiane Costa</b>; BELLICANTA, Leandro Sebben. Seleção para professor substituto.
+							2003. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Encontro Nacional de Educação Matemática.SABERES DOCENTES NA FORMAÇÃO ACADÊMICO  PROFISSIONAL: EXPERIÊNCIA DO SUBPROJETO PIBID DA MATEMÁTICA.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Encontro sobre Investigação na Escola - 'Compartilhar conhecimentos e práticas: um desfio para educadores'.Interação Universidade Escola: Uma Possibilidade de Qualificar a Aprendizagem Escolar e a Formação de Professores.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Encontro sobre Investigação na Escola - 'Tecendo saberes docentes em Redes de conversa no pampa.'.Acadêmicos da Licenciatura em Matemática: Sistematização e Reflexão Acerca de Práticas em Sala de Aula..
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Encontro Regional de Matemática Aplicada e Computacional.Controle Robusto de Estruturas Flexíveis Sujeitas a Perturbações Externas.
+							2000. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso de Iniciação Científica. Autovalores e Autovetores no Estudo das Curvas e Superfícies. 1994. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro com a Matemática.Encontro com a Matemática.
+							1994. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso de Iniciação Científica. Investigação da Aprendizagem nas Séries do Primeiro Grau. 1993. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminários Sobre Ensino de Matemática.Seminários sobre Ensino de Matemática. 1992. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Liliane Antiqueira. A escrita e reescrita na formação inicial de professores participantes do PIBID Matemática - FURG.
+						Início: 2014. Tese (Doutorado em Educação em Ciências)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rejane Conceição Silveira da Silva. Reforma do Ensino Médio: Percepções de Docêntes de Matemática.
+							2013.
+						
+					Dissertação  (Mestrado em Educação em Ciências)  - Universidade Federal do Rio Grande, . Co-Orientador: Celiane Costa Machado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8185027554262896'><img src='images/curriculo/logolattes.gif' /></a>Priscila Pedroso Moço. DISCUSSÕES SOBRE A RESOLUÇÃO DE PROBLEMAS ENQUANTO ESTRATÉGIA METODOLÓGICA PARA O ENSINO DE MATEMÁTICA.
+							2013.
+						
+					Dissertação  (Mestrado em Educação em Ciências)  - Universidade Federal do Rio Grande, . Orientador: Celiane Costa Machado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3910450685905975'><img src='images/curriculo/logolattes.gif' /></a>Robson Teixeira Porto. Programa Institucional de Bolsa de Iniciação à Docência: Ensinar e Aprender Matemática.
+							2012.
+						
+					Dissertação  (Mestrado em Educação em Ciências)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Celiane Costa Machado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sandra Christ Hartwig. A formação continuada do professor de matemática frente ao programa de pós-graduação Educação em Ciências..
+							2011.
+						
+					Dissertação  (Mestrado em Educação em Ciências)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Co-Orientador: Celiane Costa Machado. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Martiza Costa Maraes. Robótica Educacional:Socializando e Produzindo Conhecimentos Metemáticos.
+							2010.
+						
+					Dissertação  (Mestrado em Educação em Ciências)  - Universidade Federal do Rio Grande, . Co-Orientador: Celiane Costa Machado. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carla Rosi Lempek Montanhês.
+							Contribuições do PIBID para a formação docente: um relato de experiência da atuação em uma escola municipal de Rio Grande.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Formação de Professores na Narrativa da Docência)  - Universidade Federal do Rio Grande. Orientador: Celiane Costa Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renata Almeida Alonso.
+							Experiência no PIBID: A Importância da informação inicial e continuada.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Formação de Professores na Narrativa da Docência)  - Universidade Federal do Rio Grande. Orientador: Celiane Costa Machado.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ArtigosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Artigos</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DALL ASTA, M. N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>DALL ASTA, M. N. ; <b>MACHADO, Celiane Costa</b> ; MIRANDA, S. A. ; PEREIRA, E. C. . Origami: do real ao imaginário numa perspectiva interdisciplinar entre Arte e Matemática. Revista Interdisciplinaridade<sup><img id='21790094_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='21790094' /></sup>, v. 1, p. 38-44, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=21790094&volume=1&issue=&paginaInicial=38&titulo=Origami: do real ao imaginário numa perspectiva interdisciplinar entre Arte e Matemática&sequencial=1&nomePeriodico=Revista Interdisciplinaridade" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/03/2015 &agrave;s 24:43:45</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2142170327088391" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

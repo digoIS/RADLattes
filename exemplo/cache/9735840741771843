@@ -1,0 +1,3614 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (C&eacute;sar Augusto Otero Vaghetti)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=9735840741771843" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4702557T8&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4702557T8"><div class="infpessoa">
+<h2 class="nome">C&eacute;sar Augusto Otero Vaghetti</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/9735840741771843</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 10/11/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Educação Física, Licenciatura Plena (1999) e Mestrado em Ciências do Movimento Humano (2003), sub-área Biomecânica, ambos pela Universidade do Estado de Santa Catarina - UDESC / Centro de Ciências da Saúde e do Esportos - CEFID (1999) e Doutorado em Educação em Ciências pela Universidade Federal do Rio Grande - FURG (2013) / Centro de Ciências da Computação - C3. 
+Atualmente é professor Adjunto I da Universidade Federal de Pelotas - UFPEL / Escola Superior de Educação Fïsica - ESEF, ministrando disciplinas relacionadas à Esportes de Aventura, Esportes Radicais, Excursionismo, Educação Física e Meio Ambiente. Atua na área de Educação Física, com ênfase em Cinesiologia, Biomecânica, Natação, Esportes Radicais e Capacidades Físicas e tem experiência com Treinamento Desportivo em Natação e Surfe.
+Atualmente pesquisa assuntos relacionados à Videogames, Games, Exergames na educação e tecnologias relacionadas à Ambientes Virtuais de Aprendizagem (AVAs) para o movimento humano como as Exertion Interfaces e Esportes Digitais.
+<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">César Augusto Otero Vaghetti<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">VAGHETTI, C. A. O.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal de Pelotas, Escola Superior de Educação Fisica. <br class="clear" />Rua Luís de Camões<br class="clear" />Três Vendas<br class="clear" />96055630 - Pelotas, RS - Brasil<br class="clear" />Telefone: (53) 32732752</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Educação em Ciências: Química da Vida e Saúde<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Exergames em Rede: a Educação Física no Cyberspace, Ano de obtenção: 2013. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8800859024101679'><img src='images/curriculo/logolattes.gif' /></a>Silvia Silva da Costa Botelho. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: Educação; Exergames; Videogames; Games.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciências do Movimento Humano<span class="ajaxCAPES" data-param="&codigoCurso=41002016004P8&nivelCurso=M"></span>. <br class="clear" />Universidade do Estado de Santa Catarina, UDESC, Brasil.
+		
+	<br class="clear" />Título: Estudo do tempo de reação simples em surfistas com diferentes níveis de habilidade,Ano de Obtenção: 2003.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5213215120624402'><img src='images/curriculo/logolattes.gif' /></a>Helio Roesler.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Educação Física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade do Estado de Santa Catarina, UDESC, Brasil.
+		
+	<br class="clear" />Título: Análise Cinemática da Saída de Agarre na Natação em um Atleta de Alto Nível. <br class="clear" />Orientador: Helio Roesler. <br class="clear" />Bolsista do(a): Programa de bolsa de iniciação científica, PIBIC, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 interrompida</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação interrompida em 1994 em Engenharia de Alimentos<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Ano de interrupção: 1994</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bases para Redação e publicação Internacional.  (Carga horária: 24h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Plasticidade do Sistema Neuromuscular em Seres Hum.  (Carga horária: 4h). <br class="clear" />Universidade Estadual Paulista.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Carreira do atleta, da iniciação ao profissionalis.  (Carga horária: 36h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Organização de eventos - gerenciamento do proje.  (Carga horária: 36h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Surf pilates - reabilitação e treinamento.  (Carga horária: 36h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bases Bioquímica e Fisiológica Aplicadas Ao Treina.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">TE: Considerações críticas, desafios e perspectiva.  (Carga horária: 60h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento de Programas de Linguagem.  (Carga horária: 20h). <br class="clear" />Universidade do Estado de Santa Catarina, UDESC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Arbitragem em Natação.  (Carga horária: 8h). <br class="clear" />Confederação Brasileira de Desportos Aquáticos.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Arbitragem em Natação.  (Carga horária: 20h). <br class="clear" />Confederação Brasileira de Desportos Aquáticos.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Flexibilidade Alongamento e Relaxamento.  (Carga horária: 15h). <br class="clear" />Pecos P2 Sports.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Exercício e Emagrecimento.  (Carga horária: 15h). <br class="clear" />Pecos P2 Sports.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atualização das Técnicas dos Nados.  (Carga horária: 12h). <br class="clear" />Universidade Feevale.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prevenção e Reabilitação nas Lesões Esportivas.  (Carga horária: 20h). <br class="clear" />Korpus Centro de Performance Humana.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Suplementação Nutricional e Rendimento Esportivo.  (Carga horária: 20h). <br class="clear" />Korpus Centro de Performance Humana.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Meeting Udesc de Basketball.  (Carga horária: 10h). <br class="clear" />Universidade do Estado de Santa Catarina, UDESC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inglês.  (Carga horária: 192h). <br class="clear" />WIZARD Idiomas.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Instrutor de Capoeira. <br class="clear" />Grupo de Capoeira Alma de Bimba.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Academia Mundo Fitness, AMF, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor, Enquadramento Funcional: Professor de Musculação, Carga horária: 30</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2008 - 4/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , AMF, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Professor de Musculação. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Pesquisador voluntário, Enquadramento Funcional: Pesquisador, Carga horária: 4</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor contratado, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação Física e Meio Ambiente<br class="clear" />Esportes de Aventura<br class="clear" />Excursionismo<br class="clear" />Exergames - PCC<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/2007 - 10/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Atividades de academia<br class="clear" />Métodos para aptidão física<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2007 - 8/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Biomecânica<br class="clear" />Ginástica III<br class="clear" />Pesquisa qualitativa em esportes<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - 3/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cinesiologia<br class="clear" />Ginástica II<br class="clear" />Biomecânica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/2006 - 3/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Escola Superior de Educação Fisica, Departamento de Ginástica e Saúde. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Grupo de Capoeira Chibarro. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/2006 - 11/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física e Promoção da Saúde, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Aspectos Biomecânicos da Atividade Física<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/2006 - 9/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Biomecânica da cadeirante<br class="clear" />Pesquisa em esportes com prancha<br class="clear" />Natação<br class="clear" />Cinesiologia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/2005 - 5/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Ginástica II<br class="clear" />Cinesiologia<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Escola de Natação Energia, ENERGIA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Funcionário, Enquadramento Funcional: Professor, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2004 - 5/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Energia, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Prodessor de natação, hidroginástica e musculação. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Academia Barra Solo, BARRA SOLO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Funcionário, Enquadramento Funcional: Professor, Carga horária: 18</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/2003 - 11/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Barra Solo, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Professor de natação, hidroginástica e musculação. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade do Estado de Santa Catarina, UDESC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Pesquisador, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor contratado, Enquadramento Funcional: Professor, Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Pesquisador, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2000 - 11/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Centro de Educação Física e Desportos, Departamento de Desportos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Treinamento de natação para atletas de surfe. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2001 - 4/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação Física Curricular<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2000 - 11/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Centro de Educação Física e Desportos, Laboratório de Pesquisas em Biomecânica Aquática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Biomecânica Aquática. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Academia Atrium, ATRIUM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Funcionário, Enquadramento Funcional: Professor, Carga horária: 16</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/2000 - 8/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , ATRIUM, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Professor de Natação e Hidroginástica. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Federação Aquática de Santa Catarina, FASC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Filiação, Enquadramento Funcional: Árbitro, Carga horária: 1</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/1998 - 6/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , FASC, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Arbitragem em natação no X Campeonato Sul Brasileiro de Clubes. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Sociedade Amigos do Cassino, SAC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Professor, Carga horária: 8</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1998 - 2/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , SAC, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Natação. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Academia Marcelo Amim, MARCELO AMIM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Professor, Carga horária: 8</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/1998 - 7/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Marcelo Amim, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Natação. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Fundação Catarinense de Despotos, FESPORTE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Filiação, Enquadramento Funcional: Árbitro, Carga horária: 4</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/1997 - 9/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , FESPORTE, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Arbitragem em natação nos 10º Joguinhos Abertos de Santa Catarina. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Chibarro Mix Cultural: Mem&oacute;ria e Rede Solid&aacute;ria'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Chibarro Mix Cultural: Memória e Rede Solidária<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: As diretrizes do projeto apontam o trabalho em rede solidária, a descentralização, a construção da memória, a democratização, o registro e o fomento cultural promovendo ações de caráter social que potencializem o exercício da cultura popular brasileira como cidadania e protagonismo social. O foco da pesquisa incide sobre as iniciativas culturais: Cartografias Urbanas, Memórias Corporais Infames, Futebol à Tardinha, Grupo Experimental Chibarro, Museu Etnográfico da Colônia Maciel, Banda União Democrata, Piratas de Rua, Banca CNR, ONG Odara e Jornalismo Comunitário. As problematizações dessa pesquisa emergem na intersecção entre os temas memória cultural e rede solidária, relação que direciona as ações de implementação do Chibarro Mix Cultural e que possui com premissa metodológica a as relações de ensino, pesquisa e extensão na Universidade. Os objetivos do projeto são: a) Cartografar parte do patrimônio cultural imaterial de Pelotas; b) Desenvolver a pesquisa juntamente com as políticas implantadas pelo Ministério da Cultura do Governo Federal; c) Fomentar a socialização das iniciatias artísticas com base em um referencial teórico; d) Confeccionar um livro como produto final da pesquisa.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: César Augusto Otero Vaghetti - Integrante / Eliane Ribeiro Pardo - Coordenador / André Oreques Fonseca - Integrante / Luciano Jahnecka - Integrante.<br class="clear" /></div>
+</div><a name='PP_An&aacute;lise Ergon&ocirc;mica da Cadeira de Rodas Triciclo'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise Ergonômica da Cadeira de Rodas Triciclo<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A cadeira de rodas é um implemento que auxilia o homem em sua movimentação nas ruas de uma cidade, em 
+calçadas e dentro de sua casa. Além de ser um meio de locomoção, o uso deste equipamento é também uma atividade que envolve uma boa capacidade de resistência muscular nos braços e antebraços e tem a finalidade de auxiliar pessoas portadoras de necessidades especiais, que não possam exercer a atividade de locomoção com os membros inferiores ou o façam com extrema dificuldade. O projeto tem como objetivos estudar os indivíduos portadores de nescessidades Especiais que utilizam a cadeira de rodas triciclo (tipo de cadeira de rodas no qual a propulsão é realizada por intermédio de pedais acionados pelos membros superiores), Envolvendo a ergonômia da caderia de rodas triciclo, o conforto, a postura, as possíveis lesões por esforço repetitivo e a eficiência mecânica. O projeto tem características interinstitucional e interdepartamental, pois envolve a participação de professores do Departamento de Materiais e construção e do Departamento de Educação e Ciências do Comportamento da Fundação Universidade Federal do Rio Grande - FURG, do
+Departamento de Ginástica e Saúde da Universidade Federal de Pelotas - UFPel e acadêmicos destas intituições,
+preocupando-se desta forma, com a formação multidisciplinar dos alunos envolvidos, bem como o desenvolvimento da visão social e solidária dos seus conhecimentos (ensino). O resultado deste trabalho deve ser aplicado prontamente entre o grupo de cadeirantes, oferecendo mais uma alternativa cientificamente avaliada como meio de transporte.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: César Augusto Otero Vaghetti - Integrante / Lauro Witt - Coordenador.<br class="clear" />Financiador(es): Centro Nacional de Educação Especial - Auxílio
+										financeiro / Instituto Nacional de Desenvolvimento do Desporto - Auxílio
+										financeiro.</div>
+</div><a name='PP_An&aacute;lise Biomec&acirc;nica da Marcha Atl&eacute;tica em Diferentes Velocidades'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise Biomecânica da Marcha Atlética em Diferentes Velocidades<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A marcha atética foi introduzidanas olimpíadasno ano de 1928, no qual são realizadasprovas variandoentre
+20 e 50 (km). A pesar de haveruma quantidadeconsiderávelde estudos relacionadosa marcha atlética, que envolvema análise das variações metabólicas,percebe-se que os estudos na ára da biomecânica,são escassos. Desta formaesta pesquisa teve como objetivos analisar as diferenças biomecânicas entre o caminhar e a marcha atlética emdifrentes velocidades: a) comparar as variáveis cinéticas primeiro pico de força, segundo pico de força e suporte médio,no caminhare marcha atléticaem esteira rolante;b) compararas variáveis cinemámáticas, cadênciae tempototal de contato, no caminhare marcha atlética;c) Determinara velocidadede transiçãoaparentena marcha atléticaem que não ocorre a fase de duplo apoio.O projeto foi realizadono Laboratóriode Biomecânicada Universidadedo Estado de Santa Catarina,com oito atletas da modalidade marcha atlética, nos quais foi utilizado para a coleta dos dados uma esteiraergométrica, instrumentalizada, acoplada com duas plataformas de força com sensores de carga piezoelétrico marca Kistler. Os resultados do projeto indicam: a) Características biomecânicas diferentes entre o caminhar e a marcha atlética;c) Veloidadede trensição diferente entre o caminhar e a marcha e o caminahr e a corrida; c) O processo deidentificação visual, utilizadonas competições,deveser repensadopois apresenta-sepouco preciso. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: César Augusto Otero Vaghetti - Integrante / Sebastião Iberes Lopes Melo - Coordenador / Mário César de Andrade - Integrante.<br class="clear" />Financiador(es): Instituto Nacional de Desenvolvimento do Desporto - Auxílio
+										financeiro / Centro Nacional de Educação Especial - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Tecnologias n&atilde;o restritivas para o Esporte e Lazer'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tecnologias não restritivas para o Esporte e Lazer<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Descrição: O projeto prevê o estudo de técnicas de inteligência artificial e desenvolvimento de tecnologias ubiquas e pervasivas para aplicação em Esporte e Lazer. O projeto prevê o desenvolvimento de um framework que envolve o uso de diferentes tipos de dispositivos de interface, mais precisamente redes de sensores e atuadores, que são integrados de forma a formar smart environments. O framework, denominado hiperambiente, admite a interligação de diferentes nodos em uma estrutura em rede. O hiperambiente será aplicado no desenvolvimento de cenários para esporte e lazer, permitindo a exploração de diferentes modalidades da educação física, sem restrições de infraestrutura e mobilidade física. O projeto preve a utilização de exergames como ferramentas educacionais na educação Física. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (7)  / Especialização: (0)  / Mestrado acadêmico: (2)  / Mestrado profissionalizante: (0)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: César Augusto Otero Vaghetti - Integrante / Silvia Silva da Costa Botelho - Coordenador /  Rafael Penna - Integrante / Alessandro Bicho - Integrante /  Danúbia Espíndola - Integrante.<br class="clear" />Financiador(es): Ministerio da Educacao e Cultura - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Educação Física. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Educação Física / Subárea: Biomecânica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Educação Física / Subárea: Treinamento Desportivo. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Ambientes Virtuais de Aprendizagem. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Bem, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Campeão Categoria Longboard II Kssino Surf Festival, ASCA. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar categoria Senior II Kssino Surf Festival, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Terceiro melhor artigo publicado no X Simpósio Brasileiro de Games e Entretenimento Digital, UNEB e Sociedade Brasileira de Computação (http://sbgames.org/sbgames2011/). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor Fullpaper apresentado no IX Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames), UNIVALI e Sociedade Brasileira de Computação (http://sbgames.org/sbgames2010/bestpapers.html). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar I Kssino.com de Surf Amador, categoria Open, Cassino (RS), Kssino.com. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar I Kssino.com de Surf Amador, categoria Longboard, Cassino (RS), Kssino.com. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">4º Lugar 3º Etapa Circuito Gaúcho de Surf PRO/AM, Categoria Master, Cassino (RS), FGS - Federação Gaúcha de Surf & Banrisul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">4º Lugar 2º Etapa Circuito ASCA, Cassino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2º Lugar VI Duatlon dos Salva Vidas do Litoral Sul, Categoria D, Cassino (RS), Brigada Militar. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar 4º Etapa Circuito Catarinense de Longboard, Balneário Camburiú, (SC), ACL - Associação Catarinense de Longboard. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar  III Rosa Classic 2º Etapa Circuito Catarinense de Longboard, Praia do Rosa (SC), ACL - Associação Catarinense de Longboad. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar 2º Quebra Mar de Surf Amador, categoria Senior, Cassino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2º Lugar 2º Quebra Mar de Surf Amador, categoria Longboard, Cassino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">4º Lugar 2º Quebra Mar de Surf Amador, categoria Open, Cassino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CAMPEÃO GAÚCHO DE SURF - LONGBOARD, FGS - Federação Gaúcha de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar V Duatlon dos Salva Vidas do Litoral Sul, Categoria D, Cassino (RS), Brigada Militar. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar I Quebra Mar / Top Aprovado de Surf Amador, categoria longboard, Cssino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar I Aloha / Porto da Praia, categoria senior, Cassino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar 2º Etapa Circuito Gaúcho de Surf, categoria longboard, Cidreira (RS), FGS - Federação Gaúcha de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar 5º Etapa Circuito Gaúcho de Surf, categoria longboard, Atlântida (RS), FGS - Federação Gaúcha de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar 1º Etapa Circuito Gaúcho de Surf, categoria longboard, São José do Norte (RS), FGS - Federação Gaúcha de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar 4º Etapa Circuito Gaúcho de Surf, categoria longboard, Tramandaí (RS), FGS - Federação Gaúcha de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2º Lugar I Quebra Mar / Top Aprovado de Surf Amador, categoria Senior, Cassino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar I Tarôa / Larus de Surf Amador, categoria longboard, Cssino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">4º Lugar I Tarôa / Larus de Surf Amador, categoria senior, Cassino (RS), ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">4º Lugar I Tarôa / Larus de Surf Amador, categoria Open, Cassino (RS), ASCA - Associação de Surfe da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">9º lugar Campeonato brasileiro de Longboard: Festival Calibre, FECASURF - Federação Catarinense de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2º Lugar Circuito Gaúcho de Surf, Longboard Etapa Praia do Cassino, FGS - Federação Catarinense de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar Taça Mormaii / Windplace, Longboard., Mormaii & Windplace. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar - V Etapa Circuito Catarinense de Longboard, Praia do Rosa (SC), ACL - Associação Catarinense de Longboard. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">4º Lugar - II Etapa Circuito Catarinense de Longboard, Campeche, Florianópolis, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">16º Lugar IV Duatlon dos Slava Vidas do Litoral Sul, Cassino (RS), Brigada Militar. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar - 1º Etapa Circuito JL Casarin - Longboard - São José do Norte RS, JL Casarin. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2º Lugar - II Etapa Circuito JL Casarin, Longboard, São José do Norte (RS), JL - Casarin. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar - VII Etapa Circuito Catarinense de Longboard, Bal. Camboriú (SC), ACL - Associação Catarinense de Longboard. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar - VI Etapa Circuito Catarinense de Longboard, Mariscal (SC), ACL - Associação Catarinense de Longboard. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2º Lugar - 2º Etapa Circuito Catarinense de Longboard - Morro das Pedras, Florianópolis SC, ACL - Associação Caterinense de Longboard. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2º Lugar I Circuito Universitário Udesc de Surf, categoria Open., UDESC - Universidade do Estado de Santa Catarina. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar - 1º  Etapa Circuito Calibre de Longboard - Balneário Camburiú SC, FECASURF - Federação Catarinense de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">3º Lugar Taça Samarmormaii - Molhes beach, Laguna SC, MORMAII. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar Taça Sammarmormaii - Categoria Longboard - Molhes Beach, Laguna SC, MORMAII. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar - 2º Etapa Circuito Calibre de Longboard - Balneário Camburiú SC, FECASURF - Federação Catarinense de Surf. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar - Campeonato Ecológico de Surfe - Categoria Longboard - Praia Brava SC, ASPB - Associação de Surf da Praia Brava. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">2º Lugar Circuito Trip Sul - Longboard - Praia Cassino RS, ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar Categoria Open Surf - 2º Etapa Campeonato de Surfe e Bodyboard, Cassino., CRD - Conpanhia Riograndina de Desportos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar Campeonato Surf - Categoria Open - Praia do Cassino RS, ASCA - Associação de Surfe da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar Campeonato Surf - Categoria Open - Praia do Cassino RS, ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Lugar Campeonato Surf - Categoria Open - Praia do Cassino RS, ASCA - Associação de Surf da Praia do Cassino. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>VAGHETTI, C. A. O.</b> ; MEDEIROS, M. A. ; WITT, L. . Aspectos biomecânicos entre usuários da cadeira de rodas  handcycle e convencional. Cinergis (UNISC)<sup><img id='15192512_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15192512' /></sup>, v. 13, p. 1-10, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15192512&volume=13&issue=&paginaInicial=1&titulo=Aspectos biomecânicos entre usuários da cadeira de rodas  handcycle e convencional&sequencial=1&nomePeriodico=Cinergis (UNISC)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>VAGHETTI, C. A. O.</b> ; SPEROTTO, R. I. ; PENNA, R. ; CASTRO, R. I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Exergames: um desafio à educação física na era da tecnologia. Educação & Tecnologia<sup><img id='14145057_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14145057' /></sup>, v. 12, p. 1-15, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14145057&volume=12&issue=&paginaInicial=1&titulo=Exergames: um desafio à educação física na era da tecnologia&sequencial=2&nomePeriodico=Educação & Tecnologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERNEIRA, J. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.5007/1980-0037.2011v13n3p195" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; MEDEIROS, M. A. ; DOMINGUES, M. R. ; <b>VAGHETTI, C. A. O.</b> . Incidência e características das lesões em praticantes de kitesurf. Revista Brasileira de Cineantropometria & Desempenho Humano (Online)<sup><img id='19800037_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19800037' /></sup>, v. 13, p. 195-201, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5007/1980-0037.2011v13n3p195&issn=19800037&volume=13&issue=&paginaInicial=195&titulo=Incidência e características das lesões em praticantes de kitesurf&sequencial=3&nomePeriodico=Revista Brasileira de Cineantropometria & Desempenho Humano (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>VAGHETTI, C. A. O.</b> ; MUSTARO, P. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Exergames no ciberespaço: uma possibilidade para a educação física. Tecnologia Educacional<sup><img id='01025503_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01025503' /></sup>, v. 40, p. 32, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01025503&volume=40&issue=&paginaInicial=32&titulo=Exergames no ciberespaço: uma possibilidade para a educação física&sequencial=4&nomePeriodico=Tecnologia Educacional" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> . Análise cinemática da saída de agarre na natação. Lecturas Educación Física y Deportes (Buenos Aires)<sup><img id='15143465_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15143465' /></sup>, v. 14, p. 1-8, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15143465&volume=14&issue=&paginaInicial=1&titulo=Análise cinemática da saída de agarre na natação&sequencial=5&nomePeriodico=Lecturas Educación Física y Deportes (Buenos Aires)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Ambientes virtuais de aprendizagem na Educação Física: uma revisão sobre a utilização de Exergames. Ciências & Cognição (UFRJ)<sup><img id='18065821_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18065821' /></sup>, v. 15, p. 76-88, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18065821&volume=15&issue=&paginaInicial=76&titulo=Ambientes virtuais de aprendizagem na Educação Física: uma revisão sobre a utilização de Exergames&sequencial=6&nomePeriodico=Ciências & Cognição (UFRJ)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Princípios ergonômicos e usabilidade de interfaces de realidade aumentada em ambientes virtuais de aprendizagem: visão geral e tendências. Vetor (FURG)<sup><img id='01027352_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 20, p. 45-58, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=20&issue=&paginaInicial=45&titulo=Princípios ergonômicos e usabilidade de interfaces de realidade aumentada em ambientes virtuais de aprendizagem: visão geral e tendências&sequencial=7&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERNEIRA, J. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> ; <b>VAGHETTI, C. A. O.</b> . Preparação Física em Atletas Profissionais de Surfe: Ficção ou Realidade. The FIEP Bulletin<sup><img id='02566419_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02566419' /></sup>, v. 79, p. 339-343, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02566419&volume=79&issue=&paginaInicial=339&titulo=Preparação Física em Atletas Profissionais de Surfe: Ficção ou Realidade&sequencial=8&nomePeriodico=The FIEP Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FONSECA, A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>FONSECA, A. O. ; <b>VAGHETTI, C. A. O.</b> . Menino quem foi teu mestre? Características e peculiaridades da formação do mestre na história da capoeira. The FIEP Bulletin<sup><img id='02566419_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02566419' /></sup>, v. 79, p. 289-292, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02566419&volume=79&issue=&paginaInicial=289&titulo=Menino quem foi teu mestre? Características e peculiaridades da formação do mestre na história da capoeira&sequencial=9&nomePeriodico=The FIEP Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> . A non-conventional sport in the academic wolrd: historical-cultural singularities and possibilities of the inclusion of the surfing teaching in the university. The FIEP Bulletin<sup><img id='02566419_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02566419' /></sup>, v. 78, p. 476-479, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02566419&volume=78&issue=&paginaInicial=476&titulo=A non-conventional sport in the academic wolrd: historical-cultural singularities and possibilities of the inclusion of the surfing teaching in the university&sequencial=10&nomePeriodico=The FIEP Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PEIXOTO, M. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> ; FONSECA, F. F. ; <b>VAGHETTI, C. A. O.</b> . Discussing the concepts of biomecânica in the graduation: the adequate use of the sporting footwear. The FIEP Bulletin<sup><img id='02566419_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02566419' /></sup>, v. 78, p. 573-576, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02566419&volume=78&issue=&paginaInicial=573&titulo=Discussing the concepts of biomecânica in the graduation: the adequate use of the sporting footwear&sequencial=11&nomePeriodico=The FIEP Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GARCIA, G. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>GARCIA, G. B. ; <b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6799014309725419" target="_blank">TARTARUGA, L.</a> . Comportamento da Frequêncioa Cardíaca em uma Sessão de Surfe. Revista Brasileira de Ciência e Movimento<sup><img id='01031716_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01031716' /></sup>, v. 16, p. 41-47, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01031716&volume=16&issue=&paginaInicial=41&titulo=Comportamento da Frequêncioa Cardíaca em uma Sessão de Surfe&sequencial=12&nomePeriodico=Revista Brasileira de Ciência e Movimento" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COSTA, J. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>COSTA, J. G. ; SILVA, B. ; <b>VAGHETTI, C. A. O.</b> . Efeitos da ingestão de solução carboiidratada e água sobre a massa corporal, hematócrito e volume de urina em praticantes de ciclismo indoor. Revista de Educação Física. Escola de Educação Física do Exército<sup><img id='01028464_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01028464' /></sup>, v. 143, p. 120-126, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01028464&volume=143&issue=&paginaInicial=120&titulo=Efeitos da ingestão de solução carboiidratada e água sobre a massa corporal, hematócrito e volume de urina em praticantes de ciclismo indoor&sequencial=13&nomePeriodico=Revista de Educação Física. Escola de Educação Física do Exército" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5577164706111568" target="_blank">ANDRADE, A.</a> . Tempo de reação simples em surfistas com diferentes níveis de habilidade: comparação entre atletas profissionais, amadores e praticantes. Revista Brasileira de Medicina do Esporte<sup><img id='15178692_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15178692' /></sup>, v. 13, p. 81-85, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15178692&volume=13&issue=&paginaInicial=81&titulo=Tempo de reação simples em surfistas com diferentes níveis de habilidade: comparação entre atletas profissionais, amadores e praticantes&sequencial=14&nomePeriodico=Revista Brasileira de Medicina do Esporte" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PARDO, E. R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> ; FONSECA, A. O. ; PIRES, M. O. ; <b>VAGHETTI, C. A. O.</b> . The Academic Formation and the Job Market at Gyms in the City of Pelotas. The FIEP Bulletin<sup><img id='02566419_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02566419' /></sup>, v. 77, p. 629-632, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=02566419&volume=77&issue=&paginaInicial=629&titulo=The Academic Formation and the Job Market at Gyms in the City of Pelotas&sequencial=15&nomePeriodico=The FIEP Bulletin" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; VIEIRA, K. L. ; MAZZA, S. E. I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Usando Exergame como ambiente virtual para tênis de mesa: uma abordagem baseada na motivação intrínseca. In: XII Simpósio Brasileiro de Jogos e Entretenimento Digital, 2013, São Paulo. Proceedings of XII Sbgames 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; VIEIRA, K. L. ; MAZZA, S. E. I. ; SIGNORI, L. U. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Exergames no currículo da escola: uma metodologia para as aulas de Educação Fïsica. In: XII Simpósio Brasileiro de Jogos e Entretenimento Digital, 2013, São Paulo. Proceedings of XII Sbgames 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; RIBEIRO, P. O. ; DUARTE, M. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Using Exergames as Social Networks: Testing the Flow Theory in the Teaching of Physical Education. In: XI Simposio Brasileiro de Jogos e Entretenimento Digital, 2012, Brasilia. Anais do XI Simposio Brasileiro de Jogos e Entretenimento Digital, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; SPEROTTO, R. I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Exergames no ciberspaço: uma possibilidade para a Educação Física. In: IX Seminário de Pesquisa Qualitativa, 2011, Rio Grande. IX Seminário de Pesquisa Qualitativa, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Ambientes virtuais de aprendizagem na Educação Física: uma revisão sobre a utilização de Exergames. In: XXIX Simpósio Nacional de Educação Física, 2010, Pelotas. XXIX Simpósio Nacional de Educação Física, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; DOMINGUES, M. R. ; MEDEIROS, M. A. ; <b>VAGHETTI, C. A. O.</b> . Incidência e características das lesões em praticantes de kitesurf. In: XXIX Simpósio Nacional de Educação Física, 2010, Pelotas. XXIX Simpósio Nacional de Educação Física, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; SPEROTTO, R. I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Cultura digital e Educação Física: problematizando a inserção de Exergames no currículo. In: IX Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames), 2010, Florianópolis. IX Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames), 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; MEDEIROS, M. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; WITT, L. . Aspectos biomecânicos e acessibilidade de usuários da cadeira de rodas handcycle e convencional. In: XXVII Simpósio Nacional de Educação Física, INCLUSÃO: Os caminhos da Educação Física e do esporte na promoção de um estilo de vida ativo, 2008, Pelotas. XXVII Simpósio Nacional de Educação Física, INCLUSÃO: Os caminhos da Educação Física e do esporte na promoção de um estilo de vida ativo, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> ; <b>VAGHETTI, C. A. O.</b> . Perfil da preparação física de atletas profissionais de surfe: ficção ou realidade?. In: XXVII Simpósio Nacional de Educação Física, INCLUSÃO: Os caminhos da Educação Física e do esporte na promoção de um estilo de vida ativo, 2008, Pelotas. XXVII Simpósio Nacional de Educação Física, INCLUSÃO: Os caminhos da Educação Física e do esporte na promoção de um estilo de vida ativo, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, A. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> ; <b>VAGHETTI, C. A. O.</b> . Menino quem foi teu mestre? características e peculiaridades da formação do mestre na história da capoeira.. In: XXVII Simpósio Nacional de Educação Física, INCLUSÃO: Os caminhos da Educação Física e do esporte na promoção de um estilo de vida ativo, 2008, Pelotas. XXVII Simpósio Nacional de Educação Física, INCLUSÃO: Os caminhos da Educação Física e do esporte na promoção de um estilo de vida ativo, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> ; <b>VAGHETTI, C. A. O.</b> ; ISLABAO, J. O. ; LIMA, R. L. S. . Projeto de Capoeira Primeira Ginga: Dando o Primeiro Passo, Intergando a Capoeira e a Educação Física. In: Ciência e Cultura, 2007, Pelotas. Ciência e Cultura Anais, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, A. O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> ; JAHNECKA, L. ; PIRES, M. O. ; <b>VAGHETTI, C. A. O.</b> . Grupo de Capoeira Chibarro: Possibilidades Estéticas de constituição de Si. In: 4º Foro Latinoamericano  Memoria e Identidad : Saberes e Imaginarios en Diálogo, Hacia un Nuevo Orden Social, 2007, Montevideo. 4º Foro Latinoamericano  Memoria e Identidad : Saberes e Imaginarios en Diálogo, Hacia un Nuevo Orden Social, Anais, 2007. v. 1. p. 54-58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> . Um esporte não convencional no mundo acadêmico: Singularidades histórico-culturais e possibilidades de inclusão do surfe na universidade. In: XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade, 2007, Pelotas. Anais do XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSTA, J. G. ; SILVA, B. ; <b>VAGHETTI, C. A. O.</b> . Efeitos da ingestão de solução carboidratada e água sobre a massa corporal, hematócrito e volume de urina em praticantes de ciclismo indoor. In: XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade, 2007, Pelotas. Anais do XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, A. O. ; JAHNECKA, L. ; <b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> ; PIRES, M. O. . Grupo de capoeira Chibarro: Possibilidades estéticas de constituição de si. In: XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade, 2007, Pelotas. Anais do XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> ; FONSECA, F. F. ; <b>VAGHETTI, C. A. O.</b> . Biomecânica do calçado esportivo: Um estudo sobre os conhecimentos dos estudantes de Educação Física. In: Ciência & Cultura, 2007, Pelotas. Anais do Ciência & Cultura 2007, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; GERI, M. ; GERMANO, M. . Características Fisiológicas do Surfe e Treinamento Físico a Partir de Técnicas de Natação. In: XXIII Simpósio Nacional de Educação Física e II Colóquio de epistemologia do CBCE, 2004, Pelotas. XXIII Simpósio Nacional de Educação Física e II Colóquio de epistemologia do CBCE: A Produção do Conhecimento em Educação Física, Esporte e Lazer, 2004. v. 1. p. 27-27. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; MARTINS, A. C. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> . Estudo do Tempo de Reação Auditivo e Visual em Estudantes de Educação Física e Atletas Amadores de Surfe. In: 6º Meeting, Sports, Fitness, Fisioterapia, Hotelaria e Turismo. Florianópolis, 2002, Florianópolis. 6º Meeting, Sports, Fitness, Fisioterapia, Hotelaria e Turismo. Florianópolis, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; ARANHA, E. E. ; BORGES JR, N. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> . Desenvolvimento de equipamento para estudo do tempo de reação de atletas em provas de natação. In: IX Congresso Brasileiro de Biomecânica, 2001, Gramado. Anais do IX Congresso Brasileiro de Biomecânica. Porto Alegre: Editora da UFRGS, 2001. v. 1. p. 83-85. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARANHA, E. E. ; <b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> ; PEREIRA, S. M. . Níveis de Flexibilidade em Atletas Velocistas de Ambos os Sexos, com Faixa Etária entre 12-24 Anos. In: XIX Simpósio Nacional de Educação Fisica, 2000, Pelotas. XIX Simpósio Nacional de Educação Fisica: Século XXI perspectivas. Pelotas: Universitária, 2000. v. 1. p. 135-138. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CRUZ, P. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; NILSON, G. ; FONSECA, A. O. ; <b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> . Menino quem foi teu mestre? Análise do perfil do mestre na história da capoeira. In: XII Congresso de Ciências do Desporto e Educação Física dos Países de Lingua Portuguesa, 2008, Porto Alegre. XII Congresso de Ciências do Desporto e Educação Física dos Países de Lingua Portuguesa, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FIGUEIRA, J. M. ; <b>VAGHETTI, C. A. O.</b> . Formação acadêmica e métodos de ensino dos professores de natação nas cidades de Rio Grande e Pelotas. In: XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade, 2007, Pelotas. Anais do XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; <b>VAGHETTI, C. A. O.</b> . Hábitos alimentares em atletas de surfe. In: XVII Congresso de Iniciação Científica X Encontro de Pós Graduação, 2008, Pelotas. XVII Congresso de Iniciação Científica X Encontro de Pós Graduação, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2667399824330602" target="_blank">BERNEIRA, J. O.</a> ; <b>VAGHETTI, C. A. O.</b> . Implicações do treinamento de força sobre a flexibilidade. In: XVII Congresso de Iniciação Científica X Encontro de Pós Graduação, 2008, Pelotas. XVII Congresso de Iniciação Científica X Encontro de Pós Graduação, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CRUZ, P. P. ; <b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> . Chibarro Mix Cultural: Memória e rede solidária. In: XVII Congresso de Iniciação Científica X Encontro de Pós Graduação, 2008. XVII Congresso de Iniciação Científica X Encontro de Pós Graduação, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> ; <b>VAGHETTI, C. A. O.</b> . Comparação do índice de massa corporal e avaliação do percentual de gordura através de dobras cutâneas. In: XVII Congresso de Iniciação Científica X Encontro de Pós Graduação, 2008, Pelotas. XVII Congresso de Iniciação Científica X Encontro de Pós Graduação, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, F. F. ; BRANCO, B. T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> ; <b>VAGHETTI, C. A. O.</b> . Análise do Perfil dos Professores de Surfe das Cidades de Pelotas e Rio Grande (RS) com Relação ás Questões de Segurança no Mar. In: 6º Fórum Internacional de Esportes, 2007, Florianópolis. 6º Fórum Internacional de Esportes, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; FONSECA, F. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> . Preparação Física de Atletas Amadores e Profissionais Brasileiros de Surfe. In: 6º Fórum Internacional de Esportes, 2007, Florianópolis. 6º Fórum Internacional de Esportes, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> ; CORREIA, P. V. B. ; FONSECA, F. F. ; <b>VAGHETTI, C. A. O.</b> . A Importância do Uso Adequado de um Calçado Esportivo. In: 33º Encontro Nacional de Profissionais de Educação Física e 17º Congresso Científico Latino-Americano de Educação Física, 2007, Capão da Canoa. 33º Encontro Nacional de Profissionais de Educação Física e 17º Congresso Científico Latino-Americano de Educação Física, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, F. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> ; BRANCO, B. T. ; <b>VAGHETTI, C. A. O.</b> . Metodologia das Escolinhas de Surfe da Zona Sul. In: 33º Encontro Nacional de Profissionais de Educação Física e 17º Congresso científico Latino-Americano de Educação física, 2007, capão da Canoa. 33º Encontro Nacional de Profissionais de Educação Física e 17º Congresso científico Latino-Americano de Educação física, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REIS, F. G. ; NASILOSKI, K. S. ; <b>VAGHETTI, C. A. O.</b> . Prevenção de Disturbios Osteoarticulares na Rotina de Trabalho do Cirurgião Dentista. In: 45ª Semana Acadêmica Odontológica, 2007, Pelotas. 45ª Semana Acadêmica Odontológica, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BITTENCOURT, D. ; PENKALA, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> ; <b>VAGHETTI, C. A. O.</b> . Esportes radicais em meio aquático. In: Ciência & Cultura, 2007, Pelotas. Anais do Ciência & Cultura, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WITT, L. ; BELLETTI, M. K. ; MACHADO, P. T. ; <b>VAGHETTI, C. A. O.</b> . Acessibilidade de Cadeira de Rodas Triciclo em Prédios Públicos e Principais Ruas das Cidades de Pelotas e Rio Grande (RS). In: 58ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência, 2006, Florianópolis. 58ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência: SBPC & T semeando interdisciplinaridade 2006, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; BELLETTI, M. K. ; MACHADO, P. T. ; WITT, L. . Estabilidade e Eficiência Biomecânica em Cadeiras de Rodas: Estudo Aualitativo entre Cadeira de Rodas Convencional e a Cadeira de Rodas Triciclo. In: 58ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência, 2006, Florianópolis. 58ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência: SBPC & T semeando interdisciplinaridade, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; FONSECA, A. O. ; JAHNECKA, L. . Grupo de Capoeira Chibarro: As misturas na Roda. In: 1º Salão de Extensão e Cultura, 2006, Pelotas. 1º Salão de Extensão e Cultura: Inclusão Social, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONSECA, A. O. ; <b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a> . Mestiçagem do Grupo de Capoeira Chibarro. In: V Mostra de Produção Universitária E XV Congresso de Iniciação Científica, 2006, Rio Grande. V Mostra de Produção Universitária E XV Congresso de Iniciação Científica, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1813556269263296" target="_blank">PEIXOTO, M. B.</a> ; <b>VAGHETTI, C. A. O.</b> . Calçado esportivo: Você sabe o que usa?.. In: Simpósio Nacional de Educação Física: Políticas Públicas de Atividade Física e Promoção da Saúde, 2006, Pelotas. Simpósio Nacional de Educação Física: Políticas Públicas de Atividade Física e Promoção da Saúde, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COSTA, A. A. ; SILVA, B. ; <b>VAGHETTI, C. A. O.</b> . A educação Ambiental como Ferramenta para Mudanças no Contexto de Práticas Esportivas. In: I Congresso Nacional de Alfabetização e Educação Ambiental, 2005, Rio Grande. I Congresso Nacional de Alfabetização e Educação Ambiental, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; MACHADO, P. T. ; WITT, L. . Análise Ergonômica da Cadeira de Rodas com Propulsão a Pedal por Membros Superiores: Uma Proposta para Melhorar o Conforto, a Postura, as Lesões por Esforço Repetitivo e Eficiência Biomecânica. In: Ciência e Cultura, 2005, Pelotas. Ciência e Cultura, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; MACHADO, P. T. ; WITT, L. . Cadeirantes em Via Pública: Estar Presente na Sociedade como Recurso para Formação da Cultura de Respeito a Diversidade.. In: Jornada Pedagógica de Educação: Educação e Compromisso Social, Novos Desafios aos Educadores, 2005, Rio Grande. Jornada Pedagógica de Educação: Educação e Compromisso Social, Novos Desafios aos Educadores, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> ; BERTACCO, C. L. . Influência do condicionamento físico sobre o desempenho de surfistas profissionais de Santa Catarina. In: VIII Jornada Acadêmica e XIII Seminário de Iniciação Científica, 2003, Lages/SC. Caderno de Resumos do VIII Jornada Acadêmica e XIII Seminário de Iniciação Científica, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIEHL, F. P. J. ; <b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> . O Perfil do Praticante de Surfe com Relação à Luxação Recidivante de Ombro. In: 3º Congresso Brasileiro de Atividade Física e Saúde: Promoção da Atividade Física da Pesquisa a Ação, 2001, Florianópolis. 3º Congresso Brasileiro de Atividade Física e Saúde: Promoção da Atividade Física da Pesquisa a Ação. Florianópolis: Editora da UFSC, 2001. v. 1. p. 91-91. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; BIEHL, F. P. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> . Análise Comparativa da Flexibilidade nas Articulações do Tornozelo da Frente e de Trás em Praticantes de Surfe Através de Coordenadas Espaciais. In: 3º Congresso Brasileiro de Atividade Física e Saúde, 2001, Florianópolis. 3º Congresso Brasileiro de Atividade Física e Saúde. Florianópolis: Editora da UFSC, 2001. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; BIEHL, F. P. J. ; COSTA NETO, J. M. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> . Treinamento de Natação para Atletas de Surfe. In: XI Seminário de Iniciação Científica e VI Jornada Acadêmica da UDESC, 2001, Florianópolis. XI Seminário de Iniciação Científica e VI Jornada Acadêmica da UDESC. Florianópolis: Editora da UDESC, 2001. v. 1. p. 93-93. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> ; ARANHA, E. E. ; PEREIRA, S. M. . Análise Cinemática da Saída de Agarre na Natação em Um Atleta de Alto Nível. In: 8º Congresso de Educação Física e Ciências do Desporto dos Países de língua Portuguesa, 2000, Lisboa. 8º Congresso de Educação Física e Ciências do Desporto dos Países de língua Portuguesa. Lisboa: Gráfica 2000, 2000. v. 1. p. 92-93. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARANHA, E. E. ; <b>VAGHETTI, C. A. O.</b> ; PEREIRA, S. M. . Treinamento de Natação para Jovens Atletas.. In: X Seminário de Iniciação Científica e V Jornada Acadêmica da UDESC, 2000, Lages. X Seminário de Iniciação Científica e V Jornada Acadêmica da UDESC. Florianópolis: Editora da UDESC, 2000. v. 1. p. 172-172. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ARANHA, E. E. ; <b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> . Parâmetro flexibilidade em atletas com idade entre 12-24 anos praticantes de treinamento de natação. In: X Seminário de Iniciação Científica e V Jornada Acadêmica da Universidade do Estado de Santa Catarina, 2000, Florianópolis. Universidade e Desenvolvimento. Florianópolis: Editora da UDESC, 2000. v. 6. p. 150-150. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a> ; PEREIRA, S. M. . Análise Biomecânica das Técnicas de Saída da Natação. In: IX Seminário de Iniciação Científica - IV Jornada Acadêmica da Udesc, 1999, Florianópolis. IX Seminário de Iniciação Científica - IV Jornada Acadêmica da Udesc, 1999. v. 1. p. 25-25. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> ; SPEROTTO, R. I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Cultura digital e Educação Física: problematizando a inserção de Exergames no currículo. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Tempo de reação simples auditivo e visual em surfistas com diferentes níveis de habilidade: Comparação entre atletas profissionais, amadores e praticantes. 2007. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Comparação de Parâmetros Fisiológicos de Equipes de Futsal. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Aptidão Cárdio-respiratória, Nível de Atividade Física e Composição Corporal de Escolares das Redes Pública e Privada do Município de Pelotas-RS. 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Condicionamento Físico de Praticantes de Esportes Radicais. 2007. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Esportes Radicais. 2007. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Discciplina de Esportes Radicais na ESEF - UFPEL. 2007. 
+						
+							(Programa de rádio ou TV/Entrevista).
+						</div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Surfe e Kitesurfe: potencialidades e possibilidades. 2011. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Projeto de Bem com a Vida: Surfe. 2009.
+							(Aula de Esportes Radicais).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . A importância do exercício físico na prevenção ao abuso de dorgas. 2009.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Projeto De Bem Com a Vida. 2008.
+							(Aula de Esportes Radicais).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Exrecicício Fisico e Atividade Física: Diferenças e Aplicações para a Fisioterapia. 2008.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Proeficiência em lingua estrangeira - Inglês. 2008.
+							(Proeficiência em lingua estrangeira).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Exercício fisico e promoção da saúde. 2007.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Esportes com Prancha em Meio Aquático. 2006. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Aprovação no Processo Seletivo Simplificado para professor Substituto. 2004.
+							(Processo Seletivo Simplificado).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Marketing Esportivo. 2004.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Biomecânica da Natação. 2001.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Biomecânica da Natação. 2000.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Proeficiência em lingua estrangeira. 2000.
+							(Proeficiência em lingua estrangeira).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . Biomecânica da Natação. 1999.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade. 2007 (Coordenador de curso Esportes Radicais) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . XXV Simpósio Nacional de Educação Física: Políticas Públicas de Atividade Física e Promoção da Saúde. 2006 (Membro de Comissão Organizadora) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b> . XXIV Simpósio Nacional de Educação Física: Novos espaços profissionais em Educação Física. 2005 (Membro de Comissão Científica) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESPINDOLA, D. B.; RODRIGUES, R. N.; <b>VAGHETTI, C. A. O.</b>.  Participação em banca de Mateus Oliveira Jung. Ambiente Fisioterápico Assistivo Computacional. 2013. Exame de qualificação (Mestrando em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESPINDOLA, D.; <b>VAGHETTI, C. A. O.</b>; BARWALDT, R..  Participação em banca de Michael Culau Krause. Um framework para implementação de Exergames  utilizando a Toogle: um estudo de caso aplicado ao idoso. 2013. Exame de qualificação (Mestrando em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2827422805532792" target="_blank">PARDO, E. R.</a>; SILVA, M. C..  Participação em banca de Daniel de Azevedo dos Santos. A prática da preparação física em atletas profissionais de surfe. 2008. Monografia (Aperfeiçoamento/Especialização em Educação Física e Promoção da Saúde)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, V. G. S.; <b>VAGHETTI, C. A. O.</b>; SCHILD, J. F. G..  Participação em banca de Cezar Priotto. Resistência aeróbia e força: Consequencias fisiológicas do treinamento concorrente. 2008. Monografia (Aperfeiçoamento/Especialização em Educação Física e Promoção da Saúde)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b>; CASTRO, F. A. S..  Participação em banca de Fábio Alfonsin.Impulso e velocidade na remada do surfe.
+							2007. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6799014309725419" target="_blank">TARTARUGA, L.</a>.  Participação em banca de Guilherme Garcia.Comportamento da frequencia cardíaca durante uma sessão de surfe.
+							2007. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b>; PEREIRA, S. M.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5213215120624402" target="_blank">ROESLER, H.</a>.  Participação em banca de Cristiano Lopes Bertacco.Comparação Entre os Tempos de Reação Simples Auditivo e Visual de Goleiros de Futebol de Diferentes Categorias.
+							2004. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade do Estado de Santa Catarina. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b>; VALIM, A. C.; GARBELOTTO, F. W..  Participação em banca de Juliane De Bastiane.Nível de flexibilidade de idosos praticantes de atividades físicas.
+							2001. Trabalho de Conclusão de Curso (Graduação em Educação Física)  - Universidade do Estado de Santa Catarina. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREIRA, E. A.; MENDES, V. R.; <b>VAGHETTI, C. A. O.</b>. Revisão de Exame da Disciplina Organização da Educação Física.
+							2006.
+							Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>VAGHETTI, C. A. O.</b>; FREITAS, M. E. R.. Seleção para monitoria da disciplina Natação.
+							2006.
+							Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Simposio Brasileiro de Jogos e Entretenimento Digital.Usando Exergame como ambiente virtual para tênis de mesa: uma abordagem baseada na motivação intrínseca.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8th Annual Games for Health Conference. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Seminário Internacional Cultada das Imagens/Imagens da Cultur.Inclusão de Exergames no currículo (escolar e universitário). 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Simposio Brasileiro de Jogos e Entretenimento Digital.Using Exergames as Social Networks: Testing the Flow Theory in the Teaching of Physical Education.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7th Annual Games for Health Conference. Networked exergames: a review of physical demands of games and their usefulness for physical education. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames).Exergames no ciberspaço: uma possibilidade para a Educação Física.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1º Seminário Nacional de Neurociências Aplicada à Educação. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames).Cultura digital e Educação Física: problematizando a inserção de Exergames no currículo.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II MCSUL: Seminário Sul em Modelagem Computacional. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II MCSUL: Seminário Sul em Modelagem Computacional. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Congresso Brasileiro de Biomecânica. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Nacional de Surfe. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ciência & Cultura.Esportes com prancha em meio aquático na ESEF   UFPEL. 2007. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Simpósio Nacional de Educação Física: O esporte e suas manifestações na atualidade.Um esporte não convencional no mundo acadêmico: Singularidaes histórico-culturais e possibilidades de inclusão do surfe na universidade.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">58ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência. Acessibilidade de cadeira de rodas triciclo em prédios públicos e principais ruas das cidades de Pelotas e Rio Grande (RS). 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de Currículo.Apresentação das disciplinas ministradas. 2006. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Nacional de Educação Física: Políticas Públicas de Atividade Física e Promoção da Saúde.Calçado esportivo: Você sabe o que usa?..
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso Nacional de Alfabetização e Educação Ambiental. A educação ambiental como ferramenta para mudanças no contexto de práticas esportivas. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jornada Pedagógica de Educação: Educação e Compromisso Social, Novos Desafios aos Educadores.Cadeirantes em Via Pública:Estar Presente na Sociedade como Recurso para Formação da Cultura de Respeito a Diversidade.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Simpósio Nacional de Educação Física.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">6º Congresso Científico e 6º Meeting Sports, Fitness, Fisioterapia, Turismo e Hotelaria. Estudo do Tempo de Reação Auditivo e Visual em Estudantes de Educação Física e Atletas Amadores de Surfe. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Participação em defesa de dissertação de mestrado. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º Congresso Brasileiro de Atividade Física e Saúde. O perfil do praticante. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Congresso Brasileiro de Biomecânica. Desenvolvimento de Equipamento para Estudo do Tempo de Reação de Atletas em Provas de Natação. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Seminário de Iniciação Científica e VI Jornada Acadêmica da UDESC.Treinamento de natação para atletas de surfe. 2001. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Seminário de Iniciação Científica e V Jornada Acadêmica da UDESC.Treinamento de natação para jovens atletas. 2000. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIX Simpósio Nacional de Educação Física: Século XXI Perspectivas.Níveis de flexibilidade em atletas velocistas de ambos os sexos, com faixa etária entre 12-24.
+							2000. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Biomecânica. 1999. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Seminário de Iniciação Científica e IV Jornada Acadêmica da UDESC.Análise biomecânica. 1999. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Meeting Sports & Fitness. 1997. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro Brasileiro de Atividades Físicas. 1997. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">9ª Jornada Paranaense de Educação Física. 1996. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Meeting Udesc de Basketball.
+							1996. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel de Azevedo dos Santos.
+							A prática da preparação física em atletas profissionais de surfe.
+							2008.
+							Monografia. (Aperfeiçoamento/Especialização em Educação Física e Promoção da Saúde)  - Universidade Federal de Pelotas. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bianca da Silva.
+							Efeitos da ingestão de solução carboidratada e água sobre a massa corporal, hematócrito e volume de urina em praticantes de ciclismo indoor.
+							2006.
+							Monografia. (Aperfeiçoamento/Especialização em Fisiologia do Exercício)  - Universidade Gama Filho. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliano Gross da CostaBianca.
+							Efeitos da ingestão de solução carboidratada e água sobre a massa corporal, hematócrito e volume de urina em praticantes de ciclismo indoor.
+							2006.
+							Monografia. (Aperfeiçoamento/Especialização em Fisiologia do Exercício)  - Universidade Gama Filho. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliane de Bastiane.
+							Nível de Flexibilidade de idosos Praticantes de Atividade Física.
+							2005.
+							Trabalho de Conclusão de Curso. (Graduação em Educação Física)  - Universidade do Estado de Santa Catarina. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Botelho Peixoto.
+							Comparação do índice de massa corporal e avaliação do percentual de gordura através de dobras cutâneas.
+							2008.
+							Iniciação Científica. (Graduando em Educação Física)  - Universidade Federal de Pelotas. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Botelho Peixoto.
+							Calçado esportivo: Um alerta aos profissionais de Educação Física.
+							2006.
+							Iniciação Científica. (Graduando em Educação Física)  - Universidade Federal de Pelotas,
+							Programa de bolsa de iniciação científica. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">André Oreques Fonseca.
+							Mestiçagem do Grupo de Capoeira Chibarro.
+							2006.
+							Iniciação Científica. (Graduando em Educação Física)  - Universidade Federal de Pelotas. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Francine Itturriet de Almeida.
+							Monitoria da disciplina de Cinesiologia.
+							2006.
+							Orientação de outra natureza. (Educação Física)  - Universidade Federal de Pelotas. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciane Pires Martins.
+							Monitoria da disciplina de Natação.
+							2006.
+							Orientação de outra natureza. (Educação Física)  - Universidade Federal de Pelotas. Orientador: César Augusto Otero Vaghetti.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ArtigosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Artigos</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>VAGHETTI, C. A. O.</b> ; MUSTARO, P. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Exergames no ciberespaço: uma possibilidade para a educação física. Tecnologia Educacional<sup><img id='01025503_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01025503' /></sup>, v. 40, p. 32, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01025503&volume=40&issue=&paginaInicial=32&titulo=Exergames no ciberespaço: uma possibilidade para a educação física&sequencial=1&nomePeriodico=Tecnologia Educacional" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VAGHETTI, C. A. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>VAGHETTI, C. A. O.</b> ; SPEROTTO, R. I. ; PENNA, R. ; CASTRO, R. I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Exergames: um desafio à educação física na era da tecnologia. Educação & Tecnologia<sup><img id='14145057_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14145057' /></sup>, v. 12, p. 1-15, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14145057&volume=12&issue=&paginaInicial=1&titulo=Exergames: um desafio à educação física na era da tecnologia&sequencial=2&nomePeriodico=Educação & Tecnologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Aprovação em processo seletivo para Professor Substituto na Escola Superior de Educação Física na Universidade Federal de Pelotas (1º Lugar). Aprovação em concurso público para Professor Assistente no Departamento de Educação e Ciências do Comportamento na Fundação Universidade Federal do Rio Grande (3º Lugar).</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:21:30</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=9735840741771843" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,5 @@
+strict digraph grafo3 {
+	graph [bb="0,0,150,18", id=grafo3, overlap=False];
+	node [label="\N", fontsize=8, shape=rectangle, style=filled];
+	0 [label="Vinícius Menezes de Oliveira [0]", URL="http://lattes.cnpq.br/9262132256691648", color="#003399", fontcolor="#FFFFFF", height="0.25", pos="75,9", width="2.0833"];
+}

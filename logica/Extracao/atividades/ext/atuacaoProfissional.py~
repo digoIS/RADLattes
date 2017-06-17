@@ -1,0 +1,15 @@
+class AtuacaoProfissional:
+	periodo = ''
+	descricao = ''
+
+	def __init__(self, partesDoItem):
+
+		if len(partesDoItem) 
+		
+
+	def __str__(self):
+        	s  = "\n[ATUACAO PROFISSIONAL] \n"
+        	s += "+ PERIODO  : " + str(self.descricao) + "\n"
+        	s += "+ ATIVIDADE: " + str(self.nivel) + "\n"
+        	return s
+

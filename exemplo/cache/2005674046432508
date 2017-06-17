@@ -1,0 +1,2750 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (B&aacute;rbara Denicol do Amaral Rodriguez)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2005674046432508" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4770096Y3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4770096Y3"><div class="infpessoa">
+<h2 class="nome">B&aacute;rbara Denicol do Amaral Rodriguez</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/2005674046432508</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 04/03/2015</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Professora Adjunto IV da Universidade Federal do Rio Grande (FURG). Possui graduação em Bacharelado em Matemática Aplicada e Computacional pela Universidade Federal do Rio Grande do Sul (2000), mestrado em Matemática Aplicada pela Universidade Federal do Rio Grande do Sul (2003) e doutorado em Engenharia Mecânica (2007). Professora no programa de Pós-graduação em Modelagem Computacional da FURG e no Programa de Mestrado Profissional em Matemática em Rede Nacional (PROFMAT). Tem experiência na área de Matemática, com ênfase em Matemática Aplicada, nas áreas de Fenômenos de Transporte e de Engenharia Nuclear, atuando principalmente nos seguintes temas: núcleo de espalhamento de klein-nishina , método LTSn e proteção radiológica.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bárbara Denicol do Amaral Rodriguez</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AMARAL RODRIGUEZ, B. D.;Rodriguez, Barbara D. do Amaral;Rodriguez, B.D.A.;Rodriguez, Bárbara D.d.A.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Instituto de Matemática, Física e Estatística. <br class="clear" />Avenida Itália, km 8, Campus Carreiros<br class="clear" />Carreiros<br class="clear" />96201900 - Rio Grande, RS - Brasil - Caixa-postal: 474<br class="clear" />Telefone: (53) 32336902<br class="clear" />Fax: (53) 32336795<br class="clear" />URL da Homepage: <a target="blank" href="http://www.imef.furg.br">http://www.imef.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia Mecânica<span class="ajaxCAPES" data-param="&codigoCurso=42001013046P9&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Metodologia para a Obtenção da Solução da Equação de Transporte de Boltzmann Considerando Espalhamento Compton Simulado por Klein-Nishina, Ano de obtenção: 2008. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9362686215096702'><img src='images/curriculo/logolattes.gif' /></a>Marco Túllio Menna Barreto de Vilhena. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Palavras-chave: Klein-Nishina; Rutherford; multigroup model; LTSn nodal; Fokker-Planck.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Matemática Aplicada<span class="ajaxCAPES" data-param="&codigoCurso=42001013063P0&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Solução da equação de transporte multidimensional em geometria cartesiana e meio infinito usando derivada fracionária.,Ano de Obtenção: 2003.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9362686215096702'><img src='images/curriculo/logolattes.gif' /></a>Marco Túllio Menna Barreto de Vilhena.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Derivada Fracionária; Fenômenos de Transporte.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aperfeiçoamento em Formação Pedagógica para Docentes<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 360h). <br class="clear" />Universidade Luterana do Brasil, ULBRA, Brasil.
+		
+	<br class="clear" />Título: Formação Pedagógica para Docentes. Ano de finalização: 2005. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Bacharelado Em Matemática Aplicada e Computacional<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto conhecendo Caçapava.  (Carga horária: 20h). <br class="clear" />ONG - Interação de Trabalhos Ambientais.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Cursos Avançados de Metodologia de Radioisótopos.  (Carga horária: 42h). <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Primeiro Encontro Técnico-Científico CNEN-UFRGS.  (Carga horária: 16h). <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">TTPN-Teoria de Transporte de Partículas Neutras.  (Carga horária: 22h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Métodos Espectro-Nodais para Cáculos de Autovalor.  (Carga horária: 2h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Quadraturas Angulares Alternativas.  (Carga horária: 2h). <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Delphi Básico.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Programa de Pós Graduação em Modelagem Computacional, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador Adjunto.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Matemática, Física e Estatística, Núcleo Docente Estruturante do curso de Matemática Aplicada. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do NDE.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 01/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Alimentos, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 01/2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Profissional em Matemática - PROFMAT, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Recursos Computacionais no Ensino de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Tópicos de Modelagem Aplicados à Física<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução ao Uso de Recursos Computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Bioquímica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Mestrado Profissional em Matemática - PROFMAT, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Cálculo<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2014 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 02/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 02/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo III<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física - Licenciatura Ou Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução ao Uso de Recursos Computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 09/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2012 - 05/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física - Licenciatura Ou Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2012 - 05/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2011 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Programa de Pós Graduação em Modelagem Computacional, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador Adjunto.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2011 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de Matemática, Física e Estatística, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Conselho da Unidade.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2012 - 11/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução ao Uso de Recursos Computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2012 - 11/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física - Licenciatura Ou Bacharelado, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2012 - 11/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 07/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2009 - 11/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Comissão de Curso Matemática/Programa Pró-Licenciatura, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora Adjunta.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 07/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução ao Uso de Recursos Computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 07/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Transformadas Integrais e Aplicações<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 07/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução ao Uso de Recursos Computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Mecânica Empresarial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Módulo em Matemática II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil Empresarial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Módulo em Matemática II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Bacharelado em Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução ao Uso de Recursos Computacionais<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Unipampa/Ufpel, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Substituto, Enquadramento Funcional: Professor Substituto, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor Substituto das disciplinas de Cálculo II e Programação Computacional para o curso de Geofísica.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12/2007 - 08/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Geofísica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo II<br class="clear" />Programação Computacional<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_M&eacute;todos de Invers&atilde;o Num&eacute;rica para a Transformada de Laplace'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Métodos de Inversão Numérica para a Transformada de Laplace<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste projeto de pesquisa pretende-se estudar e analisar técnicas de inversão numérica para a Transformada de Laplace. Além disso, pretende-se elaborar algoritmos para ilustrar a aplicação destes métodos em problemas da área da matemática aplicada.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Coordenador / Cristiana Andrade Poffal - Integrante / Leonardo Ramos Emmendorfer - Integrante / João Francisco Prolo Filho - Integrante.<br class="clear" /></div>
+</div><a name='PP_Curso de Forma&ccedil;&atilde;o Continuada para Professores de Matem&aacute;tica da Educa&ccedil;&atilde;o B&aacute;sica- Oficinas de Pr&aacute;ticas Alternativas M&oacute;dulo 1 Geometria Plana e Geometria Anal&iacute;tica Plana M&oacute;dulo 2 Fun&ccedil;&otilde;es Polinomiais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Formação Continuada para Professores de Matemática da Educação Básica- Oficinas de Práticas Alternativas Módulo 1 Geometria Plana e Geometria Analítica Plana Módulo 2 Funções Polinomiais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A presente proposta tem como objetivo a elaboração de um material de apoio pedagógico baseado em atividades alternativas que será utilizado em um curso que terá como público-alvo professores da educação básica das escolas das redes públicas estadual e municipal do município de Rio Grande. O curso será dividido em módulos, conforme o assunto abordado, inicialmente, Geometria Plana e Funções Polinomiais. Os módulos consistirão de uma revisão dos conceitos e a apresentação de atividades alternativas. Tais atividades visam, sobretudo, melhorar o ensino e a aprendizagem, contribuir para o desenvolvimento de um diálogo entre o saber matemático e o saber pedagógico, estreitando, assim a relação entre professores e alunos. O desenvolvimento do projeto proporcionará ampla interação entre a Universidade e a comunidade escolar. Esta iniciativa busca promover a formação continuada bem como a fundamentação teórica e atualização docente em relação aos conteúdos relacionados ao curso e sugerindo práticas alternativas de ensino incluindo o uso de tecnologias. Além disso, o projeto visa oportunizar aos acadêmicos de graduação e pós-graduação dos cursos de Matemática, convivência com a realidade social e prática profissional. Nesta fase inicial do projeto será desenvolvido o material didático que servirá de apoio durante as oficinas. Projeto registrado na PROPESP/FURG 655091/2013. Ata de aprovação na Unidade: 08/2013.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Integrante / Fabíola Aiub Sperotto - Coordenador / Cinthya Maria Schneider - Integrante / Daiane Silva de Freitas - Integrante.<br class="clear" /></div>
+</div><a name='PP_E-book: Elabora&ccedil;&atilde;o de Material para o Ensino de Matem&aacute;tica em Todos os N&iacute;veis.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">E-book: Elaboração de Material para o Ensino de Matemática em Todos os Níveis.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esta proposta de ensino e pesquisa pretende elaborar e-books sobre temas matemáticos relevantes escolhidos a partir da leitura e discussão de textos selecionados de livros ou artigos. A inovação pretendida por esta proposta está na produção de um material didático de apoio para ser utilizado em todos os níveis de ensino, com uma linguagem clara e direta. Além disso, pretende-se que este material seja de fácil acesso e auxilie os estudantes a construírem o conhecimento matemático de maneira mais significativa, contribuindo para a formação de acadêmicos capazes de atuar no mercado profissional com o auxílio das tecnologias digitais de informação e comunicação. Projeto Nº: 325899/2013 Propesp/FURG.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Coordenador / Cristiana Andrade Poffal - Integrante / Fabíola Aiub Sperotto - Integrante.<br class="clear" /></div>
+</div><a name='PP_T&iacute;tulo: Elabora&ccedil;&atilde;o e Produ&ccedil;&atilde;o de Material para o Ensino de C&aacute;lculo, &Aacute;lgebra Linear e Geometria Anal&iacute;tica.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Título: Elaboração e Produção de Material para o Ensino de Cálculo, Álgebra Linear e Geometria Analítica.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visa o aprimoramento do material didático, inicialmente produzido 
+nos anos de 2011 e 2012 para as disciplinas semestrais de Cálculo I, Cálculo II, 
+Cálculo III, Álgebra Linear e Geometria Analítica e para a disciplina anual de Cálculo 
+Diferencial e Integral I. O projeto tem por objetivo a elaboração de um material de 
+fácil acesso e entendimento para os alunos, auxiliando na diminuição dos altos índices 
+de reprovação e prevê a inclusão de novos tópicos e curiosidades, bem como dados 
+históricos e exercícios cuja resolução incentive a utilização de recursos computacionais.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Integrante / Fabíola Aiub Sperotto - Integrante / Cinthya Maria Schneider - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Produ&ccedil;&atilde;o de Material para o Ensino de C&aacute;lculo Diferencial e Integral, Geometria Anal&iacute;tica e &Aacute;lgebra Linear'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Produção de Material para o Ensino de Cálculo Diferencial e Integral, Geometria Analítica e Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto propõe a produção de material didático com caráter teórico prático visando facilitar o aprimoramento da prática pedagógica bem como despertar o interesse dos discentes aos conteúdos das disciplinas. Dessa forma, contribuindo para o desenvolvimento de habilidades como raciocínio lógico, abstração, leitura, interpretação e autonomia. Com essa proposta pretende-se diminuir a evasão e melhorar o desempenho acadêmico.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (3) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Coordenador / Cristiana Andrade Poffal - Integrante / Fabíola Aiub Sperotto - Integrante / Cinthya Maria Schneider - Integrante / Daiane Silva de Freitas - Integrante.<br class="clear" /></div>
+</div><a name='PP_Projeto de Ensino: Caf&eacute; com a Matem&aacute;tica    O Livro dos N&uacute;meros'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Ensino: Café com a Matemática    O Livro dos Números<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esta proposta de ensino pretende, através da leitura do livro  O livro dos números: uma história ilustrada da matemática  e da utilização de recursos computacionais, proporcionar momentos de discussão, análise e confecção de textos visando o desenvolvimento do pensamento crítico e da habilidade de argumentação verbal e escrita, inserindo novas ideias e tecnologias à realidade dos acadêmicos.  O livro dos números: uma história ilustrada da matemática  é um livro surpreendente, leve, de fácil entendimento e bastante divertido que apresenta uma harmonia entre texto e imagem.  O livro resume importantes descobertas matemáticas que são aplicadas a todas as áreas de nossa vida. Nas palavras do autor:  Vivemos em números, falamos em números e assistimos a números para nos entreter. Números governam nossas vidas, nos acordam, nos dizem aonde ir, como chegar lá e quando partir. . <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Coordenador / Lineia Schutz - Integrante / Fabíola Aiub Sperotto - Integrante.<br class="clear" /></div>
+</div><a name='PP_Um estudo sobre Fun&ccedil;&otilde;es a Vari&aacute;veis Complexas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um estudo sobre Funções a Variáveis Complexas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visa estudar a teoria de variável complexa e suas aplicações para desenvolver a base técnico-científica do trabalho de conclusão de curso dos alunos envolvidos. O grupo de estudo conta com a participação de dois acadêmicos do terceiro semestre do curso de Matemática Aplicada Bacharelado.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Coordenador / Fabíola Aiub Sperotto - Integrante.<br class="clear" /></div>
+</div><a name='PP_Laborat&oacute;rio de &Aacute;lgebra Linear e Geometria Anal&iacute;tica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Laboratório de Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A disciplina de Introdução ao Uso de Recursos Computacionais é ofertada para o primeiro semestre do curso de Bacharelado em Matemática Aplicada, fornecendo uma poderosa ferramenta tecnológica às disciplinas subsequentes, através do ensino do Software Simbólico wxMaxima. A deficiência comum nos conteúdos de matemática do ensino médio apresentado pelos alunos e a dificuldade em lidar com o computador, são refletidas no desempenho dos mesmos nesta disciplina que exige um conhecimento prévio do aluno em matemática e informática. Devido a este fato há a necessidade de um acompanhamento extra-classe. Este projeto tem por objetivo melhorar a utilização de recursos para o ensino das disciplinas que necessitam a utilização de recursos computacionais.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Coordenador / Cristiana Andrade Poffal - Integrante.<br class="clear" /></div>
+</div><a name='PP_Ajuste de Curvas para aplica&ccedil;&atilde;o em Dispers&atilde;o de Poluentes na &Aacute;gua'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ajuste de Curvas para aplicação em Dispersão de Poluentes na Água<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nas últimas décadas, o interesse no estudo de dispersão de contaminantes na atmosfera e em meio aquático tem aumentado consideravelmente em conseqüência dos problemas ambientais causados tanto pelo aumento da população, quanto pelo desenvolvimento industrial e tecnológico. Há uma profunda preocupação social com o ecossistema e com o impacto ambiental gerado pela atuação do agente humano. Em estudos referentes à poluição aquática podem ser citados dois problemas de grande relevância: a propagação de poluentes provenientes de descargas de esgoto doméstico e a dispersão de contaminantes devido à ocorrência de acidentes com cargas tóxicas causados por embarcações. Esse projeto tem como objetivo estudar a dispersão de poluentes provenientes de acidentes envolvendo embarcações. Serão realizadas simulações computacionais para acompanhar a trajetória de um despejo e estimar sua extensão junto a pontos de interesse.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Aplica&ccedil;&atilde;o de Vari&aacute;veis Complexas &agrave; Dispers&atilde;o de Poluentes na &Aacute;gua'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aplicação de Variáveis Complexas à Dispersão de Poluentes na Água<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Nas últimas décadas, o interesse no estudo de dispersão de contaminantes na atmosfera e em meio aquático tem aumentado consideravelmente em conseqüência dos problemas ambientais causados tanto pelo aumento da população, quanto pelo desenvolvimento industrial e tecnológico. Há uma profunda preocupação social com o ecossistema e com o impacto ambiental gerado pela atuação do agente humano. Em estudos referentes à poluição aquática podem ser citados dois problemas de grande relevância: a propagação de poluentes provenientes de descargas de esgoto doméstico e a dispersão de contaminantes devido à ocorrência de acidentes com cargas tóxicas causados por embarcações. Esse projeto tem como objetivo estudar a dispersão de poluentes provenientes de cargas de esgoto. Serão realizadas simulações computacionais para avaliar o impacto ambiental dos despejos à população e em regiões próximas à captações de água.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Um estudo sobre m&eacute;todos anal&iacute;ticos e num&eacute;ricos na resolu&ccedil;&atilde;o de problemas aplicados &agrave; F&iacute;sica Matem&aacute;tica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um estudo sobre métodos analíticos e numéricos na resolução de problemas aplicados à Física Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto tem como principal objetivo apresentar um estudo comparativo entre os métodos determinístico, probabilístico e numérico, de solução das equações de Boltzmann, para modelar o transporte de fótons, e de Maxwell, no estudo das estruturas geológicas de uma determinada região. 
+O objetivo geral do presente projeto é comparar os resultados obtidos através da aplicação de cada um dos métodos na obtenção da solução das equações e ampliar a aplicabilidade de métodos analíticos na solução de problemas em áreas como a Física, Geofísica e Engenharia.
+Para atingir as metas propostas, o presente projeto será subdividido em dois subprojetos. O primeiro consistirá na obtenção de uma solução analítica para a equação de transporte para fótons modelo multigrupo em um meio heterogêneo, seguido de uma comparação dos resultados obtidos com os resultados gerados através da técnica de Monte Carlo. O segundo subprojeto visa obter uma solução analítica para as equações de Maxwell para um meio isotrópico através do método ADMM (Advection Diffusion Multilayer Method), seguido de uma comparação com resultados obtidos através do algoritmo numérico de diferenças finitas no domínio do tempo.
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Coordenador / Marco Túlio de Vilhena - Integrante / Adelir J. Strieder - Integrante / Camila Pinto da Costa - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Hist&oacute;ria da Matem&aacute;tica: uma nova forma de ensinar e aprender fun&ccedil;&otilde;es exponenciais e logar&iacute;tmicas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">História da Matemática: uma nova forma de ensinar e aprender funções exponenciais e logarítmicas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Com o intuito de contribuir para a formação integral dos acadêmicos, colaborando com a expansão das aprendizagens para além do espaço da sala de aula, o presente projeto propõe, através da leitura e discussão de publicações relacionadas às tendências em Educação Matemática e do livro e: a história de um número , bem como o uso de tecnologias em ensino, a elaboração de uma oficina para alunos do ensino Médio e para ingressantes no curso de Licenciatura em Matemática na Universidade Federal do Rio Grande. O objetivo principal dessa oficina é relacionar o estudo das funções exponenciais e logarítmicas e a História da Matemática, apresentando esses assuntos de forma mais interessante e curiosa para os alunos através do emprego de novas idéias e tecnologias.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Integrante / Lineia Schutz - Coordenador / Cássia Gonçalves D'Avila - Integrante.<br class="clear" /></div>
+</div><a name='PP_Pr&aacute;ticas alternativas de ensino em C&aacute;lculo Diferencial e Integral, &Aacute;lgebra Linear e Geometria Anal&iacute;tica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Práticas alternativas de ensino em Cálculo Diferencial e Integral, Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: As práticas alternativas de ensino são ferramentas fundamentais na melhoria do ensino de Cálculo Diferencial e Integral e Álgebra Linear e Geometria Analítica, oferecidas pelo Instituto de Matemática Estatística e Física para os cursos de graduação da Universidade Federal do Rio Grande - FURG. Como estratégia pedagógica busca-se uma modernização do material didático existente e uma nova dinâmica no fazer pedagógico, através da utilização de recursos computacionais modernos, do uso dos laboratórios de informática para graduação e do entrosamento de professores e estudantes com o ensino básico de graduação, buscando um salto de qualidade na formação dos futuros profissionais ligados às Ciências Exatas e da Terra e Engenharias.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Integrante / Fabíola Aiub Sperotto - Integrante / Wilian Correa Marques - Coordenador / Rodrigo Soares - Integrante / Adriano de Cezaro - Integrante / Andre Meneghetti - Integrante / Catia Maria Machado - Integrante / Daiane Silva de Freitas - Integrante / Eneilson Campos Fontes - Integrante / Fabiana Travessini De Cezaro - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Caf&eacute; com a Matem&aacute;tica    O Romance das Equa&ccedil;&otilde;es Alg&eacute;bricas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Café com a Matemática    O Romance das Equações Algébricas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Universidade é o local onde se pode discutir e capacitar pessoas para
+promover a construção do conhecimento a fim de atender as necessidades da
+sociedade na qual está inserida. Possibilitar a formação integral dos acadêmicos
+inclui a expansão das aprendizagens para além do espaço da sala de aula, que
+potencializa a atualização exigida na formação de profissionais da área da
+Matemática. O Projeto Político Pedagógico do curso de Matemática prevê
+que o egresso  deve ter formação que lhe possibilite assumir a docência
+como compromisso social, ser pesquisador de sua prática, desenvolvendo a
+autonomia na aprendizagem continuada. Necessita ter formação matemática
+integrada com os campos do saber científico e humanístico  (FURG, 2004, p.1).
+A partir dos resultados percebidos na 1ª edição do projeto Café com a
+Matemática, do qual participaram quatro (04) alunas, bolsistas do programa
+Bolsa Permanência PRAE/FURG, do 1º ano do curso de Licenciatura
+em Matemática, este novo projeto de ensino propõe, através da leitura do
+livro  O Romance das Equações Algébricas  e da utilização de recursos
+computacionais, momentos de discussão, análise e confecção de textos visando
+o desenvolvimento do pensamento crítico e da habilidade de argumentação
+verbal e escrita, inserindo novas idéias e tecnologias à realidade dos
+acadêmicos. O presente projeto propõe também, a aplicação das informações
+obtidas no cotidiano da comunidade acadêmica e comunidade em geral.
+ O Romance das Equações Algébricas  é um livro relativamente curto, leve, de
+fácil entendimento e bastante divertido que apresenta, sobre um enfoque natural
+e histórico, a teoria elementar das equações algébricas. O livro nos mostra
+ainda o encadeamento das descobertas matemáticas ao longo do tempo e o papel
+desempenhado nelas pelos diversos matemáticos.
+. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Coordenador / Cristiana Andrade Poffal - Integrante / Lineia Schutz - Integrante / Fabíola Aiub Sperotto - Integrante.<br class="clear" /></div>
+</div><a name='PP_Projeto de Ensino: Caf&eacute; com a Matem&aacute;tica - e: a Hist&oacute;ria de um N&uacute;mero'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Ensino: Café com a Matemática - e: a História de um Número<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A Universidade é o local onde se pode discutir e capacitar pessoas para promover a construção do conhecimento a fim de atender as necessidades da sociedade na qual está inserida. Possibilitar a formação integral dos acadêmicos inclui a expansão das aprendizagens para além do espaço da sala de aula, que potencializa a atualização exigida na formação de profissionais da área da Matemática. O Projeto Político Pedagógico do curso de Matemática prevê que o egresso  deve ter formação que lhe possibilite assumir a docência como compromisso social, ser pesquisador de sua prática, desenvolvendo a autonomia na aprendizagem continuada. Necessita ter formação matemática integrada com os campos do saber científico e humanístico . 
+Este projeto de ensino propõe, através da leitura do livro  e: A História de um Número   e da utilização de recursos computacionais, momentos de discussão, análise  e confecção de textos  visando o desenvolvimento do pensamento crítico e da habilidade de argumentação verbal e escrita, inserindo novas idéias e tecnologias a realidade dos acadêmicos. O presente projeto propõe também, a aplicação das informações obtidas no cotidiano da comunidade acadêmica e comunidade em geral. 
+ e: A História de um Número   é um livro relativamente  curto, de fácil entendimento para quem possui um mínimo de conhecimento matemático, e bastante divertido. A história do número e = 2.718281828... confunde-se com a história do cálculo integral e diferencial. Foi a tentativa de calcular a área de uma curva aparentemente simples (y=1/x) que inspirou Newton e Leibnitz a estudarem processos infinitos, e assim toparem com o cálculo e com o número "e". Muitos outros já haviam aproximado o valor de "e" antes, por exemplo, os babilônios em cálculos financeiros, mas  não  compreenderam a importância desse número na época. Esse livro retrata, por meio de uma história informal, os curiosos personagens e matemáticos que foram envolvidos com a criação do número e, em uma galeria que in. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (4) . <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Integrante / Cristiana Andrade Poffal - Integrante / Lineia Schutz - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Projeto de Ensino: Curso de Inverno - S&eacute;ries e Transformada de Laplace'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto de Ensino: Curso de Inverno - Séries e Transformada de Laplace<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Esse projeto de ensino tem como objetivo atender a solicitação de um curso de inverno feita pelos coordenadores dos cursos de Engenharias Empresariais da Universidade Federal do Rio Grande. Esse curso visa complementar o estudo dos conteúdos da ementa da disciplina 01165   Matemática II para o aproveitamento da disciplina 01281   Cálculo Diferencial e Integral II do novo currículo dos cursos de Engenharias Empresariais. Os conteúdos abordados serão: sequências e séries numéricas, séries de Fourier e a transformada de Laplace e sua aplicação para a resolução de equações diferenciais ordinárias.. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" /><br class="clear" />Integrantes: Bárbara Denicol do Amaral Rodriguez - Coordenador / Cristiana Andrade Poffal - Integrante / Lineia Schutz - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Teoria de Transporte e Transformadas Integrais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Física Matemática. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Matemática da Computação/Especialidade: Modelos Analíticos e de Simulação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rodriguez, B.D.A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><b>Rodriguez, B.D.A.</b> ; SCHNEIDER, C. M. ; POFFAL, C. A. . Estudo do Perfil dos Alunos do Curso de Matemática Aplicada   Bacharelado: entendendo as razões para o baixo rendimento dos acadêmicos. Ciência e Natura<sup><img id='01008307_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01008307' /></sup>, v. 37, p. 151-156, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01008307&volume=37&issue=&paginaInicial=151&titulo=Estudo do Perfil dos Alunos do Curso de Matemática Aplicada   Bacharelado: entendendo as razões para o baixo rendimento dos acadêmicos&sequencial=1&nomePeriodico=Ciência e Natura" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rodriguez, B.D.A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.anucene.2010.07.020" target="_blank"></a><b>Rodriguez, B.D.A.</b> ; Vilhena, M.T. ; Hoff, G. ; Bodmann, B.E.J. . A closed-form solution for the two-dimensional transport equation by the LTSN nodal method in the energy range of Compton effect. Annals of Nuclear Energy<sup><img id='03064549_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03064549' /></sup>, v. 38, p. 151-156, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.anucene.2010.07.020&issn=03064549&volume=38&issue=&paginaInicial=151&titulo=A closed-form solution for the two-dimensional transport equation by the LTSN nodal method in the energy range of Compton effect&sequencial=2&nomePeriodico=Annals of Nuclear Energy" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rodriguez, Bárbara D.d.A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.pnucene.2011.06.009" target="_blank"></a><b>Rodriguez, Bárbara D.d.A.</b> ; Vilhena, Marco T. ; Bodmann, Bardo E.J. . An overview of the Boltzmann transport equation solution for neutrons, photons and electrons in Cartesian geometry. Progress in Nuclear Energy (New series)<sup><img id='01491970_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01491970' /></sup>, v. 53, p. 1119-1125, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.pnucene.2011.06.009&issn=01491970&volume=53&issue=&paginaInicial=1119&titulo=An overview of the Boltzmann transport equation solution for neutrons, photons and electrons in Cartesian geometry&sequencial=3&nomePeriodico=Progress in Nuclear Energy (New series)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rodriguez, Barbara D. do Amaral</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1504/IJNEST.2010.030304" target="_blank"></a><b>Rodriguez, Barbara D. do Amaral</b> ; Vilhena, Marco Tullio ; Borges, Volnei . A solution for the two-dimensional transport equation for photons and electrons in a rectangular domain by the Laplace transform technique. International Journal of Nuclear Energy, Science and Technology (Print)<sup><img id='17416361_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='17416361' /></sup>, v. 5, p. 25-40, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1504/IJNEST.2010.030304&issn=17416361&volume=5&issue=&paginaInicial=25&titulo=A solution for the two-dimensional transport equation for photons and electrons in a rectangular domain by the Laplace transform technique&sequencial=4&nomePeriodico=International Journal of Nuclear Energy, Science and Technology (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AMARAL RODRIGUEZ, B. D.;Rodriguez, Barbara D. do Amaral;Rodriguez, B.D.A.;Rodriguez, Bárbara D.d.A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.anucene.2007.09.002" target="_blank"></a><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5632677829199161" target="_blank">G. Hoff</a> . A closed-form solution for the two-dimensional Fokker-Planck equation for electron transport. Annals of Nuclear Energy<sup><img id='03064549_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03064549' /></sup>, v. 35, p. 958-962, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.anucene.2007.09.002&issn=03064549&volume=35&issue=&paginaInicial=958&titulo=A closed-form solution for the two-dimensional Fokker-Planck equation for electron transport&sequencial=5&nomePeriodico=Annals of Nuclear Energy" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AMARAL RODRIGUEZ, B. D.;Rodriguez, Barbara D. do Amaral;Rodriguez, B.D.A.;Rodriguez, Bárbara D.d.A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> ; MALAMUT, C. . The exposure buildup factor formulation in a slab and rectangle geometry by the LTSN method. International Journal of Low Radiation (Online)<sup><img id='17419190_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='17419190' /></sup>, v. 4, p. 102-116, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=17419190&volume=4&issue=&paginaInicial=102&titulo=The exposure buildup factor formulation in a slab and rectangle geometry by the LTSN method&sequencial=6&nomePeriodico=International Journal of Low Radiation (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AMARAL RODRIGUEZ, B. D.;Rodriguez, Barbara D. do Amaral;Rodriguez, B.D.A.;Rodriguez, Bárbara D.d.A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> . Determination of the exposure build-up factor in a slab using the LTSN method. Kerntechnik (1987)<sup><img id='09323902_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='09323902' /></sup>, v. 4, p. 182-184, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=09323902&volume=4&issue=&paginaInicial=182&titulo=Determination of the exposure build-up factor in a slab using the LTSN method&sequencial=7&nomePeriodico=Kerntechnik (1987)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> . Solution of the Fokker-Planck Pencil Beam Equation for Electrons by the Laplace Transform Technique. In: C. Constanda, M.E. Pérez. (Org.). Integral Methods in Science and Engineering. 1ed.New York: Birkhäuser, 2010, v. 2, p. 311-320. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; POFFAL, C. A. ; Schutz, L. ; D'Avila, C. G. . A História da Matemática como Metodologia de Ensino na Sala de Aula. In: III Jornada Nacional de Educação Matemática, XVI Jornada Regional de Educação Matemática, 2010, Passo Fundo, RS. CD - Anais II Jornada Nacional de Educação Matemática, XVI Jornada Regional de Educação Matemática, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> . An Overview of the Boltzmann Transport Equation Solution for Neutrons, Photons and Electrons n Cartesian geometry. In: International Nuclear Atlantic Conference, 2009, Rio De Janeiro. International Nuclear Atlantic Conference - Anais. Rio de Janeiro, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5632677829199161" target="_blank">G. Hoff</a> . A closed-form solution for the two-dimensional transport equation by the LTSN nodal method in the range of Compton Effect.. In: International Conference on the Physics of Reactors, 2008, Interlaken. Proceedings of the International Conference on the Physics of Reactors, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5632677829199161" target="_blank">G. Hoff</a> . Electron Dosimetry Generated by Compton Effect in Two-Dimensions. In: Inac 2007 - International Nuclear Atlantic Conference, 2007, Santos. Inac 2007 DVD, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> . Methodology for Obtaining a Solution for the Three-dimensional Boltzmann Transport Equation and an Expression for the Calculation of the Total Dosis Considering Compton Scattering Simulated by Klein-Nishina. In: International Nuclear Atlantic Conference, 2005, Santos, São Paulo. INAC 2005, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> ; ZABADAL, J. R. . The Application of the LTSN Method in the Evaluation of the Build-up Factor. In: International Nuclear Atlantic Conference - INAC 2005, 2005, Santos. 2005 INAC, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> . Solução da Equação de Transporte em Três Dimensões com o núcleo de Rutherford Usando Derivada Fracionária. In: XIII ENFIR, 2002, Rio de Janeiro. XIII ENFIR, 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ferreira, J. A. ; Garcia, L. G ; <b>Rodriguez, Barbara D. do Amaral</b> ; POFFAL, C. A. ; Sperotto, F. A. . Um Estudo sobre as Funções de Variáveis Complexas Utilizando o  Software wxMaxima'. In: 12a Mostra de Produção Universitária, 2013, Rio Grande. Anais da MPU. Rio Grande: Editora da FURG, 2013. v. 12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NEVES, C. S. ; <b>Rodriguez, Barbara D. do Amaral</b> ; Retamoso, M. R. . Dispersão de Poluentes em Rios e Canais Através do Método de Separação de Variáveis.. In: VMCSUL, 2012, Rio Grande. Anais da V Conferência Sul em Modelagem Computacional   VMCSul, 2012. v. único. p. 110. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ferreira, J. A. ; Garcia, L. G ; POFFAL, C. A. ; <b>Rodriguez, Bárbara D.d.A.</b> . Um Estudo Sobre as Funções de Variáveis Complexas Utilizando o Software Wxmaxima. In: VII Bienal da Sociedade Brasileira de Matemática, 2014, Maceio. VII Bienal da Sociedade Brasileira de Matemática, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ferreira, J. A. ; Garcia, L. G ; <b>Rodriguez, B.D.A.</b> ; POFFAL, C. A. ; Sperotto, F. A. . O Ensino de números complexos utilizando o  software wxMaxima . In: VII Bienal da Sociedade Brasileira de Matemática, 2014, Maceio. VII Bienal da Sociedade Brasileira de Matemática, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, C. E. S. ; <b>Rodriguez, Barbara D. do Amaral</b> ; Emmendorfer, L. R. ; PROLO FILHO, J. F. . MÉTODOS NUMÉRICOS APLICADOS À TRANSFORMADA INVERSA DE LAPLACE. In: Congresso Nacional de Matemática Aplicada e Computacional, 2014, Natal. Anais do XXXV Congresso Nacional de Matemática Aplicada e Computacional, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> . Formulação Semi-Analítica para o Fator de Build-up em uma Placa Plana e um Retângulo. In: XXVIII CILAMCE - Congresso Ibero Latino-Americano sobre Métodos Computacionais em Engenharia, 2007, Porto. Métodos Numéricos e Computacionais em Engenharia CMNE CILAMCE 2007. Porto, Portugal: Publindústria, Produção de Comunicação, Lda., 2007. v. Único. p. 333-333. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> . Solution of  the Three Dimensional Transport Equation with Rutherford Kernel using Fractional Derivative. In: CNMAC, 2002. XXV CNMAC, 2002. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> . An Overview of the Boltzmann Transport Equation Solution for Neutrons, Photons and Electrons n Cartesian geometry. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> . Solution of the Fokker-Planck pencil beam equation for electron by the Laplace Transform technique. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5632677829199161" target="_blank">G. Hoff</a> . Electron Dosimetry Generated by Compton Effect in Two-Dimensions. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> . Formulação Semi-Analítica para o Fator de Build-up em uma Placa Plana e um Retângulo. 2007. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> . The Application of the LTSn Method in the Evaluation of the Buildup Factor. 2005. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a> . Methodology for Obtaining a Solution for the Three-dimensional Boltzmann Transport Equation and an Expression for the Calculation of the Total Dosis Considering Compton Scattering Simulated by Klein-Nishina. 2005. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> . Solução da Equação de Transporte em Três Dimensões com o Núcleo de Rutherford Usando Derivada Fracionária. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> . Solução da Equação de Transporte em Três Dimensões com o Núcleo de Rutherford Usando Derivada Fracionária. 2002. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> . Solution of  the Three Dimensional Transport Equation with Rutherford Kernel using Fractional Derivative. 2002. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Rodriguez, Barbara D. do Amaral</b> ; SCHNEIDER, C. M. ; POFFAL, C. A. . Apostila de Cálculo Diferencial e Integral.
+							2013. (Desenvolvimento de material didático ou instrucional - Apostila). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; POFFAL, C. A. ; Schutz, L. . Curso de Inverno - Séries e Transformada de Laplace. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACKENDAZ, L. F. ; PEREZ, J. C. ; CORRÊA, M. A. ; <b>AMARAL RODRIGUEZ, B. D.</b> ; CHIMENDES, L. C. . Pré Cálculo. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREZ, J. C. ; <b>AMARAL RODRIGUEZ, B. D.</b> ; CHIMENDES, L. C. . Aperfeiçoamento em Matemática. 2008. (Curso de curta duração ministrado/Extensão). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BORTOLI, A. L.; Emmendorfer, L. R.; GOMES, S. C. P.; <b>Rodriguez, Bárbara D.d.A.</b>.  Participação em banca de Iuri Barcelos Pereira da Rocha. Modelagem matemática de cabos umbilicais e veículos subaquáticos não tripulados. 2013. Dissertação (Mestrado em Modelagem Computacional) - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LORETO, A. B.; <b>AMARAL RODRIGUEZ, B. D.</b>; Emmendorfer, L. R..  Participação em banca de Rosana dos Santos. Uma estratégica híbrida para o problema de empacotamento de elipses. 2012. Dissertação (Mestrado em Modelagem Computacional) - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b>.  Participação em banca de Alexandre Saco de Athayde. Métodos de Estimativas de Parâmetros Eletromagnéticos em Modelos Geológicos Unidimensionais. 2009. Dissertação (Mestrado em Matemática Aplicada) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cardona A.V.; <b>AMARAL RODRIGUEZ, B. D.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3964508485095516" target="_blank">BORGES, V.</a>.  Participação em banca de Betine Rost. Solução da equação da transferência radiativa unidimensional em geometria cartesiana em nuvens pela tranformada de Laplace. 2008. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Rodriguez, Barbara D. do Amaral</b>; COSTA, C. P.; PERGHER, R.; GONCALVES, G. A.; NUNES, A..  Participação em banca de CRISTIANE SCHWARTZ VENZKE. Simulação da dispersão de poluentes na atmosfera considerando um termo de contragradiente através da resolução analítica da equação de advecção-difusão. 2014. Exame de qualificação (Mestrando em Modelagem Matemática)  - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Rodriguez, Barbara D. do Amaral</b>; Isoldi. L.; RODRIGUES, M. K.; SANTOS, E. D..  Participação em banca de Maicon Almeida de Souza e Rafael Penna Rey Lempek.OTIMIZAÇÃO GEOMÉTRICA DE CANAIS COM SECÇÃO TRANSVERSAL EM FORMA DE  T  SUBMETIDOS À CONVECÇÃO.
+							2014. Trabalho de Conclusão de Curso (Graduação em Engenharia Mecânica)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">POFFAL, C. A.; <b>Rodriguez, Barbara D. do Amaral</b>; Sperotto, F. A.; Retamoso, M. R..  Participação em banca de Luciano Garim Garcia.Aplicação de Variáveis Complexas no Problema  de Dispersão de Poluentes Utilizando o  Software wxMaxima.
+							2014. Trabalho de Conclusão de Curso (Graduação em Matemática Aplicada)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINEZ, D. M. V.; <b>AMARAL RODRIGUEZ, B. D.</b>; PEREIRA, E. C.. Comissão Examinadora para Seleção de Professor Adjunto.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b>; Casali, R. M.; Schutz, L.. Comissão Examinadora para Seleção de Professor Assistente.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silva, R. B.; <b>AMARAL RODRIGUEZ, B. D.</b>; COSTA, C. P.. Comissão Examinadora para Seleção de Professor Adjunto.
+							2009. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BELLICANTA, L. S.; <b>AMARAL RODRIGUEZ, B. D.</b>; POFFAL, C. A.. Revalidação de Diploma de Graduação Obtido no Estrangeiro.
+							2009.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b>; Matos, J. S.; ALVES, A. M. M.. Seleção de Tutores/Bolsistas, modalidade presencial, no âmbito UAB.
+							2009.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Colóquio Acadêmico de Matemática.Resolvendo Problemas do Cálculo Diferencial e Integral com o WxMaxim. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4o MCSUL/IX ERMAC. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana Acadêmica da Matemática 2010.Resolvendo Equações Diferenciais com o WxMaxima. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Nuclear Atlantic Conference. An Overview of the Boltzmann Transport Equation Solution for Neutrons, Photons and Electrons n Cartesian geometry. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana Acadêmica do IMEF. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Encontro Regional de Matemática Aplicada.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">The Tenth International Conference on Integral Methods in Science and Engineering.Solution of the Fokker-Planck pencil beam equation for electron by the Laplace Transform technique. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVIII CILAMCE - Congresso Ibero Latino-Americano sobre Métodos Computacionais em Engenharia. Formulação Semi-Analítica para o Fator de Build-up em uma Placa Plana e um Retângulo. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Inac 2007 - International Nuclear Atlantic Conference. Electron Dosimetry Generated by Compton Effect in Two-Dimensions. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Nuclear Atlantic Conference - INAC 2005. The Application of the LTSn Method in the Evaluation of the Buildup Factor. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Nuclear Atlantic Conference. Methodology for Obtaining a Solution for the Three-dimensional Boltzmann Transport Equation and an Expression for the Calculation of the Total Dosis Considering Compton Scattering Simulated by Klein-Nishina. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CNMAC. Solução da Equação de Transporte em Três Dimensões Usando Derivada Fracionária. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII ENFIR. Solution of the Three-Dimensional Transport Equation with Rutherford Kernel Using Fractional Derivative. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ERMAC.Solução da Equação de Transporte em Três Dimensões com o Núcleo de Rutherford Usando Derivada Fracionária.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIV Congresso Nacional de Matemática Aplicada e Computacional. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congresso em Física da Camada Limite Planetária e Modelagem de Processos de Dispersão. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Salão de Iniciação Científica.O Método RSA de Criptografia. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; Retamoso, M. R. ; Emmendorfer, L. R. ; Werhli, A. V. ; Konrath, A. C. ; FREITAS, D. S. ; SCHNEIDER, C. M. ; Schutz, L. ; Isoldi. L. ; Saadi, A. ; Estrada, E. ; Hax, V. A. . 4o MCSUL/IX ERMAC. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AMARAL RODRIGUEZ, B. D.</b> ; POFFAL, C. A. ; Novello, T. P. ; Ferreira, L. N. . I Semana Acadêmica do IMEF. 2009. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gleyber Amaral. A inversão numérica da Transformada de Laplace.
+						Início: 2014.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fransuelen Retzlaf. A equação de transporte de Boltzmann e o cálculo de dose.
+						Início: 2013.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juciara Alves Ferreira. O uso do softwares wxMaixma e a transformada de Laplace.
+						Início: 2013. Trabalho de Conclusão de Curso (Graduação em Matemática Aplicada)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cheron Silveira Neves. Um Problema de Dispersão de Poluentes em Rios e Canais Através do Método de Separação de Variáveis.
+							2010.
+						
+					Dissertação  (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Co-Orientador: Bárbara Denicol do Amaral Rodriguez. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Simone Martins Hornes Batista.
+							A análise de situações-problema como aplicações nas funções polinomiais do 1º grau.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização para Professores de Matemá)  - Universidade Federal do Rio Grande. Orientador: Bárbara Denicol do Amaral Rodriguez.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano Medina Peres.
+							A formação continuada e a aprendizagem significativa.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização para Professores de Matemá)  - Universidade Federal do Rio Grande. Orientador: Bárbara Denicol do Amaral Rodriguez.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vanessa Silva da Luz.
+							Os desafios ao ensinar e aprender matemática partindo da resolução   de problemas em um curso pré - universitário popular.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização para Professores de Matemá)  - Universidade Federal do Rio Grande. Orientador: Bárbara Denicol do Amaral Rodriguez.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Reginaldo Rodrigues Batista.
+							Geometria e seus paradigmas, da sala de aula para a realidade social.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização para Professores de Matemá)  - Universidade Federal do Rio Grande. Orientador: Bárbara Denicol do Amaral Rodriguez.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafaella Colares da Silva.
+							Ensino de funções com o uso do software Winplot.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização para Professores de Matemá)  - Universidade Federal do Rio Grande. Orientador: Bárbara Denicol do Amaral Rodriguez.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniela Nahuys Thormann.
+							O uso de mídias como auxílio no ensino de estatística.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Curso de Especialização para Professores de Matemá)  - Universidade Federal do Rio Grande. Orientador: Bárbara Denicol do Amaral Rodriguez.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano Garim Garcia.
+							Aplicação de Funções de Variável Complexa no  Problema de Dispersão de Poluentes Utilizando o  Software wxMaxima.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática Aplicada)  - Universidade Federal do Rio Grande. Orientador: Bárbara Denicol do Amaral Rodriguez.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ArtigosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Artigos</b>
+</div>
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Rodriguez, B.D.A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><b>Rodriguez, B.D.A.</b> ; SCHNEIDER, C. M. ; POFFAL, C. A. . Estudo do Perfil dos Alunos do Curso de Matemática Aplicada   Bacharelado: entendendo as razões para o baixo rendimento dos acadêmicos. Ciência e Natura<sup><img id='01008307_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01008307' /></sup>, v. 37, p. 151-156, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01008307&volume=37&issue=&paginaInicial=151&titulo=Estudo do Perfil dos Alunos do Curso de Matemática Aplicada   Bacharelado: entendendo as razões para o baixo rendimento dos acadêmicos&sequencial=1&nomePeriodico=Ciência e Natura" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<a name="MaterialDidaticoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Desenvolvimento de material didático ou instrucional</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Rodriguez, Barbara D. do Amaral</b> ; SCHNEIDER, C. M. ; POFFAL, C. A. . Apostila de Cálculo Diferencial e Integral.
+							2013. (Desenvolvimento de material didático ou instrucional - Apostila). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">- Chair da Sessão Técnica Matemática Aplicada e Computação na "International Nuclear Atlantic Conference - INAC2009", congresso realizado no período de 27 de Setembro a 2 de Outubro de 2009 na cidade do Rio de Janeiro, Rio de Janeiro, Brasil.
+- Revisora dos trabalhos técnicos apresentados na "International Nuclear Atlantic Conference - INAC2009", congresso realizado no período de 27 de Setembro a 2 de Outubro de 2009 na cidade do Rio de Janeiro, Rio de Janeiro, Brasil.
+- Participação no Seminário de Desenvolvimento Profissional: Pedagogia Universitária, organizado pela Universidade Federal do Pampa e realizado de 13 a 14 de Março de 2008 na cidade de Bagé, Rio Grande do Sul, Brasil.
+- Revisora dos trabalhos técnicos apresentados na "International Nuclear Atlantic Conference - INAC2007", congresso realizado no período de 30 de Setembro a 5 de Outubro de 2008 na cidade de Santos, São Paulo, Brasil.
+- Participação no mini-curso "Física das reações de fissão em cadeia" ministrado pelo Prof. Dr. Ricardo Barros, realizado na UFRGS, Porto Alegre, Rs, Brasil, no período de 29 a 31 de Setembro de 2007.
+- Professora da disciplina de Matemática no Centro de Aulas Particulares Revisão, localizado na Rua Felipe Camarão 452, Porto Alegre, RS.
+- Cursou as disciplinas Psicologia da Educação A, Psicologia da Educação B, A Educação Matemática no Brasil e História da Matemática na Universidade Federal do Rio Grande do Sul para aperfeiçoamento da formação pedagógica como docente.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/03/2015 &agrave;s 24:43:37</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2005674046432508" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

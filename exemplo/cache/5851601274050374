@@ -1,0 +1,3225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Eduardo Nunes Borges)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=5851601274050374" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4511893E3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4511893E3"><div class="infpessoa">
+<h2 class="nome">Eduardo Nunes Borges</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/5851601274050374</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 23/10/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Professor do Centro de Ciências Computacionais - C3 da Universidade Federal do Rio Grande - FURG. É Engenheiro de Computação e possui mestrado em Ciência da Computação pela Universidade Federal do Rio Grande do Sul - UFRGS concluído em 2008. Atualmente está cursando doutorado na mesma instituição com linha de pesquisa em Banco de Dados. Tem experiência na área de Ciência da Computação, com ênfase em Banco de Dados, atuando principalmente nos seguintes temas: deduplicação, similaridade, consultas vagas ou aproximadas, bibliotecas digitais, metadados e recuperação de informações.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Eduardo Nunes Borges<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BORGES, Eduardo Nunes;Borges, Eduardo N.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Centro de Ciências Computacionais. <br class="clear" />Av. Itália km 8 - Campus Carreiros<br class="clear" />Carreiros<br class="clear" />96201-900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32935126<br class="clear" />URL da Homepage: <a target="blank" href="http://www.eduardo.c3.furg.br">http://www.eduardo.c3.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em andamento em PPGC - Programa de Pós Graduação em Computação UFRGS<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: Indefinido, <br class="clear" />Orientador: Renata Galante. <br class="clear" />Palavras-chave: deduplicação; similaridade.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Banco de Dados. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Computação<span class="ajaxCAPES" data-param="&codigoCurso=42001013004P4&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />Título: MD-PROM: Um Mecanismo de Deduplicação de Metadados e Rastreio da Proveniência,Ano de Obtenção: 2008.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3867942762661182'><img src='images/curriculo/logolattes.gif' /></a>Renata Galante.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: similaridade; bibliotecas digitais; proveniência de dados; deduplicação; metadados.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Banco de Dados. <br class="clear" />Setores de atividade: Atividades de Banco de Dados. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Consultas por Similaridade em SGBDs Comerciais: Estendendo O PostgreSQL. <br class="clear" />Orientador: André Luis Castro de Freitas. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Sintonia de Banco de Dados PostgreSQL.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Desenvolvimento para Dispositivos Móveis Android.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inclusão de Consultas por Similaridade em SGBDs.  (Carga horária: 4h). <br class="clear" />XXVII Simpósio Brasileiro de Banco de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Inglês Nível 7.  (Carga horária: 60h). <br class="clear" />Núcleo de Ensino de Línguas em Extensão da UFRGS.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Inglês Nível 5.  (Carga horária: 60h). <br class="clear" />Núcleo de Ensino de Línguas em Extensão da UFRGS.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Inglês Nível 6.  (Carga horária: 60h). <br class="clear" />Núcleo de Ensino de Línguas em Extensão da UFRGS.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sintonia de Very Large Databases.  (Carga horária: 3h). <br class="clear" />IV Escola Regional de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Web Mining.  (Carga horária: 3h). <br class="clear" />IV Escola Regional de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tunning do PostgreSQL.  (Carga horária: 4h). <br class="clear" />IV Escola Regional de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gerência de Workflows Científicos.  (Carga horária: 3h). <br class="clear" />XXIII Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Spatial and Spatio-temporal Data Mining.  (Carga horária: 3h). <br class="clear" />XXIII Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fusão de Dados em Redes de Sensores sem Fio.  (Carga horária: 3h). <br class="clear" />XXIII Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Provenance Management: Challenges & Opportunities.  (Carga horária: 3h). <br class="clear" />XXII Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Data Clustering Paradigms.  (Carga horária: 3h). <br class="clear" />XXII Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Peer-to-Peer Information Search.  (Carga horária: 3h). <br class="clear" />XXII Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gerenciamento de Dados em Sistemas P2P.  (Carga horária: 3h). <br class="clear" />XXI Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Processamento de Consultas em Streams de Dados.  (Carga horária: 3h). <br class="clear" />XXI Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uma Introdução a DGMS.  (Carga horária: 3h). <br class="clear" />XXI Simpósio Brasileiro de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descoberta de Conhecimento em Banco de Dados.  (Carga horária: 3h). <br class="clear" />II Escola Regional de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gerência de dados XML em Bancos de Dados.  (Carga horária: 3h). <br class="clear" />II Escola Regional de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mapeamento OO para BD Relacionais.  (Carga horária: 3h). <br class="clear" />II Escola Regional de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">XML: teoria e aplicações.  (Carga horária: 3h). <br class="clear" />I Escola Regional de Bancos de Dados.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Eletricista Instalador Predial.  (Carga horária: 100h). <br class="clear" />SENAI - Departamento Regional do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AutoCAD R-14 Básico.  (Carga horária: 40h). <br class="clear" />SENAI - Departamento Regional do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Hardware: Manutenção e Configuração de PCs.  (Carga horária: 30h). <br class="clear" />Recordata.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Power Point, Access, Corel Draw, Internet.  (Carga horária: 80h). <br class="clear" />Compugraph.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">IPD, DOS, Windows, Word, Excel.  (Carga horária: 86h). <br class="clear" />Compugraph.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista CNPQ, Enquadramento Funcional: Pesquisador, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Processo nº 141977/2008-6, Modalidade/Nível : Doutorado</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Professor substituto, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista CNPQ, Enquadramento Funcional: Pesquisador, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Processo nº 384239/2006-4, Modalidade/Categoria: Desenvolvimento Tecnológico Industrial (DTI) - 7H</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Instituto de Informática, Programa de Pós Graduação Em Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Deduplicação de Dados'>Deduplicação de Dados</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 10/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Técnicas de Construção de Programas - Turma B (2008/02)<br class="clear" />Técnicas de Construção de Programas - Turma B (2009/02)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 10/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Técnicas de Construção de Programas - Turma A (2008/02)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 10/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharias, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Programação - Turma L (2009/02)<br class="clear" />Introdução à Programação - Turma M (2009/01)<br class="clear" />Introdução à Programação - Turma F (2009/01)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2008 - 10/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Instituto de Informática, Programa de Pós Graduação Em Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Detecção de Clones de Software'>Detecção de Clones de Software</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Instituto de Informática, Programa de Pós Graduação Em Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio-docência realizado na disciplina Estruturas de Dados (15h aula). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2006 - 11/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Instituto de Informática, Programa de Pós Graduação Em Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio-docência realizado na disciplina Estruturas de Dados (15h aula). </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Associação Classista do Pessoal Técnico Administrativo da Furg, APTAFURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Funcionário (CLT), Enquadramento Funcional: Técnico em Informática, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2004 - 12/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Configuração dos servidores: Bind, Apache, Cups, Sendmail, MySql, PostgreSql. Administração da rede interna. Configuração da internet via rádio e ADSL. Gerenciamento dos sistemas Linux e Windows. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/2004 - 7/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados<br class="clear" />Mini Curso: Sistema Operacional Linux<br>Mini Curso: Suíte de Aplicativos OpenOffice<br></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assitente, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Engenheiro de Testes, Carga horária: 8</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Administrador de Redes, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23048 - Sistemas de Informação Avançados - Turma U<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Aplicações para a Web, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23022P - Programação e Gerência de Dados na Web - Turma U<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de tutoria de pós-graduação lato sensu.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador adjunto de pós-graduação lato sensu.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23036 - Estruturas de Dados e Linguagens - Turma B<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2010 - 11/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23038 - Sistemas Corporativos I - Turma U<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23055 - Atividade de Integração Curricular III - Turma U<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/2004 - 11/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados , Reitoria, Centro de Processamento de Dados. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Instalação, configuração, monitoramento e testes da arquitetura de redes de computadores sem fio, usando o protocolo 802.11b e 802.11g. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9/2003 - 2/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Gerenciamento e manutenção de cluster Linux composto de 32 nodos rodando Debian GNU Linux através de MPI (Message Passing Interface). Administração da rede interna. Instalação, configuração, manutenção dos sistemas Linux e Windows. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Tecon Rio Grande S A, TECON, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagiário, Enquadramento Funcional: Técnico em T.I., Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2003 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Estágio Remunerado em Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2/2003 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Monitoramento de servidores Linux, SCO Unixware e Windows NT, suporte em redes computacionais e de telefonia, instalação e configuração de computadores, suporte aos usuários. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Deduplica&ccedil;&atilde;o de Dados'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Deduplicação de Dados</div>
+</div><a name='LP_Detec&ccedil;&atilde;o de Clones de Software'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Detecção de Clones de Software</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_An&aacute;lise e Integra&ccedil;&atilde;o de Dados Oriundos da Ind&uacute;stria Naval e Offshore'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise e Integração de Dados Oriundos da Indústria Naval e Offshore<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Atualmente, o Brasil reforça expressivamente os investimentos na recuperação da
+Indústria Naval e Offshore. Soluções tecnológicas inovadoras são necessárias a fim de
+tornar este segmento industrial competitivo no cenário internacional. Este projeto tem
+como objetivos principais analisar e extrair padrões de relacionamentos implícitos
+entre os dados oriundos de fornecedores nacionais de bens e serviços para a Indústria
+Naval e Offshore e integrar esses dados em um portal único de informações na Web.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Coordenador / Diana Francisca Adamatti - Integrante / Tiago Fossati Otero - Integrante / Silvia Silva da Costa Botelho - Integrante.<br class="clear" /></div>
+</div><a name='PP_Qualifica&ccedil;&atilde;o da base de dados BORBRS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Qualificação da base de dados BORBRS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto propõe a migração da base de dados BORBRS para o SGBD relacional MySQL. Desta forma, a qualificação pretendida - em particular, a inclusão de novas funcionalidades e consulta por dados geoespaciais - irá tornar esta base de dados uma ferramenta ainda mais útil no processo de construção do conhecimento sobre a fauna de borboletas do Rio Grande do Sul. Espera-se que com o pleno funcionamento do mesmo, um valioso material seja gerado, contribuindo para a elucidação de padrões ecológicos mais abrangentes.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Integrante / Tyron Wittee Neetzow Scholem - Integrante / Helena Piccoli Romanowski - Coordenador / Maria Ostilia Marchiori - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_Instituto Nacional de Ci&ecirc;ncia e Tecnologia para a Web - InWeb'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Instituto Nacional de Ciência e Tecnologia para a Web - InWeb<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Os Institutos Nacionais de Ciência e Tecnologia deverão ocupar posição estratégica no Sistema Nacional de Ciência e Tecnologia (SNCT) desenvolvendo programas de pesquisas consistentes e prioritários para o desenvolvimento científico e tecnológico e, particularmente, para a sociedade. O ICNT Web é uma rede integrada de pesquisadores de quatro instituições, coordenada pelo prof. Virgilio Almeida, do Departamento de Ciência da Computação da UFMG. A Web é o maior sistema de informação e comunicação já construído, e interfere de forma significativa nas atividades humanas. O INCT Web foi criado para projetar e desenvolver sistemas, tecnologias e aplicações que permitam explorar as possibilidades de uso da Web no futuro de forma benéfica para a sociedade. O INCT Web visa estudar e entender os fundamentos científicos e tecnológicos da Web, bem como suas repercussões sociais, para propor e desenvolver sistemas e tecnologias que poderão compor a Web do futuro.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos:  / Mestrado profissionalizante: (2)  / Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Coordenador / Renata de Matos Galante - Integrante / José Palazzo M. de Oliveira - Integrante / Carlos A. Heuser - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_ApproxMatch: Casamento Aproximado de Grandes Volumes de Dados (CNPq Universal)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ApproxMatch: Casamento Aproximado de Grandes Volumes de Dados (CNPq Universal)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Casamento aproximado de dados é uma técnica que objetiva definir se duas instâncias diferentes de dados representam uma mesma entidade da vida real. Esta técnica é empregada em muitas aplicações de gestão de dados, como deduplicação de registros, consultas aproximadas, junção por similaridade e integração de esquemas. O presente projeto objetiva atacar três problemas em aberto na área de casamento aproximado de dados: (1) definir funções de similaridade adequadas para objetos complexos, como árvores XML, (2) definir medidas quantitativas para comparar funções de similaridade no contexto de casamento aproximado de dados e (3) estudar como métodos de decomposição de consultas devem se comportar em ambientes em que o casamento de esquemas acontece em tempo de consulta. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (2) Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Integrante / Carlos A. Heuser - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro / Universidade Federal do Rio de Janeiro - Cooperação.</div>
+</div><a name='PP_Gest&atilde;o de grandes volumes de documentos textuais (Edital MCT/CNPq/CT-INFO n&ordm; 07/2007)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gestão de grandes volumes de documentos textuais (Edital MCT/CNPq/CT-INFO nº 07/2007)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto está inserido no grande desafio da Sociedade Brasileira de Computação (SBC)  Gestão da informação em grandes volumes de dados multimídia distribuídos . Dentro deste desafio, o projeto trata especificamente da gestão de documentos textuais, como páginas WEB ou documentos eletrônicos, gerados em organizações públicas ou privadas. Um problema central na gestão de documentos eletrônicos, tanto na WEB, quanto em computadores pessoais ou servidores organizacionais, é o de estabelecer relações e associações entre documentos.
+
+Neste projeto dois tipos de relacionamentos são considerados: o versionamento de documentos, com o objetivo de determinar grupos de documentos que podem ser considerados como diferentes versões de uma mesma informação; e o da semelhança de conteúdo, com o objetivo de agrupar documentos que tratam de mesmo assunto em conglomerados.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (10) Doutorado: (4) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Integrante / José Palazzo M. de Oliveira - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Plataforma de Indexa&ccedil;&atilde;o e Busca Personalizada em Bibliotecas Digitais (DIGITEX)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Plataforma de Indexação e Busca Personalizada em Bibliotecas Digitais (DIGITEX)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto trata de temas atuais de pesquisa nas áreas de sistemas Web e sistemas de bancos de dados. É decomposto nos seguintes subprojetos que formam um conjunto de pesquisas parcialmente autônomas, mas fortemente relacionadas: Arquivamento e versões, Autoria e indexação, Autoria e awareness, Integração de documentos digitais, Perfil do usuário, Recomendação e Rewarding. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (8)  / Mestrado profissionalizante: (0)  / Doutorado: (4) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Integrante / Renata de Matos Galante - Integrante / Nina Edelweiss - Integrante / José Palazzo M. de Oliveira - Coordenador / José Valdení de Lima - Integrante / Carlos A. Heuser - Integrante / Ronaldo Santos Mello - Integrante / Maria Aparecida M. Souto - Integrante / Stanley Loh - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 8</div>
+</div><a name='PP_Previs&atilde;o e Monitoramento de Fen&ocirc;menos Atmosf&eacute;ricos em Escala Regional para o Estado do Rio Grande do Sul'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Previsão e Monitoramento de Fenômenos Atmosféricos em Escala Regional para o Estado do Rio Grande do Sul<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo geral deste projeto é a obtenção de uma melhor compreensão e representação dos processos atmosféricos em escala regional, utilizando modelos numéricos atmosféricos de mesoescala para toda a região sudeste da América do Sul. Este projeto está sendo desenvolvido em conjunto pelo Departamento de Geociências (FURG) e pelo Departamento de Meteorologia (UFPel). Colaboradores: CESUP - UFRGS, CPTEC - INPE, MASTER - USP. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (9)  / Especialização: (0)  / Mestrado acadêmico: (2)  / Mestrado profissionalizante: (0)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Integrante / Jaci Maria Bilhalva Saraiva - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro / Companhia Estadual de Geração e Transmissão de Energia Elétrica - Matriz - Auxílio
+										financeiro / Fundação de Apoio à Universidade do Rio Grande - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Programa de Capacita&ccedil;&atilde;o em TI Voltado para Solu&ccedil;&otilde;es Aplicadas &agrave; &Aacute;rea Naval e Offshore'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Capacitação em TI Voltado para Soluções Aplicadas à Área Naval e Offshore<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Programa de Capacitação em TI Voltado para Soluções Aplicadas à Área Naval e Offshore é um projeto organizado pelo Centro de Ciências Computacionais da FURG, em parceria com o SEPRORGS, e com o apoio financeiro do CNPq. O objetivo do projeto é identificar as necessidades de qualificação de recursos humanos na cadeia produtiva de TI, especialmente visando o desenvolvimento de soluções inovadoras para a Indústria Naval e Offshore, e capacitar empresas e profissionais de TI da metade sul do Rio Grande do Sul, de acordo com as necessidades identificadas. Atualmente, o projeto encontra-se na fase de elaboração e execução de cursos de capacitação gratuitos utilizando a expertise da equipe técnica e de consultores especializados.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Integrante / Nelson Lopes Duarte Filho - Integrante / Silvia Silva da Costa Botelho - Coordenador / Rodrigo A. de Bem - Integrante / Jônata Tyska Carvalho - Integrante / Vinícius Alves Hax - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 1</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Sistema de Gerenciamento de Filiados &agrave; Aptafurg'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistema de Gerenciamento de Filiados à Aptafurg<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Seção Sindical Rio Grande, do Sindicato dos Trabalhadores em Educação de 3º Grau no Rio Grande do Sul (SINTEST/RS), denominada Associação Classista do Pessoal Técnico Administrativo da FURG (APTAFURG) é uma entidade civil de direito privado, com sede e foro na cidade de Rio Grande. É o órgão representativo nos termos do Estatuto do SINTEST/RS, da categoria dos Trabalhadores em Educação do 3º Grau da FURG e instituições vinculadas ao ensino desse. Uma das necessidades da associação é organizar e gerenciar informações referentes aos trabalhadores filiados. Visando este objetivo, foi desenvolvido um projeto no intuito de padronizar e manter atualizadas as informações pessoais e profissionais dos filiados ao sindicato. Foi proposto um sistema de banco de dados relacional implementado no MySQL utilizando a linguagem de programação interpretada PHP. Esta linguagem permite criar websites dinâmicos, apresentando assim, características fundamentais para a integração ao banco. Esse sistema é composto de formulários para o cadastro e atualização de informações dos sócios da instituição. Além disso, o armazenamento das informações referentes a processos também é previsto. Outra ferramenta utilizada foi a linguagem Javascript no que trata o preenchimento de campos considerados fundamentais. É disponibilizada a pesquisa dinâmica, na qual podem ser especificados quantos campos forem necessários. Isso propicia a seleção de qualquer grupo de filiados desejado, bem como informações a respeito. Atualmente, o software executa sobre a plataforma LINUX Slackware, com servidor HTTP (HyperText Transfer Protocol) Apache. Tanto o sistema operacional, quanto os servidores e ferramentas utilizados no desenvolvimento deste software são de uso e distribuição livres ou estão regidos por uma licença GPL. Portanto, o custo foi reduzido consideravelmente para a associação e enquadrou-se perfeitamente nas necessidades da APTAFURG, com ótima relação custo/benefício. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Coordenador / Carlos Akcelrud Cony - Integrante / Caetano Schlabitz de Almeida - Integrante / André Luis Castro de Freitas - Integrante.<br class="clear" />Financiador(es): Associação Classista do Pessoal Técnico Administrativo da Furg - Cooperação / Universidade Federal do Rio Grande - Cooperação.<br class="clear" />Número de produções C, T & A: 2</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Implanta&ccedil;&atilde;o de Redes Wireless na FURG'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Implantação de Redes Wireless na FURG<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto visa estabelecer normas e um protocolo de instalação e utilização de redes wireless nas dependências da Fundação Universidade Federal de Rio Grande (FURG). <br class="clear" />Situação: Desativado; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Eduardo Nunes Borges - Integrante / Carlos Akcelrud Cony - Integrante / Caetano Schlabitz de Almeida - Integrante / Nelson Lopes Duarte Filho - Coordenador.<br class="clear" />Financiador(es): Universidade Federal do Rio Grande - Cooperação.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende RazoavelmenteLê Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio de melhor trabalho na trilha Aplicações/Experiências da VIII Escola Regional de Banco de Dados - ERBD 2012, Sociedade Brasileira de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio de melhor trabalho da sessão na XI Mostra de Produção Universitária da FURG - MPU 2012, Universidade Federal do Rio Grande. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio de melhor trabalho da sessão na X Mostra de Produção Universitária da FURG - MPU 2011, Universidade Federal do Rio Grande. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Indicação ao prêmio de melhor ferramenta da Sessão de Demos do XXI SBBD pelo trabalho 'PgSimilar: Uma ferramenta open source para suporte a consultas por similaridade no PostgreSQL', Sociedade Brasileira de Computação. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Outras</div><div class="trab">Total de trabalhos:25</div><div class="cita">Total de citações:25</div><div class="detalhes">Eduardo N. Borges&nbsp;&nbsp;Data:&nbsp;22/10/2013</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Borges, Eduardo N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ipm.2011.01.009" target="_blank"></a><b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1840067885522796" target="_blank">de Carvalho, Moisés G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">Galante, Renata</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3457219624656691" target="_blank">GONÇALVES, Marcos André</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9089204821424223" target="_blank">Laender, Alberto H.F.</a> . An unsupervised heuristic-based approach for bibliographic metadata deduplication. Information Processing & Management<sup><img id='03064573_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03064573' /></sup>, v. 47, p. 706-718, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.ipm.2011.01.009&issn=03064573&volume=47&issue=&paginaInicial=706&titulo=An unsupervised heuristic-based approach for bibliographic metadata deduplication&sequencial=1&nomePeriodico=Information Processing & Management" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8796491947184490" target="_blank">Lucca, G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7701563839009909" target="_blank">PEREIRA, Igor A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <b>Borges, Eduardo N.</b> . Uma implementação do algoritmo Naïve Bayes para classificação de texto. In: Escola Regional de Banco de Dados, 2013, Camboriú. Anais da IX Escola Regional de Banco de Dados, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0799768609702295" target="_blank">TOMASINI, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <b>Borges, Eduardo N.</b> . Uma implementação de feedback da relevância utilizando o algoritmo Rocchio. In: Escola Regional de Banco de Dados, 2013, Camboriú. Anais da IX Escola Regional de Banco de Dados, 2013. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420765645015906" target="_blank">FARIAS, Lucas R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <b>Borges, Eduardo N.</b> . Um sistema para análise de redes de pesquisa baseado na Plataforma Lattes. In: Escola Regional de Banco de Dados, 2012, Curitiba. Anais da VIII Escola Regional de Banco de Dados, 2012. p. 1-10 CD-ROM. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1560771253913044" target="_blank">Otero, Tiago F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420765645015906" target="_blank">FARIAS, Lucas R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <b>Borges, Eduardo N.</b> . Uma ferramenta para coleta e análise de dados do segmento naval. In: Escola Regional de Banco de Dados, 2012, Curitiba. Anais da VIII Escola Regional de Banco de Dados, 2012. p. 1-4 CD-ROM. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7701563839009909" target="_blank">PEREIRA, Igor A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0799768609702295" target="_blank">TOMASINI, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> . ARGOsearch: an information retrieval system based on text similarity and extensible relevance criteria. In: XXXI International Conference of the Chilean Computer Science Society (SCCC), 2012, Valparaíso. Proceedings of the International Conference of the Chilean Computer Science Society, 2012. p. 1-8. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7701563839009909" target="_blank">PEREIRA, Igor A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0799768609702295" target="_blank">TOMASINI, C.</a> ; <b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> . Um mecanismo de busca para sistemas de gerenciamento de bibliotecas baseado em critérios de relevância extensíveis. In: V Conferência Sul em Modelagem Computacional (MCSUL), 2012, Rio Grande. Anais da V Conferência Sul em Modelagem Computacional, 2012. p. 7-12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9089204821424223" target="_blank">LAENDER, Alberto H. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6408321790990372" target="_blank">Moro, Mirella M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3405503472010994" target="_blank">Silva, Altigran S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0471595469074043" target="_blank">Davis Jr., Clodoveu A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3457219624656691" target="_blank">GONÇALVES, Marcos André</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">Galante, Renata</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0115883050967285" target="_blank">Silva, Allan J. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7299677683628633" target="_blank">Bigonha, Carolina A. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2960751321530666" target="_blank">Dalip, Daniel Hasan</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6556211104320611" target="_blank">Barbosa, Eduardo M.</a> ; <b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7241678053263242" target="_blank">Cortez, Eli</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2038282283643878" target="_blank">Procópio Jr., Peterson</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0432412681243761" target="_blank">de Alencar, Rafael Odon</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7412027996251063" target="_blank">Cardoso, Thiago N. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9409182398188499" target="_blank">Salles, Thiago</a> . CiênciaBrasil - The Brazilian Portal of Science and Technology. In: XXXVIII Seminário Integrado de Software e Hardware - SEMISH, 2011, Natal. XXX Congresso da Sociedade Brasileira de Computação, 2011. p. 1366-1379. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SCCC.2011.8" target="_blank"></a><b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1559292514654215" target="_blank">Becker, Karin</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0455487141833418" target="_blank">HEUSER, Carlos A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">Galante, Renata</a> . An Automatic Approach for Duplicate Bibliographic Metadata Identification Using Classification. In: 2011 30th International Conference of the Chilean Computer Science Society (SCCC), 2011, Curico. 2011 30th International Conference of the Chilean Computer Science Society. p. 47-53. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1559292514654215" target="_blank">Becker, Karin</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0455487141833418" target="_blank">HEUSER, Carlos A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> . A Classification-based Approach for Bibliographic Metadata Deduplication. In: IADIS International Conference WWW/Internet, 2011, Rio de Janeiro. Proceedings of the IADIS International Conference WWW/Internet 2011, 2011. p. 221-228. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3457219624656691" target="_blank">GONÇALVES, Marcos André</a> . Uma Abordagem Efetiva e Eficiente para Deduplicação de Metadados Bibliográficos de Objetos Digitais. In: XXIII Simpósio Brasileiro de Bancos de Dados - SBBD, 2008, Campinas. Anais do XXIII Simpósio Brasileiro de Bancos de Dados, 2008. p. 76-90. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5460029533893944" target="_blank">SILVA, Maria Estela Vieira da</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> . XSimilarity : Uma Ferramenta para Consultas por Similaridade embutidas na Linguagem XQuery. In: IV Escola Regional de Bancos de Dados - ERBD, 2008, Florianópolis. Anais da IV Escola Regional de Bancos de Dados, 2008. p. 148-157. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> . Um mecanismo para identificação, representação e consulta de versões de objetos XML oriundos de bibliotecas digitais. In: XVI Semana Acadêmica do Programa de Pós Graduação em Computação - UFRGS, 2007, Porto Alegre. XVI Semana Acadêmica do PGCC - UFRGS, 2007. p. 1-17. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> . Um mecanismo para identificação, representação e consulta de versões de objetos XML oriundos de bibliotecas digitais. In: VI Workshop de Teses e Dissertações em Bancos de Dados - WTDBD, 2007, João Pessoa. Anais do VI Workshop de Teses e Dissertações em Bancos de Dados / XXII Simpósio Brasileiro de Banco de Dados, 2007. p. 45-50. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> . Um mecanismo automático para detectar versões de objetos XML provenientes de bibliotecas digitais. In: III Workshop on Digital Libraries - WDL, 2007, Gramado. Proceedings of the XIII Brazilian Symposium on Multimedia and the Web - WebMedia 2007, 2007. p. 129-135. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0378897709136226" target="_blank">DORNELES, Carina Friedrich</a> . PgSimilar: Uma ferramenta open source para suporte a consultas por similaridade no PostgreSQL. In: III Sessão de Demos - Simpósio Brasileiro de Bancos de Dados, 2006, Florianópolis. Anais da III Sessão de Demos / XXI Simpósio Brasileiro de Banco de Dados, 2006. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8252864210379656" target="_blank">FREITAS, André Luis Castro de</a> . Utilização de Algoritmos de Busca por Similaridade em SGBDs Comerciais. In: Simpósio de Informática da Região Centro do RS, 2005, Santa Maria. Anais do Simpósio de Informática da Região Centro do RS, 2005. p. 1-7. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7105561480910164" target="_blank">da Silva, Rafael S.</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1606080164385644" target="_blank">Krusche, Nisia</a> . Manutenção das Aplicações Web de Acesso e Gerência do Banco de Dados Meteorológicos da FURG. In: Congresso Regional de Iniciação Científica e Tecnológica em Engenharia - CRICTE, 2010, Rio Grande. Anais do XXIV CRICTE, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7105561480910164" target="_blank">da Silva, Rafael S.</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1606080164385644" target="_blank">Krusche, Nisia</a> . Atualização do Sistema de Gerenciamento do Banco de Dados Meteorológicos da FURG. In: IX Mostra de Produção Universitária da FURG, 2010, Rio Grande. Anais da IX MPU / FURG, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1560771253913044" target="_blank">Otero, Tiago F.</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4984043849101331" target="_blank">Adamatti, Diana Francisca</a> . Identificação de Registros Duplicados nos Cadastros da ONIP. In: IX Mostra de Produção Universitária da FURG, 2010, Rio Grande. Anais da IX MPU / FURG, 2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0799768609702295" target="_blank">TOMASINI, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7701563839009909" target="_blank">PEREIRA, Igor A.</a> ; <b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> . Módulo de critérios de relevância para o ARGOsearch. In: XI Mostra de Produção Universitária da FURG, 2012, Rio Grande. Anais da XI MPU / FURG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8796491947184490" target="_blank">Lucca, G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420765645015906" target="_blank">FARIAS, Lucas R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9439416101626260" target="_blank">LOPES, G. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <b>Borges, Eduardo N.</b> . Um componente de software para análise de redes de colaboração acadêmica. In: XI Mostra de Produção Universitária da FURG, 2012, Rio Grande. Anais da XI MPU / FURG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7701563839009909" target="_blank">PEREIRA, Igor A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0799768609702295" target="_blank">TOMASINI, C.</a> ; <b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> . Validação do mecanismo de busca ARGOsearch para o sistema de gerenciamento de bibliotecas da FURG. In: XI Mostra de Produção Universitária da FURG, 2012, Rio Grande. Anais da XI MPU / FURG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420765645015906" target="_blank">FARIAS, Lucas R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8796491947184490" target="_blank">Lucca, G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9439416101626260" target="_blank">LOPES, G. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <b>Borges, Eduardo N.</b> . Uma ferramenta para visualização e análise de redes de pesquisa. In: XI Mostra de Produção Universitária da FURG, 2012, Rio Grande. Anais da XI MPU / FURG, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7701563839009909" target="_blank">PEREIRA, Igor A.</a> ; <b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> . Uma arquitetura para pesquisa por relevância baseada em critérios. In: X Mostra de Produção Universitária da FURG, 2011, Rio Grande. Anais da X MPU / FURG, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420765645015906" target="_blank">FARIAS, Lucas R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <b>Borges, Eduardo N.</b> . Rede de pesquisa da FURG. In: X Mostra de Produção Universitária da FURG, 2011, Rio Grande. Anais da X MPU / FURG, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1560771253913044" target="_blank">Otero, Tiago F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420765645015906" target="_blank">FARIAS, Lucas R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7105561480910164" target="_blank">da Silva, Rafael S.</a> ; <b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4984043849101331" target="_blank">Adamatti, Diana Francisca</a> . Uma ferramenta para coleta e análise de dados do segmento naval. In: X Mostra de Produção Universitária da FURG, 2011, Rio Grande. Anais da X MPU / FURG, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2941929301678355" target="_blank">GONCALVES, C. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">Botelho, Silvia S. da Costa</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">CARVALHO, J. T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6993820717354912" target="_blank">HAX, V. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE FILHO, Nelson Lopes</a> ; <b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2765008024136365" target="_blank">PENNA, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935196239515458" target="_blank">BEM, R. A.</a> . Programa de Capacitação em TI Voltado para Soluções Aplicadas à Área Naval e Offshore. In: XIV Seminário de Extensão, 2011, Rio Grande. Anais da X MPU / FURG, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0999210731143777" target="_blank">Scholem, Tyron Wittee Neetzow</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3737820317183665" target="_blank">Marchiori, Maria Ostilia</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8192540793712521" target="_blank">Romanowski, Helena Piccoli</a> . BorbRS 2: aperfeiçoamento de uma base de dados de borboletas (Lepidoptera: Papilionoidea e Hesperioidea) do Rio Grande do Sul. In: Salão de Iniciação Científica, 2009, Porto Alegre. Anais do XXI Salão de Iniciação Científica, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8252864210379656" target="_blank">FREITAS, André Luis Castro de</a> . Módulo de Pesquisa por Similaridade no SGBD Comercial PostgreSQL. In: IV Mostra de Produção Universitária, 2005, Rio Grande. Anais da IV MPU / FURG, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9763843963161549" target="_blank">ALMEIDA, Caetano Schlabitz de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8252864210379656" target="_blank">FREITAS, André Luis Castro de</a> . Sistema de Gerenciamento de Filiados à Associação Classista do Pessoal Técnico Administrativo da FURG. In: III Mostra de Produção Universitária, 2004, Rio Grande. Anais da III MPU / FURG, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9763843963161549" target="_blank">ALMEIDA, Caetano Schlabitz de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703631703420031" target="_blank">ASMUS, Milton Lafourcade</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6537269150037750" target="_blank">NOBRE, Lucia Regina</a> . Sistema de Controle de Pós Graduação. In: III Mostra de Produção Universitária, 2004, Rio Grande. Anais da III MPU / FURG, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9763843963161549" target="_blank">ALMEIDA, Caetano Schlabitz de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4326514220673393" target="_blank">VIEIRA, João Paes</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6537269150037750" target="_blank">NOBRE, Lucia Regina</a> . Sistema de Controle de Pesquisa na Fundação Universidade Federal do Rio Grande. In: III Mostra de Produção Universitária, 2004, Rio Grande. Anais da III MPU / FURG, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9763843963161549" target="_blank">ALMEIDA, Caetano Schlabitz de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4326514220673393" target="_blank">VIEIRA, João Paes</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6537269150037750" target="_blank">NOBRE, Lucia Regina</a> . Sistema de Controle de Pesquisa na Fundação Universidade Federal do Rio Grande. In: XIII CIC - Congresso de Iniciação Científica, 2004, Pelotas. Anais do XIII CIC / UFPEL, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9763843963161549" target="_blank">ALMEIDA, Caetano Schlabitz de</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4703631703420031" target="_blank">ASMUS, Milton Lafourcade</a> . Sistema de Controle de Pós Graduação. In: XIII CIC - Congresso de Iniciação Científica, 2004, Pelotas. Anais do XIII CIC / UFPEL, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9763843963161549" target="_blank">ALMEIDA, Caetano Schlabitz de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8252864210379656" target="_blank">FREITAS, André Luis Castro de</a> . Sistema de Gerenciamento de Filiados à Associação Classista do Pessoal Técnico Administrativo da FURG. In: XIII CIC - Congresso de Iniciação Científica, 2004, Pelotas. Anais do XIII CIC / UFPEL, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Introdução à Recuperação de Informações na Web. 2010. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b> . Bacharelado em Sistemas de Informação. 2010. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> . Consultas por Similaridade em SGBDs Comerciais: Estendendo O PostgreSQL. 2005. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . MD-PROM: um Mecanismo de Deduplicação de Metadados e Rastreio da Proveniência 2008 (Dissertação de Mestrado). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> . Consultas por Similaridade em SGBDs Comerciais: Estendendo O PostgreSQL 2005 (Monografia de Graduação). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420765645015906" target="_blank">FARIAS, Lucas R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8796491947184490" target="_blank">Lucca, G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9439416101626260" target="_blank">LOPES, G. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> ; <b>Borges, Eduardo N.</b> . Research.Net. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7701563839009909" target="_blank">PEREIRA, Igor A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0799768609702295" target="_blank">TOMASINI, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6260486225646360" target="_blank">MADSEN, C.</a> ; <b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a> . ARGOsearch. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4390978054044432" target="_blank">CONY, Carlos Akcelrud</a> . PgSimilar. 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b> . Membro do Comitê de Programa - IX Escola Regional de Banco de Dados (ERBD). 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b> . Membro do Comitê de Programa - VIII Escola Regional de Banco de Dados (ERBD). 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b> . Revisor Externo - XXVII Simpósio Brasileiro de Banco de Dados (SBBD). 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Membro do Comitê de Programa - VII Escola Regional de Banco de Dados (ERBD). 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b> . Revisor Externo - VIII Encontro Nacional de Inteligência Artificial (ENIA). 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Membro do Comitê de Programa - XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia (CRICTE). 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> . Um Estudo sobre Algoritmos de Classificação Aplicados à Deduplicação. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Revisor Externo - 28th International Conference on Conceptual Modeling (ER). 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Revisor Externo - V Escola Regional de Bancos de Dados (ERBD). 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Um Estudo sobre Abordagens e Ferramentas de Detecção de Clones de Software. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Revisor Externo - XXIII Simpósio Brasileiro de Bancos de Dados (SBBD). 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Revisor Externo - V Sessão de Demos do Simpósio Brasileiro de Bancos de Dados (Demos SBBD). 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Um estudo sobre similaridade de documentos XML. 2006. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a> . Programação e Gerência de Dados na Web.
+							2011. (Desenvolvimento de material didático ou instrucional - Material Didático (teórico, vídeos e exercícios práticos)). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4416858554787169" target="_blank">NEDEL, Luciana Porcher</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> ; <b>BORGES, Eduardo Nunes</b> . Uma Estratégia automática para a Identificação de Clones de Software. 2009. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Análise e Projeto OO. 2008. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Mapeamento de Modelos Orientados a Objetos para Modelos Relacionais. 2008. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Fundamentos de Orientação a Objetos e UML. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Mapeamento de Modelos Orientados a Objetos para Modelos Relacionais. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . UML na Prática. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Análise e Projeto OO. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Mapeamento de Modelos Orientados a Objetos para Modelos Relacionais. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Fundamentos de Orientação a Objetos e UML. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . UML na Prática. 2007. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5558354805733623" target="_blank">OLIVEIRA, José Palazzo M. de</a> . Um mecanismo para identificação e consulta de versões de objetos XML provenientes de bibliotecas digitais. 2007. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . Estruturas de Dados Lineares (Listas, Pilhas e Filas) e Árvores.
+							2006. (Desenvolvimento de material didático ou instrucional - Material Didático (teórico e exercícios práticos)). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4599170539959463" target="_blank">ROSA, V.</a>.  Participação em banca de Vinicius Alves Hax. PWAT: Uma interface Web para o software PTRAJ. 2012. Monografia (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4599170539959463" target="_blank">ROSA, V.</a>.  Participação em banca de André Mendes da Rosa. Desenvolvimento do Site do Núcleo de Matemática Aplicada e Controle (NuMA) usando o CMS Joomla!. 2012. Monografia (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4599170539959463" target="_blank">ROSA, V.</a>.  Participação em banca de Humberto Nascimento. Lista de Compras Virtual. 2012. Monografia (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4599170539959463" target="_blank">ROSA, V.</a>.  Participação em banca de Jackson Grandi Souza. Sistema de Gerenciamento de Chamados. 2012. Monografia (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4599170539959463" target="_blank">ROSA, V.</a>.  Participação em banca de Patricia Hejazi Camargo. Sistemas Gerenciadores de Conteúdo   CMS. 2012. Monografia (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8740785327180983" target="_blank">PINTO, Ivete M.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2264555408583001" target="_blank">RODRIGUES, C. L. L.</a>; <b>Borges, Eduardo N.</b>.  Participação em banca de Karine de Oliveira Fonseca.Dispositivos móveis em um sistema de controle de bens.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1435405686437314" target="_blank">PERNAS, A. M.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a>.  Participação em banca de Lucas Rodrigues de Farias.Research.Net: um sistema para análise de redes de colaboração baseado na Plataforma Lattes.
+							2012. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a>; <b>Borges, Eduardo N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1129100746134234" target="_blank">Emmendorfer, Leonardo</a>.  Participação em banca de Caroline Tomasini.Módulo de critérios de relevância para o ARGOsearch.
+							2012. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9439416101626260" target="_blank">LOPES, G. R.</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3935196239515458" target="_blank">BEM, R. A.</a>.  Participação em banca de Giancarlo Lucca.Módulo para análise de redes de colaboração acadêmicas do Research.Net.
+							2012. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0243625998325831" target="_blank">Vargas, André P.</a>; <b>BORGES, Eduardo Nunes</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1129100746134234" target="_blank">Emmendorfer, Leonardo</a>.  Participação em banca de Igor Avila Pereira.ARGOfeedback uma Ferramenta de apoio à decisão para o ARGOsearch.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5369672706522008" target="_blank">DUARTE FILHO, Nelson Lopes</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5184930755123241" target="_blank">FRANCO, Denis Teixeira</a>; <b>BORGES, Eduardo Nunes</b>.  Participação em banca de Frederico Araujo Spies.Um Gerenciador de Armazenamento em Memória Distribuído.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a>; <b>BORGES, Eduardo Nunes</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5885575084085406" target="_blank">Moreira, Viviane Pereira</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6408321790990372" target="_blank">Moro, Mirella Moura</a>.  Participação em banca de Maria Estela Vieira da Silva.Uma ferramenta para consultas por similaridade embutidas na linguagem XQuery.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, Renata de Matos</a>; <b>BORGES, Eduardo Nunes</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0455487141833418" target="_blank">Heuser, Carlos Alberto</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4093653182381054" target="_blank">Freitas, Carla Maria Dal Sasso</a>.  Participação em banca de Denise Matte Giacomolli.MetadataProv - uma interface Web para consulta de proveniência de metadados de bibliotecas digitais.
+							2007. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola Regional de Banco de Dados.Uma implementação do algoritmo Naïve Bayes para classificação de texto. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Conferência Sul em Modelagem Computacional (MCSUL). 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXI International Conference of the Chilean Computer Science Society (SCCC). ARGOsearch: an information retrieval system based on text similarity and extensible relevance criteria. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVII Simpósio Brasileiro de Bancos de Dados - SBBD.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Escola Regional de Banco de Dados - ERBD. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVI Simpósio Brasileiro de Bancos de Dados - SBBD.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Simpósio Brasileiro de Sistemas Multimídia e Web - WEBMEDIA.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IADIS International Conference WWW/Internet.A classification-based approach for bibliographic metadata deduplication. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXX International Conference of the Chilean Computer Science Society - SCCC.An automatic approach for duplicate bibliographic metadata identification using classification. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia - CRICTE. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Simpósio de Fatores Humanos em Sistemas Computacionais - IHC.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV Simpósio Brasileiro de Bancos de Dados - SBBD.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Simpósio Brasileiro de Sistemas Colaborativos - SBSC.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Simpósio Brasileiro de Sistemas Multimídia e Web - WEBMEDIA.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Workshop Escola de Sistemas de Agentes, seus Ambientes e Aplicações - WESAAC. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Escola Regional de Bancos de Dados - ERBD. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIX Congresso da Sociedade Brasileira de Computação - CSBC. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop InWeb. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Escola Regional de Bancos de Dados - ERBD. XSimilarity : Uma Ferramenta para Consultas por Similaridade embutidas na Linguagem XQuery. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXIII Simpósio Brasileiro de Bancos de Dados - SBBD.Uma Abordagem Efetiva e Eficiente para Deduplicação de Metadados Bibliográficos de Objetos Digitais.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop on Information Visualization and Analysis in Social Networks - WIVA. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Simpósio Brasileiro de Bancos de Dados - SBBD.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Workshop de Teses e Dissertações em Bancos de Dados - WTDBD.Um mecanismo para identificação, representação e consulta de versões de objetos XML oriundos de bibliotecas digitais.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Workshop on Digital Libraries - WDL.Um mecanismo automático para detectar versões de objetos XML provenientes de bibliotecas digitais.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII Simpósio Brasileiro de Sistemas Multimídia e Web - Webmedia.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Semana Acadêmica do Programa de Pós Graduação em Computação - UFRGS.Um mecanismo para identificação, representação e consulta de versões de objetos XML oriundos de bibliotecas digitais. 2007. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Escola Regional de Bancos de Dados. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI Simpósio Brasileiro de Bancos de Dados - SBBD.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Sessão de Demos - Simpósio Brasileiro de Bancos de Dados.PgSimilar: Uma ferramenta open source para suporte a consultas por similaridade no PostgreSQL.
+							2006. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Escola Regional de Bancos de Dados. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I SITEC - Semana Integrada de Tecnologia em Computação e Geomática da FURG-CTI. Consultas por Similaridade em SGBDs Comerciais: Estendendo O PostgreSQL. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Mostra de Produção Universitária. Módulo de Pesquisa por Similaridade no SGBD Comercial PostgreSQL. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIII CIC - Congresso de Iniciação Científica. Sistema de Gerenciamento de Filiados à Associação Classista do Pessoal Técnico Administrativo da FURG. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Mostra de Produção Universitária. Sistema de Gerenciamento de Filiados à Associação Classista do Pessoal Técnico Administrativo da FURG. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Semana Acadêmica de Engenharia de Computação. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Congresso da Sociedade Brasileira de Computação. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XX Encontro Nacional dos Estudantes de Computação - EneComp 2002.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9262132256691648" target="_blank">de Oliveira, Vinícius Menezes</a> ; <b>BORGES, Eduardo Nunes</b> . XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia - CRICTE. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>BORGES, Eduardo Nunes</b> . II Mostra de Produção Universitária. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Rodrigues de Farias.
+							Research.Net: um sistema para análise de redes de colaboração baseado na Plataforma Lattes.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Giancarlo Lucca.
+							Módulo para análise de redes de colaboração acadêmicas do Research.Net.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Federal do Rio Grande. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caroline Tomasini.
+							Módulo de critérios de relevância para o ARGOsearch.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Sistemas de Informação)  - Universidade Federal do Rio Grande. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Igor Avila Pereira.
+							ARGOfeedback   uma Ferramenta de apoio à decisão para o ARGOsearch.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Igor Avila Pereira.
+							Uma Arquitetura para Pesquisa Por Relevância Baseada em Critérios para o ArgoSearch.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Tecnologia em Análise e Desenv. de Sistemas)  - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Denise Matte Giacomolli.
+							MetadataProv - uma interface Web para consulta de proveniência de metadados de bibliotecas digitais.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Estela Vieira da Silva.
+							Uma ferramenta para consultas por similaridade embutidas na linguagem XQuery.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Rodrigues de Farias.
+							Implementação da rede de pesquisa da FURG.
+							2011.
+							Iniciação Científica - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tiago Fossati Otero.
+							GUI da rede de pesquisa da FURG.
+							2011.
+							Iniciação Científica. (Graduando em Sistemas de Informação)  - Universidade Federal do Rio Grande. Orientador: Eduardo Nunes Borges.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="MaterialDidaticoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Desenvolvimento de material didático ou instrucional</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Borges, Eduardo N.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3528633359332021" target="_blank">Machado, Karina</a> . Programação e Gerência de Dados na Web.
+							2011. (Desenvolvimento de material didático ou instrucional - Material Didático (teórico, vídeos e exercícios práticos)). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:19:29</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=5851601274050374" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

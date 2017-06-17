@@ -1,0 +1,178 @@
+#!/usr/bin/python
+# encoding: utf-8
+# filename: membro.py
+#
+#  scriptLattes V8
+#  Copyright 2005-2013: Jesús P. Mena-Chalco e Roberto M. Cesar-Jr.
+#  http://scriptlattes.sourceforge.net/
+#
+#
+#  Este programa é um software livre; você pode redistribui-lo e/ou 
+#  modifica-lo dentro dos termos da Licença Pública Geral GNU como 
+#  publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+#  Licença, ou (na sua opinião) qualquer versão.
+#
+#  Este programa é distribuído na esperança que possa ser util, 
+#  mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
+#  MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+#  Licença Pública Geral GNU para maiores detalhes.
+#
+#  Você deve ter recebido uma cópia da Licença Pública Geral GNU
+#  junto com este programa, se não, escreva para a Fundação do Software
+#  Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#
+
+
+import urllib2
+import re
+import sets
+import datetime
+import time
+import os
+
+from string         import *				#Manipular a descricao do projeto
+from htmlentitydefs import name2codepoint
+from tidylib 	    import tidy_document
+from baixaLattes    import *
+
+class GerenciadorComunicacao:
+	
+	dMembro       = None	# Identificador sequencial
+	idLattes       = None 	# Identificador do Curriculo Lattes
+	nomeInicial    = ''	# Primeiro nome do Docente
+	textoResumo    = ''	# Resumo do curriculo
+	
+	periodo        = ''	#
+
+	itemsDesdeOAno = '' 	# periodo global
+	itemsAteOAno   = '' 	# periodo global
+	diretorioCache = '' 	# Diretorio de armazento de CVs (útil para extensas listas de CVs)
+	
+	#listaPeriodo   = None	#
+	#url            = ''	#
+	#atualizacaoCV  = ''
+	#foto 	       = ''
+	
+	### xml = None
+	identificador10 = '' 
+
+	listaPesquisador = None
+	
+	def __init__(self, itemsDesdeOAno, itemsAteOAno, diretorioCache):
+		self.itemsDesdeOAno = itemsDesdeOAno
+		self.itemsAteOAno   = itemsAteOAno
+		self.diretorioCache = diretorioCache
+		self.listaPesquisador = []
+
+
+	def descarregarCurriculos(self):
+		for pesquisador in self.listaPesquisador:
+			pesquisador.curriculoHTML = self.corrigirHTML(self.baixarCurriculo(pesquisador))
+
+
+		#return self.listaPesquisador
+
+
+	#Cria o documento com os dados do Curriculo Lattes.	
+	def baixarCurriculo(self, pesquisador):
+		cvPath = self.diretorioCache+'/'+pesquisador.idLattes
+		if 'xml' in cvPath:
+			arquivoX = open(cvPath)
+			cvLattesXML = arquivoX.read()
+			arquivoX.close()
+
+			extended_chars= u''.join(unichr(c) for c in xrange(127, 65536, 1)) # srange(r"[\0x80-\0x7FF]")
+			special_chars = ' -'''
+			cvLattesXML   = cvLattesXML.decode('iso-8859-1','replace')+extended_chars+special_chars
+			parser        = ParserLattesXML(self.idMembro, cvLattesXML)
+
+			self.idLattes = parser.idLattes
+			self.url      = parser.url
+			print "(*) Utilizando CV armazenado no cache: "+cvPath
+
+		else:
+			if os.path.exists(cvPath):
+				arquivoH     = open(cvPath)
+				cvLattesHTML = arquivoH.read()
+				print pesquisador.idMembro
+				if pesquisador.idMembro != '':
+					print "(*) Utilizando CV armazenado no cache: "+cvPath
+			else:
+				# Usa a classe baixaCVLattes para burlar o captcha.
+				cvLattesHTML = baixaCVLattes(pesquisador.idLattes)
+				if not self.diretorioCache=='': 
+					file = open(cvPath, 'w')
+					file.write(cvLattesHTML)
+					file.close()
+					print " (*) O CV está sendo armazenado no Cache"
+			
+			return cvLattesHTML
+			#parser        = ParserLattes(self.idMembro, cvLattesHTML)
+
+	def corrigirHTML(self, cvLattesHTML):
+		extended_chars= u''.join(unichr(c) for c in xrange(127, 65536, 1))# srange(r"[\0x80-\0x7FF]")
+		special_chars = ' -'''
+		cvLattesHTML  = cvLattesHTML.decode('iso-8859-1','replace')#+extended_chars+special_chars
+		#cvLattesHTML  = cvLattesHTML.decode('ascii','replace')+extended_char+special_chars # Wed Jul 25 16:47:39 BRT 2012
+
+		# contornamos alguns erros do HTML da Plataforma Lattes
+		cvLattesHTML = cvLattesHTML.replace("<![CDATA[","")
+		cvLattesHTML = cvLattesHTML.replace("]]>","")
+		arquivoHTML, errors = tidy_document(cvLattesHTML, options={'numeric-entities':1})
+		#print errors
+		return arquivoHTML  
+
+	#def __str__(self):
+	
+	''' cvLattesHTML = ''
+				tentativa    = 0
+				while tentativa < 5:
+				#while True:
+					try:
+						txdata = None
+						txheaders = {   
+						'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:2.0) Gecko/20100101 Firefox/4.0',
+						'Accept-Language': 'en-us,en;q=0.5',
+						'Accept-Encoding': 'deflate',
+						'Keep-Alive': '115',
+						'Connection': 'keep-alive',
+						'Cache-Control': 'max-age=0',
+						'Cookie': 'style=standard; __utma=140185953.294397416.1313390179.1313390179.1317145115.2; __utmz=140185953.1317145115.2.2.utmccn=(referral)|utmcsr=emailinstitucional.cnpq.br|utmcct=/ei/emailInstitucional.do|utmcmd=referral; JSESSIONID=1B98ABF9642E01597AABA0F7A8807FD1.node2',
+						}
+		
+						print "Baixando CV :"+pesquisador.url
+
+						req = urllib2.Request(pesquisador.url, txdata, txheaders) # Young folks by P,B&J!
+						arquivoH = urllib2.urlopen(req) 
+						cvLattesHTML = arquivoH.read()
+						arquivoH.close()
+						time.sleep(1)
+
+						if len(cvLattesHTML) <= 1000:
+							print '[AVISO] O scriptLattes tentará baixar novamente o seguinte CV Lattes: ', pesquisador.url
+							time.sleep(30)
+							tentativa+=1
+							continue
+
+						if not self.diretorioCache == '':
+							file = open(cvPath, 'w')
+							file.write(cvLattesHTML)
+							file.close()
+							print " (*) O CV está sendo armazenado no Cache"
+						break
+
+					### except urllib2.URLError: ###, e:
+					except:
+						print '[AVISO] Nao é possível obter o CV Lattes: ',pesquisador.url
+						print '[AVISO] Certifique-se que o CV existe. O scriptLattes tentará baixar o CV em 30 segundos...'
+						###print '[ERRO] Código de erro: ', e.code
+						time.sleep(30)
+						tentativa+=1
+						continue
+
+			return cvLattesHTML'''
+# ---------------------------------------------------------------------------- #
+# http://wiki.python.org/moin/EscapingHtml
+def htmlentitydecode(s):                                                                               
+	return re.sub('&(%s);' % '|'.join(name2codepoint),                                                 
+		lambda m: unichr(name2codepoint[m.group(1)]), s)

@@ -1,0 +1,2554 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Jes&uacute;s Pascual Mena Chalco)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=4727357182510680" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4500409Y4&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4500409Y4"><div class="infpessoa">
+<h2 class="nome">Jes&uacute;s Pascual Mena Chalco</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/4727357182510680</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 07/11/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui  graduação em Engenharia de Sistemas pela Universidade Nacional de San Agustín (2000), mestrado (2005), doutorado (2010) e pós-doutorado (2012) em Ciência da Computação pela Universidade de São Paulo. Atualmente é professor adjunto do Centro de Matemática, Computação e Cognição da Universidade Federal do ABC.
+Atua na área de Ciência da Computação, com ênfase nos seguintes temas: Visão Computacional, Reconhecimento de Padrões, Prospecção de dados acadêmicos (bibliometria), Cientometria.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Jesús Pascual Mena Chalco<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MENA-CHALCO, J. P.;MENA CHALCO, J. P.;MENA-CHALCO, JESÚS P.;MENA-CHALCO, JESÚS PASCUAL</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do ABC. <br class="clear" />Rua Santa Adélia, 166<br class="clear" />Bairro Bangu<br class="clear" />09210-170 - Santo Andre, SP - Brasil<br class="clear" />URL da Homepage: <a target="blank" href="http://professor.ufabc.edu.br/~jesus.mena">http://professor.ufabc.edu.br/~jesus.mena</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciências da Computação<span class="ajaxCAPES" data-param="&codigoCurso=33002010176P0&nivelCurso=D"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />com <b>período </b><b>co-tutela </b> em Associação Instituto Nacional de Matemática Pura e Aplicada (Orientador: Luiz Carlos Pacheco Rodrigues Velho). <br class="clear" />Título: Reconstrução de faces 3D através de espaços de componentes principais, Ano de obtenção: 2010. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2240951178648368'><img src='images/curriculo/logolattes.gif' /></a>Roberto Marcondes Cesar Junior. <br class="clear" />Bolsista do(a): CAPES - Programa de Estudantes-Convênio de Pós-Graduação. <br class="clear" />Palavras-chave: Pattern Recognition; computer vision.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Reconhecimento de Padrões. <br class="clear" />Setores de atividade: Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciências da Computação<span class="ajaxCAPES" data-param="&codigoCurso=33002010176P0&nivelCurso=M"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: Identificação de regiões codificantes de proteína através da transformada modificada de Morlet,Ano de Obtenção: 2005.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2240951178648368'><img src='images/curriculo/logolattes.gif' /></a>Roberto Marcondes Cesar Junior.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Bioinformatics; Digital Signal Processing; Pattern Recognition.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Sistemas<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidad Nacional de San Agustín.
+		
+	<br class="clear" />Título: Identificación y clasificación de regiones codificantes de proteínas: un estudio comparativo de métodos independientes del modelo de ADN codificante. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Especialização  em Gestão de Bancos de Dados. <br class="clear" />Universidad Nacional de San Agustín.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do ABC, UFABC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência e Tecnologia, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Bases Computacionais da Ciência (2012/2, 2012/3)<br class="clear" />Processamento Digital de Imagens (2012/3)<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade de São Paulo, USP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Monitor, Carga horária: 6</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estagio, Enquadramento Funcional: Monitor, Carga horária: 6</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Monitor, Carga horária: 6</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Aprendizagem computacional: modelos, algoritmos e aplicações<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2007 - 07/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />MAC 115 - Introdução à Computação para Ciências Exatas e Engenharia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 07/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />MAC110 - Introdução à Computação<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidad Nacional de San Agustín, UNSA, Peru.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor auxiliar (Jefe de prácticas), Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Estagiario, Carga horária: 25</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2002 - 07/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ingeniería de Sistemas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Banco de dados I<br class="clear" />Banco de dados II<br class="clear" />Estrutura de dados<br class="clear" />Sistemas operacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2000 - 04/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Instituto de Informática - InfoUNSA, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Sistema acadêmico da Universidad Nacional de San Agustín. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidad Católica San Pablo, UCSP, Peru.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor auxiliar (Jefe de prácticas), Carga horária: 8</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2001 - 06/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ingeniería Informática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Banco de dados I<br class="clear" />Banco de dados II<br class="clear" />Sistemas operacionais<br class="clear" />Álgebra e geometria<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_NAP-USP eScience'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">NAP-USP eScience<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Modern science is interdisciplinary and data-intensive. For instance, in the 1000 Genomes Project (www.1000genomes.org), the comparative study of 629 individuals has already generated 7.3 TB of data. Analogous situations exist in fields such as astronomy, agriculture, social sciences, etc. Ten years ago, the problem was how to obtain data. Today, the bottleneck is the need for new computational strategies and tools so that scientists can manage these massive volumes of heterogeneous, distributed, data, so that they can generate new knowledge from the processing, analysis and visualization of the data. This launched the basis of the so-called eScience: the combination of advanced research in computer science and mathematical modeling to allow and accelerate research in other knowledge domains. National programs in eScience have been created in the US, GB, Australia and other countries, that recognized the importance of this theme for the advancement of science. The main goal of this project is the design and construction of a collaborative network for research in eScience, in a partnership that involves computer science, mathematical modeling and specific domains in the exact, life, agricultural sciences and social sciences.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Jesús Pascual Mena Chalco - Integrante / CESAR JUNIOR, R. M. - Coordenador.<br class="clear" />Financiador(es): Universidade de São Paulo - Auxílio
+										financeiro.</div>
+</div><a name='PP_An&aacute;lise e s&iacute;ntese de faces e express&otilde;es faciais em 3D'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise e síntese de faces e expressões faciais em 3D<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto prevê o desenvolvimento de métodos e aplicações de Computação Gráfica, Visão Computacional e Reconhecimento de Padrões para a análise (estudo/caracterização) e síntese (geração/criação) de faces e expressões faciais em 3D. Neste projeto serão estudados o problemas de análise e síntese de faces 3D considerando tanto um banco de dados de faces 3D reais, quanto modelos de faces sintéticos. O principal foco do projeto reside no desenvolvimento de técnicas para a reconstrução e caricaturização facial 3D a partir de amostras de treinamento de faces reais.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Jesús Pascual Mena Chalco - Coordenador / CESAR JUNIOR, R. M. - Integrante / VELHO, L. - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 7 / Número de orientações: 1</div>
+</div><a name='PP_Reconstru&ccedil;&atilde;o de faces 3D atrav&eacute;s de espa&ccedil;os de componentes principais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Reconstrução de faces 3D através de espaços de componentes principais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Jesús Pascual Mena Chalco - Coordenador / CESAR JUNIOR, R. M. - Integrante / VELHO, L. - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 10</div>
+</div><a name='PP_Identifica&ccedil;&atilde;o de regi&otilde;es codificantes de prote&iacute;na atrav&eacute;s da transformada modificada de Gabor/Morlet'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Identificação de regiões codificantes de proteína através da transformada modificada de Gabor/Morlet<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Jesús Pascual Mena Chalco - Coordenador / CARRER, H. - Integrante / CESAR JUNIOR, R. M. - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 2</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Prospec&ccedil;&atilde;o de dados acad&ecirc;micos de curr&iacute;culos Lattes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prospecção de dados acadêmicos de currículos Lattes<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste projeto são utilizadas técnicas de Reconhecimento de Padrões e Prospecção de Dados para explorar automaticamente extensos conjuntos de dados da Plataforma Lattes. As informações geradas pela nossa proposta serão de grande utilidade para a Comunidade Científica do Brasil, instituições de ensino e pesquisa, e principalmente, para atores relacionados à toma de decisões na política científica do Brasil. A ferramenta base para nossas análises é o software-livre "scriptLattes".. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Jesús Pascual Mena Chalco - Coordenador / CESAR JUNIOR, R. M. - Integrante / PEREZ, E. - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 22 / Número de orientações: 2</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IEEE Transactions on Systems, Man and Cybernetics. Part B, Cybernetics</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Bioinformatics and Biology Insights</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of the Brazilian Computer Society (Impresso)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: CompuScientia - SECC</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: PLoS Neglected Tropical Diseases (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Em Questão (UFRGS. Impresso)</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Visão Computacional. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Reconhecimento de Padrões. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Reconhecimento de Padrões/Especialidade: Prospecção de dados. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Bioinformática. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor apresentação no VI Simpósio de Iniciação Científica e Pós-Graduação do IME-USP. Trabalho: Interação acadêmica dos docentes do IME-USP no período 2000-2011, IME-USP. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Best Paper: Artigo selecionado entre os 3 melhores trabalhos do 'Computer Graphics, Virtual reality and Image Processing symposium' - CLEI2011., Publicação na edição especial do Electronic Notes in Theoretical Computer Science - ENTCS (Elsevier). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tese de doutorado selecionada entre as 10 melhores da áreas de Computação Gráfica e Processamento de Imagens no WTD do SIBGRAPI: '3D human face reconstruction using principal components spaces', SBC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">(como orientador do TCC Christian Portugal) Segundo lugar no II Concurso de trabajos de pregrado, III Simposio Peruano de Computación Gráfica y Procesamiento de Imágenes. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">(como orientador de TCC de Rosario Medina) Quinto lugar no I Concurso de trabajos de pregrado, II Simposio Peruano de Computación Gráfica y Procesamiento de imágenes. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Artigo técnico selecionado entre os 6 melhores trabalhos apresentados no SIBGRAPI 2008: 'PCA-based 3D Face Photography', SBC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Primeiro lugar no XIII Concurso Latinoamericano de Tesis de Maestría: 'Identificación de Regiones Codificantes de Proteínas Mediante la Transformada Modificada de Morlet', CLEI2006 - Conferencia Latinoamericana de Informática, Unesco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um dos 68 (de um total de 348) selecionados, no nível de doutorado, do Programa de Estudante-Convênio de Pós-Graduação (PEC-PG), CAPES e CNPq. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS</div><div class="trab">Total de trabalhos:7</div><div class="cita">Total de citações:16</div><div class="detalhes">AU-ID('Mena-Chalco, Jesús P.' 15058261300) OR AU-ID('Mena-Chalco, Jesús Pascual' 35741339000)&nbsp;&nbsp;Data:&nbsp;09/07/2011</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MENA-CHALCO, J. P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank">DIGIAMPIETRI, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2522777418118689" target="_blank">OLIVEIRA, L. B.</a> . Perfil de produção acadêmica dos programas brasileiros de pós-graduação em Ciência da Computação nos triênios 2004-2006 e 2007-2009. Em Questão (UFRGS. Impresso)<sup><img id='18078893_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18078893' /></sup>, v. 18, p. 215-229, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18078893&volume=18&issue=&paginaInicial=215&titulo=Perfil de produção acadêmica dos programas brasileiros de pós-graduação em Ciência da Computação nos triênios 2004-2006 e 2007-2009&sequencial=1&nomePeriodico=Em Questão (UFRGS. Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>1</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Portugal-Zambrano, Christian E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.entcs.2011.11.031" target="_blank"></a>Portugal-Zambrano, Christian E. ; <b>MENA-CHALCO, JESÚS P.</b> . Robust Range Finder Through a Laser Pointer and a Webcam. Electronic Notes in Theoretical Computer Science<sup><img id='15710661_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15710661' /></sup>, v. 281, p. 143-157, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.entcs.2011.11.031&issn=15710661&volume=281&issue=&paginaInicial=143&titulo=Robust Range Finder Through a Laser Pointer and a Webcam&sequencial=2&nomePeriodico=Electronic Notes in Theoretical Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>2</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZANA, Y.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0100-879X2009000700008" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8076305092222491" target="_blank">ZANA, Y.</a> ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . A Novel Polar-based Human Face Recognition Computational Model. Brazilian Journal of Medical and Biological Research (Impresso)<sup><img id='0100879X_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0100879X' /></sup>, v. 42, p. 637-646, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0100-879X2009000700008&issn=0100879X&volume=42&issue=&paginaInicial=637&titulo=A Novel Polar-based Human Face Recognition Computational Model&sequencial=3&nomePeriodico=Brazilian Journal of Medical and Biological Research (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>4</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MENA-CHALCO, J. P.;MENA CHALCO, J. P.;MENA-CHALCO, JESÚS P.;MENA-CHALCO, JESÚS PASCUAL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00371-009-0373-x" target="_blank"></a><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1965696768654682" target="_blank">MACÊDO, I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9500245604678806" target="_blank">VELHO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . 3D Face Computational Photography Using PCA Spaces. The Visual Computer<sup><img id='01782789_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01782789' /></sup>, v. 25, p. 899-909, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00371-009-0373-x&issn=01782789&volume=25&issue=&paginaInicial=899&titulo=3D Face Computational Photography Using PCA Spaces&sequencial=4&nomePeriodico=The Visual Computer" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MENA-CHALCO, JESÚS PASCUAL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/BF03194511" target="_blank"></a><b>MENA-CHALCO, JESÚS PASCUAL</b> ; JUNIOR, ROBERTO MARCONDES CESAR . scriptLattes: an open-source knowledge extraction system from the Lattes platform. Journal of the Brazilian Computer Society (Impresso)<sup><img id='01046500_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01046500' /></sup>, v. 15, p. 31-39, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/BF03194511&issn=01046500&volume=15&issue=&paginaInicial=31&titulo=scriptLattes: an open-source knowledge extraction system from the Lattes platform&sequencial=5&nomePeriodico=Journal of the Brazilian Computer Society (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>5</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MENA-CHALCO, J. P.;MENA CHALCO, J. P.;MENA-CHALCO, JESÚS P.;MENA-CHALCO, JESÚS PASCUAL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TCBB.2007.70259" target="_blank"></a><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2254436025676785" target="_blank">CARRER, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8076305092222491" target="_blank">ZANA, Y.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Identification of protein coding regions using the modified Gabor-wavelet transform. IEEE/ACM Transactions on Computational Biology and Bioinformatics (Print)<sup><img id='15455963_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15455963' /></sup>, v. 5, p. 198-207, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TCBB.2007.70259&issn=15455963&volume=5&issue=&paginaInicial=198&titulo=Identification of protein coding regions using the modified Gabor-wavelet transform&sequencial=6&nomePeriodico=IEEE/ACM Transactions on Computational Biology and Bioinformatics (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Prospecção de dados acadêmicos de currículos Lattes através de scriptLattes (in press). In: Maria Cristina Piumbato Innocentini HAYASHI; Jacqueline LETA. (Org.). Bibliometria e Cientometria: reflexões teóricas e interfaces. 1ed.São Carlos: Pedro & João, 2012, v. , p. 1-20. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6156509933307243" target="_blank">MUGNAINI, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank">DIGIAMPIETRI, L. A.</a> ; <b>MENA-CHALCO, J. P.</b> . Correlation among the scientific production, supervisions and participation in defense examination committees in the Brazilian physicists community. In: 14th International Society of Scientometrics and Informetrics Conference, 2013, Vienna. Proceedings of the ISSI 2013, 2013. v. I. p. 447-474. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank">DIGIAMPIETRI, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Caracterizando as redes de coautoria de currículos Lattes. In: Brazilian Workshop on Social Network Analysis and Mining (BraSNAM), 2012, Curitiba, PR, Brazil. Anais do XXXII Congresso da Sociedade Brasileira de Computação, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank">DIGIAMPIETRI, L. A.</a> ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2201580020088062" target="_blank">ALCÁZAR, J. J. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1068554491963326" target="_blank">TUESTA, E. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420771612707965" target="_blank">DELGADO, K. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6156509933307243" target="_blank">MUGNAINI, R.</a> ; SILVA, G. S. . Minerando e Caracterizando Dados de Currículos Lattes. In: Brazilian Workshop on Social Network Analysis and Mining (BraSNAM), 2012, Curitiba, PR, Brazil. Anais do XXXII Congresso da Sociedade Brasileira de Computação, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank">DIGIAMPIETRI, L. A.</a> ; <b>MENA-CHALCO, J. P.</b> ; SILVA, G. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2522777418118689" target="_blank">OLIVEIRA, L. B.</a> ; MALHEIRO, A. P. R. ; MEIRA, D. N. O. . Dinâmica das Relações de Coautoria nos Programas de Pós-Graduação em Computação no Brasil. In: Brazilian Workshop on Social Network Analysis and Mining (BraSNAM), 2012, Curitiba, PR, Brazil. Anais do XXXII Congresso da Sociedade Brasileira de Computação, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1068554491963326" target="_blank">TUESTA, E. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8420771612707965" target="_blank">DELGADO, K. V.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank">DIGIAMPIETRI, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2201580020088062" target="_blank">ALCÁZAR, J. J. P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6156509933307243" target="_blank">MUGNAINI, R.</a> ; <b>MENA-CHALCO, J. P.</b> . Análise temporal da relação orientador-orientado: um estudo de caso sobre a produtividade dos pesquisadores doutores da área de Ciência da Computação. In: Brazilian Workshop on Social Network Analysis and Mining (BraSNAM), 2012, Curitiba, PR, Brazil. Anais do XXXII Congresso da Sociedade Brasileira de Computação, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank">DIGIAMPIETRI, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2522777418118689" target="_blank">OLIVEIRA, L. B.</a> . Perfil de Produção Bibliográfica dos Programas Brasileiros de Pós-Graduação em Ciência da Computação. In: 3º Encontro Brasileiro de Bibliometria e Cientometria - EBBC, 2012, Gramado. Encontro Brasileiro de Bibliometria e Cientometria - EBBC, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREZ-CERVANTES, E. ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Towards a quantitative academic internationalization assessment of Brazilian research groups. In: workshop on 'Analyzing and Improving Collaborative eScience with Social Networks', 2012, Chicago. Proceeding of the IEEE e-Science 2012, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ICIP.2011.6115668" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4333940423066302" target="_blank">PINTO, S. C. D.</a> ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1660070580824436" target="_blank">LOPES, F. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9500245604678806" target="_blank">VELHO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . 3D Facial expression analysis by using 2D and 3D wavelet transforms. In: International Conference on Image Processing, 2011, Bélgica. International Conference on Image Processing - ICIP 2011, 2011. p. 1281-1284. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4833115415298367" target="_blank">NASCIMENTO, C. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4093653182381054" target="_blank">FREITAS, C. M. D. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3867942762661182" target="_blank">GALANTE, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4416858554787169" target="_blank">NEDEL, L.</a> ; <b>MENA-CHALCO, J. P.</b> . Visualização interativa de redes sociais: um estudo de caso em redes de colaboração científica. In: Simposio Latinoamericano sobre Computación Gráfica, Realidad Virtual y Procesamiento de Imágenes, 2011, Equador. Conferencia Latinoamericana de Informática - CLEI, 2011. p. 1-16. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9500245604678806" target="_blank">VELHO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . 3D human face reconstruction using principal components spaces. In: XXIV Sibgrapi   Conference on Graphics, Patterns and Images, 2011, Maceió. XXIV Sibgrapi   Conference on Graphics, Patterns and Images, 2011. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank">MATTOS, A. B.</a> ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . 3D facial animation based on structural registration. In: XXIV Sibgrapi   Conference on Graphics, Patterns and Images, 2011, Maceió. XXIV Sibgrapi   Conference on Graphics, Patterns and Images, 2011. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/eScienceW.2011.31" target="_blank"></a><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Towards automatic discovery of co-authorship networks in the Brazilian academic areas. In: Workshop On Measuring the Impact of e-Science Research (MeSR 2011) - In Conjunction with 7th IEEE International Conference on e-Science, 2011, Stockholm. Workshop On Measuring the Impact of e-Science Research (MeSR 2011), 2011. p. 53-60. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SIBGRAPI.2010.44" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2837012019824386" target="_blank">MATTOS, A. B.</a> ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9500245604678806" target="_blank">VELHO, L.</a> . 3D Linear Facial Animation Based on Real Data. In: Brazilian Symposium on Computer Graphics and Image Processing SIBGRAPI 2010, 2010, Gramado. Brazilian Symposium on Computer Graphics and Image Processing, Conference Proceedings, 2010. p. 271-278. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CHUCTAYA, J. ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3351423223842967" target="_blank">BELTRÁN-CASTAÑÓN, C.</a> ; PATIÑO, R. ; HUMPIRE, G. ; RODRIGUEZ, A. . Detección de huevos helmintos mediante plantillas dinámicas. In: XXXVIth Latin American Informatics Conference (XXXVI CLEI), 2010, Paraguay. XXXVIth Latin American Informatics Conference (XXXVI CLEI), 2010. p. 1-12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SCCC.2010.31" target="_blank"></a>PEREZ, E. ; <b>MENA-CHALCO, J. P.</b> . A new approach to detect communities in multi-weighted co-authorship networks. In: XXIX International Conference of the Chilean Computer Science Society, 2010, Antofagasta. Jornadas Chilenas de Computación - JCCC 2010, 2010. p. 131-138. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PORTUGAL ZAMBRANO, C. ; <b>MENA-CHALCO, J. P.</b> . Estimación de distancias absolutas utilizando un puntero láser y una cámara web. In: III Simposio Peruano de Computación Gráfica y Procesamiento de Imágenes, SCGI, 2009, Arequipa. II Concurso de trabajos de Pregrado en CGI, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SIBGRAPI.2008.40" target="_blank"></a><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1965696768654682" target="_blank">MACÊDO, I.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9500245604678806" target="_blank">VELHO, L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . PCA-based 3D face photography. In: Brazilian Symposium on Computer Graphics and Image Processing, 21 (SIBGRAPI), 2008, Campo Grande. Brazilian Symposium on Computer Graphics and Image Processing,  Conference Proceedings, 2008. p. 313-320. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7427573617921461" target="_blank">MEDINA-RODRIGUEZ, R.</a> ; <b>MENA-CHALCO, J. P.</b> . Firmas genéticas en secuencias de ADN: un análisis en regiones codificantes y no codificantes de proteínas. In: II Simposio Peruano de Computación Gráfica y Procesamiento de Imágenes, SCGI, 2008, Arequipa. I Concurso de trabajos de Pregrado en CGI, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/FGR.2006.66" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8076305092222491" target="_blank">ZANA, Y.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> ; <b>MENA-CHALCO, J. P.</b> . Human and Machine Recognition of Fourier-Bessel Filtered Face Images. In: 7th IEEE International Conference on Automatic Face and Gesture Recognition, 2006, Southampton. Procceedings of the 7th IEEE International Conference on Automatic Face and Gesture Recognition, 2006. p. 299-304. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDEIROS, C. B. ; <b>MENA-CHALCO, J. P.</b> . The Dynamics of Multidisciplinary Research Networks - Mining a Public Repository of Scientists CVs. In: World Social Science Forum 2013 (social transformations and the digital ages), 2013, Canada. World Social Science Forum 2013, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; CAPELLE, K. ; DALPIAN, G. M. . Rede de coautoria acadêmica da UFABC. In: Simpósio de Pesquisa do Grande ABC, 2012, São Paulo. Simpósio de Pesquisa do Grande ABC, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PEREZ-CERVANTES, E. ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Interação acadêmica dos docentes do IME-USP no período 2000-2011. In: VI Simpósio de Iniciação Científica e Pós-Graduação do IME-USP, 2012, São Paulo. VI Simpósio de Iniciação Científica e Pós-Graduação do IME-USP, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5822640461328016" target="_blank">DANUELLO, J. C.</a> ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8938252042140828" target="_blank">OLIVEIRA, E. F. T.</a> . Rede colaborativa dos pesquisadores dos programas de pós-graduação em fonoaudiologia no Brasil. In: XII Encontro Nacional de Pesquisa em Ciência da Informação, 2011, Brasília. XII Encontro Nacional de Pesquisa em Ciência da Informação, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4333940423066302" target="_blank">PINTO, S. C. D.</a> ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1660070580824436" target="_blank">LOPES, F. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Preliminary results on 3D facial expression analysis using 2D and 3D wavelet transforms. In: 23rd Brazilian Symposium on Computer Graphics and Image Processing SIBGRAPI 2010, 2010, Gramado. 23rd Brazilian Symposium on Computer Graphics and Image Processing SIBGRAPI 2010, Conference Proceedings, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4308525060697337" target="_blank">ALVES, H. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2254436025676785" target="_blank">CARRER, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Bioinformatics Tools for Assembling and Analysis of Chloroplast Genomes. In: International Conference on Bioinformatics and Computational Biology, 2004, Angra dos Reis. Proc. International Conference on Bioinformatics and Computational Biology, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MIYAHARA, E. K. ; <b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Genealogia Acadêmica Lattes. In: 19º  Simpósio Internacional de Iniciação Científica da USP (SIICUSP), 2011, São Paulo. 19º  Simpósio Internacional de Iniciação Científica da USP (SIICUSP), 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8076305092222491" target="_blank">ZANA, Y.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> ; <b>MENA-CHALCO, J. P.</b> . Reconhecimento de faces humano: uma modelagem computacional baseada em componentes polares. In: 58ª Reunião Anual da SBPC, 2006, Florianópolis. Annais do 58ª Reunião Anual da SBPC, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Protein coding regions identification through the modified Morlet transform. In: First International Conference of the Brazilian Association for Bioinformatics and Computational Biology (X-Meeting), 2005, Caxambu. Proceedings of the International Conference of the Brazilian Association for Bioinformatics and Computational Biology, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Identificação de regiões codificantes através da transformada modificada de Morlet. In: I Simpósio de Iniciação Científica e Pós-Graduação do IME-USP, 2005, São Paulo. Annais do I Simpósio de Iniciação Científica e Pós-Graduação do IME-USP, 2005. p. 1-5. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8502570969357785" target="_blank">PANDOLFI, V.</a> ; JORGE, E. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2254436025676785" target="_blank">CARRER, H.</a> ; Ragassi, C. F. ; ALBUQUERQUE, A. C. S. ; LUZ, W. C. ; PATRICIO, M. ; <b>MENA-CHALCO, J. P.</b> . Analysis of Pantoea agglomerans X Fusarium graminearum diferential gene expression. In: 7th International Wheat Conference, 2005, Mar del Plata. Proceedings of the 7th International Wheat Conference, 2005. v. 1. p. 326-326. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ArtigosAceitos"></a>Artigos  aceitos para publicação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1689147340536405" target="_blank">DIGIAMPIETRI, L. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1660070580824436" target="_blank">LOPES, F. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Brazilian bibliometric co-authorship networks. Journal of the American Society for Information Science and Technology (Print)<sup><img id='15322882_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15322882' /></sup>, 2013. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9500245604678806" target="_blank">VELHO, L.</a> . Banco de Dados de Faces 3D.
+							São Paulo:
+									IME-USP,  2011 (Relatorio tecnico). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9500245604678806" target="_blank">VELHO, L.</a> . Banco de Dados de Faces 3D: IMPA-FACE3D.
+							Rio de Janeiro:
+									Instituto de Matemática Pura e Aplicada - IMPA - VISGRAF Laboratory,  2009 (Relatorio tecnico). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> . ScriptLattes V5: Uma ferramenta para compilação de produções acadêmicas usando Currículos Lattes..
+							São Paulo, SP, Brazil:
+									Instituto de Matemática e Estatística - USP,  2009 (Relatorio tecnico). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Genealogia Acadêmica Lattes. 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> . MGWT: A Matlab GUI for identification of protein coding regions. 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . scriptLattes (http://scriptlattes.sourceforge.net/). 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2254436025676785" target="_blank">CARRER, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Bioinformatics pipeline for genome projects. 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8309958472855694" target="_blank">MACEDO, M. M. G.</a> ; <b>MENA-CHALCO, J. P.</b> ; MEKKAOUI, C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0926213060635986" target="_blank">JACKOWSKI, M. P.</a> . Blood vessel tracking in MRA images - Technical Video - SIBGRAPI 2010. 2010. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> . Análise de dados acadêmicos da Plataforma Lattes por meio do scriptLattes. 2011. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> . Capacitação na utilização e adaptação de script de compilação e visualização de informações extraídas de CVs Lattes. 2009. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> . Padrão LaTeX de tese/dissertação aprovada pela CPG - IME - USP.
+							2007. (Desenvolvimento de material didático ou instrucional - Formato padrão de teses/dissertações). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4134800147939218" target="_blank">CUADROS-VARGAS, E.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9836776931160228" target="_blank">SIMÃO, A. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5183243664164009" target="_blank">PAZ-TRILLO, C.</a> ; <b>MENA-CHALCO, J. P.</b> . II Conferencia Internacional de la Sociedad Peruana de Computación SPC2004. 2004. (Editoração/Anais). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOIS, J. P.; SIQUEIRA, M.; <b>MENA-CHALCO, J. P.</b>.  Participação em banca de Diogo Fernando Trevisan. Técnicas e Aplicações de Superfícies Implícitas a partir de Dados Hermitianos Generalizados. 2013. Dissertação (Mestrado em Ciência da Computação) - Universidade Federal do ABC. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PRATI, R. C.; BARANAUSKAS, J. A.; <b>MENA-CHALCO, J. P.</b>.  Participação em banca de Leonardo Villani. Anotação automática de imagens médicas bidimensionais por meio de classificação multirrótulo. 2013. Dissertação (Mestrado em Ciência da Computação) - Universidade Federal do ABC. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WASSERMANN, R.; SICHMAN, J. S.; <b>MENA-CHALCO, J. P.</b>.  Participação em banca de Eduardo Ferreira Galego. Extração e consulta de informações do currículo Lattes baseada em ontologias. 2013. Dissertação (Mestrado em Ciências da Computação) - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RANGEL, M. A.; <b>MENA-CHALCO, J. P.</b>; MATTOS, E. H. C.; MADEIRA, R. A.; GIOVANNETTI, B. C..  Participação em banca de Maximiliano Barbosa da Silva. Redes sociais de colaboração acadêmica: tendências, determinantes e fricções do processo de formação de coautorias entre pesquisadores no Brasil. 2013. Tese (Doutorado em Economia)  - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIANA, A. L. D.; CARVALHO, A. C. C.; <b>MENA-CHALCO, J. P.</b>.  Participação em banca de Marge Tenório. A Gestão de Redes de Pesquisa Científica, Tecnológica e de Inovação em Saúde no Brasil. 2013. Exame de qualificação (Doutorando em Medicina (Medicina Preventiva))  - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BALAN, A. G. R.; NOMA, A.; <b>MENA-CHALCO, J. P.</b>.  Participação em banca de Lídia Maria Rodrigues. Redução de ruídos e realce de detalhes em imagens de alto contraste utilizando filtros não lineares. 2013. Exame de qualificação (Mestrando em Ciência da Computação)  - Universidade Federal do ABC. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WASSERMANN, R.; <b>MENA-CHALCO, J. P.</b>; SICHMAN, J. S..  Participação em banca de Eduardo Ferreira Galego. Extração e Consulta de Informações do Currículo Lattes baseado em Ontologias. 2012. Exame de qualificação (Mestrando em Ciências da Computação)  - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HIRATA JUNIOR, R.; MIRANDA, F. R.; <b>MENA-CHALCO, J. P.</b>.  Participação em banca de Adèle Helena Ribeiro.Análise de Sinais de um Sensor Piroelétrico.
+							2012. Trabalho de Conclusão de Curso (Graduação em Ciências da Computação)  - Universidade de São Paulo. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - XI Jornada Peruana de Computación (XI Peruvian Computing Week).
+							2012.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - Encontro Unificado de Computação em Parnaíba (ENUCOMP).
+							2012.
+							Universidade Estadual do Piauí. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - X Jornadas Peruanas de Computación.
+							2011.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - International Conference on Computer Animation and Social Agents (CASA).
+							2011.
+							Computer Graphics Society. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Co-chair no IV Simpósio Peruano de Computación Gráfica y Procesamiento de Imágenes (SCGI).
+							2010.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Chair da Sessão Especial de Computação Gráfica e Processamento de Imagens das IX Jornadas Peruanas de Computación.
+							2010.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - Iberoamerican Congress on Pattern Recognition - CIARP.
+							2010.
+							Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos -  XVI Congreso Internacional de Ingeniería Eléctrica, Electrónica y Sistemas - INTERCON.
+							2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - V Congreso sobre ingeniería e investigación cientifica y VIII Concurso de proyectos de investigación y desarrollo (UTP).
+							2009.
+							Universidad Tecnológica del Perú. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - XXII Simpósio Brasileiro de Computação Gráfica e Processamento de Imagens.
+							2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - III Simposio de Computación Gráfica y Procesamiento de Imágenes (SCGI2009).
+							2009.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - International Conference on Image Processing - ICIP.
+							2009.
+							Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - VII Jornadas Peruanas de Computación.
+							2008.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - IV Congreso sobre ingeniería e investigación cientifica y VII Concurso de proyectos de investigación y desarrollo (UTP).
+							2008.
+							Universidad Tecnológica del Perú. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - II Simposio de Computación Gráfica y Procesamiento de Imágenes (SCGI2008).
+							2008.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - International Conference on Image Processing - ICIP.
+							2008.
+							Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - Computer Graphics International Conference.
+							2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - VI Jornadas Peruanas de Computación.
+							2007.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - IEEE Pacific Rim Symposium on Image Video and Technology.
+							2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - III Congreso sobre ingeniería e investigación cientifica y VI Concurso de proyectos de investigación y desarrollo (UTP).
+							2007.
+							Universidad Tecnológica del Perú. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b>. Revisor de Trabalhos - IV Jornadas Peruanas de Computación.
+							2005.
+							Sociedad Peruana de Computación. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXII Congresso da Sociedade Brasileira de Computação. Caracterizando as redes de coautoria de currículos Lattes. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Seminário Internacional Ferramentas de Inteligência Competitiva.Análise de dados acadêmicos da plataforma Lattes por meio do scriptLattes. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminarios de Raios Cósmicos e Cronologia do Instituto de Física Gleb Wataghin.Sumarização de dados cientificos de currículos Lattes mediante scriptLattes. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Simposio de Computación Gráfica y Procesamiento de Imágenes (SCGI2010).Caricaturização de rostros en 3D: un abordaje basado en proporciones faciales.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2do Encontro Brasileiro de bibliometria e cientometria.scriptLattes: extração e visualização de conhecimento a partir de CV-Lattes (Sessão Técnica).
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de apresentação do scriptLattes para a Pró-Reitoria de pesquisa da UFABC.Ferramenta scriptLattes. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Transformações na Comunicação Científica: Identificando necessidades e experimentando tecnologias com grupos de pesquisadores em HIV/Aids.scriptLattes: Uma ferramenta para extração e visualização de conhecimento a partir de Currículos Lattes. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Simposio de Computación Gráfica y Procesamiento de Imágenes (SCGI2009).Base de datos de rostros 3D.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simposio Peruano de Inteligencia Artificial.scriptLattes: Una herramienta para extracción y visualización de conocimiento a partir de Currículos Lattes.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Reunião dos pesquisadores e técnicos da Agência Paulista de Tecnologia dos Agronegócios (APTA).Programa scriptLattes.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Simposio de Computación Gráfica y Procesamiento de Imágenes (SCGI2008).Reconstrucción 3D de rostros: Un abordaje basado en PCA.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simposio de Computación Gráfica y Procesamiento de Imágenes (SCG2007).Active shape models: Una introducción.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congreso sobre ingeniería e investigación cientifica. Identificación de regiones codificantes de proteínas mediante la transformada modificada de Morlet. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Congreso sobre ingeniería e investigación cientifica. Reconocimiento de caracteres: un abordaje invariante a translación, rotación y escala. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro dos esudantes de Engenharia de Sistemas.Por representação da EPIS-UNSA no Concurso de Tesis - CLEI 2006.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jornada Internacional de Ingeniería de Sistemas.Técnicas de procesamiento de señales para la identificación de genes.
+							2004. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> . São Paulo advanced school of computing 2010 - Image processing and visualization. Comitê auxiliar. 2010. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> . IV Simposio de Computación Gráfica y Procesamiento de Imágenes (SCGI-2010). Co-chair. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> . 15th Iberoamerican Congress on Pattern Recognition (CIARP-2010). Comitê auxiliar. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano Rossi. Genealogia Acadêmica Lates.
+						Início: 2013.
+						Dissertação (Mestrado em Ciência da Computação)  - Universidade Federal do ABC, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Evelyn Perez Cervantes. Análise dos sinais de internacionalização na coautoria de grupos de pesquisa.
+						Início: 2012.
+						Dissertação (Mestrado em Ciências da Computação)  - Universidade de São Paulo, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Co-orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andréa Britto Mattos. Animação de faces tridimensionais baseada em registro estrutural.
+							2011.
+						
+					Dissertação  (Mestrado em Ciências da Computação)  - Universidade de São Paulo, Fundação de Amparo à Pesquisa do Estado de São Paulo. Co-Orientador: Jesús Pascual Mena Chalco. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Harieth Bernedo Córdova.
+							Firmas Genéticas Audibles: una nueva e representación de secuencias de ADN.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Ingeniería Informática)  - Universidad Católica San Pablo. Orientador: Jesús Pascual Mena Chalco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Edson Kiyohiro Miyahara.
+							Genealogia Acadêmica Lattes (co-orientação).
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Ciências da Computação)  - Universidade de São Paulo. Orientador: Jesús Pascual Mena Chalco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Evelyn Perez Cervantes.
+							Detección de comunidades en redes de colaboración científica.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Sistemas)  - Universidad Nacional de San Agustín. Orientador: Jesús Pascual Mena Chalco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Christian E. Portugal Zambrano.
+							Estimación de distancias absolutas utilizando un puntero láser y una cámara web.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Sistemas)  - Universidad Nacional de San Agustín. Orientador: Jesús Pascual Mena Chalco.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rosario Medina Rodriguez.
+							Firmas Genéticas en secuencias de ADN: Un análisis en Regiones Codificantes y no Codificantes de Pro.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Sistemas)  - Universidad Nacional de San Agustín. Orientador: Jesús Pascual Mena Chalco.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="LivrosCapitulosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Livros e capítulos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MENA-CHALCO, J. P.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2240951178648368" target="_blank">CESAR JUNIOR, R. M.</a> . Prospecção de dados acadêmicos de currículos Lattes através de scriptLattes (in press). In: Maria Cristina Piumbato Innocentini HAYASHI; Jacqueline LETA. (Org.). Bibliometria e Cientometria: reflexões teóricas e interfaces. 1ed.São Carlos: Pedro & João, 2012, v. , p. 1-20. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Citações do Google Acadêmico: http://scholar.google.com/citations?user=tPWyJYEAAAAJ
+
+
+<pre>
+Bolsas recebidas:
+
+2004    -> 2005  - Bolsa de Mestrado CAPES.
+2006    -> 2009  - Bolsa de Doutorado CAPES PEC/PG.
+2010    -> 2011/4 - Bolsa de Treinamento Técnico V da FAPESP (Processo: 2009/12107-9).
+2011/5  -> 2012/4 - Bolsa de Pós-doutorado Júnior do CNPq (Processo: 159546/2010-9).
+
+</pre></pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 08/11/2013 &agrave;s 14:08:04</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=4727357182510680" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

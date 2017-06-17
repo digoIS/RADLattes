@@ -1,0 +1,167 @@
+#!/usr/bin/python
+# encoding: utf-8
+# filename: resumoExpandidoEmCongresso.py
+#
+#  scriptLattes V8
+#  Copyright 2005-2013: Jesús P. Mena-Chalco e Roberto M. Cesar-Jr.
+#  http://scriptlattes.sourceforge.net/
+#
+#
+#  Este programa é um software livre; você pode redistribui-lo e/ou 
+#  modifica-lo dentro dos termos da Licença Pública Geral GNU como 
+#  publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+#  Licença, ou (na sua opinião) qualquer versão.
+#
+#  Este programa é distribuído na esperança que possa ser util, 
+#  mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
+#  MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+#  Licença Pública Geral GNU para maiores detalhes.
+#
+#  Você deve ter recebido uma cópia da Licença Pública Geral GNU
+#  junto com este programa, se não, escreva para a Fundação do Software
+#  Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+#
+
+from producaoBibliografica import *
+#from scriptLattes import *
+import re
+
+class ResumoExpandidoEmCongresso(ProducaoBibliografica):
+	
+	nomeDoEvento = None
+	localDoEvento = None
+	tituloDosAnais = None
+
+	def __init__(self, idMembro, tipo, partesDoItem='', doi=''):
+		ProducaoBibliografica.__init__(self, tipo, idMembro)
+		if not partesDoItem=='': 
+			# partesDoItem[0]: Numero (NAO USADO)
+			# partesDoItem[1]: Descricao do artigo (DADO BRUTO)
+			self.item = partesDoItem[1]
+			self.doi = doi
+			
+			# Dividir o item na suas partes constituintes
+			partes = self.item.partition(" . ")
+			self.autores = partes[0].strip()
+			partes = partes[2]
+			
+			partes = partes.rpartition(" p. ")
+			if partes[1]=='': # se nao existem paginas
+				self.paginas = ''
+				partes = partes[2]
+			else:
+				self.paginas = partes[2].rstrip(".").rstrip(",")
+				partes = partes[0]
+			
+			partes = partes.rpartition(" v. ")
+			
+			if partes[1]=='': # se nao existem informacao de volume
+				self.volume = ''
+				partes = partes[2]
+			else:
+				self.volume = partes[2].rstrip(".").rstrip(",")
+				partes = partes[0]
+		
+			aux = re.findall(u', ((?:19|20)\d\d)\\b', partes)
+		
+			if len(aux)>0:
+				partes = partes.rpartition(",")
+				p = partes[2].partition('.')
+				#####################HACK####################
+				if p[2] != '' and len(p[2]) > 40:
+					self.localDoEvento = p[0].strip()
+				#############################################
+				self.ano = aux[-1].strip().rstrip(".").rstrip(",")
+				partes = partes[0]
+				
+			else:
+				self.ano = ''
+			
+			partes = partes.rpartition(". ")
+			self.tituloDosAnais = partes[2].strip().rstrip('.').rstrip(",")
+			partes = partes[0]
+			partes = partes.rpartition(" In: ")
+			if partes[1]=='': # se nao existe nome do evento
+				self.nomeDoEvento = ''
+				if self.localDoEvento == None:
+					self.localDoEvento = 'sem local'
+				partes = partes[2]
+			else:
+				############################################
+				p = re.compile(r'[0-9]+?o\.')
+				if re.search(p, partes[2]):
+					partes = re.sub(p, '*', partes[2])
+					pevento = partes.partition('.')
+				else:				
+					pevento = partes[2].partition('.')
+				############################################
+				if pevento[1] == '':
+					pevento = pevento[0].rstrip(',').rpartition(',')
+					if pevento[1] == '':
+						pevento = pevento[0].rpartition(',')
+						self.nomeDoEvento = pevento[0].strip()
+						self.localDoEvento = pevento[2].strip()
+					else:
+						self.nomeDoEvento = pevento[0].strip()
+						self.localDoEvento = pevento[2].strip()
+						if pevento[2].strip().isdigit():
+							self.localDoEvento = 'sem local'
+						if self.isSiglaEstado(pevento[2].strip()):	
+							self.localDoEvento = pevento[0].rpartition(',')[2].strip()
+				else:	
+					pevento = pevento[0].rstrip(',').rpartition(',')
+					
+					self.nomeDoEvento = pevento[0]
+					self.localDoEvento = pevento[2].strip().partition('.')[0].strip()
+					
+					if self.isSiglaEstado(pevento[2]) or self.endWithBrasil(pevento[2]):
+						pevento = pevento[0].rpartition(',')
+						self.nomeDoEvento = pevento[0]
+						self.localDoEvento = pevento[2].strip()
+					if pevento[2].strip().isdigit():
+						pevento = pevento[0].rpartition(',')
+						self.nomeDoEvento = pevento[0]
+						self.localDoEvento = ''
+				partes = partes[0]
+			l = ['-', '/']
+			for i in l:
+				if self.localDoEvento.find(i) != -1:
+					self.localDoEvento = self.localDoEvento.partition(i)[0]
+			self.titulo = partes.strip().rstrip(".")
+
+			if self.volume == None:
+				 self.volume = ''
+		else:
+			self.doi = ''
+			self.autores = ''
+			self.titulo = ''
+			self.nomeDoEvento = ''
+			self.ano = ''
+			self.volume = ''
+			self.paginas = ''
+
+	def isSiglaEstado(self, string):
+		if string.strip().isupper() and len(string.strip()) == 2:
+			return True
+		return False
+
+	def endWithBrasil(self, string):
+		if not string.lower().find('brasil') == -1:
+			return True
+		return False
+
+	# ------------------------------------------------------------------------ #
+	def __str__(self):
+		s  = "\n[RESUMO EXPANDIDO EM CONGRESSO] \n"
+		s += "+ID-MEMBRO   : " + str(self.idMembro) + "\n"
+		s += "+RELEVANTE   : " + str(self.relevante) + "\n"
+		s += "+DOI         : " + self.doi.encode('utf8','replace') + "\n"
+		s += "+AUTORES     : " + self.autores.encode('utf8','replace') + "\n"
+		s += "+TITULO      : " + self.titulo.encode('utf8','replace') + "\n"
+		s += "+NOME EVENTO : " + self.nomeDoEvento.encode('utf8','replace') + "\n"
+		s += "+ANO         : " + str(self.ano) + "\n"
+		s += "+VOLUME      : " + self.volume.encode('utf8','replace') + "\n"
+		s += "+PAGINAS     : " + self.paginas.encode('utf8','replace') + "\n"
+		s += "+item        : " + self.item.encode('utf8','replace') + "\n"
+
+		return s

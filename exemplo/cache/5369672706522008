@@ -1,0 +1,2890 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Nelson Lopes Duarte Filho)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=5369672706522008" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4797197E9&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4797197E9"><div class="infpessoa">
+<h2 class="nome">Nelson Lopes Duarte Filho</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/5369672706522008</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 27/06/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui gradua&ccedil;&atilde;o  em Engenharia Industrial Modalidade Mec&acirc;nica pela Universidade Federal do Rio Grande(1975), gradua&ccedil;&atilde;o  em Engenharia Civil pela Universidade Federal do Rio Grande(1979), mestrado em Inform&aacute;tica pela Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro(1985) e doutorado em Inform&aacute;tica pela Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro(1991). Atualmente &eacute; professor titular  da Universidade Federal do Rio Grande. Tem experi&ecirc;ncia na &aacute;rea de Ci&ecirc;ncia da Computa&ccedil;&atilde;o, com &ecirc;nfase em Sistemas de Computa&ccedil;&atilde;o. Atuando principalmente nos seguintes temas:Inteligencia artificial, Representac&atilde;o do conhecimento, Redes Bayesianas, Aquisic&atilde;o de conhecimento, Diagn&oacute;stico m&eacute;dico. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nelson Lopes Duarte Filho</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DUARTE FILHO, Nelson Lopes;Duarte Filho, Nelson L.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Departamento de Matemática. <br class="clear" />Av Italia, km 8 - Campus Carreiros<br class="clear" />RS<br class="clear" />96201900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53)  2301400<br class="clear" />URL da Homepage: <a target="blank" href="http://">http://</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Informática<span class="ajaxCAPES" data-param="&codigoCurso=31005012004P9&nivelCurso=D"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	<br class="clear" />Título: Raciocínio Evidencial e Aquisicão Automática de Conhecimento em Sistemas Especialistas: Uma Abordagem Bayesiana, Ano de obtenção: 1991. <br class="clear" />Orientador: Tarcisio Haroldo Cavalcante Pequeno. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Inteligencia artificial; Representacão do conhecimento; Redes Bayesianas; Aquisicão de conhecimento; Diagnóstico médico.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Inteligência Artificial. <br class="clear" />Setores de atividade: Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1983 - 1985</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Informática<span class="ajaxCAPES" data-param="&codigoCurso=31005012004P9&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	<br class="clear" />Título: Especificacão e Implementacão de um Servidor de Arquivos para Redes Locais,Ano de Obtenção: 1985.<br class="clear" />Orientador: Daniel Schwabe.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Sistemas de arquivos; Redes locais de computadores.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Software Básico. <br class="clear" />Setores de atividade: Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1976 - 1979</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Civil<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1971 - 1975</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Industrial Modalidade Mecânica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor titular, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1993</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor adjunto, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor assistente, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1975 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Analista de sistemas, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1972 - 1975</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Programador, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Diretor de Unidade.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Centro de Formação e Orientação Pedagógica Cfop, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Comissão de Administração.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1991 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Inteligência artificial'>Inteligência artificial</a><br class="clear" /><a href='#LP_Sistemas operacionais'>Sistemas operacionais</a><br class="clear" /><a href='#LP_Redes de computadores'>Redes de computadores</a><br class="clear" /><a href='#LP_Sistemas Distribuídos'>Sistemas Distribuídos</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1991 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computacão, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Redes de computadores<br class="clear" />Sistemas operacionais<br class="clear" />Organizacão de computadores<br class="clear" />Computacão<br class="clear" />Métodos numéricos<br class="clear" />Sistemas Distribuídos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2002 - 7/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Centro de Formação e Orientação Pedagógica Cfop, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador da Comissão de Administração.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1997 - 1/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Pró Reitoria de Graduacão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Pró-Reitor.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Chefe de Departamento.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Comissão do Curso de Engenharia de Computacão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de Curso.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1993 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Chefe de Departamento.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1972 - 3/1983</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviços técnicos especializados . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Serviço realizado<br class="clear" />Análise de sistemas e programacão de computadores. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Intelig&ecirc;ncia artificial'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inteligência artificial</div>
+</div><a name='LP_Sistemas operacionais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistemas operacionais</div>
+</div><a name='LP_Redes de computadores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Redes de computadores</div>
+</div><a name='LP_Sistemas Distribu&iacute;dos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistemas Distribuídos</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Simula&ccedil;&atilde;o de Sistemas de Constru&ccedil;&atilde;o Naval'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Simulação de Sistemas de Construção Naval<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de modelos de simulação de sistemas de construção naval, nos níveis da indústria (estaleiros, fornecedores, sub-fornecedores), do estaleiro (conjunto de recursos/atividades/produtos de um estaleiro) e de processos (oficinas, células de
+manufatura, máquinas, processos/sistemas).. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Nelson Lopes Duarte Filho - Integrante / Floriano Carlos Martins Pires Júnior - Integrante / Silvia Silva da Costa Botelho - Integrante / Antonio Carlos da Rocha Costa - Coordenador / Eduardo Perroni Furtado - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Rio Grande - Cooperação / Universidade Federal do Rio de Janeiro - Cooperação / Universidade Católica de Pelotas - Cooperação / Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello - Auxílio
+										financeiro.</div>
+</div><a name='PP_GigaIQoM Infra-estrutura de Medi&ccedil;&otilde;es para Rede Giga'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GigaIQoM Infra-estrutura de Medições para Rede Giga<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste projeto serão desenvolvidas algumas ferramentas e implantadas outras já disponíveis, criando-se assim uma infra-estrutura de medições que dará suporte à monitoração e configuração da rede essenciais para atender à QoS esperada pelas aplicações avançadas (e.g. grid, videoconferência, VoIP, etc.) a serem experimentadas na rede do Projeto GIGA.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Nelson Lopes Duarte Filho - Integrante / José Augusto Suruagy Monteiro - Coordenador / Leobino Sampaio - Integrante / Mércia Figueredo - Integrante / Edison Melo - Integrante / Hélio Alexandre Carvalho - Integrante / Lisandro Granville - Integrante / Carlos Alberto Malcher Bastos - Integrante / William Ferreira Giozza - Integrante / Luis Claudio Schara Magalhães - Integrante / Jean Marie Farines - Integrante.<br class="clear" />Financiador(es): Fundação Centro de Pesquisa e Desenvolvimento em Telecomunicações - Cooperação / Rede Nacional de Ensino e Pesquisa - Auxílio
+										financeiro / Universidade Federal de Santa Catarina - Cooperação / Universidade Federal do Rio Grande do Sul - Cooperação / Universidade Federal Fluminense - Cooperação / Universidade Salvador - Cooperação.Número de orientações: 2</div>
+</div><a name='PP_PQI na &Aacute;rea de Ci&ecirc;ncia da Computa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PQI na Área de Ciência da Computação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto constitui em uma proposta de cooperação interinstitucional entre a Fundação Universidade Federal do Rio Grande (FURG) e as Universidades Federais do Rio Grande do Sul (UFRGS) e de Santa Catarina (UFSC) tendo em vista o desenvolvimento da pesquisa e pós-graduação no âmbito das mesmas. Sustenta-se em três eixos básicos: impulsionar a qualificação de docentes em nível de doutorado e de um técnico em nível de mestrado, desenvolver projetos cooperados de pesquisa e estimular a produção científica. O principal resultado esperado é o incremento da pós-graduação na FURG e o desenvolvimento de pesquisas na área de tecnologia computacional aplicada a oceanografia. Além da consolidação da pós-graduação em nível de mestrado, o projeto de qualificação institucional proporcionará as condições para o oferecimento de doutorado em área afim.Buscando aprimorar o programa de qualificação em vigor há muitos anos, o PICDT (Programa Institucional de Capacitação Docente e Técnica), a CAPES ( Coordenação de Aperfeiçoamento de Pessoal de Nível Superior) propôs o PQI (Programa de Qualificação Institucional). Tal programa associa a capacitação de docentes e técnicos a projetos interinstitucionais, eliminando a possibilidade de iniciativas exclusivamente individuais, sem comprometimento com os interesses das instituições de ensino superior. Com o programa PQI, a CAPES busca fomentar o "esforço institucional em alavancar mudanças no perfil do ensino, da pesquisa e da pós-graduação nas IES".. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Nelson Lopes Duarte Filho - Coordenador / Silvia Silva Botelho - Integrante / Mauricio Magalhães Matta - Integrante / Luiz Alberto Rocha - Integrante / Sebastião Cícero Gomes - Integrante / Osmar Olinto Möller Jr - Integrante / Sonia Magalhães dos Santos - Integrante / João Carls Strauch - Integrante / Denis Teixeira Franco - Integrante / Vinícius Menezes de Oliveira - Integrante / Adriana Elisa Ladeira Pereira - Integrante / Vagner Duarte - Integrante / Ivete Martins Pinto - Integrante.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio
+										financeiro / Universidade Federal de Santa Catarina - Cooperação / Universidade Federal do Rio Grande do Sul - Cooperação.</div>
+</div><a name='PP_Grupo de Trabalho Qualidade de Servi&ccedil;o 2 (GT-QoS2)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo de Trabalho Qualidade de Serviço 2 (GT-QoS2)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A proposta desta nova etapa do GT é desenvolver pilotos de medições passivas com placas de captura, de medições ativas com a plataforma AMP / OWAMP, além de análise dos dados coletados pelo Netflow. O objetivo principal é a implementação de QoS fim-a-fim utilizando a arquitetura de serviços diferenciados, o que implica na configuração de todas as redes envolvidas nos experimentos. Outro objetivo é a implantação de um sistema de SLA (service level agreements) entre todas as redes participantes do piloto de serviços, bem como um sistema de monitoração destes serviços e dos SLAs. O SLA é um acordo feito entre o cliente e o provedor de serviço sobre os níveis de qualidade do serviço que o cliente está contratando. O sistema é capaz de monitorar a rede e acompanhar se o provedor está seguindo o acordo. O GT propõe ainda a realização de testes com o serviço scavenger, dessa vez colocando o serviço em operação, em caráter experimental, para avaliação de qual a banda mínima para que o serviço seja funcional e não prejudique os demais.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . </div>
+</div><a name='PP_TECSUB - Prot&oacute;tipo de um Rob&ocirc; de Inspe&ccedil;&atilde;o Subaqu&aacute;tico'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">TECSUB - Protótipo de um Robô de Inspeção Subaquático<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto realizado como parte de um esforço desenvolvido pelo Grupo de Pesquisa CNPq/FURG denominado "Robótica e Inteligência Artificial", que visa o desenvolvimento de um pré-protótipo de veículo semi-autônomo para exploração e observação subaquática. O veículo deverá contar com um sistema de visão que, enviando imagens à superfície (base fixa), propiciará a um usuário conectado remotamente a inspeção do ambiente sub-aquático. Além da possibilidade de controle e acionamento a distância, o robô submersível deverá possuir recursos embarcados de percepção e computação suficientes para garantir controle reflexivo e comportamentos inteligentes que lhe garantam um certo grau de autonomia em relação à base terrestre fixa. Devido à amplitude dos resultados pretendidos, esse esforço foi sub-dividido da seguinte maneira: desenvolvimento de uma arquitetura inteligente; projeto e síntese do hardware de controle e acionamento embarcado; modelagem dinâmica e controle de estruturas submersíveis autônomas; aquisição e tratamento de dados sensoriais sub-aqüáticos e construção do sistema em si. Trata-se, neste projeto, das questões relacionadas à aquisição e tratamento de dados sensoriais sub-aqüáticos, visando o reconhecimento de padrões e a geração e o gerenciamento de informações capazes de propiciar a navegação autônoma do veículo e o mapeamento de regiões/feições submersas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Nelson Lopes Duarte Filho - Integrante / Silvia Silva Botelho - Coordenador / Sebastião Cícero Gomes - Integrante / Denis Teixeira Franco - Integrante / Vinícius Menezes de Oliveira - Integrante.<br class="clear" /></div>
+</div><a name='PP_Buscas Probabil&iacute;sticas em Redes de Computadores de Larga Escala'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Buscas Probabilísticas em Redes de Computadores de Larga Escala<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto enfoca o problema da localização de recursos para aplicações distribuídas em redes de larga escala, numa perspectiva probabilística. Em resumo, objetiva as seguintes contribuições: construção de algoritmos probabilísticos de busca, visando auto adaptação a novas condições de sistema (p.e, devido à falhas de processos e particionamentos de rede); desenvolvimento de modelos analíticos capazes de auxiliar na avaliação de algoritmos probabilísticos; apresentação de resultados sobre desempenho, obtidos através de simulações; construção de protótipos e de versões beta de sistemas de consulta peer-to-peer.
+. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Nelson Lopes Duarte Filho - Integrante / Thiago Pinto Damas - Integrante / Fernando Lopes Pedone - Coordenador / Mario Domenech Goulart - Integrante / Ingrid Jansch Pôrto - Integrante.<br class="clear" />Financiador(es): Ecole Polytechnique Fédérale de Lausanne - Cooperação / Universidade Federal do Rio Grande do Sul - Cooperação.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Sistemas de Informação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Computação de Alto Desempenho. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação / Subárea: Currículo/Especialidade: Graduacão Computacão. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Winner - Site UFRGS - South America Programming Contest, ACM. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Winner - Site PUC-Rio - South America Programming Contest, ACM. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Silveira, Luan</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s13173-012-0071-9" target="_blank"></a>Silveira, Luan ; Maffei, Renan Q. ; Botelho, Silvia S. C. ; Drews, Paulo L. ; Bicho, Alessandro de L. ; <b>DUARTE FILHO, Nelson Lopes</b> . Space D*. Journal of the Brazilian Computer Society (Impresso)<sup><img id='01046500_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01046500' /></sup>, v. 18, p. 1-11, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s13173-012-0071-9&issn=01046500&volume=18&issue=&paginaInicial=1&titulo=Space D*&sequencial=1&nomePeriodico=Journal of the Brazilian Computer Society (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JACOBI, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>JACOBI, E. ; POPIOLEK, P. ; HAX, V. ; Tyska Carvalho, Jonata ; <b>Duarte Filho, Nelson L.</b> ; MENDIZABAL, Odorico . Modelo de Computação em Nuvem e sua Aplicabilidade. Revista Junior de Iniciação Científica em Ciências Exatas e Engenharia<sup><img id='22360093_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='22360093' /></sup>, v. I, p. 1-6, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=22360093&volume=I&issue=&paginaInicial=1&titulo=Modelo de Computação em Nuvem e sua Aplicabilidade&sequencial=2&nomePeriodico=Revista Junior de Iniciação Científica em Ciências Exatas e Engenharia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Duarte Filho, Nelson</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00170-010-2548-z" target="_blank"></a><b>Duarte Filho, Nelson</b> ; Costa Botelho, Silvia ; Tyska Carvalho, Jonata ; Botelho Marcos, Pedro ; Queiroz Maffei, Renan ; Remor Oliveira, Rodrigo ; Ruas Oliveira, Rodrigo ; Alves Hax, Vinicius ; <b>DUARTE FILHO, Nelson Lopes</b> . An immersive and collaborative visualization system for digital manufacturing. International Journal, Advanced Manufacturing Technology<sup><img id='02683768_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02683768' /></sup>, v. 50, p. 1253-1261, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00170-010-2548-z&issn=02683768&volume=50&issue=&paginaInicial=1253&titulo=An immersive and collaborative visualization system for digital manufacturing&sequencial=3&nomePeriodico=International Journal, Advanced Manufacturing Technology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUARTE FILHO, Nelson Lopes;Duarte Filho, Nelson L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><b>DUARTE FILHO, Nelson Lopes</b> ; BOTELHO, Silvia Silva ; CARVALHO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7842573659301523" target="_blank">MARCOS, Pedro</a> ; Maffei, Renan ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5015902272732269" target="_blank">OLIVEIRA, Rodrigo Ruas</a> ; HAX, V. . A general purpose cave-like system for visualization of animated and 4D cad modeling. Vetor (FURG)<sup><img id='01027352_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 18, p. 5-19, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=18&issue=&paginaInicial=5&titulo=A general purpose cave-like system for visualization of animated and 4D cad modeling&sequencial=4&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VIEIRA, Jeison</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>VIEIRA, Jeison ; BOTELHO, Silvia Silva ; <b>DUARTE FILHO, Nelson Lopes</b> . Um Framework para Memória Compartilhada Distribuída e Eestudo de Caso em Aplicações de Geociências sobre Clusters de Computadores. Vetor (FURG)<sup><img id='01027352_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 20, p. 1-17, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=20&issue=&paginaInicial=1&titulo=Um Framework para Memória Compartilhada Distribuída e Eestudo de Caso em Aplicações de Geociências sobre Clusters de Computadores&sequencial=5&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ESPINDOLA, Danubia</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>ESPINDOLA, Danubia ; BOTELHO, Silvia Silva ; <b>DUARTE FILHO, Nelson Lopes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">Tyska, J</a> . SIM3D - Utilizando Realidade Virtual na Indústria Naval e Offshore. Engevista (UFF)<sup><img id='14157314_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14157314' /></sup>, v. 4, p. 220-227, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14157314&volume=4&issue=&paginaInicial=220&titulo=SIM3D - Utilizando Realidade Virtual na Indústria Naval e Offshore&sequencial=6&nomePeriodico=Engevista (UFF)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUARTE FILHO, Nelson Lopes;Duarte Filho, Nelson L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>DUARTE FILHO, Nelson Lopes</b> ; PEDONE, Fernando Lopes . Building replicated database systems using distributed shared memory. Vetor (FURG)<sup><img id='01027352_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 16, p. 5-15, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=16&issue=&paginaInicial=5&titulo=Building replicated database systems using distributed shared memory&sequencial=7&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DUARTE FILHO, Nelson Lopes;Duarte Filho, Nelson L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>DUARTE FILHO, Nelson Lopes</b> ; PAULA E SILVA, L.A. ; DAMAS, Thiago Pinto ; de BEM, R. A. ; LAURINO, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7704573463056917" target="_blank">LOPES, E. C.</a> ; KAUTZMANN, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2580226435040472" target="_blank">MIRANDA, C. F.</a> . Computação de Alto Desempenho em Redes de Baixa Velocidade Formadas por Computadores de Uso Pessoal - Estudo de Casos. Scientia (Unisinos)<sup><img id='01041770_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01041770' /></sup>, São Leopoldo, v. 13, n.1, p. 33-43, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01041770&volume=13&issue=&paginaInicial=33&titulo=Computação de Alto Desempenho em Redes de Baixa Velocidade Formadas por Computadores de Uso Pessoal - Estudo de Casos&sequencial=8&nomePeriodico=Scientia (Unisinos)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>REAL, R. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span>REAL, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1131858526704034" target="_blank">REAL, M. V.</a> ; <b>DUARTE FILHO, Nelson Lopes</b> ; SALVADOR, O. R. ; YAMIN, A. . Unicluster: Uma Proposta de ICP para PAD. Scientia (Unisinos)<sup><img id='01041770_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01041770' /></sup>, São Leopoldo, v. 13, n.1, p. 165-176, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01041770&volume=13&issue=&paginaInicial=165&titulo=Unicluster: Uma Proposta de ICP para PAD&sequencial=9&nomePeriodico=Scientia (Unisinos)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VAZ, M. A. (Org.) ; SOUZA, J. A. (Org.) ; <b>DUARTE FILHO, Nelson Lopes</b> (Org.) ; KALIL, S. J. (Org.) . Anais da NAVTEC 2013. 1. ed. , 2013. v. 1. 100p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINTO, E.C. (Org.) ; GIROLDO, D. (Org.) ; <b>DUARTE FILHO, Nelson Lopes</b> (Org.) ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> (Org.) . Conferência Internacional em Tecnologia Naval e Offshore: Ciência e Inovação. 1. ed. , 2012. v. 1. 100p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> (Org.) ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> (Org.) ; ESTEFEN, S. (Org.) ; PINTO, E. C. (Org.) ; GIROLDO, D. (Org.) . Offshore and Marine Technology: Science and Innovation. 1. ed. New York: Institute of Electrical and Electronics Engineers (IEEE), 2012. v. 1. 71p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; CARVALHO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7842573659301523" target="_blank">MARCOS, Pedro</a> ; Maffei, Renan ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5015902272732269" target="_blank">OLIVEIRA, Rodrigo Ruas</a> ; HAX, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> . A General Purpose Cave-like System for Visualization of Animated and 4D CAD Modeling. In: ROCHA, L. A. O. (Org.) ; Botelho, S.S.C. (Org.) ; ADAMATTI, D. F. (Org.). (Org.). Simpósio de Modelagem Computacional do Sul. 1ed.: IEEE Xplore, 2010, v. 1, p. 82-87. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; VIEIRA, Jeison ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> . A Framework for Distributed Shared Memory - Case Study in Geoscience Applications on Clusters of Computers. In: ROCHA, L. A. O. (Org.) ; Botelho, S.S.C. (Org.) ; ADAMATTI, D. F. (Org.). (Org.). Simpósio de Modelagem Computacional do Sul. 1ed.: IEEE Xplore, 2010, v. 1, p. 88-93. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; CARVALHO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7842573659301523" target="_blank">MARCOS, Pedro</a> ; Maffei, Renan ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5015902272732269" target="_blank">OLIVEIRA, Rodrigo Ruas</a> ; HAX, V. . An Automated Platform for Immersive and Collaborative Visualization of Industrial Models. Engineering of Complex Computer Systems. 1ed.: IEEE Xplore, 2009, v. 1, p. 258-264. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; Santos, E. . Rastreamento na Construção Naval e Offshore: Insumos Inteligentes através de RFIds. In: Conferência Internacional em Tecnologias Naval e Offshore: Energia e Sustentabilidade - NAVTEC 2013, 2013, Rio Grande. Anais da NAVTEC 2013, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ribeiro, L. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . Concepção estratégica do Parque Tecnológico OCEANTEC. In: Conferência Internacional em Tecnologias Naval e Offshore: Energia e Sustentabilidade - NAVTEC 2013, 2013, Rio Grande. Anais da NAVTEC 2013, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOTELHO, Silvia Silva ; <b>DUARTE FILHO, Nelson Lopes</b> ; ESPINDOLA, Danubia ; OLIVEIRA, D. P. ; CARVALHO, J. . A Engenharia de Serviço na Indústria Naval. In: NAVTEC 2012 - Conferência Internacional em Tecnologias Naval e Offshore: Ciência e Inovação, 2012, Rio Grande. Anais NAVTEC 2012, 2012. v. 1. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIRES, F. ; ASSIS, L. F. ; <b>DUARTE FILHO, Nelson Lopes</b> ; BOTELHO, S. . Um Sistema Integrado para Controle de Projetos na Construção Naval com Análise de Risco. In: NAVTEC 2012 - Conferência Internacional em Tecnologias Naval e Offshore: Ciência e Inovação, 2012, Rio Grande. Anais NAVTEC 2012, 2012. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESPINDOLA, Danubia ; <b>DUARTE FILHO, Nelson Lopes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; CARVALHO, J. ; PEREIRA, C. E. . Internet of Things to Provide Scalability in Product-Service Systems. In: The Sixth International Conference on Mobile Ubiquitous Computing, Systems, Services and Technologies, 2012, Barcelona. Anais of The Sixth International Conference on Mobile Ubiquitous Computing, Systems, Services and Technologies. Barcelona: IARIA, 2012. v. 1. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALMEIDA, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; Silveira, L. ; DREWS, Paulo ; Maffei, Renan ; <b>DUARTE FILHO, Nelson Lopes</b> ; BICHO, A. ; LONGARAY, M. . Using Space D* for Crowded Real Robots Environments. In: IEEE Latin American Robotic Systems - IEEE LARS, 2012, 2012, Fortaleza. Proceedings of IEEE Latin American Robotic Systems - IEEE LARS, 2012. New York: IEEE Xplore, 2012. v. 1. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORAES, F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . Parallel High Dimensional Self Organizing Maps Using CUDA. In: IEEE LARS, 2012, 2012, Fortaleza. Proceedings of IEEE Latin American Robotic Systems - IEEE LARS, 2012. New York: IEEE Xplore, 2012. v. 1. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HAX, V. ; <b>Duarte Filho, Nelson L.</b> ; MENDIZABAL, Odorico . ESTUDO DA VIABILIDADE DO ROS COMO PLATAFORMA PARA IOT. In: 10ª Escola Regional de Redes de Computadores, 2012, Pelotas. Anais da 10ª Escola Regional de Redes de Computadores, 2012. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silveira, L. ; Maffei, Renan ; BOTELHO, Silvia Silva ; Drews, Paulo Lilles ; <b>DUARTE FILHO, Nelson Lopes</b> ; BICHO, A. . Space D*: Um Algoritmo para Path Planning Multi-Robôs. In: ENIA - VIII Encontro Nacional de Inteligência Artificial, 2011, Natal. Anais do VIII Encontro Nacional de Inteligência Artificial, 2011. p. 51-62. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Silveira, L. ; Maffei, Renan ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; DREWS, Paulo ; <b>DUARTE FILHO, Nelson Lopes</b> ; BICHO, A. ; LONGARAY, M. . D*-Space: planejando caminhos para sistemas multi-robôs. In: X Simpósio Brasileiro de Automática, 2011, São João del Rey. X Simpósio Brasileiro de Automática, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CARVALHO, J. ; SANTOS, Rafael ; BOTELHO, Silvia Silva ; <b>Duarte Filho, Nelson L.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5015902272732269" target="_blank">OLIVEIRA, Rodrigo Ruas</a> ; Santos, E. . Hyper-Environments: A Different Way to Think about IoT. In: Internet of Things (iThings/CPSCom), 2011 International Conference on and 4th International Conference on Cyber, Physical and Social Computing, 2011, Dalian. Anais Internet of Things (iThings/CPSCom), 2011 International Conference on and 4th International Conference on Cyber, Physical and Social Computing, 2011. p. 25-32. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, D. P. ; BOTELHO, Silvia Silva ; <b>DUARTE FILHO, Nelson Lopes</b> . SAP-RISCO4D   Sistemas de Avaliação 4D para Projetos na Construção Naval. In: IV Seminário e workshop em Engenharia Oceânica, 2010, Rio Grande. Anais do IV Seminário e workshop em Engenharia Oceânica, 2010. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, D. P. ; BOTELHO, Silvia Silva ; <b>DUARTE FILHO, Nelson Lopes</b> . Modelagem de um Sistema de Visualização 4D na Construção Naval. In: 4MCSUL, 2010, Rio Grande. Anais do 4MCSUL, 2010. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, D. P. ; BOTELHO, Silvia Silva ; <b>DUARTE FILHO, Nelson Lopes</b> . SAP-RISCO4D: UM SISTEMA DE VISUALIZAÇÃO 4D PARA ACOMPANHAMENTO DE PROJETOS NA CONSTRUÇÃO NAVAL. In: 23  Congresso Nacional de Transporte Aquaviário, Construção Naval e Offshore, 2010, Rio de Janeiro. Anais do 23  Congresso Nacional de Transporte Aquaviário, Construção Naval e Offshore, 2010. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/CARPI.2010.5624410" target="_blank"></a>ESTRADA, Emanuel ; Silveira, L. ; Gonçalves, E. ; <b>DUARTE FILHO, Nelson Lopes</b> ; OLIVEIRA, V. ; BOTELHO, Silvia Silva . Autonomous navigation for underground energy line inspection robot. In: 1st International Conference on Applied Robotics for the Power Industry (CARPI), 2010, Montreal. Anais do 1st International Conference on Applied Robotics for the Power Industry (CARPI), 2010. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">Tyska, J</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7842573659301523" target="_blank">MARCOS, Pedro</a> ; Maffei, Renan ; OLIVEIRA, R. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5015902272732269" target="_blank">OLIVEIRA, Rodrigo Ruas</a> ; HAX, V. . A Multi-Cave Visualization System for Digital Manufacturing. In: INCOM 2009, 2009, Moscou. Anais di 13th IFAC Symposium on Information Control Problems in Manufacturing, 2009. p. 201-207. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOTELHO, Silvia Silva ; <b>DUARTE FILHO, Nelson Lopes</b> ; OLIVEIRA, Vinícius Menezes de ; MELLO JR, Claudio Dornelles ; ESTRADA, Emanuel ; GALERIANO, Marcelo ; CORREA, Ulisses ; DREWS, Paulo . TATUBOT - Sistema Robótico de Inspeção para Linhas de Distribuição Elétrica Subterrâneas. In: Simpósio Brasileiro de Sistemas Elétricos, 2008, Belo Horizonte. Anais do SBSE 2008. Belo Horizonte: Editora da Universidade Federal de Minas Gerais, 2008. v. CD-ROM. p. 100-105. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		MADRUGA, Felipe ; <b>DUARTE FILHO, Nelson Lopes</b> ; COELHO, Rafael ; PIAS, Marcelo . Estimando Atrasos em Redes de Computadores Através de Sistemas de Coordenadas - A Ferramenta Euclideana. In: Simpósio Brasileiro de Redes de Computadores - Salão de Ferramentas, 2008, Rio de Janeiro. Anais do SBRC 2008, 2008. v. cd-rom. p. 51-58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; <b>DUARTE FILHO, Nelson Lopes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">Tyska, J</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7842573659301523" target="_blank">MARCOS, Pedro</a> ; Maffei, Renan ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5015902272732269" target="_blank">OLIVEIRA, Rodrigo Ruas</a> ; OLIVEIRA, R. R. ; HAX, V. . Using Game Engines in Digital Manufacturing through Immersive and Collaborative Visualization Systems. In: VII SBGames, 2008, Belo Horizonte. Anais do Simpósio Brasileial ro de Jogos para Computador e Entretenimento Digital - 2008, 2008. p. 101-105. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESPINDOLA, Danubia ; BOTELHO, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">Tyska, J</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . SIM3D - Utilizando Realidade Virtual na Indústria Naval e Offshore. In: IV CONGRESSO RIO AUTOMAÇÃO, 2007, Rio de Janeiro. IV CONGRESSO RIO AUTOMAÇÃO, 2007. p. 220-227. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESPINDOLA, Danubia ; BOTELHO, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">Tyska, J</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . Visualização Distribuída de Plantas de Processo de Manufatura em Ambientes Imersivos: Um Caso de Estudo na Construção Naval e Offshore. In: Symposium in Virtual Reality, 2007, Petropolis. Symposium in Virtual Reality, 2007. p. 151-156. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ESPINDOLA, Danubia ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">Tyska, J</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . Distributed Visualization of Plants of Process of Distributed Visualization of Plants of Process of Manufacturing in Immersives Environments: A Case Study in the Shipbuilding and Offshore Structures Industries. In: OCEANS  '07 IEEE, 2007, Aberdeen, Escócia. OCEANS  '07 IEEE, 2007. p. 441-446. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOTELHO, Silvia Silva ; ESPINDOLA, Danubia ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">Tyska, J</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . Virtual Reality in Shipbuilding and Offshore Industries: challenges and possibilities. In: IFAC Conference on Cost Effective Automation in Networked Product Development and Manufacturing, 2007, Monterrey. IFAC Conference on Cost Effective Automation in Networked Product Development and Manufacturing, 2007. p. 180-185. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIANCO, G. D. ; VIEIRA, Jeison ; <b>DUARTE FILHO, Nelson Lopes</b> . Banco  de Dados em Memória sobre Clusters de Computadores. In: XXII CONGRESSO REGIONAL DE INICIAÇÃO CIENTÍFICA E TECNOLÓGICA EM ENGENHARIA E VII FEIRA DE PROTÓTIPOS, 2007, PASSO FUNDO. ANAIS DO CRICTE 2007, 2007. p. 20-24. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MADRUGA, Felipe ; COELHO, Rafael ; HAMERSKI, Jean Carlo ; PIAS, Marcelo ; <b>DUARTE FILHO, Nelson Lopes</b> . Estimando Atrasos em Redes de Computadores através de Sistemas de Coordenadas   A Ferramenta Euclideana. In: XXII CONGRESSO REGIONAL DE INICIAÇÃO CIENTÍFICA E TECNOLÓGICA EM ENGENHARIA E VII FEIRA DE PROTÓTIPOS, 2007, Passo Fundo. ANAIS DO CRICTE 2007, 2007. p. 25-29. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MADRUGA, Felipe ; COELHO, Rafael ; HAMERSKI, Jean Carlo ; PIAS, Marcelo ; <b>DUARTE FILHO, Nelson Lopes</b> . Estimando Atrasos em Redes de Computadores através de Sistemas de Coordenadas - Uma Implementação Utilizando Java Web Services. In: 5ª Escola Regional de Redes de Computadores, 2007, Santa Maria. ANAIS DA ERRC 2007, 2007. p. 31-37. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; ESPINDOLA, Danubia ; <b>DUARTE FILHO, Nelson Lopes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9494364044256921" target="_blank">Tyska, J</a> . Utilizando Realidade virtual na Visualização Colaborativa: Um Estudo de Caso na Automação dos Processos Industriais na Construção Naval/Offshore. In: Simpósio Brasileiro de Automação Inteligente, 2007, Florianópolis. Anais Simpósio Brasileiro de Automação Inteligente, 2007. p. 21-26. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAMAS, Thiago Pinto ; <b>DUARTE FILHO, Nelson Lopes</b> ; GOULART, Mario ; PÔRTO, Ingrid Jansch ; PEDONE, Fernando Lopes . Performace Aspects of a Probabilistic Resource Location Algorithm. In: 22º Simpósio Brasileiro de Redes de Computadores, 2004, Gramado. Anais SBRC 2004. p. 160-165. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CALHEIROS, Rodrigo Neves ; PEREIRA, Juliana Machado ; SANTOS, Rafael ; <b>DUARTE FILHO, Nelson Lopes</b> . Um Sistema para Reconhecimento de Padrões em Imagens Digitais Subaquáticas. In: XVIII CRICTE, 2003, Itajai. Anais do XVIII CRICTE, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MENDIZABAL, Odorico ; MEINHARDT, Cristina ; <b>DUARTE FILHO, Nelson Lopes</b> . Incluindo Tolerância a Falhas em Bancos de Dados. In: XVIII CRICTE, 2003, Itajai. Anais do XVIII CRICTE, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; PAULA E SILVA, L.A. ; DAMAS, Thiago Pinto ; de BEM, R. A. ; LAURINO, L. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7704573463056917" target="_blank">LOPES, E. C.</a> ; KAUTZMANN, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2580226435040472" target="_blank">MIRANDA, C. F.</a> ; MATA, M. ; BOTELHO, S. ; PICCOLI, H. C. ; GONÇALVES, G. A. . Computação de Alto Desempenho: Adquirindo Competência e Disseminando a sua Utilização. In: 2ª Escola Regional de Alto Desempenho, 2002, São Leopoldo - RS. ERAD 2002. Porto Alegre: SBC/Instituto de Informática da UFRGS/UNISINOS/ULBRA, 2002. p. 243-246. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REAL, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1131858526704034" target="_blank">REAL, M. V.</a> ; <b>DUARTE FILHO, Nelson Lopes</b> ; SALVADOR, O. R. ; YAMIN, A. . Unicluster: Uma Proposta ICP para PAD. In: 2ª Escola Regional de Alto Desempenho, 2002, São Leopoldo - RS. ERAD 2002. Porto Alegre: SBC/Instituto de Informática da UFRGS/UNISINOS/ULBRA, 2002. p. 295-298. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		PEDONE, Fernando Lopes ; <b>DUARTE FILHO, Nelson Lopes</b> ; GOULART, Mario . Probabilistic Queries in Large-Scale Networks. In: Fourth European Dependable Computing Conference, 2002, Toulouse - França. Anais EDCC-4, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; CALHEIROS, Rodrigo Neves . Reconhecimento Automático de Padrões Utilizando Redes Bayesianas: Uma Abordagem Paralela e Distribuída. In: Terceiro Workshop em Sistemas Computacionais de Alto Desempenho - WSCAD 2002, 2002, Vitória - ES. Anais do Terceiro Worshop em Sistemas Computacionais de Alto Desempenho, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CASA, M. E. ; KOEHLER, C. ; SANTOS, M. C. ; GONÇALVES, R. B. ; MARIANO, A. C. ; ARNOLD, G. V. ; RITZEL, M. ; <b>DUARTE FILHO, Nelson Lopes</b> . Proposta de Projeto Pedagógico para Bacharelado em Sistemas de Informação. In: III Curso de Qualidade 2001, 2001, Fortaleza - CE. III Curso de Qualidade 2001 - Planos Pedagógicos de Cursos na Área de Computação e Informática, 2001. p. 163-238. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, M. ; <b>DUARTE FILHO, Nelson Lopes</b> . Uma linguagem de programacão orientada ao problema do escalonamento temporal de eventos em sistemas de controle. In: XV CRICTE, 2000, Rio Grande. Anais do XV CRICTE, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHIMDT, R. ; ROCHA, F. L. ; RENON, F. ; <b>DUARTE FILHO, Nelson Lopes</b> . Sistema de transmissão de dados utilizando interface RS-232-C. In: XV CRICTE, 2000, Rio Grande. Anais do XV CRICTE, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, M. ; GERVINI, V. ; SALDO, P. ; GOMES, L. ; <b>DUARTE FILHO, Nelson Lopes</b> . Um modelo de sistemas de arquivos baseado em nodos dinamicamente alocados. In: XIV CRICTE, 1999, Santa Maria. Anais do XIV CRICTE, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHIMDT, R. ; <b>DUARTE FILHO, Nelson Lopes</b> . Registro clínico por computador para manejo de pacientes portadores de HIV e sistema especialista de apoio à decisão clínica. In: XIII CRICTE, 1997, Porto Alegre. Anais do XIII CRICTE, 1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SCHROEDER, G. ; ESPINDOLA, Danubia ; BOTELHO, Silvia Silva ; <b>DUARTE FILHO, Nelson Lopes</b> . Rastreamento e imersão 3d para visualização de estruturas navais e offshore. In: WES - Workshop on Embedded Systems for Oil, Gas and Energy Industry, 2012, Rio Grande. Anais WES 2012, 2012. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Santos, E. ; <b>Duarte Filho, Nelson L.</b> ; Botelho, Silvia S. C. . Rastreamento em Tempo Real em Ambientes de Construção e Montagem: o Caso da Indústria Naval. In: WES - Workshop on Embedded Systems for Oil, Gas and Energy Industry, 2012, Rio Grande. Anais WES 2012, 2012. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tavares, D.C. ; BOTELHO, Silvia Silva ; Marube, N.N. ; <b>DUARTE FILHO, Nelson Lopes</b> . Interactive Virtual Worlds in Brazilian Digital Television. In: EuroITV 2010, 2010. Anais of EuroITV 2010. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>DUARTE FILHO, Nelson Lopes</b> ; PEDONE, Fernando Lopes . DSMDB: A Distributed Shared Memory Approach for Building Replicated Database Systems. In: EuroSys 2008, 2008, Glasgow. Anais do 2nd Workshop on Dependable Distributed Data (WDDDM'08), 2008. p. 41-44. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> . RFID in Shipbuilding - Proposed Case Study Involving Shipyard in Brazil. In: IEEE RFID 2011, 2011, Orlando. Anais do IEEE RFID 2011, 2011. p. 50-51. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MADRUGA, Felipe ; COELHO, Rafael ; <b>DUARTE FILHO, Nelson Lopes</b> . Estimando Atraso em Redes de Computadores. In: VI MPU, 2007, Rio Grande. Anais da VI MPU, 2007. p. 50-50. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIEIRA, Jeison ; BIANCO, G. D. ; <b>DUARTE FILHO, Nelson Lopes</b> . Banco de Dados em Memória sobre Cluster de Computadores. In: VI MPU, 2007, Rio Grande. Anais da VI MPU, 2007. p. 51-51. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COELHO, Rafael ; <b>DUARTE FILHO, Nelson Lopes</b> . TV na Internet. In: VI MPU, 2007, Rio Grande. Anais do VI MPU, 2007. p. 52-52. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COELHO, Rafael ; <b>DUARTE FILHO, Nelson Lopes</b> . Computação de Alto Desempenho sobre Agregados de Computadores. In: V Mostra de Produção Universitária, 2006, Rio Grande. Anais da V MPU, 2006. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIEIRA, Jeison ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7842573659301523" target="_blank">MARCOS, Pedro</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . O Uso de Ferramentas de Teleconferência para Educação à Distância. In: V Mostra de Produção Universitária, 2006, Rio Grande. Anais da V MPU, 2006. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIEIRA, Jeison ; <b>DUARTE FILHO, Nelson Lopes</b> . Bancos de Dados em Memória sobre Clusters de Computadores. In: V Mostra de Produção Universitária, 2006, Rio Grande. Anais da V MPU, 2006. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HAMERSKI, Jean Carlo ; KORTING, Thales ; <b>DUARTE FILHO, Nelson Lopes</b> . Serviço de Estimativa de Atrasos e Criação de Mapas Topológicos em Redes de Computadores. In: XIV Congresso Iniciação Científica, 2005, Rio Grande. Anais da IV Mostra de Produção Universitária, 2005. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, Gerson ; MACHADO, Karina ; <b>DUARTE FILHO, Nelson Lopes</b> ; MALHEIROS, Alvaro ; KORTING, Thales ; PIAS, Marcelo . Mapas Topológicos para Redes de Computadores. In: XIX CRICTE, 2004, Curitiba. Anais do XIX CRICTE, 2004. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, Gerson ; MACHADO, Karina ; <b>DUARTE FILHO, Nelson Lopes</b> ; MALHEIROS, Alvaro ; KORTING, Thales ; PIAS, Marcelo . Medições Ativas em Redes de Computadores. In: XIX CRICTE, 2004, Curitiba. Anais do XIX CRICTE, 2004. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Rafael ; LINDER, Marcelo ; <b>DUARTE FILHO, Nelson Lopes</b> . Utilização de Redes Bayesianas no Reconhecimento de Padrões em Ambientes Subaquáticos. In: XIX CRICTE, 2004, Curitiba. Anais do XIX CRICTE, 2004. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KORTING, Thales ; <b>DUARTE FILHO, Nelson Lopes</b> . Utilizando Eigenfaces para Reconhecimento de imagens. In: XIX CRICTE, 2004, Curitiba. Anais do XIX CRICTE, 2004. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, Rafael ; CALHEIROS, Rodrigo Neves ; <b>DUARTE FILHO, Nelson Lopes</b> . Um Sistema para Reconhecimento de Padrões em Imagens Digitais Subaquáticas. In: XII Congresso Iniciação Científica - FURG, 2003, Rio Grande. II Mostra da Produção Universitária, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FALCÃO, Maicon ; <b>DUARTE FILHO, Nelson Lopes</b> . Gerenciamento Automatizado de Redes de Computadores através do Padrão WBEM . In: XII Congresso Iniciação Científica - FURG, 2003, Rio Grande. II Mostra da Produção Universitária, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CALHEIROS, Rodrigo Neves ; SANTOS, Rafael ; <b>DUARTE FILHO, Nelson Lopes</b> . Redes Bayesianas em Visão Computacional. In: XII Congresso Iniciação Científica - FURG, 2003, Rio Grande. II Mostra da Produção Universitária, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TEDESCO, Leonel ; SCHERER JR, Carlos ; <b>DUARTE FILHO, Nelson Lopes</b> . Uma Proposta de QOS para a Rede Wireless do Projeto Escuna . In: XII Congresso Iniciação Científica - FURG, 2003, Rio Grande. II Mostra da Produção Universitária, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, D. ; BEM, R. ; PINTO, F. ; ALBERTINI, B. ; SANTOS, Rafael ; <b>DUARTE FILHO, Nelson Lopes</b> . Análise Comparativa entre Algoritmos Paralelos para Obtenção de Números Primos. In: XVII CRICTE, 2002, Passo Fundo - RS. Anais do XVII CRICTE, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CALHEIROS, Rodrigo Neves ; <b>DUARTE FILHO, Nelson Lopes</b> . Reconhecimento Automático de Padrões com Redes Bayesianas e Programação Paralela e Distribuída. In: XVII CRICTE, 2002, Passo Fundo - RS. Anais do XVII CRICTE, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2580226435040472" target="_blank">MIRANDA, C. F.</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . Paralelização Automática de Código em Agregados de Computadores. In: XVII CRICTE, 2002, Passo Fundo - RS. Anais do XVII CRICTE, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LAURINO, L. S. ; MORAES, A. S. ; DAMAS, Thiago Pinto ; SILVA, L. ; BEM, R. ; KAUTZMANN, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2580226435040472" target="_blank">MIRANDA, C. F.</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . Disseminando a Utilização de Redes Locais de Computadores e Programamção Paralela e Distribuída na Resolução de Problemas de Engenharia. In: XVII CRICTE, 2002, Passo Fundo - RS. Anais do XVII CRICTE, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">REAL, R. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1131858526704034" target="_blank">REAL, M. V.</a> ; <b>DUARTE FILHO, Nelson Lopes</b> ; YAMIN, A. . Cálculo em Paralelo de Probabilidades de Falha Utilizando uma Proposta de ICP. In: XVI CRICTE, 2001, Ijui - RS. Anais do XVI CRICTE, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAMAS, Thiago Pinto ; PAULA E SILVA, L.A. ; <b>DUARTE FILHO, Nelson Lopes</b> . Implementação Paralela SPMD do Algoritmo Gradiente Conjugado Utilizando MPI. In: Congresso de Iniciação Científica UFPEL - UCPEL, 2001, Pelotas - RS. Anais do Congresso de Iniciação Científica UFPEL - UCPEL, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CALHEIROS, Rodrigo Neves ; <b>DUARTE FILHO, Nelson Lopes</b> . Programação Paralela - Adquirindo Competência para Disseminar a sua Utilização. In: Congresso de Iniciação Científica - FURG, 2001, Rio Grande. Anais do Congresso de Iniciação Científica - FURG, 2002. p. 297-297. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2580226435040472" target="_blank">MIRANDA, C. F.</a> ; <b>DUARTE FILHO, Nelson Lopes</b> . Programação Paralela Aplicada ao Tratamento de Imagens AVHRR/NOAA. In: Congresso de Iniciação Cintífica - FURG, 2001, Rio Grande. Anais do Congresso de Iniciação Científica - FURG. Rio Grande: FURG, 2002. p. 19-19. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOULART, Mario ; REAL, R. ; <b>DUARTE FILHO, Nelson Lopes</b> . Análise de recuperacão de falhas do sistema de arquivos ext2. In: XV CRICTE, 2000, Rio Grande - RS. Anais do XV CRICTE, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OTTONI, G. ; <b>DUARTE FILHO, Nelson Lopes</b> . Registros clínicos por computador para pacientes portadores de HIV e sistema especialista de apoio à decisão clínica. In: VI Congresso de Iniciacão Científica FURG/UFPEL/UCPEL, 1997, Rio Grande. Anais do VI CIC FURG/UFPEL/UCPEL, 1997. p. 132-132. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, F. ; EMMENDORFER, L. ; SCHRAMM, M. ; <b>DUARTE FILHO, Nelson Lopes</b> . Implementacão da estratégia link state para uma rede de computadores simulada. In: VI CIC FURG/UFPEL/UCPEL, 1997, Rio Grande. Anais do VI CIC FURG/UFPEL/UCPEL, 1997. p. 118-118. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OBELHEIRO, R. ; OLIVEIRA, V. ; ALBERNAZ, M. ; <b>DUARTE FILHO, Nelson Lopes</b> . Ferramenta para a simulacão de roteamento em redes de computadores utilizando algoritmo de vetor de distância. In: VI CIC FURG/UFPEL/UCPEL, 1997, Rio Grande. Anais do VI CIC FURG/UFPEL/UCPEL, 1997. p. 116-116. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BICHO, A. ; PIAS, Marcelo ; FÉRIS, R. ; <b>DUARTE FILHO, Nelson Lopes</b> . Implementacão de um algoritmo de roteamento não adaptativo. In: VI CIC FURG/UFPEL/UCPEL, 1997, Rio Grande. Anais do VI CIC FURG/UFPEL/UCPEL, 1997. p. 117-117. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NUNES, D. J. ; OUTROS ; <b>DUARTE FILHO, Nelson Lopes</b> . Diretrizes curriculares de cursos da área de computacão e informática 2000 (Documento de referência). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; OUTROS . Projetos pedagógicos e reformas curriculares - Texto para reflexão 2000 (Documento de referência). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XAVIER, I. M. ; OUTROS ; <b>DUARTE FILHO, Nelson Lopes</b> . Do pessimismo da razão para o otimismo da vontade: Referências para construcão dos projetos pedagógicos nas IES brasileiras 1999 (Documento de referência). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; MELLO JR, Claudio Dornelles ; ESTRADA, Emanuel ; <b>DUARTE FILHO, Nelson Lopes</b> ; OLIVEIRA, Vinícius Menezes de . Arquitetura TATUBOT. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; <b>DUARTE FILHO, Nelson Lopes</b> ; ESPINDOLA, Danubia ; CARVALHO, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5015902272732269" target="_blank">OLIVEIRA, Rodrigo Ruas</a> ; Maffei, Renan ; HAX, V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7842573659301523" target="_blank">MARCOS, Pedro</a> . SIM3D - Sistema de Visualização 3D para Manufatura. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, Silvia Silva da Costa</a> ; <b>DUARTE FILHO, Nelson Lopes</b> ; OLIVEIRA, D. P. . SAP-RISCO - Visualização. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; MADRUGA, Felipe ; COELHO, Rafael ; PIAS, Marcelo . Euclideana. 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ProdutosTecnologicos"></a>Produtos tecnológicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; BOTELHO, S. . CUDA - NVIDIA Compute Unified Device Architecture. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BOTELHO, S. ; MELLO JR, Claudio Dornelles ; <b>DUARTE FILHO, Nelson Lopes</b> ; ESTRADA, Emanuel ; OLIVEIRA, V. . Robô de Inspeção Subterrânea. 2008. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; PIAS, Marcelo ; MADRUGA, Felipe ; COELHO, Rafael . Estimando Atrasos em Redes de Computadores através de Sistemas de Coordenadas - Uma Implementação Utilizando Java Web Services. 2007. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> ; MADRUGA, Felipe ; COELHO, Rafael ; PIAS, Marcelo . Estudo sobre estimativa de banda disponível entre dois nodos de uma rede de computadores. 2007. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COELHO, Rafael ; MADRUGA, Felipe ; PIAS, Marcelo ; <b>DUARTE FILHO, Nelson Lopes</b> . Proposta de uma arquitetura de referência para o serviço de estimativa de atrasos. 2006. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HAMERSKI, Jean Carlo ; KORTING, Thales ; PIAS, Marcelo ; <b>DUARTE FILHO, Nelson Lopes</b> . Serviço de estimativa de atrasos e criação de mapas topológicos de rede. 2005. (Relatório de pesquisa). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> . Representante Intitucional (FURG) na Comissão Regional de Alto Desempenho do Rio Grande do Sul - CRAD/RS. 2002 (Atividades de P&D) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> . Vice-Coordenador do Fórum de Pró-Reitores de Graduação da Região Sul (FORGRAD). 2000 (Aividades consultivas e deliberativas) . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b> . Pesquisador Visitante na Universidade Federal de Pelotas (UFPEL). 1991 (Atividades de P&D) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Avaliação de cursos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b>. INEP - Avaliador de cursos superiores.
+							2006. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b>. MEC - Consultor ad hoc para autorização de cursos superiores.
+							1997. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b>. XII Wokshop de Educação em Computação.
+							2004.
+							Universidade Federal da Bahia. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b>. II Escola Regional de Redes de Computadores.
+							2004.
+							Centro Universitário La Salle - Canoas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>DUARTE FILHO, Nelson Lopes</b>. The 2003 ACM South America Programming Contest.
+							2003.
+							Universidade Federal de Mato Grosso do Sul. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Acosta. Sistema de Acompanhamento de Projetos de Construção Naval com Gerenciamento de Riscos.
+						Início: 2008.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Financiadora de Estudos e Projetos. (Co-orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mitchel  Felske. UM SISTEMA DE GERENCIAMENTO DE BANCOS DE DADOS EM MEMÓRIA, DISTRIBUÍDO   O dsmDB. Início: 2009. Iniciação científica (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro Botelho. Simulação de Sistemas de Construção Naval. Início: 2008. Iniciação científica (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande, Fundação de Apoio à Universidade do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinicius Hax. Simulação de Sistemas de Construção Naval. Início: 2008. Iniciação científica (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande, Fundação de Apoio à Universidade do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6752826120294642'><img src='images/curriculo/logolattes.gif' /></a>Edevaldo Braga dos Santos. Localização em tempo real aplicada a ambientes de construção e montagem.
+							2012.
+						
+					Dissertação  (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Nelson Lopes Duarte Filho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Tavares. Portando Ambientes 3D Interativos para a TV Digital.
+							2010.
+						
+					Dissertação  (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Co-Orientador: Nelson Lopes Duarte Filho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jeison Vieira. Bancos de Dados em Memória sobre Clusters de Computadores.
+							2009.
+						
+					Dissertação  (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, . Co-Orientador: Nelson Lopes Duarte Filho. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Danubia Espindola. Utilizando a Realidade Virtual como ferramentana Indústria de Construção Naval.
+							2007. 0 f.
+						
+					Dissertação  (Mestrado em Engenharia Oceânica)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Co-Orientador: Nelson Lopes Duarte Filho. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcio Jugueiro.
+							Um método para localização de recursos na Internet das Coisas utilizando o algoritmo probabilístico PSEARCH.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Frederico Araujo Spies.
+							GERENCIADOR DE ARMAZENAMENTO DISTRIBUÍDO   UM MÓDULO DE UM SGBD EM MEMÓRIA, DISTRIBUÍDO.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Diogo Paludo de Oliveira.
+							UMA FERRAMENTA PARA SISTEMAS 4D-CAD.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Financiadora de Estudos e Projetos. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinicius Alves Hax.
+							FOTORREALISMO EM AMBIENTES VIRTUAIS DE MANUFATURA USANDO RAY TRACING.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Financiadora de Estudos e Projetos. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Remor Oliveira.
+							A Utilização de Engines de Jogos como Ferramentas para Realidade Virtual.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jônata Tyska Carvalho.
+							A Utilização de Engines de Jogos como Ferramentas para Realidade Virtual.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alessandro Huber dos Santos.
+							Agilizando o Sistema de Apuração Eleitoral Utilizando Redes Mesh em Urnas Eletrônicas.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luana Machado Hohmann.
+							Sistema para Gerenciamento de Caches de Páginas em Memórias Compartilhadas Distribuídas.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme dal Bianco.
+							Bancos de Dados em Memória sobre Clusters de Computadores.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Financiadora de Estudos e Projetos. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Madruga.
+							Multicast na Camada de Aplicação em Redes Peer-to-Peer.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Coelho.
+							TV sobre Internet.
+							2007.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jeison Vieira.
+							Bancos de Dados em Memória sobre Redes de Computadores.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jean Carlo Hamerski.
+							NePlot3D - Serviço de Estimativa de Atrasos e Criação de Mapas Topológicos em Redes de Computadores.
+							2005. 66 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Santos.
+							Sistema de Reconhecimento de Padrões em Mosaicos Parciais Utilizando Redes Bayesianas.
+							2004. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jean Orengo.
+							EXEBOT - Execution Evironment for Bag of Tasks Applications.
+							2004. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gerson Nunes.
+							Sistema de Medições Ativas para Redes de Computadores.
+							2004. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Linder.
+							Redes Bayesianas em Visão Computacional Sub-Aquática.
+							2004. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Scherer Jr.
+							Estudo e Implantação de QoS em uma Rede de Computadores.
+							2003. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Neves Calheiros.
+							Reconhecimento de Padrões em Imagens Digitais Subaquáticas.
+							2003. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maicon Falcão.
+							Gerenciamento Automatizado de Redes de Computadores Através do Padrão WBEN.
+							2003. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Odorico Mendizabal.
+							Pronto - Protocolo Tolerante a Falhas para Bancos de Dados.
+							2003. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thiago Pinto Damas.
+							PSEARCH - Busca em Redes de Larga Distância.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Frederico Miranda.
+							Paralelização Automática de Código.
+							2002. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Araujo Real.
+							Unicluster: Uma Proposta de Internet Computing Platform para Processamento de Alto Desempenho.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mario Domenech Goulart.
+							Consultas Probabilísticas em Redes de LArga Escala.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cléo Zanella Billa.
+							Representação do Conhecimento Através de Redes Bayesianas.
+							2001. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Nunes.
+							Desenvolvimento de uma linguagem de programacão orientada ao problema do escalonamento temporal de eventos em sistemas de controle.
+							2000. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Raquel Coelho.
+							Estudo sobre agentes móveis e aplicacão em um sistema de banco de back up distribuído.
+							1999. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alessandro BIcho, Fabio Oliveira, Rogério Féris.
+							Implementacão de uma interface de linguagem natural para bancos de dados.
+							1998. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Pias.
+							Implementacão de uma rede dinâmica em nível de aplicacão.
+							1998. 0 f.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computacão)  - Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andre Tibola.
+							Computação de Alto Desempenho - Disponibilizando Recursos, Facilitando a Utilização e Treinando  Usuários.
+							2008.
+							Iniciação Científica. (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luana Machado Hohmann.
+							UM SISTEMA DE GERENCIAMENTO DE BANCOS DE DADOS EM MEMÓRIA, DISTRIBUÍDO   O dsmDB.
+							2008.
+							Iniciação Científica. (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Neves da Silva.
+							Computação de Alto Desempenho - Disponibilizando recursos, facilitando a utilização e treinando usuários.
+							2008.
+							Iniciação Científica. (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Frederico Araujo Spies.
+							Computação de Alto Desempenho - Disponibilizando recursos, facilitando a utilização e treinando usuários.
+							2008.
+							Iniciação Científica. (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Santos.
+							ALTO DESEMPENHO EM REDES LOCAIS ATRAVES DE PROGRAMACAO PARALELA E DISTRIBUIDA.
+							2003. 0 f.
+							Iniciação Científica. (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thales Korting.
+							TECSUB - Protótipo de um Robô de Inspeção Subaquático - Estratégias de Percepção e Navegação..
+							2003. 0 f.
+							Iniciação Científica. (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Neves Calheiros.
+							ALTO DESEMPENHO EM REDES LOCAIS ATRAVES DE PROGRAMACAO PARALELA E DISTRIBUIDA.
+							2002. 0 f.
+							Iniciação Científica. (Graduando em Engenharia de Computacão)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Coelho.
+							GigaIQoM - Infraestrutura de Medições para a Rede Giga - RNP.
+							2007. 0 f.
+							Orientação de outra natureza - Rede Nacional de Ensino e Pesquisa,
+							Rede Nacional de Ensino e Pesquisa. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pedro Marcos.
+							Sistemas de Teleconferência para Educação à Distância.
+							2007. 0 f.
+							Orientação de outra natureza - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Madruga.
+							GigaIQoM - Infraestrutura de Medições para a Rede Giga - RNP.
+							2006. 0 f.
+							Orientação de outra natureza - Rede Nacional de Ensino e Pesquisa,
+							Rede Nacional de Ensino e Pesquisa. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jeison Vieira.
+							Construção de um Sistema de Teleconferência.
+							2005. 0 f.
+							Orientação de outra natureza - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thales Korting.
+							GigaIQoM Infra-estrutura de Medições para Rede Giga
+.
+							2005. 0 f.
+							Orientação de outra natureza - Universidade Federal do Rio Grande,
+							Rede Nacional de Ensino e Pesquisa. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jean Carlo Hamerski.
+							GigaIQoM Infra-estrutura de Medições para Rede Giga.
+							2005. 0 f.
+							Orientação de outra natureza - Universidade Federal do Rio Grande,
+							Rede Nacional de Ensino e Pesquisa. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gerson Nunes.
+							Grupo de Trabalho Qualidade de Serviço 2 (GT-QoS2).
+							2004. 0 f.
+							Orientação de outra natureza - Universidade Federal do Rio Grande,
+							Rede Nacional de Ensino e Pesquisa. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Karina Machado.
+							Grupo de Trabalho Qualidade de Serviço 2 (GT-QoS2).
+							2004. 0 f.
+							Orientação de outra natureza - Universidade Federal do Rio Grande,
+							Rede Nacional de Ensino e Pesquisa. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alvaro Malheiros.
+							Gerenciando sítio da WEB.
+							2003. 0 f.
+							Orientação de outra natureza - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Nelson Lopes Duarte Filho.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:20:05</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=5369672706522008" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

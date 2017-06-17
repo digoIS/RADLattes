@@ -1,0 +1,3596 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Denise de Sena Pinho)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4790485J1&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=9970669597796920" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4790485J1&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4790485J1"><div class="infpessoa">
+<h2 class="nome">Denise de Sena Pinho</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/9970669597796920</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 07/10/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui Graduação em Licenciatura Plena em Matemática pela Universidade Federal do Rio Grande  - FURG (1995), Pós Graduação em Matemática pela Universidade Federal do Rio Grande - FURG (1998), Mestrado em Educação em Ciências e Matemática pela Pontifícia Universidade Católica do Rio Grande do Sul - PUCRS (2008). Professora Assistente no Instituto de Matemática, Estatística e Física.- IMEF/FURG. Coordenadora do Núcleo de Polos na Secretaria de Educação a Distância - SEAD/FURG.Coordenadora Adjunta do curso de Especialização para Professores de Matemática - SEAD/IMEF.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Denise de Sena Pinho<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PINHO, D. S.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Instituto de matematica, estatistica e fisica. <br class="clear" />Avenida Itália, 258<br class="clear" />Centro<br class="clear" />96201-900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32935109<br class="clear" />URL da Homepage: <a target="blank" href="http://www.furg.br">http://www.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Educação em Ciências e Matemática<span class="ajaxCAPES" data-param="&codigoCurso=42005019026P3&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Título: Material didático em um ambiente virtual de aprendizagem,Ano de Obtenção: 2008.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0407648694453994'><img src='images/curriculo/logolattes.gif' /></a>Regis Alexandre Lahm.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Material didático; Educação a distância; Interação.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Matemática<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>.  (Carga Horária: 360h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Matemática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Licenciatura Plena em Matemática<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pressupostos teórico-práticos da Gestão de Polos.  (Carga horária: 4h). <br class="clear" />Universidade Virtual Pública do Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação de Professores e Tutores EaD/FURG.  (Carga horária: 40h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Teleducação.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Proj. e Desv. de Material Educacional c/Flash MX.  (Carga horária: 24h). <br class="clear" />Universidade Federal do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Mini-cursos em Educação. <br class="clear" />Universidade Estadual do Rio Grande do Sul.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Aperfeiçamento em Física para Professores.  (Carga horária: 158h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Explorando o Cabri-Géomètre II.  (Carga horária: 40h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aperfeiçamento em Matemática para Professores.  (Carga horária: 200h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Atualização em Ensino de Física.  (Carga horária: 155h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 1992</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ciclo de Palestras em Álgebra.  (Carga horária: 30h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: pesquisador, Enquadramento Funcional: pesquisadora</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GEPEPUCRS - Grupo de Estudos e Pesquisa em Etnomatemática Lider do grupo: Dra. Isabel Cristina Machado de Lara Instituição: PUCRS Linhas de Pesquisa: aprendizagem, Ensino e Formação de Professores em Ciências e Matemática; Cultura, Epistemologia e Educação Científica.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Coordenadora Adjunta do curso POS/MAT</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenadora Adjunta do curso de Especialização para Professores de Matemática à Distância/IMEF</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Enquadramento funcional, Enquadramento Funcional: Colaboradora do PIBID</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Colaboradora do Programa de Incentivo a Iniciação a Docência (subprojeto da Matemática)</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Assistente do IMEF, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenadora Adjunta do Curso de Especialização a Distância para Professores de Matemática - 22/10/2010 a 12/2014 Coordenadora do Núcleo de Apoio aos Polos Presencias - SEaD Professora Assistente do Instituto de Matemática, Estatística e Física, atuação nos cursos Presenciais e a Distância</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Enquadramento funcional, Enquadramento Funcional: Coordenadora Adjunta do curso POS/MAT</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenadora Adjunta do Curso de Especialização a distância para Professores de Matemática.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Enquadramento funcional, Enquadramento Funcional: Coordenadora do PIBID</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenadora do Programa de Incentivo a Iniciação a Docência (subprojeto Matemática)</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor substituto, Enquadramento Funcional: Professora Departamento de Matemática, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">As seguintes disciplinas foram ministradas: Cálculo Diferencia e Integral II, Geometria Euclidiana, Tópicos de Geometria, Educação Matemática e História da Matemática.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , IMEF, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Etnomatemática'>Etnomatemática</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização para Professores de Matemática/EaD, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Trabalho de Conclusão de Curso<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Universidade Federal do Rio Grande, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Titular representante da IFES junto ao Conselho Municipal de Educação do município de Mostardas/RS.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de matematica, estatistica e fisica, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Integrante da Comissão de Criação do Curso de Licenciatura em Ciências Exatas do Campus de Santo Antônio da Patrulha.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Secretaria de Educação a Distância (SEaD), . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Núcleo de Formação Integrada na Secretaria de Educação a Distância.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Básica para Ciências Sociais I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas (Bacharel), Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução a Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Secretaria de Educação a Distância (SEaD), . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenação do Núcleo de Polos da Secretaria de Educação a Distância.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 02/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Básica para Ciências Sociais I<br class="clear" />Matemática para Economia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2013 - 9/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização para Professores de Matemática/EaD, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Metodologia da Pesquisa em Educação Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2013 - 07/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de matematica, estatistica e fisica, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Participou da elaboração do Projeto Pedagógico e proposição do Curso Licenciatura em Ciências da Universidade Federal do Rio Grande.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2013 - 07/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura em Ciências - EAD, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Interdisciplina : Fenômenos da Natureza I; Resolução de Problemas I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Instituto de matematica, estatistica e fisica, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Câmara de Extensão do Instituto de Matemática, Estatística e Física.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura em Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas (Bacharel), Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução da Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização para Professores de Matemática/EaD, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Metodologia para Ensino de Matemática<br class="clear" />Plano de Ação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 07/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Fundamentos de Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura em Química, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Elementos de Matemática I<br class="clear" />Elementos de Matemática II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Educação Ambiental, Nível: Aperfeiçoamento</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Alfabetização Digital<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2000 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial Integral II (anual)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2000 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Euclidiana (anual)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2000 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Tópicos de Geometria (semestral)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2000 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Educação Matemática (semestral)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2000 - 12/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />História da Matemática (anual)<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Pelotas, UFPEL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Pesquisa e Desenvolvimento</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividades executadas nos pólos de Turuçu e Cancuçu como parte da dissertação de mestrado.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - 10/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , CLMD, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Ambientes virtuais de aprendizagem'>Ambientes virtuais de aprendizagem</a><br class="clear" /><a href='#LP_Material didático para Educação a Distância'>Material didático para Educação a Distância</a><br class="clear" /><a href='#LP_Formação de professores'>Formação de professores</a><br class="clear" /><a href='#LP_Educação a Distância'>Educação a Distância</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Escola Municipal de Ensino Fundamental Senador Salgado Filho, SSF, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Matemática, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Física<br class="clear" />Matemática<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>E.E.de E.Fundamental e Médio Boaventura Ramos Pacheco, R.P., Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor de Física, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Ciências<br class="clear" />Matemática<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Instituto Estadual de Educação Juvenal Miller, IEEJM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professora de Física, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1995 - 02/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Física<br class="clear" />Matemática<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Colégio Equipe, CE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor de Física e Matemática, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/1995 - 12/1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Física<br class="clear" />Matemática<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Etnomatem&aacute;tica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Etnomatemática</div>
+</div><a name='LP_Ambientes virtuais de aprendizagem'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ambientes virtuais de aprendizagem</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Investigar a aprendizagem de forma interativa em ambientes virtuais nos cursos de graduação presencial e a distância.. <br class="clear" />Palavras-chave: Ambiente virtual de aprendizagem - interatividade.</div>
+</div><a name='LP_Material did&aacute;tico para Educa&ccedil;&atilde;o a Dist&acirc;ncia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Material didático para Educação a Distância</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Analisar e contribuir na elaboração de material didático para cursos oferecidos na modalidade Ead via ambiente virtual de aprendizagem. </div>
+</div><a name='LP_Forma&ccedil;&atilde;o de professores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formação de professores</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Contribuir  com a  formação de professores em cursos oferecidos na modalidade EaD,  contemplando os saberes docentes.. </div>
+</div><a name='LP_Educa&ccedil;&atilde;o a Dist&acirc;ncia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação a Distância</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Objetivo: Analisar e contribuir com a implementação de cursos nessa modalidade.. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Programa Institucional de Bolsa de Inicia&ccedil;&atilde;o &agrave; Doc&ecirc;ncia FURG (Subprojeto Matem&aacute;tica)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa Institucional de Bolsa de Iniciação à Docência FURG (Subprojeto Matemática)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto tem por objetivo aproximar a Universidade e Escolas da rede pública promovendo a iniciação à docência de graduandos de cursos de licenciatura, a formação continuada de professores da rede pública além de contribuir com as ações de ensino na educação básica.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Coordenador.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa - Bolsa.</div>
+</div><a name='PP_Problematizando e Integrando o Ensino de Matem&aacute;tica e F&iacute;sica na Educa&ccedil;&atilde;o B&aacute;sica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Problematizando e Integrando o Ensino de Matemática e Física na Educação Básica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto tem como objetivo a criação de um grupo composto por professores e acadêmicos vinculados aos cursos de graduação, lotados no IMEF, e cursos de pós-graduação da FURG, buscando a aproximação da Universidade com professores e escolas da Rede Pública pelo desenvolvimento de atividades pedagógicas que integram as áreas de Física e Matemática. Nesse sentido, o presente projeto visa, através da pesquisa, do ensino e da extensão, a contribuir com a formação inicial e continuada de professores, a fim de que se constituam críticos, criativos e reflexivos, nas áreas de matemática e física. Elaborar propostas didático-pedagógicas que integrem conceitos de física e matemática na perspectiva de inter-relacionar conteúdos, inserir tecnologias de informação e comunicação (TIC), explorar materiais concretos e atividades experimentais de baixo custo, tornando essas propostas acessíveis às escolas do Ensino Fundamental e Médio. Nesse contexto, o projeto potencializa o envolvimento de acadêmicos dos cursos de licenciatura (Matemática e Física), oportunizando a reflexão e sua formação profissional pela vivência no âmbito escolar. Durante o desenvolvimento do projeto, serão efetuados encontros semanais com os professores e acadêmicos, a fim de planejar e executar as ações do projeto, realizando os registros, tendo como propósito a pesquisa, a retomada reflexiva do processo realizado e a análise dos materiais desenvolvidos.
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (11)  / Mestrado acadêmico: (3)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Integrante / Valmir Heckler - Coordenador / Tanise Paula Novello - Integrante / Antônio Maurício Medeiros Alves - Integrante / Berenice Vahl Vaniel - Integrante / Débora Pereira Laurino - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_CRAF - Centro de Refer&ecirc;ncia em Apoio as Fam&iacute;lias em situa&ccedil;&atilde;o de pobreza'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CRAF - Centro de Referência em Apoio as Famílias em situação de pobreza<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente programa visa a mudar o foco de atuação no atendimento de famílias em situação de pobreza e vulnerabilidade social. Através da abordagem receptiva das pessoas, e da compreensão da situação das relações familiares, é encaminhando o procedimento necessário sempre no sentido reflexivo do diálogo, da construção de um novo caminho a partir do conflito posto em discussão, visualizando-o não como um estado fático inevitável, mas como uma crise que comporta profunda reflexão sobre a realidade social e os fatores externos que influenciam nas relações pessoais. Pretende-se possibilitar oportunidades de mudanças capazes de melhorar a qualidade de vida das pessoas e a convivência familiar e social. Neste compasso, o programa consiste na preparação e formação continuada dos acadêmicos para o desenvolvimento das atividades dos projetos do centro de referência. A abordagem de atendimento e de formação é multidisciplinar e têm por finalidade o acompanhamento das famílias para realizar interlocuções atinentes a educação familiar/parental e prevenção de expressões de violência.Tal intervenção objetiva atuar como suporte para o desenvolvimento das estratégias mediadoras, com a finalidade de apoiar e orientar maior consciência nas práticas parentais e na harmonização das relações familiares, com vistas a relações protetivas, de bom tratos e de cuidado do outro. O programa oferece também atendimento psicológico em casos de violência intrafamiliar e o atendimento jurídico-judicial quando necessário. Os projetos abarcados pelo programa são Mediação de Conflitos, Parentalidade Positiva, Prevenção a Violência, Assistência Jurídico-judicial. Ressalta-se o trabalho intersetorial do programa que possui caráter inter, multi e transdisciplinar.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Coordenador / Maria Ângela Mattar Yunes - Integrante / Angela Torma Pietro - Integrante / Narjara Mendes Garcia - Integrante / Sandra Helena Santos Azevedo - Integrante / Simone de Biazzi Avila Batista da Silveira - Integrante / Gabriela de Biazzi Avila Vieira - Integrante.<br class="clear" /></div>
+</div><a name='PP_CRAF /SAJ - Centro de Refer&ecirc;ncia em Apoio as Fam&iacute;lias'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CRAF /SAJ - Centro de Referência em Apoio as Famílias<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição:  O presente programa visa a mudar o foco de atuação no atendimento de famílias em situação de pobreza e vulnerabilidade social. Através da abordagem receptiva das pessoas, e da compreensão da situação das relações familiares, é encaminhando o procedimento necessário sempre no sentido reflexivo do diálogo, da construção de um novo caminho a partir do conflito posto em discussão, visualizando-o não como um estado fático inevitável, mas como uma crise que comporta profunda reflexão sobre a realidade social e os fatores externos que influenciam nas relações pessoais. Pretende-se possibilitar oportunidades de mudanças capazes de melhorar a qualidade de vida das pessoas e a convivência familiar e social. Neste compasso, o programa consiste na preparação e formação continuada dos acadêmicos para o desenvolvimento das atividades dos projetos do centro de referência. A abordagem de atendimento e de formação é multidisciplinar e têm por finalidade o acompanhamento das famílias para realizar interlocuções atinentes a educação familiar/parental e prevenção de expressões de violência.Tal intervenção objetiva atuar como suporte para o desenvolvimento das estratégias mediadoras, com a finalidade de apoiar e orientar maior consciência nas práticas parentais e na harmonização das relações familiares, com vistas a relações protetivas, de bom tratos e de cuidado do outro. O programa oferece também atendimento psicológico em casos de violência intrafamiliar e o atendimento jurídico-judicial quando necessário. Os projetos abarcados pelo programa são Mediação de Conflitos, Parentalidade Positiva, Prevenção a Violência, Assistência Jurídico-judicial. Ressalta-se o trabalho intersetorial do programa que possui caráter inter, multi e transdisciplinar.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Coordenador / Maria Ângela Mattar Yunes - Integrante / Simone Paludo - Integrante / Angela Torma Pietro - Integrante / Narjara Mendes Garcia - Integrante / Sandra Helena Santos Azevedo - Integrante / Simone de Biazzi Avila Batista da Silveira - Integrante / Gabriela de Biazzi Avila Vieira - Integrante.<br class="clear" /></div>
+</div><a name='PP_Educa&ccedil;&atilde;o Parental e Apoio &agrave;s Crian&ccedil;as e suas Fam&iacute;lias'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Educação Parental e Apoio às Crianças e suas Famílias<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A educação das crianças no ambiente familiar se configura como uma difícil tarefa diante da complexidade social que vivemos. As alterações na definição dos papéis, a multiplicidade das configurações familiares, as relações entre pais e filhos mais democráticas e horizontalizadas, o surgimento de novos conteúdos culturais, como o uso das tecnologias e o aumento do consumismo infantil, podem influenciar no aparecimento de um sentimento de desorientação e de perda de autoridade no exercício da parentalidade. Frente às diversas mudanças culturais e a necessidade de flexibilidade de acordo com situações cotidianas, surgem as estratégias e ações de Educação Parental. Estas ações pressupõem o apoio e a orientação de famílias sobre educação/ cuidado de crianças de forma responsável e protetiva. Este projeto tem como objetivos acolher, atender e orientar as famílias sobre cuidado infantil, práticas educativas protetivas, participação no espaço escolar e comunitário. A proposta inclui a aplicação do Programa de Educação Parental 'Crescer Felizes em Família', atendimentos e palestras nas comunidades, formação continuada sobre a temática para a equipe de acadêmicos do projeto e para os profissionais que integram a rede de educação e apoio social. A metodologia escolhida foi a 'Inserção Ecológica na Comunidade', que tem como estratégias a inserção da equipe em diferentes espaços comunitários, a interação com as famílias no ambiente escolar, o registro das vivências no diário de campo. A meta do projeto é promover a reflexão dos participantes sobre práticas educativas mais dialógicas e protetivas, no enfrentamento de negligências e violências intrafamiliares.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Integrante / Maria Ângela Mattar Yunes - Integrante / Angela Torma Pietro - Integrante / Narjara Mendes Garcia - Coordenador / Sandra Helena Santos Azevedo - Integrante / Simone de Biazzi Avila Batista da Silveira - Integrante / Gabriela de Biazzi Avila Vieira - Integrante / Ariane Siqueira da Silva - Integrante / Camila Bottero Corrêa - Integrante / Eliane Duarte de Lima - Integrante / Rosilene Souza Martins - Integrante / Pauline Apolinário Czarneski - Integrante.<br class="clear" /></div>
+</div><a name='PP_Capacita&ccedil;&atilde;o e forma&ccedil;&atilde;o continuada de coordenadores, docentes, tutores, profissionais multidisciplinares e t&eacute;cnicos para a&ccedil;&otilde;es de Educa&ccedil;&atilde;o a Dist&acirc;ncia na FURG'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação e formação continuada de coordenadores, docentes, tutores, profissionais multidisciplinares e técnicos para ações de Educação a Distância na FURG<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto é proposto pela Secretaria de Educação a Distância da FURG e consiste na realização da formação continuada em EaD, a qual compreende reuniões permanentes com os tutores a distância, tutores presenciais, encontros de capacitação, reuniões de orientação pedagógica com professores e oficinas permanentes. Essa formação é realizada pela Equipe Multidisciplinar da SEaD FURG, a qual aborda a questão metodológica em EaD e promove a orientação contínua para a produção e elaboração do material didático previsto, nas mais diversas formas de linguagem. A metodologia consiste na apresentação e discussão de temas conceituais e práticos relacionados à EaD, buscando a integração de todos os profissionais atuantes na EaD/FURG, bem como a apropriação da plataforma Moodle, onde são desenvolvidos os cursos. Todo material produzido na formação é disponibilizado para consulta e uso por todos os integrantes da SEaD, em um espaço definido na plataforma Moodle. A formação continuada é pautada em um processo participativo, cooperativo e autônomo para a construção e implementação de políticas para EaD na FURG.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Coordenador / Joice Araújo Esperança - Integrante / Valmir Heckler - Integrante / Fabio Alexandre Dziekaniak - Integrante / Joanalira Corpes Magalhães - Integrante / Karin Ritter Jelinek - Integrante / Aline Freire de Souza - Integrante / Karine Rodrigues Souza - Integrante / Maria Simone Martins Hornes - Integrante.<br class="clear" /></div>
+</div><a name='PP_A Escola que se Vive e a Escola que se Sonha'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A Escola que se Vive e a Escola que se Sonha<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto A ESCOLA QUE SE VIVE E A ESCOLA QUE SE SONHA: CULTIVANDO PAZ E SOLIDARIEDADE vincula-se às diretrizes do Projeto Escola que Protege, pois acontece dentro de casa e em locais que deveriam acolher e proteger, é uma tarefa que somente poderá ser cumprida pela mobilização de uma rede de proteção na qual a escola tem papel de destaque. A escola é um dos principais ambientes responsáveis pela transmissão da cultura e transformação das estruturas sociais. Portanto, as propostas pedagógicas devem estar ajustadas às necessidades das crianças, famílias e comunidades. Muitos governantes preocupam-se com a apresentação física, com os recursos materiais, com a quantidade de equipamentos e atualização da tecnologia educacional das escolas. Fica em segundo plano, a qualidade das relações entre o próprio corpo docente e dos docentes com seus alunos. Cabe, assim, a nós, agentes sociais e educadores, refletirmos se nos dias de hoje, enquanto organização social, as escolas estão instrumentalizadas para enfrentar as disfunções nas relações de poder e de confiança que se expressam nos casos de violência contra crianças e adolescentes. A escola deve estar atenta à seriedade destas situaçõesÉ preciso entender como as modalidades de violência são tratadas no ambiente escolar e buscar alternativas de mudanças Este projeto estabelece como prioridade básica a formação de professores e demais profissionais envolvidos com a educação para atuarem na garantia dos direitos de crianças e adolescentes de forma integrada com a rede social de proteção, tendo como objetivo formar cidadãos que busquem e promovam a paz.
+. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Integrante /  Simone de Biazzi Avila Silveira - Coordenador / Maria Ângela Mattar Yunes - Integrante / Simone Paludo - Integrante / Deise Munhoz - Integrante / Maria Cristina Juliano - Integrante / Angela Torma Pietro - Integrante / Narjara Mendes Garcia - Integrante.<br class="clear" /></div>
+</div><a name='PP_Oficinas de Forma&ccedil;&atilde;o Complementar Prolic/FURG'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Oficinas de Formação Complementar Prolic/FURG<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A valorização da escola, do magistério, bem como o investimento no trabalho docente são fatores fundamentais e urgentes para a reestruturação do sistema educacional brasileiro. Com o intuito de enfrentar estes desafios, as ações propostas por esse projeto visam à formação consistente e contextualizada do professor na sua área de atuação. Além disso, o projeto procura encurtar as distâncias geográficas entre os polos e a FURG, contribuir para a formação dos estudantes e oportunizar atividades complementares obrigatórias para o curso, visto que esses municípios têm carência de eventos na área.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Coordenador / Narjara Mendes Garcia - Integrante / Ezequiel Gibbon Gautério - Integrante / Marilia Nunes Dall'Asta - Integrante / Jurselém Carvalho Perez - Integrante / Valmir Heckler - Integrante / Elaine Corrêa Pereira - Integrante / Félix Afonso - Integrante / Luciano Medina Peres - Integrante.<br class="clear" /></div>
+</div><a name='PP_Ensino Integrado de Matem&aacute;tica e F&iacute;sica com aux&iacute;lio das Tecnologias de Informa&ccedil;&atilde;o e Comunica&ccedil;&atilde;o (TIC)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Integrado de Matemática e Física com auxílio das Tecnologias de Informação e Comunicação (TIC)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Sub - Projeto aprovado EDITAL Nº 15/2010, integrando o projeto da FURG/SEaD: "Fomento ao uso das tecnologias de comunicação e informação nos cursos de graduação" Rede de Convivência Digital: (RE) significando os modos de ensinar e aprender". O projeto trata da Criação e oferta da disciplina Ensino Integrado de Matemática e Física com auxílio das Tecnologias de Informação e Comunicação (TIC) na Plataforma Moodle para os cursos de graduação de licenciatura em Matemática e Física da Universidade Federal do Rio Grande (FURG).) . 
+. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (4)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Integrante / Cristina Machim Acosta - Integrante / Valmir Heckler - Coordenador / Rafael Augusto Penna dos Santos - Integrante / Josiane Nunes dos Santos - Integrante / Ademar Rodrigues de Moraes - Integrante / Ismael Batista Maidana Silvestre - Integrante.<br class="clear" />Financiador(es): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Bolsa - Bolsa.</div>
+</div><a name='PP_Ser Estudante em EaD: desafios e possibilidades'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ser Estudante em EaD: desafios e possibilidades<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente evento tem por finalidade promover a discussão sobre a necessidade de construir uma cultura de inclusão do estudante da modalidade EaD nas políticas estudantis, visando a igualdade dos direitos acadêmicos, profissionais e políticos considerando as especificidades desses estudantes. A fim de estimular reflexões sobre a postura do estudante em Educação a Distância este evento abordará questões teóricas e epistemológicas desta modalidade e incentivará a discussão sobre a importância da interação, da cooperação e da autonomia do estudante. Neste sentido, discute-se sobre como o ato de estudar, a administração do tempo e o desenvolvimento de uma visão crítica e problematizadora da própria aprendizagem constituem-se como possibilidades e desafios de ser estudante em Educação a Distância.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1)  / Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Integrante / Ezequiel Gibbon Gautério - Integrante / Berenice Vahl Vaniel - Integrante / Débora Pereira Laurino - Coordenador / Carmo Thum - Integrante / Elisa Girotti Celmer - Integrante / Paulo Gomes de Sousa Filho - Integrante.<br class="clear" /></div>
+</div><a name='PP_Forma&ccedil;&atilde;o Continuada em EaD'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Formação Continuada em EaD<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto é proposto pela Secretaria de Educação a Distância da FURG e consiste na realização da formação continuada em EaD, a qual compreende reuniões permanentes com os tutores a distância, tutores presenciais, capacitação geral, reuniões de orientação pedagógica com professores e oficinas permanentes. Essa formação é realizada pela Equipe Multidisciplinar da SEaD FURG, a qual aborda a questão metodológica em EaD e promove a orientação contínua para a produção e elaboração do material didático previsto, nas mais diversas formas de linguagem. A metodologia consiste na apresentação e discussão de temas conceituais e práticos relacionados à EaD, buscando a integração de todos os profissionais atuantes na EaD/FURG, bem como a apropriação da plataforma Moodle, onde são desenvolvidos os cursos. Todo material produzido na formação é disponibilizado para consulta e uso por todos os integrantes da SEaD, em um espaço definido na plataforma Moodle. A formação continuada é pautada em um processo participativo, cooperativo e autônomo para a construção e implementação de políticas para EaD na FURG.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Integrante / Joice Araújo Esperança - Integrante / Sicero Agostinho Miranda - Integrante / Valmir Heckler - Integrante / Fabio Alexandre Dziekaniak - Integrante / Tanise Paula Novello - Integrante / Antônio Maurício Medeiros Alves - Integrante / Berenice Vahl Vaniel - Integrante / Débora Pereira Laurino - Coordenador / Elisa Girotti Celmer - Integrante / Paulo Gomes de Sousa Filho - Integrante / Elaine Corrêa Pereira - Integrante / Joanalira Corpes Magalhães - Integrante / Ivete Martins Pinto - Integrante / Ana Carolina de Oliveira Salgueiro de Moura - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Grupo de Estudos e Pesquisa em Etnomatem&aacute;tica - GEPEPUCRS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo de Estudos e Pesquisa em Etnomatemática - GEPEPUCRS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O foco de muitas discussões acadêmicas e de eventos em diferentes áreas tem sido, ainda na primeira década do século XXI, a questão da diversidade. Nesses últimos anos, é possível perceber que não só a sociedade mudou, como também é possível observar cada vez mais indivíduos diversos, categorias diferentes de pessoas. Nessa mesma perspectiva, que questiona a diversidade dos indivíduos, o trabalho de Ubiratan D Ambrosio merece destaque. Para ele, a Matemática é parte integrante de nossas raízes culturais, inerentes a um processo civilizatório. A Matemática ensinada nas escolas, considerada como conhecimento matemático legitimado, tem suas origens na antiguidade mediterrânea, produzida historicamente há mais de 3000 anos. D Ambrosio propõe o Programa Etnomatemática o qual busca uma análise das diferentes teorias e práticas matemáticas em diversos ambientes culturais, incorporando a ele valores da humanidade, sintetizados numa ética de respeito, solidariedade e cooperação.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (7) Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Denise de Sena Pinho - Coordenador / Isabel Cristina Machado de Lara - Integrante / Andréia Dihl Moraes - Integrante / Eliane Maria Hoffmann Velho - Integrante / Fabiana Celente Montiel - Integrante / Jackson Luís Santos de Vargas - Integrante / Jonatha Daniel dos Santos - Integrante / Juliana Batista Pereira dos Santos - Integrante / Ketlin Kroetz - Integrante / Leandro Millis da Silva - Integrante / Mayara de Araujo Saldanha - Integrante / Priscila Maggi Homen - Integrante / Quele Daiane Ferreira Rodrigues - Integrante / Renata Vieira dos Santos - Integrante / Vicente Henrique de Oliveira Filho - Integrante / Leticia da Silva Pimentel - Integrante / Greice Borges Quequi - Integrante / Cláudia Silva da Silva Benetti - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PINHO, D. S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>PINHO, D. S.</b> ; RIBAS, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0407648694453994" target="_blank">LAHM, R. A.</a> . Ambiente virtual: uma proposta para construção de material didático. RENOTE. Revista Novas Tecnologias na Educação<sup><img id='16791916_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16791916' /></sup>, v. 5, p. 1-13, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16791916&volume=5&issue=&paginaInicial=1&titulo=Ambiente virtual: uma proposta para construção de material didático&sequencial=1&nomePeriodico=RENOTE. Revista Novas Tecnologias na Educação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIBAS, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		RIBAS, E. ; <b>PINHO, D. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0407648694453994" target="_blank">LAHM, R. A.</a> . A influência da linguagem virtual na linguagem virtual na linguagem formal de adolescente. RENOTE. Revista Novas Tecnologias na Educação<sup><img id='16791916_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16791916' /></sup>, v. 5, p. 1-13, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16791916&volume=5&issue=&paginaInicial=1&titulo=A influência da linguagem virtual na linguagem virtual na linguagem formal de adolescente&sequencial=2&nomePeriodico=RENOTE. Revista Novas Tecnologias na Educação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, N. M. ; <b>PINHO, D. S.</b> . Redes Sociais na Educação a Distância: Interação e Diálogo no Ambiente Virtual de Aprendizagem. In: Dilce Eclai de Vargas Gil Vicente. (Org.). Semana Acadêmica - Redes de Saberes e Saberes em Redes. 1ed.São Francisco de Paula: Cidadela, 2014, v. 1, p. 3-288. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; MACHADO, C. C. . Percepções Acerca do Pibid Matemática FURG. In: Maria do Carmo Galiazzi; Ioni Gonçalves Colares. (Org.). Percepções Acerca do Pibid Matemática FURG. 1ed.: Unijuí, 2013, v. 1, p. 201-216. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Educar pela pesquisa:conhecimento reconstrutivo. In: Danielle Monteiro Behrend e Narjara Mendes Garcia. (Org.). Contribuições da Didática para Construções dos Saberes Pedagógicos. 1ed.Rio Grande: FURG, 2012, v. 4, p. 47-58. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>PINHO, D. S.</b> . Desenvolvimento da visão espacial. In: José Carlos Pinto Leivas. (Org.). Curso de Geometria. Rio gRANDE: Editora FURG, 1999, v. , p. -. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, R. C. S. ; <b>PINHO, D. S.</b> ; MARTINEZ, M. L. . Interdisciplinaridade: desafios e potencialidades na educação a distância. In: Congresso Brasileiro de Ensino Superior a Distância, 2014, Florianapólis. ESUD 2014. Florianópolis: NUTEC-UFSC, 2014. v. 1. p. 3338-3509. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Saberes Docentes na Formação Acadêmico - Profissional: Experiência do Subprojeto PIBID da Matemática. In: XI Encontro Nacional de Educação Matemática - ENEM, 2013, Curitiba/PR. XI Encontro Nacional de Educação Matemática: Educação Matemática: Retrospectiva e Perspectiva, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Material didático na licencitura em matemática: percepções dos acadêmicos. In: Seminário Internacional de Educação em Ciências, 2012, Rio Grande. Seminário Internacional de Educação em Ciências. Rio Grande: FURG, 2012. v. 1. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; ACOSTA, C. M. . Interrelação entre o Ensino de Fíisca e Matemática:uma abordagem histórica. In: Seminário Internacional de Educação em Ciências, 2011, Rio Grande. Seminário Internacional de Educação em Ciências. FURG: FURG, 2011. v. 1. p. 1-3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. M. ; HARTWIG, S. C. ; ESPERANCA, J. A. . Contribuições do Núcleo de Apoio aos Polos para a Gestão em EAD. In: VIII Congresso Brasileiro de Ensino Superior a Distância, 2011, Ouro Preto - MG. VIII Congresso Brasileiro de Ensino Superior a Distância, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ANTIQUEIRA, L. S. ; <b>PINHO, D. S.</b> ; MEDEIROS, L. ; MONTE, L. R. ; MORAES, M. C. . O Aprendizado através da Experiência. In: V Congresso Internacional de Ensino da Matemática, 2010. Anais do V Congresso Internacional de Ensino de Matemática, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; ANTIQUEIRA, L. S. ; MEDEIROS, L. ; MACHADO, C. C. ; MORAES, M. C. ; ACOSTA, S. . Oficinas Educacionais auxiliando Professores da Educação Básica. In: III Jornada Nacional de Educação Matemática e XVI Jornda Regional de Educação Matemática,, 2010, Passo Fundo. III Jornada Nacional de Educação Matemática, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, B. ; DUARTE, C. F. ; MACHADO, C. C. ; <b>PINHO, D. S.</b> ; RICARDO, J. S. ; OLIVEIRA, M. ; PORTO, R. T. . A inserção de materiais concretos no ensino de Matemática. In: III Jornada Nacional de Educação Matemática e XVI Jornada Regional de Educação, 2010, Passo Fundo. Educação Matemática: tendências, desafios e perspectivas. Passo Fundo: Universidade de Passo Fundo, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MACHADO, C. C. ; <b>PINHO, D. S.</b> ; MONTE, L. R. ; MOCO, P. P. ; DAVILA, T. G. . Construção de sólidos geométricos no estudo de geometria espacial. In: III Jornada Nacional de Educação Matemática e XVI Jornada Regional de Edcuação Matemática, 2010, Passo Fundo. Educação matemática: tendências, desafios e perspectivas. Passo Fundo: Universidade de Passo Fundo, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; RIBAS, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0407648694453994" target="_blank">LAHM, R. A.</a> . Ambiente interativo: uma proposta para a construção de material didático. In: IV Congresso Internacional de Ensino de Matemática de Matemática, 2007, Canoas. IV Congresso Internacional de Ensino, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>PINHO, D. S.</b> ; RIBAS, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0407648694453994" target="_blank">LAHM, R. A.</a> . Objeto Educacional: uma proposta para Licenciatura em Matemática. In: XII Congresso Internacioanl de educação a distância, 2007, Curitiba. XII Congresso Internacional de educação a distância. Curitiba, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; MACHADO, C. C. ; SILVA, R. C. S. . Interação, Universidade e Escola: Uma possibilidade de qualificar a aprendizagem escolar e a formação de professores. In: XII Encontro sobre Investigação na Escola, 2013, Santa Maria. XII Encontro sobre Investigação na Escola, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; SILVA, M. L. M. . A influência do Jogo na Aprendizagem de Frações. In: XII Encontro sobre Investigação na Escola, 2013, Santa Maria. XII Encontro sobre Investigação na Escola, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; MACHADO, C. C. . Acadêmicos Da Licenciatura Em Matemática: Sistematização E Reflexão Acerca De Práticas Em Sala De Aula. In: XI Encontro sobre Investigação na Escola, 2012, Bagé/RS. Anais do XI Encontro sobre Investigação na Escola, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; PINHO, L. V. S. . Geração Digital: Percepções da Pesquisa em sala de aula. In: X Encontro sobre Investigação na Escola, 2010, Rio Grande. X Encontro sobre Investigação na Escola, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; ANTIQUEIRA, L. S. ; MONTE, L. R. ; MORAES, M. C. ; ACOSTA, S. . Oficina de matemática para Alunos Especiais. In: X Encontro sobre Investigação na Escola, 2010, Rio Grande. X Encontro sobre Investigação na Escola, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINEZ, M. L. ; MONTEIRO, K. ; SILVA, R. C. S. ; <b>PINHO, D. S.</b> . Formação Diferenciada do professor: vivências em sala de aula. In: X Encontro sobre Investigação na Escola, 2010, Rio Grande. Rodas de formaçao de professores em conversas de sala de aula. Rio Grande: Universidade Federal do Rio Grande, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORAES, M. ; MACHADO, C. C. ; <b>PINHO, D. S.</b> . O aprender da formação incial com a formação continuada. In: X Encontro sobre Investigação na Escola, 2010, Rio Grande. Rodas de formação de professores em conversas de sala de aula. Rio Grande: Universidade Federal do Rio Grande, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAVILA, T. G. ; PEDROTTI, V. ; SILVA, R. C. S. ; <b>PINHO, D. S.</b> . A geometria na formação dos professores das séries iniciais do Ensino Fundamental. In: X Encontro sobre Investigação na Escola, 2010, Rio Grande. Rodas de formação de professores em conversas de sala de aula. Rio Grande: Universidade Federal do Rio Grande, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DAVILA, C. G. ; MEDEIROS, L. ; MORAES, M. C. ; <b>PINHO, D. S.</b> . Situação - problema no cotidiano da Matemática. In: X Encontro sobre Investigação na Escola, 2010, Rio Grande. Rodas de formação de professores em conversas de sala de aula. Rio Grande: Universidade Federal do  Rio Grande, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . A simetria no universo. In: XVII EREM - Encontro Regional de Educação Matemática, 2005, São Leopoldo. A simetria no universo, 2005. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . A Contribuição do Núcleo de Polos/Sead para a expansão da EaD na FURG. In: II Seminário Diálogos em Educação a Distância  e XIII Encontro para ações em EaD, 2013, Rio Grande. Anais do II Seminário Diálogos em Educação a Distância e XIII Encontro para ações em EaD na FURG, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Aproximando o Estudante em EaD das Bibliotecas dos Polos. In: II Seminário Diálogos em Educação a Distância  e XIII Encontro para ações em EaD, 2013, Rio Grande. Anais do II Seminário Diálogos em Educação a Distância e XIII Encontro para ações em EaD na FURG, 2013. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Investigação sobre aprendizagem nas séries do primeiro grau. In: II Congresso de Iniciação Científica -FURG e UFPEL, 1993, Rio Grande. Iniciação Científica. Rio Grande: FURG, 1993. p. 46-46F. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Construção do Número pela Criança. In: Seminários sobre o Ensino de Matemática, 1992, Rio Grande. Construção do Número pela Criança, 1992. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. M. . Rede Social de Relações. 2014. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Saberes Docentes na Formação Acadêmico - Profissional: Experiência do Subprojeto PIBID da Matemática. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; MACHADO, C. C. ; SILVA, R. C. S. . Interação, Universidade e Escola: Uma possibilidade de qualificar a aprendizagem escolar e a formação de professores. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; SALCEDO, A. L. ; SAGGIOMO, L. . Organização de Eventos:potencializando espaços de formação nos polos. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Matemática na Vida. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; MACHADO, C. C. . Acadêmicos Da Licenciatura Em Matemática: Sistematização E Reflexão Acerca De Práticas Em Sala De Aula. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. M. ; AZEVEDO, S. H. S. . Experiências pedagógicas do núcleo de apoio aos polos. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Integração de atividades: Tecnologias Digitais na Mediação Pedagógica. 2012. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Material didático na licenciatura em matemática: percepções dos acadêmicos. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Interação sobre Família e Escola. 2012. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. F. . Reflexões sobre Formação de Identidade Docente do Professor(a) de Matemática. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. F. . Reflexão sobre Identidade docente do professor(a) de matemática. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. F. . Reflexões sobre a formação da identidade docente. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. F. . Oficina sobre Tendências da Educação Matemática e Teoria de Van Hille. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; ACOSTA, C. M. . Interrelação entre o ensino de Física e Matemática: Uma abordagem histórica. 2011. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Tendências da Educação Matemática e Teoria da Matemática. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. M. ; ESPERANCA, J. A. ; HARTWIG, S. C. . Contribuições do Núcleo de Apoio aos Polos para a Gestão em EAD. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Educação a Distância: Contexto Geral, Demandas e Papéis/Competências Emergentes. 2010. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; PINHO, L. V. S. . Geração Digital: Percepções da Pesquisa em sala de aula. 2010. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . ISO 9001 : 2000. 2008. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; RIBAS, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0407648694453994" target="_blank">LAHM, R. A.</a> . Objeto Educacional: Uma Proposta para Licenciatura em Matemática. 2007. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; SARTORI, A. M. ; OLIVEIRA, A. S. N. ; FOSS, S. R. ; AMARAL, T. J. . Aprendendo com os jornais. 2006. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Equações do 2º grau. 1994. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Geodésias e CIA. 1994. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Uma classificação de Cônicas e Quádricas. 1994. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . A Geometria na Biologia, na Física, na Química e na Geografia. 1993. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Dinâmica do Trabalho Acadêmico. 1993. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Seminários sobre o Ensino de Matemática. 1992. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>PINHO, D. S.</b> . Geometria Espacial.
+							2006. (Desenvolvimento de material didático ou instrucional - Material Didático). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>.  Participação em banca de Cleonice Lima Gautério. Os números, sua origem e importância para a humanidade. 2011. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>.  Participação em banca de Deise Teresinha Rodrigues Coelho. Imaginando alternativas, criando hipóteses: áreas de figuras planas e Teorema de Pitágoras. 2011. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>.  Participação em banca de Julneida Wyse Duarte. Aprendendo a Geometria com o uso do Material Concreto. 2011. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>.  Participação em banca de Maria Aparecida Berwanger de Andrade.Desempenho Escolar na Percepção dos Estudantes.
+							2012. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Matemática FURG/ PROLIC/EaD)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BAUER, D. M. A. L.; SCHMITT, M. L.; MALTA, D. S. O.; <b>PINHO, D. S.</b>. Seleção de tutor bolsista a ditãncia para curso de Administração.
+							2014.
+							Fundação Empresa Escola de Engenharia da UFRGS. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUSA FILHO, P. G.; OLIVEIRA, M. V.; ESPERANCA, J. A.; <b>PINHO, D. S.</b>. Seleção de tutor presencial para o Curso de Tecnologia da Informação e Comnicação.
+							2014.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUSA FILHO, P. G.; OLIVEIRA, M. V.; BORGES, D. S.; <b>PINHO, D. S.</b>. Seleção de tutor bolsista a distância para o Curso de Tecnologia da Informação e Comunicação.
+							2014.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>; GARCIA, N. M.; GAUTERIO, E. G.; SAVICKI, D. L.. Banca de Seleção de Tutor/Bolsista a Distância para atuar no curso de Especialização para professores de Matemática.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>; PEREIRA, A. E. L.; MACHADO, C. M. S.; MIRANDA, S. A.. Banca de Seleção de Tutor/Bolsista a Distância para atuar no curso de Especialização para professores de Matemática.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>; MACHADO, C. M. S.; MIRANDA, S. A.; SAVICKI, D. L.. Banca de Seleção de Tutor/Bolsista a Distância para atuar no curso de Especialização para professores de Matemática.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>; MACHADO, C. M. S.; MIRANDA, S. A.; DALLASTA, M. N.. Banca de Seleção de Tutor/Bolsista a Distância para atuar no curso de Especialização para professores de Matemática.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GARCIA, N. M.; DALLASTA, M. N.; PEREZ, J. C.; <b>PINHO, D. S.</b>. Banca de Seleção de Tutor/Bolsista a Distância para atuar no curso de Licenciatura em Matemática.
+							2012.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HECKLER, V.; ESPERANCA, J. A.; DZIEKANIAK, F. A.; <b>PINHO, D. S.</b>. Banca de Seleção de Tutor/Bolsista Presencial para atuar junto ao Núcleo de Capacitação.
+							2012.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>. XII Encontro para ações em EaD da FURG: Desafios para Institucionalização da EaD.
+							2012.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DALLASTA, M. N.; GARCIA, N. M.; PEREZ, J. C.; <b>PINHO, D. S.</b>. Banca de Seleção de Tutor/Bolsista a Distância.
+							2011.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mauren M.S.; Valmir Heckler; <b>PINHO, D. S.</b>. Banca de Seleção de Tutor - Bolsita - UAB/FURG Edital 002/2010.
+							2010.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>; Bárbara, Denicol. Banca de Seleção de Tutor/Bolsista para Curso de Pós em Matemática.
+							2010.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b>. Banca Avaliadora dos trabalhos de Iniciação Científica, Extensão e Ensino.
+							2010.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">HECKLER, V.; SILVA, M. P. M.; NOVELLO, T. P.; <b>PINHO, D. S.</b>. Banca de Seleção de Tutor/Bolsista a Distância.
+							2010.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIVA, M.; <b>PINHO, D. S.</b>; DZIEKANIAK, F. A.; HECKLER, V.. Banca de Seleção de Tutor/Bolsista a Distância.
+							2010.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMARAL, B. D.; <b>PINHO, D. S.</b>; PEREIRA, A. E. L.. Banca de Seleção de Tutor/Bolsista a Distância.
+							2010.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Congresso Brasileiro de Ensino Superior a Distância. Interdisciplinaridade: desafios e potencialidades na educação a distância. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário Diálogos em Educação a Distância  e XIII Encontro para ações em EaD.A Contribuição do Núcleo de Polos/Sead para a expansão da EaD na FURG. 2013. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Encontro Nacional de Educação Matemática - ENEM.Saberes Docentes na Formação Acadêmico - Profissional: Experiência do Subprojeto PIBID da Matemática.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XII Encontro sobre Investigação na Escola.Interação, Universidade e Escola: Uma possibilidade de qualificar a aprendizagem escolar e a formação de professores.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3ª Edição do Dia das Profissões do IMEF: O Mercado e Trabalho e o Desenvolvimento. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Palestra: Conhecimento matemático e capacidade de aprendizagem (Fernando Becker). 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Diálogos em Educação em Distância - XI Encontro para ações em EaD.Experiências pedagógicas do núcleo de apoio aos polos. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Internacional de Educação em Ciências.Material didático na licenciatura em matemática: percepções dos acadêmicos. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário de Formação dos Coordenadores de Polos UAB - RS. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XI Encontro sobre Investigação na Escola.Acadêmicos Da Licenciatura Em Matemática: Sistematização E Reflexão Acerca De Práticas Em Sala De Aula.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Encontro Independente de Coordenadores.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Projeto A Escola que se Vive e a Escola que se Sonha. 2012. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Congresso Brasileiro de Ensino Superior a Distância. Contribuições do Núcleo de Apoio aos Polos para a Gestão em EAD. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Internacional de Educação em Ciências.Interrelação entre o ensino de Física e Matemática: Uma abordagem histórica. 2011. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dia das Profissões do IMEF - O Mercado de Trabalho e os Desafios do Desenvolvimento. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Congresso Internacional de Ensino da Matemática. O aprendizado através da experiência. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário Educação a Distância.Educação a Distância: Contexto Geral, Demandas e Papéis/Competências Emergentes. 2010. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Encontro sobre Investigação na Escola.O aprender da Formação Inicial com a Formação Continuada.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Mostra da Produção Universitária, 2010,.Tangram Estimulando a Criatividade.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Jornada Nacional de Educação Matemática e XVI Jornda Regional de Educação Matemática,.OFICINAS EDUCACIONAIS AUXILIANDO PROFESSORES DA EDUCAÇÃO BÁSICA. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro Regional: A práxis da tutoria na Educação a Distância.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Processo de Implementação da ISO 9001:2000.ISO 9001:2000. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Congresso Internacional de Ensino de Matemática. Uma proposta para a construção de material didático. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">13º Congresso Internacional de Educação a Distância. Objeto Educacional: Uma Proposta para Licenciatura em Matemática. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oficina de Matemática. 2007. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Encontro sobre Investigação na Escola.Aprendendo com os jornais.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2ª Reunião Regional do SBPC no Rio Grande do Sul. 2006. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário Alternativas de Inclusão. 2005. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII EREM - Encontro Regional de Educação Matemática.A simetria no universo.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CEITEC - Fórum Internacional de Educação. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV EREM -  Encontro Regional de Educação Matemática.
+							2003. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminário sobre pesquisa qualitativa. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fórum Estadual de Licenciaturas em Matemática. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ciclo de Estudos sobre Assuntos Educacionais. 2001. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário das Licenciaturas.Reflexão sobre a Formação de Identidade do Professor de Matemática. 2001. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MATHEMA 2001: Ciclo de Estudos sobre Assuntos Educacionais. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Ciências e Matemática da Região Sul.
+							1994. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II EGEM - II Encontro Gaúcho de Educação Matemática.
+							1993. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Bolsistas de Iniciação Científica do Departamento de Matemática.
+							1993. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Encontro de Informática Educativa da URG.
+							1993. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminários sobre o Ensino de Matemática.Construção do Número pela Criança. 1992. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ciclo de Palestras em Álgebra. 1992. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Semana de Matemática. 1991. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3ª Semana de Matemática da FURG e 3ª Reunião Regional Sul da Sociedade Brasileira de Matemática (SBM). 1989. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . XIV Encontro para Ações em EaD. 2013. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Projeto A Escola que se Vive e a Escola que se Sonha: Cultivando paz e solidariedade. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . X Jornada de Estudos do CEP - Rua "A escola e seus entornos: tecendo redes protetoras. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . XII Encontro para ações em EaD da FURG: Desafios para Institucionalização da EaD. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Curso INTERVENÇÕES POSITIVAS PARA O APOIO AS FAMILIAS. 2012. (Outro).. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . CAPACITAÇÃO DE PROFESSORES E TUTORES PARA AÇÕES EM EDUCAÇÃO A DISTÂNCIA.. 2011. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . VI Capacitação de Professores e Tutores para ações de EaD. 2009. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pâmela Stumpf. Álgebra no oitavo ano: Concepções dos professores de Matemática sobre seu ensino e aprendizagem. Início: 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática/EaD)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Fernando da Silva. Introdução ao estudo dos grafos através de matrizes. Início: 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática/EaD)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daiana Isabel de Oliviera. Geometria  Analitíca: uma abordagem  artística no Ensino médio. Início: 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática/EaD)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduardo Martin. A matemática e os números negativos:. Início: 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática/EaD)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORGANA ALINE REINHEIMER. Entendendo os números Reais através da reta numérica. Início: 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática/EaD)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ariel Medeiros Espinosa. Estatística, através de uma prática esportiva. Início: 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática/EaD)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">http://www.espprofmat.uab.furg.br/. Aprendizagem da Matemática: percepções dos estudantes. Início: 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática/EaD)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">http://www.espprofmat.uab.furg.br/. Aprendizagem da Matemática: percepções dos estudantes. Início: 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática/EaD)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leticia Souza Terra.
+							Utilização de Materiais Concretos para a Aprendizagem da Geometria.
+							2011.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Odirlei Silveira de Farias.
+							Tangran: uma possível alternativa para o ensino de noção de frações.
+							2011.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Paula Cibele Garcia Gautério.
+							Resolução de Problemas: reflexões acerca do Ensino de Matemática.
+							2011.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rosana Maria Uzeika.
+							  Construção de Maquetes no Ensino Fundamental: relação entre estudo de frações e razão.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática FURG/ PROLIC/EaD)  - Universidade Federal do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cléria Vogt.
+							Construção do Número nas Séries Iniciais.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática FURG/ PROLIC/EaD)  - Universidade Federal do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vera Maria Lêsses.
+							- Aprendizagem significativa para estudo de frações com uso de material concreto.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática FURG/ PROLIC/EaD)  - Universidade Federal do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria de Lourdes Meinerz da Silva.
+							A influência do jogo na aprendizagem de frações.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Licenciatura em Matemática FURG/ PROLIC/EaD)  - Universidade Federal do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sindicato dos Empregados no Comércio do Rio Grande.
+							Curso de Revisão do Ensino Médio.
+							2002.
+							Iniciação Científica. (Graduando em MATEMÁTICA)  - Sindicato dos Empregados no Comércio do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Escola Municipal de Ensino Fundamental Mate Amargo.
+							Aulas de Apoio em Matemática.
+							2002.
+							Iniciação Científica - Escola Municipal de Ensino Fundamental Mate Amargo. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Instituto Estadual de Educação Juvenal Miller.
+							Aulas de Apoio em Matemática no Ensino Médio.
+							2002.
+							Iniciação Científica. (Graduando em MATEMÁTICA)  - Instituto Estadual de Educação Juvenal Miller. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Orfanato Maria Carmem.
+							Aulas de Apoio em Matemática.
+							2001.
+							Iniciação Científica. (Graduando em Matemática)  - Orfanato Maria Carmem. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Orientações de outra natureza</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sandra Helena Santos Azevedo.
+							Contribuições do Núcleo de Apoio aos Polos para a Gestão em EAD.
+							2012.
+							Orientação de outra natureza. (XI Mostra da Produção Científica)  - Universidade Federal do Rio Grande. Orientador: Denise de Sena Pinho.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. F. . Reflexões sobre Formação de Identidade Docente do Professor(a) de Matemática. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. F. . Reflexão sobre Identidade docente do professor(a) de matemática. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. F. . Reflexões sobre a formação da identidade docente. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; GARCIA, N. F. . Oficina sobre Tendências da Educação Matemática e Teoria de Van Hille. 2011. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> ; SALCEDO, A. L. ; SAGGIOMO, L. . Organização de Eventos:potencializando espaços de formação nos polos. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . Matemática na Vida. 2013. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<a name="OrganizacaoEventosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras </b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>PINHO, D. S.</b> . XIV Encontro para Ações em EaD. 2013. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Disciplinas concluídas como aluna especial do Programa de Pós Graduação Educação em Ciências: Quimica da Vida e Saúde /FURG, nível Doutorado.
+- TE EC: Matemática no Ciberespaço: formação e prática
+- Currículo, Cultura, Formação docente e Educação
+- Formação de professores: A biologia do conhecer
+
+Disciplina concluída como aluna especial do Programa de Pós Graduação em Informática na Educação/UFRGS, nível Doutorado.
+- Teleducação</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/03/2015 &agrave;s 24:44:08</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=9970669597796920" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

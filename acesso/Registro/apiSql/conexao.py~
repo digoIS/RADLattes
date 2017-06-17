@@ -1,0 +1,33 @@
+import psycopg2
+import fileinput
+
+class conexao:
+	parametros = None
+	"""
+	metodo open()
+	recebe o nome do banco de dados e instancia o objeto de conexao
+	@param name: nome do banco de dados
+	"""
+	@staticmethod
+	def __open (arquivoConfigBanco):
+		try:		
+			parametros = []
+			for linha in fileinput.input(arquivoConfigBanco):
+				linha = linha.replace("\r","")
+				linha = linha.replace("\n","")
+				#Divisao da linha
+				(p, v) = linha.split("=",1)
+				parametros.append((p, v))
+			print parametros
+		except:
+			pass
+
+	def close ():
+
+	def status():
+		if self.conexao == NULL:
+			print 'O sistema nao esta conectado a %s em %s' % (self.banco, self.host)
+			return
+		else:
+			print 'O sistema esta conectado a %s em %s' % (self.banco, self.host)
+		

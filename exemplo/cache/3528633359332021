@@ -1,0 +1,2994 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Karina dos Santos Machado)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=3528633359332021" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#MembroCorpoEditorial">Membro de corpo editorial</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4775431T6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4775431T6"><div class="infpessoa">
+<h2 class="nome">Karina dos Santos Machado</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/3528633359332021</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 12/11/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação em Engenharia de Computação pela Universidade Federal do Rio Grande (2004) e Mestrado (2007) e Doutorado (2011) em Ciências da Computação pela PUCRS. Atualmente é professora Adjunta na Universidade Federal do Rio Grande. Tem experiência na área de Ciência da Computação, atuando principalmente nos seguintes temas: Bioinformática, Mineração de Dados, Worflows Científicos, Bancos de Dados, Desenho Racional de Fármacos e Docagem Molecular.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Karina dos Santos Machado<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">MACHADO, K. S.;MACHADO, KARINA S.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, C3 - Centro de Ciências Computacionais. <br class="clear" />Fundação Universidade do Rio Grande<br class="clear" />Carreiros<br class="clear" />96203900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32336623<br class="clear" />URL da Homepage: <a target="blank" href="http://www.c3.furg.br/">http://www.c3.furg.br/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Ciência da Computação<span class="ajaxCAPES" data-param="&codigoCurso=42005019016P8&nivelCurso=D"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Título: Seleção Eficiente de Conformações de Receptor Flexível em Simulações de Docagem Molecular, Ano de obtenção: 2011. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0608337674042057'><img src='images/curriculo/logolattes.gif' /></a>Osmar Norberto de Souza. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Bioinformática; Mineração de Dados; Docagem Molecular; Receptor Flexível; Desenho Racional de Fármacos.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Ciência da Computação<span class="ajaxCAPES" data-param="&codigoCurso=42005019016P8&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	<br class="clear" />Título: Um Workflow Científico para a Modelagem do Processo de Desenvolvimento de Fármacos Assistido por Computador Utilizando Receptor Flexível,Ano de Obtenção: 2007.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0608337674042057'><img src='images/curriculo/logolattes.gif' /></a>Osmar Norberto de Souza.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Bioinformática; workflows; Drug Design; Docking Molecular; Mineração de Dados.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: AMADEUS - Automação da Distribuição da Energia Elétrica. <br class="clear" />Orientador: Síliva Silva da Costa Botelho. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante em Técnico em Processamento de Dados<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade da Região da Campanha.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Médio (2º grau)<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade da Região da Campanha.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1992 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Fundamental (1º grau)<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Escola Estadual de 1º Grau Gaspar Silveira Martins.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1991</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Fundamental (1º grau)<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Escola Saleciana de 1º e 2º Graus Nossa Senhora Auxiliadora.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">1º Escola de Bioinformática Estrutural da ULBRA.  (Carga horária: 70h). <br class="clear" />Universidade Luterana do Brasil, ULBRA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gerência de Workflows Científicos: teoria e pratic.  (Carga horária: 4h). <br class="clear" />Universidade Federal do Ceará.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Molecular Modelling and Dynamics.  (Carga horária: 8h). <br class="clear" />Universidade Federal do ABC.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mineração de dados em Bioinformática.  (Carga horária: 8h). <br class="clear" />Universidade Federal do ABC.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Inglês Elementar para Universitários.  (Carga horária: 40h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Adjunto Nível I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente Nível I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Graduanda, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23042P Princípios e Aplicações de Mineração de Dados<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, C3 - Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenadora Adjunta do Programa de Pós-graduação em Computação.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Automação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23010 Sistemas de Computação para Automação II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23002 Sistemas para Internet I<br class="clear" />23048 Sistemas de Informação Avançados<br class="clear" />23050 Projeto de Graduação em Sistemas de Informação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2012 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução a Bioinformática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2012 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução e Algoritmos para Biologia Computacional<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 08/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Aplicações para a Web, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />01084P Trabalho de Conclusão de Curso Esp Aplicações p Web - à Distância<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2012 - 07/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23042P Princípios e Aplicações de Mineração de Dados<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Tecnologia em Toxicologia Ambiental, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />15155 Bioinformática Aplicada à Toxicologia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Bioinformática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Aplicações para a Web, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23022 Programação e Gerência de Dados na Web<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23040 Sistemas de Computação II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - 12/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />23040 - Sistemas de Computação II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5/2002 - 3/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Departamento de Educação e Ciências do Comportamento, Ceamecim. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Bolsista. Apoio ao Projeto "A Educação Ambiental na Rede Telemática" e manutenção do laboratório de Informática do Ceamecim. Carga horária de 20 horas semanais.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/2001 - 12/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios , Departamento de Educação e Ciências do Comportamento, Ceamecim. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Bolsista. Manutenção do Laboratório do Ceamecim (Centro de Apoio e Melhoria ao Ensino de Ciências e Matemáitca). Carga horária de 12 hs semanais.. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Pontifícia Universidade Católica do Rio Grande do Sul, PUCRS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Livre, Enquadramento Funcional: Bolsista - Mestrado/Doutorado, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário em Docência, Carga horária: 4</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário em Docência, Carga horária: 6</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2007 - 03/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Pós-Graduação em Ciência da Computação, LABIO- Laboratório de Bioinformátic, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Um estudo sobre técnicas de mineração de dados aplicado à seleção de conformações'>Um estudo sobre técnicas de mineração de dados aplicado à seleção de conformações</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2005 - 03/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Pós-Graduação em Ciência da Computação, LABIO- Laboratório de Bioinformátic, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Um workflow científico para modelagem do processo de desenvolvimento de fármacos assistido por computador utilizando receptor flexível'>Um workflow científico para modelagem do processo de desenvolvimento de fármacos assistido por computador utilizando receptor flexível</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Rede Nacional de Ensino e Pesquisa, RNP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: bolsista, Enquadramento Funcional: Bolsista no Grupo de Trabalho GTQoS2 da RNP, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2004 - 2/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios Rede Nacional de Ensino e Pesquisa. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Instalação, configuração e manutenção de Software e Hardware e participação no grupo de trabalho GTQoS2(instalação e configuração de medidores ativos do fluxo de informações na rede de computadores da FURG e demais HOSTS da RNP) e GigaIqom (desenvolviment. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Fundação de Apoio à Universidade do Rio Grande, FAURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: bolsista, Enquadramento Funcional: bolsista, Carga horária: 20</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/2002 - 6/2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Apoio ao Projeto "TV na Escola e os Desafios de Hoje". </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Escola Monteiro Lobato, EML, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor, Enquadramento Funcional: Professor, Carga horária: 8</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 07/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Linguagens de Programação<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Micropoint Informática, MICROPOINT, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Estagiário, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1998 - 7/1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágios . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio realizado<br class="clear" />Desenvolvimento de um Software para a Assistância Técnica em Computadores da empresa. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Um estudo sobre t&eacute;cnicas de minera&ccedil;&atilde;o de dados aplicado &agrave; sele&ccedil;&atilde;o de conforma&ccedil;&otilde;es'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um estudo sobre técnicas de mineração de dados aplicado à seleção de conformações</div>
+</div><a name='LP_Um workflow cient&iacute;fico para modelagem do processo de desenvolvimento de f&aacute;rmacos assistido por computador utilizando receptor flex&iacute;vel'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um workflow científico para modelagem do processo de desenvolvimento de fármacos assistido por computador utilizando receptor flexível</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_UM FRAMEWORK PARA TRIAGEM VIRTUAL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">UM FRAMEWORK PARA TRIAGEM VIRTUAL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Entre as muitas áreas de pesquisa de Bioinformática, uma das mais importantes é o Desenho Racional de Fármacos (Rational Drug Design - RDD). Os grandes desafios dessa área abrangem o entendimento sobre o comportamento das macromoléculas biológicas receptoras como proteínas e como as mesmas interagem com diferentes pequenas moléculas ou ligantes, uma estratégia bastante difundida chamada de Triagem Virtual (Virtual Screening, VS). VS emprega métodos de docagem molecular para a análise dessa interação receptor-ligante testando in-silico diferentes possíveis inibidores para uma proteína-alvo. Atualmente, cada vez mais, há a necessidade de aproximar os experimentos in-silico dos experimentos in-vitro, tornando as ferramentas computacionais empregadas cada vez mais próximas do que acontece na realidade. Nesse sentido, no processo de RDD é preciso considerar que em condições fisiológicas, as biomoléculas experimentam vários tipos de movimentos e de mudanças conformacionais muitas vezes cruciais para suas funções. Para a execução de um experimento de VS é necessário, além do receptor-alvo (rígido ou flexível), um conjunto de compostos que pode ser obtido de diferentes bases de dados públicas. Entretanto, também é necessária a seleção desses compostos, de forma que nem todos sejam utilizados na triagem virtual para determinado alvo. Além do problema de consideração da flexibilidade dos receptores e da seleção de compostos, em alguns estudos pode acontecer de não se conhecer exatamente o sítio de ligação do alvo, ou seja, não se sabe a melhor região de ligação para realizar o teste com os compostos candidatos a inibidores. Neste caso, é necessário também investigar todo o espaço conformacional do alvo, aumentando a complexidade desse tipo de experimento. Há atualmente diferentes ferramentas de VS, entretanto essas ferramentas executam localmente e os pesquisadores não conseguem facilmente modificar os parâmetros de execução de um experimento de VS nem selecionar um conjunto de conformações do receptor ou um conjunto de ligantes. Propõem-se neste projeto o desenvolvimento de um framework Web para a configuração de experimentos de triagem virtual que sejam apropriados para diferentes objetivos e que permitam que novas funcionalidades sejam adicionadas conforme a necessidade dos pesquisadores.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Coordenador / Vinicius Rosa Seus - Integrante.<br class="clear" />Número de orientações: 1</div>
+</div><a name='PP_APLICA&Ccedil;&Atilde;O DE MINERA&Ccedil;&Atilde;O DE DADOS EM TRIAGEM VIRTUAL COM RECEPTOR FLEX&Iacute;VEL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">APLICAÇÃO DE MINERAÇÃO DE DADOS EM TRIAGEM VIRTUAL COM RECEPTOR FLEXÍVEL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Entre as muitas áreas de pesquisa de Bioinformática, uma das mais importantes é o Desenho Racional de Fármacos (Rational Drug Design - RDD), um processo onde os custos e o tempo envolvidos são altos. Os grandes desafios dessa área abrangem o entendimento sobre o comportamento das macromoléculas biológicas receptoras como proteínas e como as mesmas interagem com diferentes pequenas moléculas ou ligantes, uma estratégia bastante difundida chamada de Triagem Virtual (Virtual Screening, VS). VS emprega métodos de docagem molecular para a análise dessa interação receptor-ligante testando in-silico diferentes possíveis inibidores para uma proteína-alvo. Há atualmente inúmeros bancos de dados de possíveis candidatos a inibidores da proteína-alvo de estudo. Um dos Bancos de Dados mais populares é o ZINC, que disponibiliza atualmente mais de 20 milhões de moléculas em um formato apropriado para VS. Entretanto, o grande desafio desse tipo de abordagem é o tempo necessário para executá-lo, uma vez que analisar a interação in-silico de 20 milhões de compostos com cada proteína-alvo tem um alto custo computacional. Sendo assim, neste projeto são estudados métodos de seleção de compostos químicos mais promissores utilizando para isso diferentes técnicas de mineração de dados.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Coordenador / Giovanni X. Perazzo - Integrante / Vinicius Rosa Seus - Integrante.<br class="clear" /><br class="clear" />Número de produções C, T & A: 1 / Número de orientações: 2</div>
+</div><a name='PP_Workflow Cient&iacute;fico para a Execu&ccedil;&atilde;o de Din&acirc;mica Molecular'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Workflow Científico para a Execução de Dinâmica Molecular<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O comportamento das macromoléculas biológicas pode ser modelado por programas de simulação por dinâmica molecular (DM) como o pacote GROMACS. Esse pacote de código e acesso livre, é utilizado para a execução de DM, gerando um conjunto de diferentes estruturas ao longo do tempo, chamada de trajetória dinâmica. Este projeto tem por objetivo a instalação e utilização do pacote GROMACS para a execução de simulações por DM em ambiente Linux e o desenvolvimento de um workflow científico para automatização desse processo, incluindo a etapa de aplicação de mineração de dados nessa grande quantidade de dados gerada. Esse estudo será realizado tendo como alvo uma importante proteína do Mycobacterium Tuberculosis.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Coordenador / Luisa Rodrigues Cornetet - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Rio Grande - Bolsa.Número de orientações: 1</div>
+</div><a name='PP_Agrupamento de Estruturas de Prote&iacute;nas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agrupamento de Estruturas de Proteínas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Uma forma de tratar os dados biológicos que estão sendo produzidos de forma a gerar informação útil é a aplicação
+de mineração de dados. Uma das técnicas de mineração de dados mais empregadas é a de Agrupamento, que consiste no processo de agrupar objetos físicos ou abstratos em classes de objetos similares. As trajetórias de simulação por dinâmica molecular (DM) geram uma grande quantidade de estrutura de proteínas, muitas vezes similares, que precisam ser tratadas de forma a reduzir esse espaço conformacional. Sendo assim, este projeto tem por objetivo o estudo e implementação de diferentes algoritmos de agrupamento aplicados aos dados resultantes de uma trajetória de simulação por DM.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Coordenador / Leonardo Emmendorfer - Integrante / Núbia Souza Prates - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.Número de orientações: 1</div>
+</div><a name='PP_Um estudo do efeito da flexibilidade expl&iacute;cita dos mutantes I21V e I16T da enzima InhA de M. tuberculosis na docagem molecular'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um estudo do efeito da flexibilidade explícita dos mutantes I21V e I16T da enzima InhA de M. tuberculosis na docagem molecular<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo geral deste projeto é contribuir para o entendimento detalhado do papel da flexibilidade explícita dos receptores, obtidas por meio de trajetórias de simulações pela dinâmica molecular, na interação com pequenas moléculas do tipo fármaco.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Integrante / Osmar Norberto de Souza - Coordenador / Elisângela Machado Leal Cohen - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div><a name='PP_Um ambiente de descoberta de conhecimento em banco de dados para docagem molecular utilizando receptor flex&iacute;vel'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um ambiente de descoberta de conhecimento em banco de dados para docagem molecular utilizando receptor flexível<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A abordagem proposta para endereçar esses problemas é a de construção de um ambiente de KDD para tratar o grande volume de dados envolvidos. Pretende-se explorar técnicas de mineração de dados e, em especial, pretende-se concentrar esforços sobre técnicas de preparação de dados, de modo a aumentar a qualidade dos dados a serem utilizados pelos algoritmos de mineração e, por conseqüência, tentar acelerar a identificação de ligantes promissores para o tratamento da tuberculose (contribuição de indiscutível aplicação social). Ao buscar desenvolver maneiras de otimizar os experimentos in-silico e tentar diminuir o número de docagens moleculares, objetiva-se contribuir para a redução do tempo de desenvolvimento de novos fármacos como, por exemplo, para o tratamento da tuberculose.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Integrante / Osmar Norberto de Souza - Integrante / Duncan Dubugras Alcoba Ruiz - Coordenador / Ana Trindade Winck - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 7</div>
+</div><a name='PP_AMADEUS - Arquitetura Modular para a Automa&ccedil;&atilde;o da Distribui&ccedil;&atilde;o de Energia El&eacute;trica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AMADEUS - Arquitetura Modular para a Automação da Distribuição de Energia Elétrica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Estudo e desenvolvimento de uma arquitetura modular visando a automação da distribuição de energia elétrica. O projeto passa pelo estudo de sistemas EMS e SCADA visando o desenvolvimento de um sistema completo interligando a gerência das informações.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Integrante / Giseli Rabello Lopes - Integrante / SIDNEI ROBERTO SELZLER FRANCO - Integrante / Sílvia Silva da Costa Botelho - Coordenador.<br class="clear" />Financiador(es): Agência Nacional de Energia Elétrica - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_Grupo de Trabalho Qualidade de Servi&ccedil;o 2 (GT-QoS2)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo de Trabalho Qualidade de Serviço 2 (GT-QoS2)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A proposta desta nova etapa do GT é desenvolver pilotos de medições passivas com placas de captura, de medições ativas com a plataforma AMP / OWAMP, além de análise dos dados coletados pelo Netflow. O objetivo principal é a implementação de QoS fim-a-fim utilizando a arquitetura de serviços diferenciados, o que implica na configuração de todas as redes envolvidas nos experimentos. Outro objetivo é a implantação de um sistema de SLA (service level agreements) entre todas as redes participantes do piloto de serviços, bem como um sistema de monitoração destes serviços e dos SLAs. O SLA é um acordo feito entre o cliente e o provedor de serviço sobre os níveis de qualidade do serviço que o cliente está contratando. O sistema é capaz de monitorar a rede e acompanhar se o provedor está seguindo o acordo. O GT propõe ainda a realização de testes com o serviço scavenger, dessa vez colocando o serviço em operação, em caráter experimental, para avaliação de qual a banda mínima para que o serviço seja funcional e não prejudique os demais.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Integrante / Gerson Leiria Nunes - Integrante / Nelson Lopes Duarte Filho - Coordenador.<br class="clear" />Financiador(es): Rede Nacional de Ensino e Pesquisa - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 4</div>
+</div><a name='PP_Estudo sobre L&oacute;gica Fuzzy - Aplica&ccedil;&atilde;o da L&oacute;gica Fuzzy no Controle de Rob&ocirc;s M&oacute;veis'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo sobre Lógica Fuzzy - Aplicação da Lógica Fuzzy no Controle de Robôs Móveis<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo deste trabalho é utilizar a lógica Fuzzy no projeto de controladores para robôs móveis, de modo específico, para robôs omnidirecionais (robôs que apresentam mobilidade completa no plano sem a necessidade de reorientação das rodas) do time de futebol de robôs da FURG (FURGBOL).. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Integrante / Giseli Rabello Lopes - Integrante / Vinicius Menezes Oliveira - Coordenador.<br class="clear" /><br class="clear" />Número de produções C, T & A: 2</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_REVISTA JUNIOR DE INICIA&Ccedil;&Atilde;O CIENT&Iacute;FICA EM CI&Ecirc;NCIAS EXATAS E ENGENHARIA - ICCEEg'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">REVISTA JUNIOR DE INICIAÇÃO CIENTÍFICA EM CIÊNCIAS EXATAS E ENGENHARIA - ICCEEg<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A inclusão de alunos de graduação em atividades de Iniciação Científica (IC), a partir de projetos de pesquisa, é uma forma de desenvolver nesses alunos algumas características fundamentais para sua vida profissional, seja ela voltada para a indústria, ou para a academia. Pode-se citar, por exemplo, o trabalho autônomo, a capacidade de fazer revisão bibliográfica e a busca por soluções inovadoras para problemas existentes. Contudo, toda a pesquisa, para ser conhecida pela comunidade científica, deve ser publicada. Publicar um artigo não é algo trivial, pois exige o conhecimento de uma linguagem científica adequada, uma metodologia a ser aplicada e os requisitos de publicação de cada veículo de divulgação. E os veículos existentes para que os alunos de iniciação científica posam publicar normalmente aceitam apenas resumos de trabalhos. Desta maneira, existe uma lacuna para alunos em início e meio de curso, com atividades inicias de pesquisa ou que não ainda não foram iniciados. Outro ponto importante durante o processo de publicação de um artigo é o processo de revisão dos mesmos. Esse é um processo complexo e com um nível de aprendizado bastante alto, pois envolve estudo de trabalhos relacionados clássicos e no estado da arte, a compreensão do assunto descrito no artigo (a inovação envolvida na proposta) e um posicionamento com base teórica sobre o trabalho descrito no artigo. Além disso, a avaliação envolve entender e questionar sobre a forma e a metodologia adotadas pelo artigo.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (15)  / Mestrado acadêmico: (20) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Integrante / Diana F. Adamatti - Coordenador /  Graçaliz Pereira Dimuro - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_ESCUNA - Escola Comunidade Universidade'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ESCUNA - Escola Comunidade Universidade<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O Projeto ESCUNA visa informatizar todas as escolas municipais da cidade de Rio Grande, com a devida preparação dos professores com o curso de especialização.. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (15)  / Especialização: (15)  / Mestrado acadêmico: (0)  / Mestrado profissionalizante: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Karina dos Santos Machado - Integrante / Ivete Pinto Martins - Integrante / Silvia Silva da Costa Botelho - Integrante / Débora Laurino - Coordenador / Carlos Adail Sherer Jr - Integrante.<br class="clear" />Financiador(es): Banco Nacional de Desenvolvimento Econômico e Social - Auxílio
+										financeiro / Prefeitura Municipal de Rio Grande - Cooperação.<br class="clear" />Número de produções C, T & A: 1</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="MembroCorpoEditorial">
+<h1>Membro de corpo editorial</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Revista Jr de Iniciação Científica em Ciências Exatas e Engenharia</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Bioinformática. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Workflows. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Mineração de Dados. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Banco de Dados. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professora homenageada da Primeira Turma de Sistemas de Informação, Universidade Federal do Rio Grande. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprovação com Louvor em Doutorado em Ciência da Computação, PPGCC - Pontifícia Universidade Católica do Rio Grande do Sul. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Aprovação em 1  lugar em Concurso Público para cargo de docente em magistério superior - Sistemas Distribuídos, Universidade Federal do Rio Grande - FURG.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Best Poster Award - X meeting 2007, 3º International Conference of the Brazilian Association of Bioinformatics and Computational Biology. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Honra ao Mérito, Universidade da Região da Campanha. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Barros, R. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/1471-2105-13-310" target="_blank"></a>Barros, R. C. ; Winck, A. T. ; <b>MACHADO, K. S.</b> ; Basgalupp, M.P. ; Carvalho, A. C. P. L. F. ; Ruiz, D. D. ; Norberto de Souza, O . Automatic design of decision-tree induction algorithms tailored to flexible-receptor docking data. BMC Bioinformatics<sup><img id='14712105_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14712105' /></sup>, v. 13, p. 310-325, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/1471-2105-13-310&issn=14712105&volume=13&issue=&paginaInicial=310&titulo=Automatic design of decision-tree induction algorithms tailored to flexible-receptor docking data&sequencial=1&nomePeriodico=BMC Bioinformatics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, K. S.;MACHADO, KARINA S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/widm.46" target="_blank"></a><b>MACHADO, K. S.</b> ; WINCK, A. T. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Mining flexible-receptor molecular docking data. Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery<sup><img id='19424787_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19424787' /></sup>, p. n/a-n/a, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/widm.46&issn=19424787&volume=&issue=&paginaInicial=n/a&titulo=Mining flexible-receptor molecular docking data&sequencial=2&nomePeriodico=Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, K. S.;MACHADO, KARINA S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/1471-2164-12-S4-S6" target="_blank"></a><b>MACHADO, K. S.</b> ; Schroeder, Evelyn K ; Ruiz, Duncan D ; Cohen, Elisângela ML ; Norberto de Souza, Osmar . FReDoWS: a method to automate molecular docking simulations with explicit receptor flexibility and snapshots selection. BMC Genomics<sup><img id='14712164_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14712164' /></sup>, v. 12, p. S6-1-10, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/1471-2164-12-S4-S6&issn=14712164&volume=12&issue=&paginaInicial=S6&titulo=FReDoWS: a method to automate molecular docking simulations with explicit receptor flexibility and snapshots selection&sequencial=3&nomePeriodico=BMC Genomics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Cohen, Elisangela ML</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/1471-2164-12-S4-S7" target="_blank"></a>Cohen, Elisangela ML ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3713459809920718" target="_blank">Cohen, Marcelo</a> ; Norberto de Souza, Osmar . Effect of the explicit flexibility of the InhA enzyme from Mycobacterium tuberculosis in molecular docking simulations. BMC Genomics<sup><img id='14712164_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14712164' /></sup>, v. 12, p. S7-1-10, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/1471-2164-12-S4-S7&issn=14712164&volume=12&issue=&paginaInicial=S7&titulo=Effect of the explicit flexibility of the InhA enzyme from Mycobacterium tuberculosis in molecular docking simulations&sequencial=4&nomePeriodico=BMC Genomics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, K. S.;MACHADO, KARINA S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/1471-2164-11-S5-S6" target="_blank"></a><b>MACHADO, K. S.</b> ; WINCK, A. T. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Mining flexible-receptor docking experiments to select promising protein receptor snapshots. BMC Genomics<sup><img id='14712164_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='14712164' /></sup>, v. 11, p. S6-1-10, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/1471-2164-11-S5-S6&issn=14712164&volume=11&issue=&paginaInicial=S6&titulo=Mining flexible-receptor docking experiments to select promising protein receptor snapshots&sequencial=5&nomePeriodico=BMC Genomics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WINCK, A. T. ; <b>MACHADO, K. S.</b> ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Processo de KDD aplicado à bioinformática.. In: Adriano C. Machado Pereira; Gisele Lobo Pappa. Marco Winckler; Roberta Lima Gomes.. (Org.). Tópicos em sistemas colaborativos, multimídia, web e banco de dados.. Porto Alegre: Sociedade Brasileira de Computação, 2010, v. 1, p. 159-180. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WERLANG, P. ; FAGUNDES, M. Q. ; ADAMATTI, D. F. ; <b>MACHADO, K. S.</b> ; GROLL, A. V. ; SILVA, P. E. A. ; WERHLI, A. V. . Multi-Agent-Based Simulation of Mycobacterium tuberculosis growth. In: 14th International Workshop on Multi-Agent-Based Simulation, 2013, Saint Paul - USA. MABS 2013, 2013. p. 1-10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TROINA, S. S. ; <b>MACHADO, K. S.</b> . DBModeler: Um sistema web para criação, manutenção e consulta de diagramas de bancos de dados. In: IX Escola Regional de Banco de Dados, 2013, Camburiú. IX Escola Regional de Banco de Dados, 2013. v. 1. p. 1-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WINCK, A. T. ; QUEVEDO, C. V. ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> ; RUIZ, D. D. A. . A Comparative Analysis of Public Ligand Databases Based on Molecular Descriptors. In: Brazilian Symposium on Bioinformatics, 2012, Campo Grande. LNBI-LNCS. Advances in Bioinformatics and Computational Biology. Berlin: Springer-Verlag, 2012. v. 7409. p. 156-167. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Winck, A. ; <b>MACHADO, K. S.</b> ; RUIZ, D. D. A. ; STRUBE de LIMA, V. L. . Association Rules to Identify Receptor and Ligands Structures thourgh Named Entities Recognition. In: The Twenty Third International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems, 2010, Córdoba. Trends in Applied Intelligent Systems. IEA/AIE 2010 Part III LNAI-LNCS. Berlin: Springer-Verlag, 2010. v. 6098. p. 119-128. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>MACHADO, K. S.</b> ; WINCK, A. T. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Comparison of Discretization Methods of Flexible-Receptor Docking Data for Analyses by Decision Trees. In: IADIS International Conference Applied Computing, 2010, Timisoara. Applied Computing, 2010. v. 1. p. 223-229. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WINCK, A. T. ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> ; RUIZ, D. D. A. . Supporting Intermolecular Interaction Analyses of Flexible-Receptor Docking Simulations. In: IADIS International Conference Applied Computing, 2010, Timisoara. Applied Computing, 2010. p. 183-190. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-540-85557-6" target="_blank"></a><b>MACHADO, K. S.</b> ; SCHROEDER, E. K. ; RUIZ, D. D. A. ; Winck, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Extracting Information from Flexible Receptor-Flexible Ligand Docking Experiments. In: III Brazilian Simposium on Bioinformatics, 2008, Santo André. LNBI-LNCS. Advances in Bioinformatics and Computational Biology.. Berlin: Springer-Verlag, 2008. v. 5167. p. 104-114. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; SCHROEDER, E. K. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Automating Molecular Docking with Explicit Receptor Flexibility Using Scientific Workflows. In: 2nd Brazilian Symposium on Bioinformatics, 2007, Angra dos Reis. LNBI-LNCS. Advances in Bioinformatics and Computational Biology.. Berlin: Springer-Verlag, 2007. v. 4643. p. 1-11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LOPES, Giseli Rabelo ; ALMEIDA, Ígor Lorenzato de ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4041211770858318" target="_blank">MATA, Maurício Magalhães</a> . SAAV - Uma Ferramenta para Avaliação. In: Congresso Brasileiro de Computação, 2004, Itajaí. IV Congresso Brasileiro de Computação, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; TEDESCO, Leonel Pablo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6398615776166771" target="_blank">SCHROEDER, Greyce Nogueira</a> ; SCHERER JUNIOR, Carlos Adail ; NUNES, Marcelo Pereira . Modelagem e Implementação do Banco de Dados do Projeto ESCUNA usando TCM e PostgreSQL. In: IV Fórum Internacional de Software Livre, 2003, Porto Alegre. Anais IV Workshop sobre Software Livre, 2003. p. 151-154. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabello ; ALMEIDA, Ígor Lorenzato ; MATA, Maurício . SISTEMA AUTÔNOMO DE AVALIAÇÃO. In: XVIII Congresso Regional De Iniciação Científica e Tecnológica, 2003, Itajaí-SC, 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2480362.2480613" target="_blank"></a>PERAZZO, GIOVANNI XAVIER ; WINCK, ANA T. ; <b>MACHADO, KARINA S.</b> . A data warehouse as an infrastructure to mine molecular descriptors for virtual screening. In: the 28th Annual ACM Symposium, 2013, Coimbra. Proceedings of the 28th Annual ACM Symposium on Applied Computing - SAC &apos;13. New York: ACM Press. v. 2. p. 1335-1336. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BERNARDI, C. A. C. ; MADALOSSO, O. M. ; CHARAO, A. S. ; WINCK, A. T. ; <b>MACHADO, K. S.</b> . Análise de Profilers para Programas em Java: Estudo de Caso Aplicado ao Algoritmo M5P do Software Weka. In: XIII Simpósio em Sistemas Computacionais (WSCAD-SSC), 2012, Petrópolis, RJ. Anais do XIII Simpósio em Sistemas Computacionais, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; WINCK, A. T. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Discretization of Flexible-Receptor Docking Data. In: Brazilian Symposium on Bioinformatics, 2010, Búzios. LNBI-LNCS. Advances in Bioinformatics and Computational Biology.. Berlin: Springer-Verlag, 2010. v. 6268. p. 75-79. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Winck, A. ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> ; RUIZ, D. D. A. . FReDD: supporting mining strategies though a flexible-receptor docking database.. In: IV Brasilian Symposium on Bioinformatics, 2009, Porto Alegre. LNBI-LNCS. Advances in Bioinformatics and Computational Biology.. Berlin: Springer-Verlag, 2009. v. 5676. p. 143-146. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; SCHROEDER, E. K. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Extracting information from flexible ligand-receptor docking experiments. In: X-Meeting 3rd Conference of the Brazilian Association for Bioinformatics and Computational Biology, 2007, São Paulo. Annals of 3rd Conference of the Brazilian Association for Bioinformatics and Computational Biology, 2007. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PERAZZO, G. X. ; WINCK, A. T. ; <b>MACHADO, K. S.</b> . Application Of Data Mining To Select Promising Compounds Based on Molecular Descriptors. In: 8th International Conference of the Brazilian Association for Bioinformatics and Computational Biology, 2012, Campinhas-SP. X-Meeting 2012 -, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cornetet, L. R. ; WERHLI, A. V. ; <b>MACHADO, K. S.</b> . A Scientific Workflow for Performing Molecular Dynamics Simulation. In: Xmeeting, 2011, Florianópolis. 2011 Abstract book, 2011. p. 152-152. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cornetet, L. R. ; <b>MACHADO, K. S.</b> . Workflow Científico para Dinâmica Molecular. In: 10º Mostra da Produção Universitária, 2011, Rio Grande. 10º Mostra da Produção Universitária, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WINCK, A. T. ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> ; RUIZ, D. D. A. . A Context-Based Preprocessing on Flexible-Receptor Docking Data. In: ISCB Latin America 2010, 2010, Montevideo. International Society for Computational Biology Latin America Conference, 2010. p. 68-68. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">QUEVEDO, C. V. ; WINCK, A. T. ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> ; RUIZ, D. D. A. . A Study of Molecular Descriptor to Rank Candidate Ligands to Inhibit the InhA Receptor. In: ISCB Latin America 2010, 2010, Montevideo. International Society for Computational Biology Latin America Conference, 2010. p. 79-79. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; WINCK, A. T. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Applying Model Trees on Flexible-Receptor Docking Experiments to select promising protein receptor snapshots. In: ISCB Latin America, 2010, Montevideo. International Society for Computational Biology Latin America Conference, 2010. p. 66-66. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COHEN, E. M. L. ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . The effect of InhA flexibility in docking simulations with ethionamide and triclosan. In: ISCB Latin America, 2010, Montevideo. International Society for Computational Biology Latin America Conference, 2010. p. 73-73. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; SCHROEDER, E. K. ; RUIZ, D. D. A. ; COHEN, E. M. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . FREDOWS: A METHOD TO AUTOMATE MOLECULAR DOCKING SIMULATIONS WITH EXPLICIT RECEPTOR FLEXIBILITY AND SNAPSHOTS SELECTION. In: 6th International  Conference of the Brazilian Association for  Bioinformatics and Computational Biology, 2010, Ouro Preto, MG. Abstracts Book, 2010. p. 90-90. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COHEN, E. M. L. ; <b>MACHADO, K. S.</b> ; COHEN, M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . EFFECT OF THE EXPLICIT FLEXIBILITY OF THE INHA ENZYME FROM MYCOBACTERIUM TUBERCULOSIS IN MOLECULAR DOCKING SIMULATIONS. In: 6th International  Conference of the Brazilian Association for  Bioinformatics and Computational Biology, 2010, Ouro Preto. Abstracts Book, 2010. p. 44-44. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; MALHEIROS, Alvaro Fernando Cassol ; NUNES, Gerson Leiria ; KORTING, Thales ; DUARTE FILHO, Nelson Lopes ; PIAS, Marcelo . FERRAMENTA PARA A VISUALIZAÇÃO DE TOPOLOGIAS DE REDES. In: III Mostra da Produção Universitária FURG, 2004, Rio Grande, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabelo ; ALMEIDA, Ígor Lorenzato ; MATA, Maurício M . SAAV - INOVANDO O PROCESSO DE AVALIAÇÃO. In: III Mostra da Produção Universitária FURG, 2004, Rio Grande, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; NUNES, Gerson Leiria ; MALHEIROS, Álvaro Fernando Cassol ; KORTING, Thales ; DUARTE FILHO, Nelson Lopes ; PIAS, Marcelo . SISTEMA DE MEDIÇÕES ATIVAS PARA REDES DE COMPUTADORES. In: III Mostra da Produção Universitária FURG, 2004, Rio Grande, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; FRANCO, Sidnei Roberto Selzler ; LOPES, Giseli Rabelo ; BOTELHO, Sílvia Silva da Costa . AMADEUS: um Sistema para Automação da Distribuição de Energia Elétrica. In: III Mostra da Produção Universitária FURG, 2004, Rio Grande. III Mostra da Produção Universitária FURG, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabelo ; OLIVEIRA, Vínicius M . APLICAÇÃO DE LÓGICA FUZZY NO CONTROLE DE ROBÔS MÓVEIS. In: XVIII Congresso Regional De Iniciação Científica e Tecnológica, 2003, Itajaí-SC, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabelo ; OLIVEIRA, Vinicius Menezes . Aplicação de Lógica Fuzzy no Controle de Robôs Móveis. In: II Mostra de Produção Universitária FURG, 2003, Rio Grande, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabelo ; ALMEIDA, Ígor Lorenzato ; MATA, Maurício . Sistema Autônomo de Avaliação. In: II Mostra de Produção Universitária FURG, 2003, Rio Grande, 2003. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> . Docagem Molecular como ferramenta para busca de novos fármacos. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cornetet, L. R. ; WERHLI, A. V. ; <b>MACHADO, K. S.</b> . A Scientific Workflow for Performing Molecular Dynamics Simulation. 2011. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; WINCK, A. T. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Discretization of Flexible-Receptor Docking Data. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; WINCK, A. T. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Applying Model Trees on Flexible-Receptor Docking Experiments to select promising protein receptor snapshots.. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">COHEN, E. M. L. ; <b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . The effect of InhA flexibility in docking simulations with ethionamide and triclosan. 2010. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; SCHROEDER, E. K. ; Winck, A. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Extrating Information from Flexbile Receptor-Flexible Ligand docking experiments. 2008. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; SCHROEDER, E. K. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Automating Molecular Docking with Explicit Receptor Flexibility Using Scientific Workflows. 2007. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; SCHROEDER, E. K. ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Extracting information from flexible ligand-receptor docking experiments. 2007. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; NUNES, Gerson Leiria ; MALHEIROS, Álvaro Fernando Cassol ; KORTING, Thales ; DUARTE FILHO, Nelson Lopes ; PIAS, Marcelo . SISTEMA DE MEDIÇÕES ATIVAS PARA REDES DE COMPUTADORES. 2004. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; ALMEIDA, Ígor Lorenzato ; LOPES, Giseli Rabelo ; MATA, Mauricio M . Sistema Autônomo de Avaliação. 2003. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabelo ; OLIVEIRA, Vinicius Menezes . Aplicação de Lógica Fuzzy no Controle de Robôs Móveis. 2003. (Apresentação de Trabalho/Outra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> ; BREDA, A. ; <b>MACHADO, K. S.</b> ; SCHROEDER, E. K. . Introdução à Bioinformática. Porto Alegre: Artmed, 2007. (Tradução/Livro). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabelo . CEEMA - Centro de Estudos em Economia e Meio-Ambiente. 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabelo ; FRANCO, Sidnei Roberto Sezler ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6398615776166771" target="_blank">SCHROEDER, Greyce Nogueira</a> . View EC7. 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LOPES, Giseli Rabelo ; ALMEIDA, Ígor Lorenzato . SAAV- Sistema Autônomo de Avaliação. 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6398615776166771" target="_blank">SCHROEDER, Greyce Nogueira</a> . SistESC - Sistema de Controle do Projeto ESCUNA. 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> . TV-Escola. 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; TEDESCO, Leonel Pablo . AMEII - Ambiente Educacional Interativo Informatizado. 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> . SCE - Sistema de Controle de Equipamentos. 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; LAMEIRA, Marlon . SCR - Sistema de Controle de Rodoviária. 1997. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; WINCK, A. T. . Integração de Bancos de Dados Biológicos. 2013. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b> ; RUIZ, D. D. A. . Processo de KDD aplicado a Bioinformatica. 2011. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WINCK, A. T. ; <b>MACHADO, K. S.</b> ; RUIZ, D. D. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> . Processo de KDD aplicado a Bioinformatica. 2010. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RUIZ, D. D. A. ; WINCK, A. T. ; <b>MACHADO, K. S.</b> . Mineração de Dados em Bioinformática. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Qualificações de Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WERHLI, A. V.; <b>MACHADO, K. S.</b>; Emmendorfer, L..  Participação em banca de Nilzair Barreto Agostinho. Uma proposta para melhorar a  convergên ia de MCMC. 2013. Exame de qualificação (Mestrando em Modelagem Computacional)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WERHLI, A. V.; BARWALDT, R.; <b>MACHADO, K. S.</b>.  Participação em banca de Renan Martinez da Luz. Produzindo técnicas de dobramento de proteína modelo HP com ajuda da inteligência humana. 2013. Exame de qualificação (Mestrando em Modelagem Computacional)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WERHLI, A. V.; Emmendorfer, L.; <b>MACHADO, K. S.</b>.  Participação em banca de Giovanni Xavier Perazzo.Aplicação de Mineração de Dados para a Seleção de Compostos Baseada em Descritores Moleculares.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>MACHADO, K. S.</b>; Borges, E.N.; Vargas, A.P.; Emmendorfer, L..  Participação em banca de Caroline Tomasini.Módulo de Critérios de Relevância para o ARGOsearch.
+							2013. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PERNAS, A. M.; Vargas, A.P.; Borges, E.N.; <b>MACHADO, K. S.</b>.  Participação em banca de Lucas Rodrigues de Farias.Research.Net: um sistema para análise de redes de colaboração baseado na Plataforma Lattes.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ADAMATTI, D. F.; COSTA, A. C. R.; <b>MACHADO, K. S.</b>.  Participação em banca de Laurence Costa.Modelagem, Simulação e Análise da Malária Utilizando Sistemas Multiagentes.
+							2013. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WERHLI, A. V.; Emmendorfer, L.; <b>MACHADO, K. S.</b>.  Participação em banca de Nilzair Mendes Barreto.Inferencia de Redes Booleanas..
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Borges, E.N.; Vargas, A.P.; <b>MACHADO, K. S.</b>.  Participação em banca de Igor Avila Pereira.ARGOfeedback uma Ferramenta de apoio à decisão para o ARGOsearch..
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Emmendorfer, L.; WERHLI, A. V.; <b>MACHADO, K. S.</b>.  Participação em banca de Wagner Gadêa Lorenz.Modelagem estatística e computacional do comportamento de alunos bolsistas de programas de apoio do Núcleo de Assistência Estudantil da Universidade Federal do Rio Grande.
+							2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Moraes, SMW; Hübler, PN; <b>MACHADO, K. S.</b>.  Participação em banca de Carlos Eduardo Garcia.Sistema para Recomendação de Produtos em Comércio Eletrônico.
+							2010. Trabalho de Conclusão de Curso (Graduação em Bacherelado em Ciência da Computação)  - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Welfer, D.; Agustini, A.; <b>MACHADO, K. S.</b>. Concurso para Professor Assistente. Área do conhecimento: Programação e Estruturas de Dados.
+							2012. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, Nelson Lopes; Mendizabal, O. M.; <b>MACHADO, K. S.</b>. Concurso para Professor  Substituto. Área de conhecimento: Sistemas Operacionais e Redes de Computadores.
+							2011. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">the 28th Annual ACM Symposium.A Data Warehouse as an Infrastructure to Mine Molecular Descriptors for Virtual Screening.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Escola Regional de Banco de Dados.Integração de Bancos de Dados Biológicos. 2013. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXI ALAM Congresso Latinoamericano de Microbiologia. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV SIMPÓSIO BRASILEIRO DE MICOBACTÉRIAS.Docagem Molecular como ferramenta para busca de novos fármacos.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X meeting. A Scientific Workflow for Performing Molecular Dynamics Simulation. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Internacional de Tuberculose.Docagem Molecular como ferramenta para busca de novos fármacos.
+							2011. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Encontro Nacional de Inteligência Artificial - ENIA/CSBC.Comitê de Programa.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Mostra da Produção Universitária.Banca avaliadora dos trabalhos de iniciação científica. 2011. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ISCB Latin America. Applying Model Trees on Flexible-Receptor Docking Experiments to select promising protein receptor snapshots. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Brazilian Symposium on Bioinformatics.Discretization of Flexible-Receptor Docking Data..
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Banco de Dados.Processo de KDD aplicado à bioinformática.
+							2010. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Brasilian Symposium on Bioinformatics.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Banco de Dados.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop Franco-Brasileiro sobre Mineração de Dados (WFB-2009). 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Escola Brasileira de Bioinformática. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Workshop em Algoritmos e Aplicações de Mineração de Dados. 2009. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Braziliam Simposium on Bioinformatics.Extracting Information from Flexible Receptor-Flexible Ligand Docking Experiments.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Escola Brasileira de Bioinformática. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Congresso de Computação do Sul de Mato Grosso. COMPSULMT. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3º International Conference of the Brazilian Association of Bioinformatics and Computational Biology. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Brazilian Symposium on Bioinformatics - BSB 2007.Automating Molecular Docking with Explicit Receptor Flexibility Using Scientific Workflows.
+							2007. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXV Congresso da Sociedade Brasileira de Computação. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Congresso de Computação do Sul do Mato Grosso do Sul. COMPSULMT. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Brazilian Symposium on Bioinformatics - BSB 2005.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">6º Fórum Internacional do Software Livre. 2005. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasileiro de Computação. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBRC - Simpósio Brasileiro de Redes de Computadores.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ERAD. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop Rede Nacional de Ensino e Pesquisa. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Mostra da Produção Universitária.Desenvolvimento d eMedidores de Tráfego em Redes de Computadores. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7  Semana Acadêmica da Engenharia da Computação. 2004. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVIII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia. XVIII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia. 2003. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Escola de Microeletrônica. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Mostra de Produção Universitária.II Mostra de Produção Universitária. 2003. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXII Congresso da Sociedade Brasileira de Computação. 2002. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Interdisciplinaridade e Tecnologias na Educação. 2002. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VI Semana Acadêmica de Engenharia de Computação. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2º Fórum Internaciona de Software Livre. 2001. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> ; RUIZ, D. D. A. ; <b>MACHADO, K. S.</b> ; Winck, A. ; FORGIARINI, D. ; QUEVEDO, C. ; COHEN, E. M. L. ; Aguiar, C ; Amaro, A. ; Silva, A. . II Escola Brasileira de Bioinformática. 2009. 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0608337674042057" target="_blank">NORBERTO DE SOUZA, O</a> ; RUIZ, D. D. A. ; <b>MACHADO, K. S.</b> ; Winck, A. ; FORGIARINI, D. ; QUEVEDO, C. ; COHEN, E. M. L. ; Aguiar, C ; Amaro, A. ; Silva, A. . IV Brasilian Symposium on Bioinformatics. 2009.. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caroline Tomasini. Sem título definido.
+						Início: 2013.
+						Dissertação (Mestrado em Mestrado em Engenharia de Computação)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael Castro Couto. Sem título definido.
+						Início: 2012.
+						Dissertação (Mestrado em Mestrado em Engenharia de Computação)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Núbia Souza Prates. Agrupamento de Estrutura de Proteínas.
+						Início: 2012.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinícius Rosa Seus. Um gerador de scripts para triagem virtual de fármacos utilizando o AutoDock Vina.
+						Início: 2013. Trabalho de Conclusão de Curso (Graduação em Sistemas de Informação)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinicius Rosa Seus. Aplicação de Mineração de Dados em Triagem Virtual com Receptor Flexível: Seleção de Ligantes. Início: 2013. Iniciação científica (Graduando em Sistemas de Informação)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luisa Rodrigues Cornetet. Aplicação de Mineração de Dados em Resultados de Dinâmica Molecular. Início: 2011. Iniciação científica (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande, FURG. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jackson Grandi Souza.
+							Sistema de controle de Chamados para a Prefeitura de Santa Vitória do Palmar.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. Orientador: Karina dos Santos Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Samuel Troina.
+							Sistema web para criação, manutenção e consulta de diagramas de bancos de dados.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. Orientador: Karina dos Santos Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Solismar Pereira da Cunha.
+							Controle automatizado de protocolo para a Prefeitura de Santa Vitória do Palmar.
+							2012.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. Orientador: Karina dos Santos Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinícius Alves Hax.
+							Uma interface Web para o  software Ptraj.
+							2011.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para a Web)  - Universidade Federal do Rio Grande. Orientador: Karina dos Santos Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Giovanni Perazzo.
+							Aplicação de Mineração de Dados para a Seleção de Compostos Baseada em Descritores Moleculares.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Karina dos Santos Machado.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jesuane Franzon.
+							Agrupamento de Estruturas de Proteínas.
+							2011.
+							Iniciação Científica. (Graduando em Sistemas de Informação)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Karina dos Santos Machado.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:19:53</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=3528633359332021" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

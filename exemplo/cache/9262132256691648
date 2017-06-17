@@ -1,0 +1,3953 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Vin&iacute;cius Menezes de Oliveira)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=9262132256691648" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetos">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4768963H2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4768963H2"><div class="infpessoa">
+<h2 class="nome">Vin&iacute;cius Menezes de Oliveira</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/9262132256691648</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 11/08/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação (1998) em Engenharia de Computação pela Fundação Universidade Federal do Rio Grande (FURG), mestrado (2001) em Engenharia Elétrica pela Universidade Federal de Santa Catarina (UFSC) e doutorado (2008) em Engenharia Elétrica pela Universidade Federal do Rio Grande do Sul (UFRGS), com estágio na Universidade de Nagoya -- Japão. Tem experiência nas áreas de Engenharia de Computação e Engenharia Elétrica, em Automação e Controle de Sistemas Robóticos, atuando principalmente nos seguintes temas: robôs de serviço, sistemas não-holonômicos e automação. Atualmente exerce a função de Diretor de Inovação Tecnológica da FURG.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vinícius Menezes de Oliveira</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">OLIVEIRA, V. M.;DE OLIVEIRA, VINICIUS MENEZES</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Centro de Ciências Computacionais. <br class="clear" />Av. Itália, km 8 s/n<br class="clear" />Carreiros<br class="clear" />96200190 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32336796<br class="clear" />URL da Homepage: <a target="blank" href="http://www.c3.furg.br">http://www.c3.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Programa de Pós-Graduação em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />com <b>período </b><b>sanduíche </b> em Nagoya University (Orientador: Toshio Fukuda). <br class="clear" />Título: Estudo e Controle de Robôs Bracejadores Subatuados, Ano de obtenção: 2008. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3995870391903682'><img src='images/curriculo/logolattes.gif' /></a>Walter Fetter Lages. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: Robô Bracejador; Sistemas não-holonômicos; Controle Preditivo.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=41001010005P1&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Técnicas de Controle de Robôs Móveis,Ano de Obtenção: 2001.<br class="clear" />Orientador: Edson Roberto de Pieri.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: Sistemas não-holonômicos; Robôs móveis; Robôs manipuladores; Redes neurais artificias; Redes neurais artificiais; Modos deslizantes. <br class="clear" />Grande área: Engenharias / Área: Engenharia Elétrica. <br class="clear" />Setores de atividade: Informática; Industria Eletro-Eletrônica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">E3 Studio.  (Carga horária: 40h). <br class="clear" />Elipse Software.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Pesquisador</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>T&T Engenheiros Associados, T&T, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Analista Jr., Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Technische Universität Braunschweig, TU-BS, Alemanha.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: funcionario, Enquadramento Funcional: pesquisador, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>02/2001 - 03/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Institut für Regelunstechnik, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Modelagem e Controle de Robôs Manipuladores'>Modelagem e Controle de Robôs Manipuladores</a><br class="clear" /><a href='#LP_Robótica'>Robótica</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto III, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Adjunto II, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente III, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente II, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Assistente I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: professor substituto, Enquadramento Funcional: Professor Auxiliar, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Consultor para enquadramento do curso à avaliação de reconhecimento.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Pró-Reitoria de Pesquisa e Pós-Graduação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Diretor de Inovação Tecnológica.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Reitoria, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Comitê Assessor de Planejamento da FURG.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Atividade de Integração Curricular IV<br class="clear" />Análise de Algoritmos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Automação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Atividade de Integração Curricular<br class="clear" />Introdução à Engenharia de Automação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Reitoria, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Comitê Assessor de Planejamento (Deliberação 051/2010).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Conselho Deliberativo.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Aplicações para Web, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Segurança<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da comissão de criação do curso de Engenharia de Automação.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Responsável pelas atividades referentes à Maratona de Programação junto ao curso de Engenharia de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Automação'>Automação</a><br class="clear" /><a href='#LP_Sistemas de Controle'>Sistemas de Controle</a><br class="clear" /><a href='#LP_Robótica'>Robótica</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2010 - 01/2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Pró-Reitoria de Pesquisa e Pós-Graduação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Diretor de Pesquisa.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Projeto de Graduação<br class="clear" />Análise de Algoritmos<br class="clear" />Atividade de Integração Curricular IV<br class="clear" />Introdução à Engenharia de Computação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Automação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução à Engenharia de Automação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Sistemas Não-lineares<br class="clear" />Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Pró-Reitoria de Pesquisa e Pós-Graduação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Núcleo de Inovação Tecnológica (NIT).
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>01/2009 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Coordenador de Curso.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2008 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Reitoria, Pró-Reitoria de Pesquisa e Pós-Graduação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro suplente do Comitê Científico.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2008 - 01/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Responsável pelos Laboratórios de Ensino de Computação.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Reitoria, Comissão Permanente do Vestibular. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Presidente de Comissão Central no Processo Seletivo FURG 2009.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Centro de Ciências Computacionais, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Vice-Diretor.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Modelagem Computacional, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Aplicações para Web, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Segurança<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Organização de Computadores<br class="clear" />Análise de Algoritmos<br class="clear" />Laboratório de Introdução à Ciência da Computação<br class="clear" />Introdução à Ciência da Computação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2003 - 02/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro do Colegiado do Departamento de Matemática.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>09/2002 - 02/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Matemática, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro da Comissão de Curso de Engenharia de Computação.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2003 - 01/2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Análise de Algoritmos<br class="clear" />Computação Gráfica<br class="clear" />Laboratório de Introdução à Ciência da Computação<br class="clear" />Organização de Computadores<br class="clear" />Projetos de Graduação em Engenharia de Computação<br class="clear" />Teoria da Computação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2002 - 03/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Analise de Algoritmos<br class="clear" />Projetos de Graduacao em Engenharia<br class="clear" />Teoria da Computacao<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2000 - 12/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Arquitetura de Computadores I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2000 - 07/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Departamento de Matemática, Laboratório de Engenharia da Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Consultor para enquadramento do curso no processo de reconhecimento.
+				
+				</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Automa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Automação</div>
+</div><a name='LP_Sistemas de Controle'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistemas de Controle</div>
+</div><a name='LP_Rob&oacute;tica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Robótica</div>
+</div><a name='LP_Modelagem e Controle de Rob&ocirc;s Manipuladores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem e Controle de Robôs Manipuladores</div>
+</div><a name='LP_Rob&oacute;tica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Robótica</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_SACI -- Sistema Avan&ccedil;ado de Supervis&atilde;o, Inspe&ccedil;&atilde;o e Diagn&oacute;stico de Sistemas El&eacute;tricos: Gera&ccedil;&atilde;o, Transmiss&atilde;o e Distribui&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SACI -- Sistema Avançado de Supervisão, Inspeção e Diagnóstico de Sistemas Elétricos: Geração, Transmissão e Distribuição<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de Arquitetura de Hardware e Software para monitoramento, diagnótico e prognóstico da vida útil para equipamentos do sistema elétrico de potência, mais precisamente condutores dedicados a geração, distribuição baseada em redes de sensores móveis composta por robôs móveis de inspeção aérea e subterrânea. FINEP Edital Rede Ct-energ FURG, UFRN e UFRGS. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (10)  / Mestrado acadêmico: (5)  / Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Integrante / Silvia Silva Costa Botelho - Coordenador / Nelson Lopes Duarte Filho - Integrante / Denis Teixeira Franco - Integrante / Eder Nunes Gonçalves - Integrante / Adriano Velasque Werhli - Integrante / Leonardo Ramos Emmendorfer - Integrante / Diana Adamatti - Integrante.<br class="clear" />Financiador(es): Financiadora de Estudos e Projetos - Auxílio
+										financeiro / Financiadora de Estudos e Projetos - Bolsa.</div>
+</div><a name='PP_Sistema de Inspe&ccedil;&atilde;o de Redes de Distribui&ccedil;&atilde;o Subterr&acirc;neas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Sistema de Inspeção de Redes de Distribuição Subterrâneas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de Sistema de Inspeção Visual envolvendo diferentes sensores para a inspeção e avaliação de cabos de energia subterrâneos. Avalação de diferentes tipos de sensores, desenvolvimento de hardware de aquisição e sistema robótico para navegação tele-operada. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (1) Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Coordenador / Silvia Silva Costa Botelho - Integrante / Cláudio Dornelles Mello Jr. - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Rio Grande - Auxílio
+										financeiro / Agência Nacional de Energia Elétrica - Auxílio
+										financeiro.</div>
+</div><a name='PP_AMADEUS 3 - Sistema de Mede&ccedil;&atilde;o para Redu&ccedil;&atilde;o de Perdas Comerciais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AMADEUS 3 - Sistema de Medeção para Redução de Perdas Comerciais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de estratégias de automação visando a redução de perdas comercias. O sistema será comporto de grid de sensores domicialiares. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Integrante / Silvia Silva Costa Botelho - Coordenador.<br class="clear" />Financiador(es): Companhia Estadual de Geração e Transmissão de Energia Elétrica - Matriz - Auxílio
+										financeiro / Agência Nacional de Energia Elétrica - Bolsa.</div>
+</div><a name='PP_Otimiza&ccedil;&atilde;o de Tempo de Execu&ccedil;&atilde;o de M&eacute;todos Num&eacute;ricos usando GNU/Octave com GPGPU e NVIDIA CUDA'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Otimização de Tempo de Execução de Métodos Numéricos usando GNU/Octave com GPGPU e NVIDIA CUDA<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . Financiador(es): Universidade Federal do Rio Grande - Bolsa.</div>
+</div><a name='PP_Otimiza&ccedil;&atilde;o de Tempo de Execu&ccedil;&atilde;o de M&eacute;todos Num&eacute;ricos Usando GNU/Octave com GPGPU e NVIDIA CUDA'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Otimização de Tempo de Execução de Métodos Numéricos Usando GNU/Octave com GPGPU e NVIDIA CUDA<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho tem por meta possibilitar a aceleração da execução de scripts para o software Octave, utilizando para isto o poder de processamento da placa gráfica e as tecnologias atuais de GPGPU de modo totalmente automático não sendo necessário nenhum tipo de conhecimento adicional por parte do usuário da tecnologia, de modo a não prejudicar os usuários que não forem utilizar a tecnologia e ainda, não criando nenhuma dependência da tecnologia por parte do usuário.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . </div>
+</div><a name='PP_TATUBOT - Rob&ocirc; para Inspe&ccedil;&atilde;o de Linhas Subterr&acirc;neas de Distribui&ccedil;&atilde;o de Energia El&eacute;trica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">TATUBOT - Robô para Inspeção de Linhas Subterrâneas de Distribuição de Energia Elétrica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Integrante / Silvia Silva Costa Botelho - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_AMADEUS 2'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AMADEUS 2<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este trabalho, parte integrante do projeto Automação da Distribuição de Energia Elétrica, tem por objetivo o projeto e desenvolvimento de células autônomas remotas de medição, medição remota e teleoperação.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Integrante / Silvia Silva Costa Botelho - Coordenador.<br class="clear" /></div>
+</div><a name='PP_PLIR - Projeto de um Rob&ocirc; para Inspe&ccedil;&atilde;o de Linhas de Transmiss&atilde;o de Energia El&eacute;trica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PLIR - Projeto de um Robô para Inspeção de Linhas de Transmissão de Energia Elétrica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Integrante / Walter Fetter Lages - Coordenador.<br class="clear" /></div>
+</div><a name='PP_AMADEUS - Arquitetura Modular para a Autom&ccedil;&atilde;o da Distribui&ccedil;&atilde;o de Enegia El&eacute;trica - Edital ANEEL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AMADEUS - Arquitetura Modular para a Automção da Distribuição de Enegia Elétrica - Edital ANEEL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Estudo e desenvolvimento de uma arquitetura modular visando a automação da distribuição de energia elétrica. O projeto passa pelo pestudo de sistemas EMS e SCADA visando o desenvolvimento de um sistema completo interligando a gerência das informações com a operação na planta. Uma planta piloto será montada na cidade de Rio Grande/RS, validando a arquitetura proposta.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (5) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Integrante / Silvia Silva Costa Botelho - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Modelagem e Controle de Rob&ocirc;s M&oacute;veis com Rodas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem e Controle de Robôs Móveis com Rodas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de um robô móvel com atuação diferencial.
+
+Devido ao afastamento para doutoramento, o projeto foi concluído.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2) . </div>
+</div><a name='PP_FURGBOL - Arquitetura Multi-robos para aplica&ccedil;&otilde;es em Sistemas Din&acirc;micos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FURGBOL - Arquitetura Multi-robos para aplicações em Sistemas Dinâmicos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolvimento de uma arquitetura para multi-robôs autônomos em ambientes dinâmicos. Tal arquitetura deverá prever cooperação entre os agentes, podendo estar implementada em diferentes plataformas (embarcada nos robôs, centralizada, etc). A proposta será validada em um time de robôs para jogar futebol.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (9) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Coordenador / Silvia Silva Costa Botelho - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Desenvvolvimento de Aplicativos para PSF em Dispositivos M&oacute;veis (PSF/PALM)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvvolvimento de Aplicativos para PSF em Dispositivos Móveis (PSF/PALM)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visa o desenvolvimento de aplicativos para dispositivos móveis para a automação do sistema de coleta de dados do Programa de Saúde da Família, junto à Secretaria da Saúde da Prefeitura Municipal do Rio Grande (RS). <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (2) . </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrosProjetos">
+<h1>Outros Projetos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Grupo PET Ci&ecirc;ncias Computacionais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grupo PET Ciências Computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Grupo de Educação Tutorial -- PET Ciências Computacionais da FURG, envolvendo estudantes dos cursos de Engenharia de Computação, Engenharia de Automação e Sistemas de Informação da Universidade.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (12) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Coordenador / Mariela Oliveira de Oliveira - Integrante / Lorenzo Abruzzi Dias - Integrante / Thaís Cozza dos Santos - Integrante / Luciane Baldassari Soares - Integrante / Juliana Ribeiro Botelho - Integrante / Robby Santos do Amaral - Integrante / Rodrigo Herpich Muller - Integrante / Ygor Quadros de Aguiar - Integrante / Braian Konzgen Maciel - Integrante / Vinícius Fritzen Machado - Integrante / Rodrigo Barbosa Rodrigues - Integrante / Alexandra Lackmann Zimpeck - Integrante.<br class="clear" /></div>
+</div><a name='PP_Atividades de Integra&ccedil;&atilde;o Curricular como Componente Did&aacute;tico de Cursos na &Aacute;rea Tecnol&oacute;gica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividades de Integração Curricular como Componente Didático de Cursos na Área Tecnológica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Apoiar a implantação das unidades didáticas de Atividades de Integração Curricular I à IV do novo currículo do Curso de Engenharia de Computação e dos novos cursos de Engenharia de Automação e Bacharelado em Sistemas de Informação. A experiëncia deverá ser imediatamente aproveitado nos cursos referidos, mas pode se tornar disponível para adaptação a qualquer curso, especialmente aos cursos de Engenharia.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (3) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Integrante / Silvia Silva Costa Botelho - Integrante / Adriano Velasque Werhli - Integrante / Celso Luiz Lopes Rodrigues - Coordenador / Leonardo Ramos Emmendorfer - Integrante / Nísia Krusche - Integrante.<br class="clear" /></div>
+</div><a name='PP_FURG Multigrupo: Rede Social de Grupos Acad&ecirc;micos de Interesse'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FURG Multigrupo: Rede Social de Grupos Acadêmicos de Interesse<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: o Multigrupo  é uma rede de grupos de interesse.  Cada nodo da rede é um grupo com área de interesse e vida própria, que mantém relação de cooperação com os demais grupos do Multigrupo.  Esta cooperação visa fortalecer ou mesmo viabilizar a atividade típica dos grupos de interesse.  No Multigrupo, são compartilhados não só elementos de infraestrutura e recursos humanos, mas também resultados. Além disso, o Multigrupo FURG deve servir como caldo de cultura permanente para reforço da motivação dos grupos existentes e para a formulação e execução de políticas de incentivo à formação de novos grupos, principalmente em nível de graduação e de integração entre pós-graduação e graduação. O Multigrupo FURG poderá ser definido em suas linhas gerais no nível administrativo adequado, buscando uma institucionalização.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Mestrado acadêmico: (5) Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Integrante / Adriano Velasque Werhli - Integrante / Celso Luiz Lopes Rodrigues - Coordenador / Leonardo Ramos Emmendorfer - Integrante / Luiz Alberto de Oliveira Rocha - Integrante.<br class="clear" /></div>
+</div><a name='PP_Manuten&ccedil;&atilde;o e Melhoramento de Laborat&oacute;rios de Computa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Manutenção e Melhoramento de Laboratórios de Computação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Ao longo dos últimos anos vários cursos tem incluído em sua grade curricular
+disciplinas da área de Computação, exigindo uma estrutura adequada para o desenvolvimento
+das atividades, tanto no que diz respeito à disponibilidade de laboratórios em perfeito
+funcionamento quanto nos aplicativos necessários para a realização das atividades de ensino.
+De modo especial, a vivência dos alunos no ambiente do laboratório propicia a troca de
+experiências e de conhecimentos técnicos, mostrando-se como oportunidade salutar ao
+aprendizado das mais diferentes tecnologias propostas na área.. <br class="clear" />Situação: Concluído; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (7) . </div>
+</div><a name='PP_Maratona de Programa&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Maratona de Programação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de ensino para desenvolvimento de estrutura e material de apoio à preparação e ao treinamento de estudantes para a participação na competição "Maratona de Programação", promovida pela SBC e que classifica para o concurso de programação da ACM, o  ACM International Collegiate Programming Contest.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (4) . <br class="clear" /><br class="clear" />Integrantes: Vinícius Menezes de Oliveira - Coordenador / Alessandro de Lima Bicho - Integrante / Emanuel Estrada - Integrante / Eder Nunes Gonçalves - Integrante / Adriano Velasque Werhli - Integrante / Celso Luiz Lopes Rodrigues - Integrante / Leonardo Ramos Emmendorfer - Integrante / Diana Adamatti - Integrante / Rodrigo de Bem - Integrante.<br class="clear" />Financiador(es): Universidade Federal do Rio Grande - Auxílio
+										financeiro.</div>
+</div><a name='PP_FURGBOL'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FURGBOL<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de Ensino que visa apresentar conceitos básicos aos alunos das séries iniciais dos cursos de Engenharia de Computação e Engenharia de Automação de forma prática, propiciando o contato com problemas reais.. <br class="clear" />Situação: Em andamento; Natureza: Outra. <br class="clear" />Alunos envolvidos: Graduação: (5) . </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: INFOCOMP (UFLA)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Vetor (FURG)</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Eletrônica Industrial, Sistemas e Controles Eletrônicos/Especialidade: Controle de Processos Eletrônicos, Retroalimentação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Álgebra/Especialidade: Lógica Matemática. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Software Básico. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Eletrônica Industrial, Sistemas e Controles Eletrônicos/Especialidade: Automação Eletrônica de Processos Elétricos e Industriais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Mecânica / Subárea: Processos de Fabricação/Especialidade: Robotização. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende PoucoLê Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Menção Honrosa 2o. Lugar Engenharia de Computação, XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor Artigo IV EnRI Categoria Aplicações, Sociedade Brasileira de Computação - SBC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Menção Honrosa como 2º colocado na área das Engenharias, FURG/UFPel/UCPel. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Jovem Pesquisador na área de Ciências Exatas e da Terra II, FURG/UFPel/UCPel. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor trabalho apresentado na seção Processamento de Sinais 2, Universidade Federal do Paraná. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Tibola, A. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>Tibola, A. L. ; <b>OLIVEIRA, V. M.</b> . Redução do Tempo de Execução de Métodos Numéricos utilizando GNU/OCTAVE e GPGPU. Vetor (FURG)<sup><img id='01027352_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 20, p. 59-66, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=20&issue=&paginaInicial=59&titulo=Redução do Tempo de Execução de Métodos Numéricos utilizando GNU/OCTAVE e GPGPU&sequencial=1&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Estrada, E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>Estrada, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> . Arquitetura de navegação autônoma de linhas subterrâneas de distribuição de energia. Vetor (FURG)<sup><img id='01027352_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 18, p. 32-45, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=18&issue=&paginaInicial=32&titulo=Arquitetura de navegação autônoma de linhas subterrâneas de distribuição de energia&sequencial=2&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BOTELHO, S. S. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; NEVES, R. ; TADDEI, L. . Using Augmented State Kalman Filter to Localize Multi Autonomous Underwater Vehicles. Journal of the Brazilian Computer Society<sup><img id='01046500_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01046500' /></sup>, v. 2, p. 61-70, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01046500&volume=2&issue=&paginaInicial=61&titulo=Using Augmented State Kalman Filter to Localize Multi Autonomous Underwater Vehicles&sequencial=3&nomePeriodico=Journal of the Brazilian Computer Society" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, V. M.;DE OLIVEIRA, VINICIUS MENEZES</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9582755594379866" target="_blank">ESPINDOLA, D. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6398615776166771" target="_blank">SCHROEDER, G. N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6965119196945931" target="_blank">BICHO, A. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Simulador Gráfico para Controle de Robôs Móveis. INFOCOMP (UFLA)<sup><img id='18074545_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18074545' /></sup>, v. 4, n.4, p. 38-47, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=18074545&volume=4&issue=&paginaInicial=38&titulo=Simulador Gráfico para Controle de Robôs Móveis&sequencial=4&nomePeriodico=INFOCOMP (UFLA)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MADSEN, C. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>MADSEN, C. A. ; NEVES, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> . Utilizando multi-AUVs para tarefas de inspeção visual  . Vetor (FURG)<sup><img id='01027352_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027352' /></sup>, v. 14, p. 155-180, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027352&volume=14&issue=&paginaInicial=155&titulo=Utilizando multi-AUVs para tarefas de inspeção visual  &sequencial=5&nomePeriodico=Vetor (FURG)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OLIVEIRA, V. M.;DE OLIVEIRA, VINICIUS MENEZES</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0167966003029391" target="_blank">PIERI, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Wheeled Mobile Robot Control Using Sliding Modes and Neural Networks. Learning and Nonlinear Models<sup><img id='16762789_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16762789' /></sup>, v. 2, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16762789&volume=2&issue=&paginaInicial=&titulo=Wheeled Mobile Robot Control Using Sliding Modes and Neural Networks&sequencial=6&nomePeriodico=Learning and Nonlinear Models" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, R. ; LILLES, P. D. ; <b>OLIVEIRA, V. M.</b> . Filtragem e Estimação de Estados com Restrições Aplicado ao SLAM Visual. In: XIX Congresso Brasileiro de Automática, 2012, Campina Grande. Anais do XIX Congresso Brasileiro de Automática, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/CARPI.2012.6473375" target="_blank"></a>LAGES, WALTER FETTER ; <b>DE OLIVEIRA, VINICIUS MENEZES</b> . A survey of applied robotics for the power industry in Brazil. In: 2012 2nd International Conference on Applied Robotics for the Power Industry (CARPI 2012), 2012, Zurich. 2012 2nd International Conference on Applied Robotics for the Power Industry (CARPI), 2012. p. 78. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estrada, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira L.</a> ; <b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Sistema de Navegac&#807;a&#771;o para um Robo&#770; de Inspec&#807;a&#771;o de Linhas Subterra&#770;neas de Distribuic&#807;a&#771;o. In: XVIII Congresso Brasileiro de Automática - CBA 2010, 2010, Bonito / MS. Anais do XVIII Congresso Brasileiro de Automática - CBA 2010, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Control of a Brachiating Robot for Inspection of Aerial Power Lines. In: The 2010 1st International Conference on Applied Robotics for the Power Industry, 2010, Montreal. Proceedings of The 2010 1st International Conference on Applied Robotics for the Power industry, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estrada, E. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira L.</a> ; Gonçalves, E. N. ; DUARTE FILHO, N. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> . Autonomous Navigation for Underground Energy Line Inspection Robot. In: The 2010 1st International Conference on Applied Robotics for the Power industry, 2010, Montreal. Proceedings of The 2010 1st International Conference on Applied Robotics for the Power industry, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ETFA.2009.5347069" target="_blank"></a><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Real-Time Predictive Control of a Brachiation Robot. In: 14th IEEE International Conference on Emerging Technology and Factory Automation, 2009, Palma de Mallorca. Proceedings of the 14th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA), 2009. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estrada, E. ; Gonçalves, E. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; ALMEIDA, R. ; Gules R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6790081136124486" target="_blank">Silveira L.</a> . Uma arquitetura para navegação autônoma de robôs reais e simulados para inspeção de linhas de distribuição de energia subterrâneas. In: IX Simpósio Brasileiro de Automação Inteligente, 2009, Brasília. Anais do IX Simpósio Brasileiro de Automação Inteligente, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Controle em Tempo Real de um Robô Bracejador Utilizando MPC. In: IX Simpósio Brasileiro de Automação Inteligente, 2009, Brasília. Anais do IX Simpósio Brasileiro de Automação Inteligente, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; Estrada, E. ; SOUTO JR., H. ; ALMEIDA, R. ; <b>OLIVEIRA, V. M.</b> ; Gonçalves, E. N. ; Mello Jr., C. D. ; Santos, T. ; Gules R. . A Mobile System for Duct Inspection. In: Rio Pipeline 2009 Conference and Exhibition, 2009, Rio de Janeiro. Anais do Rio Pipeline 2009 Conference and Exhibition, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; DUARTE FILHO, N. L. ; <b>OLIVEIRA, V. M.</b> ; Mello Jr., C. D. ; Estrada, E. ; Galeriano, M. ; LILLES, P. D. ; CORREA, U. B. . Tatubot - Sistema Robótico de Inspeção para Linhas de Distribuição Elétrica Subterrâneas. In: Simpósio Brasileiro de Sistemas Elétricos, 2008, Belo Horizonte. Anais do Simpósio Brasileiro de Sistemas Elétricos 2008, 2008. p. 100-106. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; Gonçalves, E. N. ; Estrada, E. ; Mello Jr., C. D. ; LILLES, P. D. ; ALMEIDA, R. ; SOUTO JR., H. ; Santos, T. . TATUBOT   ROBOTIC SYSTEM FOR INSPECTION OF UNDERGROUNDED CABLE SYSTEM. In: Congresso Brasileiro de Automática, 2008, Juiz de Fora. Anais do XVII Congresso Brasileiro de Automática, 2008. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; Mello Jr., C. D. ; Gonçalves, E. N. ; Estrada, E. ; ALMEIDA, R. ; Santos, T. ; SOUTO JR., H. ; OLIVEIRA, G. . TATUBOT - Robotic System for Inspection of Undergrounded Cable System. In: Simpósio Latino-Americano de Robótica, 2008, Salvador. Anais do 5o. Simpósio Latino-Americano de Robótica, 2008. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> ; <b>OLIVEIRA, V. M.</b> . Control of a Brachiation Robot with a Single Underactuated Joint Using Nonlinear Model Predictive Control. In: IFAC Symposium on System, Structure and Control, 2007, Foz do Iguassu. 3rd IFAC Symposium on System, Structure and Control, 2007. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> ; <b>OLIVEIRA, V. M.</b> . Comparação entre Duas Classes de Robós Bracejadores Subatuados Utilizando Controle Preditivo Baseado em Modelo. In: Simpósio Brasileiro de Automação Inteligente, 2007, Florianópolis. VIII Simpósio Brasileiro de Automação Inteligente, 2007. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> ; <b>OLIVEIRA, V. M.</b> . Comparison Between Two Actuation Schemes for Underctuated Brachiation Robots. In: IEEE/ASME International Conference on Advanced Intelligent Mechatronics, 2007, Zurique. 2007 IEEE/ASME International Conference on Advanced Intelligent Mechatronics, 2007. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Linear Predictive Control of a Brachiation Robot. In: Canadian Conference on Electrical and Computer Engineering, 2006, Ottawa. Proceedings of the IEEE Canadian Conference on Electrical and Computer Engineering, 2006. p. 1517-1520. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Controle Preditivo de um Robô Bracejador Subatuado Utilizando Linearização. In: XXVI Congresso da Sociedade Brasileira de Computacao / III Encontro de Robótica Inteligente, 2006, Campo Grande / MS. Anais do XXVI Congresso da Sociedade Brasileira de Computacao. p. 83-92. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Controle de um Robô Bracejador Subatuado Utilizando NMPC. In: XV I Congresso Brasileiro de Automática, 2006, Salvador. Anais do XVI Congresso Brasileiro de Automática, 2006. p. 2495-2500. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estrada, E. ; Galeriano, M. ; Deon, R. ; <b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; Martinnelli, S. . Arquitetura Modular para Automação da Distribuição. In: Congreso Internacional de Distribución Eléctrica, 2006, Buenos Aires. Proceedings of CIDEL 2006, 2006. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Deon, R. ; Estrada, E. ; Galeriano, M. ; Martinnelli, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> . AMADEUS - Arquitetura Modular para a Automação da Distribuição. In: International Congress on Electricity Distribution, 2006, Buenos Aires. Proceedings of the International Congress on Electricity Distribution, 2006. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Predictive Control of an Underactuated Brachiation Robot. In: 8th Symposium on Robot Control, 2006, Bolonha. Proceedings of the 8th IFAC Symposium on Robot Control (SYROCO), 2006. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Predictive Control of an Underactuated Brachiation Robot Using Linearization. In: 7th Portuguese Conference on Automatic Control, 2006, Lisboa. Proceedings of the 7th Portuguese Conference on Automatic Control (CONTROLO), 2006. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . MPC Applied to Motion Control of an Underactuated Brachiation Robot. In: 11th IEEE International Conference on Emerging Technologies and Factory Automation, 2006, Praga. Proceedings of the 11th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA), 2006. p. 985-988. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; COSTA, R. M. ; NEVES, R. . Multi-AUVs for Mosaicking Tasks. In: IEEE OES, 2004. IEEE Autonomous Underwater Vehicles, 2004. v. 1`. p. 121-127. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; COSTA, R. M. ; MADSEN, C. A. . Multi-AUVs for Visual Mapping Task. In: Distributed Autonomous Robotic System, 2004, Toulouse. VI Distributed Autonomous Robotics Systems, 2004. v. v1. p. 54-59. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; COSTA, R. M. . Using ASKF to Localize Multi-AUVs. In: Encontro de Robótica Inteligente, 2004, Salvador. EnRI, 2004. v. 1. p. 30-35. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Visual Maps-based Localization for a Fleet of AUVs. In: XV Congresso Brasileiro de Automática, 2004, Gramado. CBA 2004, 2004. v. 1. p. 221-225. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Mobile Robot Control Over the Internet with Delay Compensation. In: 11th IFAC Symposium on Information Control Problems in Manufacturing, 2004, Salvador. 11th INCOM 2004, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0167966003029391" target="_blank">PIERI, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Mobile Robot Control Using Sliding Mode and Neural Network. In: 7th Symposium on Robot Control, 2003, Wroclaw. Preprints of 7th Symposium on Robot Control, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; CALHEIROS, R. N. ; MENDIZABAL, O. ; MEINHARDT, C. . Aplicação de Processamento Paralelo e Distribuído na Robótica. In: 3 Escola Regional de Alto Desempenho -ERAD 2003, 2003, Santa Maria. Anais  3 Escola Regional de Alto Desempenho -ERAD 2003, 2003. p. 245-248. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; GOMES, S. C. P. ; ALBERTINI, B. ; GOMES, D. S. ; SILVA, L. S. ; FIGUEIREDO, M. B. . Desenvolvimento de um Sistema Robótico Dotado de Visão Artificial para Jogar Xadrez de Forma Autônoma. In: Congresso Brasileiro de Computação, 2003, Itajaí. Anais do Congresso Brasileiro de Computação, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Controle em Tempo Real de Robôs Móveis via Internet. In: Simpósio Brasileiro de Automação Inteligente, 2003, Bauru - SP. Anais do VI Simpósio Brasileiro de Automação Inteligente, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; GOMES, S. C. P. ; GOMES, D. S. ; ALBERTINI, B. ; SILVA, L. S. ; FIGUEIREDO, M. B. ; ROSA, V. S. . Uma Proposta Simples para o Desenvolvimento de um Sistema Robótico para Jogar Xadrez de Forma Autônoma. In: VI Simpósio Brasileiro de Automação Inteligente, 2003, Bauru - SP. Anais do VI Simpósio Brasileiro de Automação Inteligente, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6398615776166771" target="_blank">SCHROEDER, G. N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9582755594379866" target="_blank">ESPINDOLA, D. B.</a> . Modelagem e Controle de Robôs Móveis Omnidirecionais. In: Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 2003, Itajaí. Anais do XVIII CRICTE, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0167966003029391" target="_blank">PIERI, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Controle de Robôs Móveis via Modos Deslizantes e Redes Neurais Artificiais. In: V Congresso Brasileiro de Redes Neurais, 2001, Rio de Janeiro. Anais do V Congresso Brasileiro de Redes Neurais, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0167966003029391" target="_blank">PIERI, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Controle em Malha Fechada de Robôs Móveis Utilizando Redes Neurais e Tranformação Descontínua. In: Simpósio Brasileiro de Automacao Inteligente, 2001, Canela. Anais do V Simpósio Brasileiro de Automacao Inteligente, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0167966003029391" target="_blank">PIERI, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Neural Network in the Control of a Mobile Paltform. In: IFAC Symposium on Robot Control, 2000, Viena. Preprints of 6th Symposium on Robot Control SYROCO'2000, 2000. v. 1. p. 181-186. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0167966003029391" target="_blank">PIERI, E. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Feedforward Control of a Mobile Robot Using a Neural Network. In: IEEE International Conference on Systems, Man and Cybernetics, 2000, Tennessee. IEEE SMC, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; GOMES, S. C. P. . Modelagem Neural de Robôs. In: II Oficina de Inteligência Artificial da Escola de informática, 1998, Pelotas, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; GOMES, S. C. P. . Representação Cinemática de Robôs Manipuladores Utilizando Redes Neurais Artificiais. In: I Workshop de Computação do Instituto Tecnológico de Aeronáutica, 1998, São José dos Campos. Anais do WorkComp'98, 1998. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tibola, A. L. ; <b>OLIVEIRA, V. M.</b> . PARALELIZAÇÃO DA BLAS UTILIZANDO GPGPU. In: XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010, Rio Grande. Anais do XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, J. V. ; CAMERINI, F. ; <b>OLIVEIRA, V. M.</b> ; COSTA, J. A. V. . MODELAGEM MATEMÁTICA E AUTOMAÇÃO DO PROCESSO DE BIOFIXAÇÃO DE CO2. In: XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010, Rio Grande. Anais do XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VEIGA, F. ; <b>OLIVEIRA, V. M.</b> . DESENVOLVIMENTO E CONSTRUÇÃO DE UM ROBÔ PARA INSPEÇÃO DE LINHAS DE ALTA-TENSÃO. In: XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010, Rio Grande. Anais do XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, F. ; <b>OLIVEIRA, V. M.</b> . Comparação entre métodos para representação cinemática de robôs bracejadores. In: XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010, Rio Grande. Anais do XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORREA, L. S. ; <b>OLIVEIRA, V. M.</b> . HARDWARE MULTICAMADAS PARA AUTOMAÇÃO RESIDENCIAL. In: XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010, Rio Grande. Anais do XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tibola, A. L. ; <b>OLIVEIRA, V. M.</b> . Redução do Tempo de Execução de Métodos Numéricos Utilizando GNU/Octave e GPGPU. In: The 3rd Southern Conference on Comutational Modeling, 2009, Rio Grande. Annals of the 3rd Southern Conference on Comutational Modeling, 2009. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Oliveira, R. ; LILLES, P. D. ; <b>OLIVEIRA, V. M.</b> . FILTRAGEM DE ESTADOS COM RESTRIÇÕES DE IGUALDADE SEGUINDO A TÉCNICA DE PROJEÇÃO DE ESTIMATIVA APLICADA SOBRE O FILTRO DE KALMAN ESTENDIDO. In: 10a. Mostra da Produção Universitária da FURG, 2011, Rio Grande. Anais da 10a. Mostra da Produção Universitária da FURG, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tibola, A. L. ; <b>OLIVEIRA, V. M.</b> . Otimização de Tempo de Execução de Métodos Numéricos usando GNU/Octave com GPGPU e NVIDIA CUDA. In: XXIII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 2009, Joinville. Anais do XXIII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; MACHADO, K. ; LOPES, G. R. . Aplicação de Lógica Fuzzy no Controle de Robôs Móveis. In: Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 2003, Itajaí. Anais do XVIII CRICTE, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; COSTA, R. M. ; KOERTING, T. S. . Simulador Gráfico para Controle de Robôs Móveis. In: Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 2003, Itajaí. Anais do XVIII CRICTE, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; MACHADO, K. ; LOPES, G. R. . Aplicação de Lógica Fuzzy no Controle de Robôs Móveis. In: II Mostra da Produção Universitária da FURG, 2003, Rio Grande. Anais da II MPU, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9582755594379866" target="_blank">ESPINDOLA, D. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6398615776166771" target="_blank">SCHROEDER, G. N.</a> . Modelagem e Controle de Robôs Móveis Omnidirecionais. In: II Mostra da Produção Universitária da FURG, 2003, Rio Grande. Anais da II MPU, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; FERREIRA, G. ; CUNHA, V. S. . Estudo de Técnicas de Escalonamento de Processos em Tempo Real. In: II Mostra da Produção Universitária da FURG, 2003, Rio Grande. Anais da II MPU, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; BANDEIRA, J. I. ; LILLES, P. ; MOREIRA, T. G. . Construção de um Robô Móvel com Atuação Diferencial. In: Mostra Universitária da FURG, 2003, Rio Grande. Anais da II MPU, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; STEINHAUS, E. . Modelagem Cinemática e Dinâmica do Robô JANUS. In: Mostra da Produção Universitária da FURG, 2003, Rio Grande. Anais da II MPU, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6398615776166771" target="_blank">SCHROEDER, G. N.</a> ; MACHADO, K. . Modelagem e Controle de Robos Moveis. In: I Mostra da Producao Universitaria, 2002, Rio Grande. Anais da I Mostra da Producao Universitaria da FURG, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; KOERTING, T. S. ; COSTA, R. M. . Simulador Grafico para Controle de Robos Moveis. In: I Mostra da Producao Universitaria, 2002, Rio Grande. Anais da I Mostra da Producao Universitaria da FURG, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; GOMES, S. C. P. . Redes Neurais para Modelagem de Robôs Manipuladores. In: X Salão de Iniciação Científica da UFRGS, 1998, Porto Alegre, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; KOKUBUN, F. . Estudo da Aplicação de Redes Neurais em Sistemas de Controle. In: XIII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 1997, Porto Alegre. Anais do XIII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; KOKUBUN, F. . Aplicação de Redes Neurais em Reconhecimento de Espectros. In: XIII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 1997, Porto Alegre. Anais do XIII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; KOKUBUN, F. . Análise da Arquitetura da RNA Utilizada no Reconhecimento de Espectro. In: XIII Congresso de Iniciação Científica e Tecnológica em Engenharia, 1997, Porto Alegre. Anais do XIII Congresso de Iniciação Científica e Tecnológica em Engenharia, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> . Ferramenta para a Simulação de Roteamento em Redes de Computadores Utilizando Algoritmo de Vetor de Distâncias. In: Congresso de Iniciação Científica, 1997, Rio Grande. Anais do VI Congresso de Iniciação Científica, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; KOKUBUN, F. . Aplicaação de Redes Neurais em Reconhecimento de Espectros. In: VI Congresso de Iniciação Científica, 1997, Rio Grande. Anais do VI Congresso de Iniciação Científica, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Estudo de uma Rede Neural Backpropagation para Reconhecimento de Caracteres. In: XII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 1996, Curitiba. Anais do XII Congresso Regional de Iniciação Científica e Tecnológica em Engenharia, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Rede Neural Backpropagation para Reconhecimento de Caracteres. In: V Congresso de Iniciação Científica, 1996, Pelotas. Anais do V Congresso de Iniciação Científica, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> . Estudo de uma Rede Neural Backpropagation para Reconhecimento de Caracteres. In: 49a Reunião da Sociedade Brasileira para o Progresso da Ciência, 1996. Anais da 49a Reunião da Sociedade Brasileira para o Progresso da Ciência, 1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> ; <b>OLIVEIRA, V. M.</b> ; Fukuda, T. . Brachiation Robot Control Using MPC 2007 (Relatório técnico). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; MACHADO, V. F. . Cadastro Georreferenciado para Gerenciamento de Paroquianos de uma Comunidade. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; MOR, J. L. ; SIQUEIRA, E. B. . Simulador de Robô Bracejador para Inspeção. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; CORREA, L. S. . Sistema WEB para Automação Residencial. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORREA, L. S. ; <b>OLIVEIRA, V. M.</b> . Aplicativo Móvel para Gerenciamento de Residências Automatizadas. 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; Mello Jr., C. D. ; Santos, B. ; FICKEL, G. . Celula de Monitoramento e Supervisao de Energia para Rede Wireless em Grid. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; DUARTE FILHO, N. L. ; Mello Jr., C. D. ; Estrada, E. . Arquitetura TATUBOT. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; Pereira, L. A. . Sistema de Automação Predial Utilizando PDAs. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; Estrada, E. ; Galeriano, M. . Toolbox e3 ELIPSE para automação da distribuição de energia elétrica. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6965119196945931" target="_blank">BICHO, A. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9582755594379866" target="_blank">ESPINDOLA, D. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6398615776166771" target="_blank">SCHROEDER, G. N.</a> . Simulador Gráfico para Controle de Robôs Móveis. 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ProdutosTecnologicos"></a>Produtos tecnológicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; FICKEL, G. ; Santos, B. ; <b>OLIVEIRA, V. M.</b> ; Mello Jr., C. D. . Celula de Monitoramento e Supervisao de Energia para Rede Wireless em Grid. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a> ; <b>OLIVEIRA, V. M.</b> ; DUARTE FILHO, N. L. ; Mello Jr., C. D. ; Estrada, E. . TATUBOT - Robô de Inspeção Subterrânea. 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a> . Desenvolvimento de um Robô para Inspeção de Linhas de Transmisão. 2008. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> . Aspectos Gerais da Robótica. 2009.
+							(Palestra).
+						</div>
+</div>
+<br class="clear">
+<a name="ProducaoArtisticaCultural"></a><br class="clear" /><div class="inst_back">
+<b>Produção artística/cultural</b>
+</div>
+<div class="cita-artigos">
+<b><a name="OutrasProducoesArtisticas"></a>Outras produções artísticas/culturais</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; Rodrigues, C. L. L. ; Chaplin, L. C. ; Isoldi, M. ; Lovato, J. M. . 1º MUSICAMPUS -- Mostra Musical na FURG.
+							2009
+							(Evento Musical). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LEFFA, V. J.; LOUZADA JR., A.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Ana Cláudia Pereira de Almeida. Formar e Transformar: Objetos Digitais de Aprendizagem para Aulas de Português. 2009. Dissertação (Mestrado em Letras) - Universidade Católica de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; <b>OLIVEIRA, V. M.</b>; Barone, D.; Gonçalves, E. N..  Participação em banca de Emanuel Estrada. TatuBot - Desenvolvimento de um Robô de Inspeção de Dutos. 2009. Dissertação (Mestrado em Modelagem Computacional) - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOUZA, R. P.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Rafael de Paula Souza.Uso de Tecnologia Bluetooth para Comunicação e Marketing.
+							2011. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Pereira, L. A.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Leonardo Alvarenga Pereira.Automação Residencial Utilizando PDAs.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORREA, L. S.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Leonardo S. Corrêa.Sistema de Automação Predial Utilizando Rede de Sensores.
+							2010. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, A. H.; DUARTE FILHO, N. L.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Alessandro Huber dos Santos.Uma proposta de sistema informatizado de eleições usando redes sem fio.
+							2008. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mello Jr., C. D.; Estrada, E.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Francis Streliaev Centeno.Sistema automatizado para medição de energia elétrica residencial e comercial.
+							2008. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; Acunha, G. G.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Gisele Moraes Simas.Captura de movimento humano em ambientes sensoriados por múltipla câmaras.
+							2008. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; Gonçalves, E. N.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Renan Rosado de Almeida.Construindo um ambiente de simulação para tornar autônomo um robô de inspeção.
+							2008. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; Pinto, I. M.; Acunha, G. G..  Participação em banca de Douglas Bastos e Francisco Porto.Identificação de Superfícies a partir de Laser Scanner Aerotransportado.
+							2007. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; Gonçalves, E. N..  Participação em banca de John Igor Bandeira da Cruz.Extração de Características em Imagens Geradas por Sonar Utilizadas em Algoritmos SLAM.
+							2007. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; DUARTE FILHO, N. L.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Marcelo de Paiva Galeriano.Sistemas Operacionais de Tempo-Real
+ em Dispositivos Embarcados: um Estudo de Caso no Projeto Saberlândia.
+							2007. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; <b>OLIVEIRA, V. M.</b>; Mello Jr., C. D..  Participação em banca de Alex Mulattieri Suarez Orozco.Desenvolvimento de Aplicações Móveis para Integração com Sistemas SCADA.
+							2006. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; Moraes, A. S. O.; <b>OLIVEIRA, V. M.</b>.  Participação em banca de Maurício Carlos Dias e Rodrigo Radtke de Souza.Framework para Desenvolvimento de Aplicativos Móveis.
+							2006. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, S. C. P.; <b>OLIVEIRA, V. M.</b>; Real, R. A.; Gervini, V. I..  Participação em banca de Eduardo Bastos Zancanella.Modelagem e controle para um sistema dinâmico de cadeira de rodas.
+							2005. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GOMES, S. C. P.; <b>OLIVEIRA, V. M.</b>; Gervini, V. I..  Participação em banca de Bruno Panerai Velloso.Controle de um veículo subaquático.
+							2005. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6965119196945931" target="_blank">BICHO, A. L.</a>; RODRIGUES, C. L. L..  Participação em banca de Greyce Nogueira Schroeder, Danúbia Bueno Espíndola.Simulador Gráfico para Controle de Robôs Móveis.
+							2004. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; RODRIGUES, C. L. L.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>.  Participação em banca de Sidnei Franco.SCADA - AMADEUS : AQUISIÇÃO DE DADOS E CONTROLE SUPERVISÓRIO EM UMA ARQUITETURA DE SOFTWARE BASEADA EM COMPONENTES.
+							2004. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; FRANCO, D. T.; VIEIRA, H..  Participação em banca de Rafael Iankowski Soares.Estudo de uma Arquitetura para Aquisição de Sinais no Sistema Phyton.
+							2003. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; DUARTE FILHO, N. L.; FREITAS, A. L. C..  Participação em banca de Odorico Mendizabal, Cristina Meinhardt.Protocolo Tolerante a Falhas para Banco de Dados.
+							2003. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; FRANCO, D. T.; DUARTE FILHO, N. L..  Participação em banca de Maicon de Lima Falcão.Gerenciamento Automático de Redes de Computadores através do Uso do Padrão WBEM.
+							2003. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; DUARTE FILHO, N. L.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>.  Participação em banca de Rodrigo Calheiros, Juliana Pereira.Reconhecimento de Padrões em Imagens Digitais Subaquáticas.
+							2003. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; FRANCO, D. T.; GOMES, S. C. P..  Participação em banca de Mariana Martins, Joseane Pedroso, Melissa Vetromille.Proposta de uma Arquitetura para Decoders de Arquivos MP3.
+							2003. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; FRANCO, D. T.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>.  Participação em banca de André da Rosa, Daniel Mendes, Marcelo Moraes.Sistema Autônomo Experimental de Coleta de Lixo em Superfícies não Acidentadas.
+							2003. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; GOMES, S. C. P.; FRANCO, D. T..  Participação em banca de Vagner Santos da Rosa.Construcao de um Robo Manipulador com um Unico Elo Flexivel.
+							2002. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; FRANCO, D. T..  Participação em banca de Ricardo Araujo.FURGBOL: Uma Arquitetura para Robo Movel Omnidirecional.
+							2002. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; FRANCO, D. T.; PICCOLI, H. C..  Participação em banca de Jorge A. D. Kautzmann, Eduardo C. Lopes e Jorge  O. Anselmo.Otimizacao de Arquiteturas e Topologias de RNA com Uso de Algoritmos Geneticos em Ambiente de Computacao Paralela.
+							2002. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3995870391903682" target="_blank">LAGES, W. F.</a>; GOMES, S. C. P..  Participação em banca de Sheila M. Souza e Leonardo D. Castanheira.Desenvolvimento de um Driver PLIP/ECP para Linux.
+							2000. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; GOMES, S. C. P..  Participação em banca de Vitor Irigon Gervini.Um Estudo Sobre Aplicações de Redes Neurais Artificiais a Partir de Resultados Experimentais.
+							2000. Trabalho de Conclusão de Curso (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, C. L. L.; <b>OLIVEIRA, V. M.</b>. Banca de Seleção de Tutores/Bolsistas a Distância -- Sistema Universidade Aberta do Brasil para o curso de Aplicações para WEB.
+							2010. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DOLCI, D. B.; LEITE, A. V.; <b>OLIVEIRA, V. M.</b>. Comissão Examinadora para Seleção de Professor Adjunto, Matéria: Organização de Computadores, Engenharia de Software e Programação Orientada a Objetos em Java.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; <b>OLIVEIRA, V. M.</b>; WERHLI, A. V.. Comissão Examinadora para Seleção de Professor Adjunto, Matéria: Automação.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>; Gonçalves, E. N.; <b>OLIVEIRA, V. M.</b>. Comissão Examinadora para Seleção de Professor Adjunto, Matéria: Instrumentação, Medidas, Sensores e Atuadores, Sistemas de Computação.
+							2009. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Acunha, G. G.; <b>OLIVEIRA, V. M.</b>. Banca de Seleção de Tutores/Bolsistas a Distância -- Sistema Universidade Aberta do Brasil para o curso de Aplicações para WEB.
+							2008. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; FREITAS, A. L. C.; <b>OLIVEIRA, V. M.</b>. Comissão Examinadora para Seleção de Professor Substituto para as Matérias: Computação Gráfica, Redes de Computadores e Compiladores.
+							2003. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FREITAS, A. L. C.; Pinto, I. M.; <b>OLIVEIRA, V. M.</b>. Comissão Examinadora para Seleção de Professor Substituto para as Matérias:Ensino de Computação Aplicada, Computação e Banco de Dados.
+							2003. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DUARTE FILHO, N. L.; FREITAS, A. L. C.; <b>OLIVEIRA, V. M.</b>. Comissão Examinadora para Seleção de Professor Substituto para as Matérias: Banco de Dados, Redes de Computadores e Estrutura de Dados.
+							2002. Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8800859024101679" target="_blank">BOTELHO, S. S. C.</a>. Feira de Ciências - Robótica Educacional.
+							2008.
+							Liceu Salesianos Leão XIII. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b>. Resolução Numérica de Sistemas de Equações Lineares Utilizando Técnicas de Alta Precisão e Processamento Paralelo.
+							2000.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1ª Conferência Regional Sul de Ciência, Tecnologia e Inovação. Representante da FURG. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">14th IEEE International Conference on Emerging Technology and Factory Automation. Real-Time Predictive Control of a Brachiation Robot. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">23º Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE. Otimização de Tempo de Execução de Métodos Numéricos usando GNU/Octave com GPGPU e NVIDIA CUDA. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Brasileiro de Automática. TATUBOT   Robotic System for Inspection of Undergrounded Cable System. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Latino-Americano de Robótica.TATUBOT - Robotic System for Inspection of Undergrounded Cable System.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simpósio Brasileiro de Inteligência Artificial.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Congresso Brasileiro de Automática. Controle de um Robôs Bracejador Subatuado Utilizando NMPC. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Congresso Brasileiro de Automática. XV Congresso Brasileiro de Automática. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; GIROLDO, D. ; ZARDO, C. ; DIAS, C. M. S. ; RACHE, R. P. ; PEREIRA, D. T. . 10a Mostra da Produção Universitária da FURG -- MPU. 2011. (Exposição). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; MEINHARDT, C. ; BASTOS, C. ; BORGES, E. N. ; SALLAS, M. . XXIV Congresso Regional de Iniciação Científica e Tecnológica em Engenharia -- CRICTE. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; GIROLDO, D. ; ZARDO, C. ; DIAS, C. M. S. ; RACHE, R. P. ; PEREIRA, D. T. . 9a. Mostra da Produção Universitária da FURG -- MPU. 2010. (Exposição). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; RODRIGUES, C. L. L. ; Chaplin, L. C. . MUSICAMPUS - Mostra Musical na FURG. 2009. (Festival). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; Estrada, E. . Sede da 1a. Fase da Maratona de Programação. 2008. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Elisa Hartmann Spotorno. Automação Residencial Utilizando Rede de Sensores e Inteligência Artifical.
+						Início: 2012.
+						Dissertação (Mestrado em Engenharia de Computação)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Samuel Troina. Uma Arquitetura para um Ambiente de Manufatura em Nuvem.
+						Início: 2012.
+						Dissertação (Mestrado em Engenharia de Computação)  - Universidade Federal do Rio Grande. (Co-orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jusoan Lang Mór. Simulação e Controle de Robô para Inspeção de Cabos Aéreos Utilizando WEBOTS. Início: 2011. Iniciação científica (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Everson Brum Siqueira. Simulação e Controle de Robô para Inspeção de Cabos Aéreos Utilizando WEBOTS. Início: 2011. Iniciação científica (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6334018506799737'><img src='images/curriculo/logolattes.gif' /></a>Fatima Hernandez. Modificação na Metodologia de Denavit-Hartenberg para Modelagem Cinemática de Sistemas Robóticos Bifurcados.
+							2010.
+						
+					Dissertação  (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, . Orientador: Vinícius Menezes de Oliveira. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Emanuel Estrada. Navegação Autônoma para um Robô de Monitoramento de Linhas Subterrâneas  de Distribuição de Energia.
+							2009.
+						
+					Dissertação  (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, . Co-Orientador: Vinícius Menezes de Oliveira. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Vieira Camerini.
+						Modelagem matemática do processo de biofixação de CO2 por microalgas.
+							2009. Tese
+					 (Doutorado em Doutorado em Engenharia e Ciência de Alimentos)  - Universidade Federal do Rio Grande, . Co-Orientador: Vinícius Menezes de Oliveira. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ilda Maria Wyse Oliveira.
+							Desenvolvimento de Objetos Digitais de Aprendizagem para Matemática.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para Web)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Robert Timm.
+							Criptografia em Redes Wireless.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para Web)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sergio Renato Furtado Flores.
+							Estudo Comparativo de Ferramentas Antivirus Gratuitas.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para Web)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Carlos Wiegand.
+							Sistemas de Detecção de Intruso.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para Web)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandre Paes de Souza.
+							Ferramenta para Controle de Downloads de Editais de Licitações.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para Web)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cláudia Elisa Ávila Alves.
+							Desenvolvimento de Sistema de Loja Virtual.
+							2009.
+							Monografia. (Aperfeiçoamento/Especialização em Aplicações para Web)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo S. Corrêa.
+							Sistema de Automação Predial Utilizando Rede de Sensores.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rafael de Paula Souza.
+							Uso de Tecnologia Bluetooth para Comunicação e Marketing.
+							2010.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Leonardo Alvarenga Pereira.
+							Automação Residencial Utilizando PDAs.
+							2009.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Francis Streliaev Centeno.
+							Sistema Automático de Medição de Energia Elétrica Residencial e Comercial.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alessandro Huber dos Santos.
+							Uma proposta de sistema informatizado de eleições usando redes sem fio.
+							2008.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maurício Carlos Dias e Rodrigo Radtke de Souza.
+							Framework para Desenvolvimento de Aplicativos Móveis.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alex Mulattieri Suarez Orozco.
+							Desenvolvimento de Aplicações Móveis para Integração com Sistemas SCADA.
+							2006.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sidnei Roberto Selzler Franco.
+							SCADA-AMADEUS: Aquisição de Dados e Controle em Uma Arquitetura de Software Baseada em Componentes e sua Implementação na Automação da Distribuição de Energia.
+							2004.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gilvana de S. Ferreira e Virginia S. da Cunha.
+							Estudo de Sistemas de Tempo Real.
+							2003.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Frederico Rohde.
+							Tecnologias Aplicadas na Locomocao de Portadores de Necessidades Especiais.
+							2003.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano S. da Silva e Matheus Bacelo de Figueiredo.
+							Construcao de um Sistema Robotico com Visao Artificial para Jogar Xadrez.
+							2002.
+							Trabalho de Conclusão de Curso. (Graduação em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Eduarda da Rosa Almeida.
+							Automação Residencial Utilizandos Rede de Sensores.
+							2010.
+							Iniciação Científica - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bruno Franco.
+							Automação Residencial Utilizandos Rede de Sensores.
+							2010.
+							Iniciação Científica. (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mariela Oliveira de Oliveira.
+							Projeto Mecânico de Robô de Inspeção de Linhas Aéreas.
+							2010.
+							Iniciação Científica. (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Felipe Veiga.
+							Projeto Mecânico de Robô de Inspeção de Linhas Aéreas.
+							2010.
+							Iniciação Científica. (Graduando em Engenharia de Automação)  - Universidade Federal do Rio Grande,
+							Financiadora de Estudos e Projetos. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renan Machado de Oliveira.
+							Desenvolvimento de Bibliotecas para SLAM em Diferentes Plataforma Robóticas.
+							2009.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">André Luís Tibola.
+							Otimização de Tempo de Execução de Métodos Numéricos usando GNU/Octave com GPGPU e NVIDIA CUDA.
+							2008.
+							Iniciação Científica - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme Fickel.
+							AMADEUS 2 - Arquitetura Modular para Automação da Distribuição de Energia Elétrica.
+							2008.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande,
+							Fundação de Apoio da Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Danúbia Bueno Espíndola.
+							Modelagem e Controle de Robôs Móveis.
+							2003.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Karina Santos Machado.
+							Aplicação de Lógica Fuzzy no Controle de Robôs Móveis.
+							2003.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Giseli Rabelo Lopes.
+							Aplicação de Lógica Fuzzy no Controle de Robôs Móveis.
+							2003.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Paulo Drews Lilles.
+							Construção de um Robô Móvel com Acionamento Diferencial.
+							2003.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">John Igor Bandeira.
+							Construção de um Robô Móvel com Acionamento Diferencial.
+							2003.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tomas Garcia Moreira.
+							Construção de um Robô Móvel com Acionamento Diferencial.
+							2003.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Greyce Nogueira Schroeder.
+							Modelagem e Controle de Robôs Móveis.
+							2002.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Karina Machado.
+							Modelagem e Controle de Robôs Móveis.
+							2002.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Mendes Costa.
+							Simulador Gráfico para Controle de Robôs Móveis.
+							2002.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Thales Körting.
+							Simulador Gráfico para Controle de Robôs Móveis.
+							2002.
+							Iniciação Científica. (Graduando em Engenharia de Computação)  - Universidade Federal do Rio Grande. Orientador: Vinícius Menezes de Oliveira.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProgramaComputadorSemRegistroPI"></a><br class="clear" /><div class="inst_back">
+<b>Programa de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; MACHADO, V. F. . Cadastro Georreferenciado para Gerenciamento de Paroquianos de uma Comunidade. 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>OLIVEIRA, V. M.</b> ; MOR, J. L. ; SIQUEIRA, E. B. . Simulador de Robô Bracejador para Inspeção. 2012. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 13/11/2013 &agrave;s 20:20:43</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=9262132256691648" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

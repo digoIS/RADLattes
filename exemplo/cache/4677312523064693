@@ -1,0 +1,2656 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Antonio Gledson Oliveira Goulart)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=4677312523064693" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4791371J5&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4791371J5"><div class="infpessoa">
+<h2 class="nome">Antonio Gledson Oliveira Goulart<br>
+<br>
+<span align="center" style="font-weight: bold" class="texto">Bolsista de Produtividade em Pesquisa do CNPq - N&iacute;vel 1D</span>
+</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/4677312523064693</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 08/03/2015</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação em Física pela Universidade Federal de Santa Maria (1994), mestrado em Física pela Universidade Federal de Santa Maria (1996) e doutorado em Física pela Universidade Federal de Santa Maria (2001). Atualmente é professor adjunto da Universidade Federal do Pampa. Tem experiência na área de Física, com ênfase em Física da Atmosfera, atuando principalmente nos seguintes temas: modelagem da turbulência na camada limite planetária.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Antonio Gledson Oliveira Goulart</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Instituto de Matemática, Estatística e Física. <br class="clear" />Fundação Universidade do Rio Grande<br class="clear" />Carreiros<br class="clear" />96203900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32336500<br class="clear" />URL da Homepage: <a target="blank" href="http://www.furg.br">http://www.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: Desenvolvimento de um Modelo Espectral para o Estudo do Decaimento da Turbulência na Camada Limite Convectiva, Ano de obtenção: 2001. <br class="clear" />Orientador: Gervásio Annes Degrazia. <br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul, FAPERGS, Brasil. <br class="clear" />Palavras-chave: turbulência; Decaimento da Energia Cinética.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Áreas Clássicas de Fenomenologia e suas Aplicações / Especialidade: Dinâmica dos Fluídos. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Meteorologia / Especialidade: Micrometeorologia. <br class="clear" />Setores de atividade: Produtos e Serviços Voltados Para A Defesa e Proteção do Meio Ambiente, Incluindo O Desenvolvimento Sustentado. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Física<span class="ajaxCAPES" data-param="&codigoCurso=42002010019P1&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	<br class="clear" />Título: Uma Formulação Analítica para os Parâmetros de Dispersão em Camadas Limites Planetárias,Ano de Obtenção: 1997.<br class="clear" />Orientador: Gervásio Annes Degrazia.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: turbulência; Espectros de energia.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Física / Subárea: Áreas Clássicas de Fenomenologia e suas Aplicações / Especialidade: Dinâmica dos Fluídos. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Meteorologia / Especialidade: Micrometeorologia. <br class="clear" />Setores de atividade: Produtos e Serviços Voltados Para A Defesa e Proteção do Meio Ambiente, Incluindo O Desenvolvimento Sustentado. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Física<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BOLSISTA PRODOC/CAPES.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Conselho de Ensino, Pesquisa e Extensão, IMEF. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Matemática Aplicada'>Matemática Aplicada</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" />Álgebra Linear e Geometria Analítica<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Pampa, UNIPAMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Adjunto, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro de Tecnologia de Alegrete, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Fenômenos de Transporte'>Fenômenos de Transporte</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, ENGENHARIA, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Métodos Matemáticos para Engenharia<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenhaira Macânica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" />Cálculo II<br class="clear" />Equações Diferenciais II<br class="clear" />Física Geral I<br class="clear" />Física Geral II<br class="clear" />Física Geral III<br class="clear" />Termodinâmica II<br class="clear" />Transferência de Calor e Massa<br class="clear" />Equações Diferenciais I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Elétrica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Equações Diferencias II<br class="clear" />Físcia Geral III<br class="clear" />Física Geral I<br class="clear" />Física Geral II<br class="clear" />Equações Diferenciais I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2006 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo I<br class="clear" />Cálculo II<br class="clear" />Física Geral e Experimental I<br class="clear" />Física Geral e Experimental II<br class="clear" />Física Geral e Experimental III<br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Maria, UFSM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Colaborador do PPGFIS</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Professor da Disciplina de Mecânica Clássica do Programa de Pós-Graduação em Física</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Pesquisador vinculado a pós-gr, Enquadramento Funcional: bolsista pro-doc, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/2003 - 3/2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Centro de Ciências Naturais e Exatas, Departamento de Física. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Fisica da Atmosfera'>Fisica da Atmosfera</a><br class="clear" /><a href='#LP_Micrometeorologia'>Micrometeorologia</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Regional Integrada do Alto Uruguai e das Missões, URI*, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1996 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Professor titular, Carga horária: 30</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1996 - 9/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Fisica, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Física I<br class="clear" />Física II<br class="clear" />Física III<br class="clear" />Física IV<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1996 - 9/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática e Física, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Mecânica Clássica<br class="clear" />Termodinâmica<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Fisica da Atmosfera'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fisica da Atmosfera</div>
+</div><a name='LP_Micrometeorologia'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Micrometeorologia</div>
+</div><a name='LP_Fen&ocirc;menos de Transporte'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fenômenos de Transporte</div>
+</div><a name='LP_Matem&aacute;tica Aplicada'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Matemática Aplicada</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_C&aacute;lculo do Espectro de Energia Cin&eacute;tica do Fluxo Turbulento na Camada Limite Est&aacute;vel Associado &agrave;s Ondas de Gravidade Interna.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cálculo do Espectro de Energia Cinética do Fluxo Turbulento na Camada Limite Estável Associado às Ondas de Gravidade Interna.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Neste trabalho será desenvolvido um modelo espectral para a turbulência gerada pelas ondas de gravidade interna, a partir da equação de momento aplicada em dois pontos do fluxo turbulento localizado na Camada Limite Planetária Estável. A equação obtida no modelo será resolvida pelo emprego do método de decomposição de Adomian. Adicionalmente será calculado um coeficiente de difusão que será empregado em um modelo de dispersão Euleriano para estimar a distribuição de contaminantes emitidos por uma fonte contínua.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Coordenador / A G O  Goulart - Coordenador / Davidson Martins Moreira - Integrante / Marco Túlio de Vilhena - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Estudo da din&acirc;mica das ondas de gravidade na m&eacute;dia atmosfera e CR empregando o m&eacute;todo da decompsi&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo da dinâmica das ondas de gravidade na média atmosfera e CR empregando o método da decompsição<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Os objetivos do projeto são: 1) obter o espectro de ondas de gravidade na Média
+ Atmosfera empregando o método da decomposição para resolver o conjunto de equações obtidas. 2) Analisar a hipótese de que uma das principais fontes de energia cinética turbulenta na Camada Residual está associada à presença de ondas de gravidade nesta região.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div><a name='PP_Um novo m&eacute;todo anal&iacute;tico para a simula&ccedil;&atilde;o da dispers&atilde;o de poluentes na Camada Limite Atmosf&eacute;rica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Um novo método analítico para a simulação da dispersão de poluentes na Camada Limite Atmosférica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto permitirá estudar o processo de dispersão de poluentes na atmosfera utilizando uma nova abordagem na solução da equação de difusão-advecção, o que representará um avanço significativo nas ciências atmosféricas, uma vez que estará resolvendo o problema de dispersão de poluentes de uma forma mais abrangente e realística (incluindo reações químicas). Cabe ressaltar que este novo método poderá ser utilizado nasolução de problemas que envolvam equações diferenciais lineares e não-lineares em vários campos da ciência, em particular, com aplicação direta nas ciências ambientais. Além disso, a solução analítica apresentada neste projeto, diferentemente das soluções obtidas na literatura, não é limitada à forma dos perfis verticais da velocidade do vento e coeficientes de difusão.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Integrante / Marco Túlio Menna Barreto de Vilhena - Integrante / Davidson Martins Moreira - Coordenador / Daniela Buske - Integrante / SERGEJ S. ZILITINKEVICH - Integrante / Soares, Pedro M.M. - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_C&aacute;lculo do campo de concentra&ccedil;&atilde;o de contaminantes durante  o crescimento da Camada Limite Convectiva'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cálculo do campo de concentração de contaminantes durante  o crescimento da Camada Limite Convectiva<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo deste trabalho é calcular o campo de concentração de contaminantes emitidos por fontes antropomórficas na baixa atmosfera durante o período de crescimento da Camada Limite Convectiva, a partir dos modelos de dispersão Eulerianos M4PUFF (modelo à puff não gaussiano), ADMM (Advection-Diffusion Multilayer Model) e GILTT (Generalized Integral Laplace Transform Technique).. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Coordenador / Gervasio A Degrazia - Integrante / Marco Túlio Menna Barreto de Vilhena - Integrante / Davidson Martins Moreira - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_An&aacute;lise dos Per&iacute;odos de Transi&ccedil;&atilde;o e de Baixas Velocidades do Vento Horizontal na Camada Limite Planet&aacute;ria: Um Estudo Te&oacute;rico e Aplica&ccedil;&atilde;o em Dispers&atilde;o de Contaminates'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise dos Períodos de Transição e de Baixas Velocidades do Vento Horizontal na Camada Limite Planetária: Um Estudo Teórico e Aplicação em Dispersão de Contaminates<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Existem vários trabalhos que descrevem o processo de transporte associado à uma turbulência estacionária bem desenvolvida, ou seja, um campo turbulento apresentando características de auto similaridade e invariância de escala como proposta por Kolmogorov. Todavia, é importante salientar que na Camada Limite Convectiva (CLC) pode ocorrer diariamente situações nas quais a dispersão é mantida pelo crescimento (primeiras horas do dia) ou decaimento (após o por do sol) da turbulência na CLC. Como conseqüência, compreender e quantificar o fenômeno de dispersão turbulenta nestas particulares situações constitui um problema de extrema importância do ponto de vista teórico e na modelagem da dispersão de contaminantes na baixa atmosfera. Por outro lado, estudos de dispersão e turbulência em situações de vento calmo são extremamente difíceis (Anfossi et. al., 2004). Quando o vento médio horizontal tende para zero, a maioria dos modelos operacionais de dispersão não pode ser aplicado para simular o campo de concentração de contaminantes. Em geral, modelos baseados na equação de difusão-advecção podem ser empregados apenas quando os ventos horizontais médios são maiores do que 2m/s. Nas condições caracterizadas por vento calmo a dispersão de contaminantes é governada por oscilações de baixa freqüência do vento horizontal. Os objetivos deste trabalho são: compreender e quantificar o fenômeno de dispersão turbulenta nos casos de crescimento e decaimento da energia cinética turbulenta na CLC; e descrever e quantificar, a partir das equações de Navier-Stokes, o comportamento do vento médio no caso de velocidades muito baixas. Os resultados obtidos a partir dos modelos serão comparados com dados de simulação numérica (Large Eddy Simulation - LES).. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Coordenador / Marco Túlio Menna Barreto de Vilhena - Integrante / Davidson Martins Moreira - Integrante / Jonas da Costa Carvalho - Integrante / Gervásio Annes Degrazia - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.<br class="clear" />Número de produções C, T & A: 1</div>
+</div><a name='PP_Estudo do Crescimento da Camada Limite Planet&aacute;ria e Meandering do Vento Horizontal - Aplica&ccedil;&atilde;o em Modelos de Dispers&atilde;o.'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo do Crescimento da Camada Limite Planetária e Meandering do Vento Horizontal - Aplicação em Modelos de Dispersão.<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Estudo do Crescimento da Camada Limite Planetária e Meandering do Vento Horizontal - Aplicação em Modelos de Dispersão. Existem muitos trabalhos na literatura que descrevem a estrutura física da Camada Limite Planetária estacionária. Porém existem algumas situações particulares que ainda não foram devidamente estudadas. Uma situação pouco estudada é durante o amanhecer, quando a Camada Limite Convectiva esta se formando. Na literatura existem somente alguns trabalhos que utilizam métodos numéricos para estudar este problema (Wingaard, J.C., 1983; Heydarian, M., et. al., 1989). Pretende-se desenvolver um modelo espectral para descrever o campo turbulento durante este período. Um outro caso onde existem poucos trabalhos teóricos é durante situações de vento horizontal muito fraco (< 2ms-1). Neste caso os modelos de dispersão tradicionais são totalmente ineficientes para calcular o campo de concentração de poluentes. Está sendo desenvolvido um modelo a partir das equações de Navier-Stokes que é capaz de descrever o campo de velocidade em situações de vento fraco. Este campo de vento será empregado em modelos de dispersão para estimar o campo de concentração de contaminantes.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.<br class="clear" />Número de produções C, T & A: 2</div>
+</div><a name='PP_Parametriza&ccedil;&atilde;o e Modelagem de Circula&ccedil;&otilde;es e Processos Atmosf&eacute;ricos no Rio Grande do Sul'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Parametrização e Modelagem de Circulações e Processos Atmosféricos no Rio Grande do Sul<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Descrição: O objetivo deste projeto é a compreensão e descrição das circulações atmosféricas e dos processos de transporte e dispersão de contaminantes nos diversos ecossistemas do estado do Rio Grande do Sul. O resultado deste estudo proporcionará o entendimento da dinâmica da baixa atmosfera no Rio Grande do Sul. A aplicação deste conhecimento é relevante para a agricultura, meio-ambiente e energia. O produto final será a adequação de um modelo meteorológico de circulação geral para o estado do Rio Grande do Sul, e de modelos locais para ecossistemas específicos, que incluem descrição detalhada da circulação, transporte e dispersão de contaminantes. Em termos de produção acadêmica, o projeto contribuirá de modo relevante para as teses de doutorado e dissertações de mestrado dos alunos participantes e na elaboração de trabalhos nacionais e internacionais em revistas indexadas.
+
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (2)  / Doutorado: (3) . <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Integrante / Domenico Anfossi - Integrante / Gervasio Annes Degrazia - Coordenador / Umberto Rizza - Integrante / Davidson Martins Moreira - Integrante / Jonas da Costa Carvalho - Integrante / Tiziano Tirabassi - Integrante / Otavio Costa Acevedo - Integrante / Osvaldo L L Moraes - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Parametriza&ccedil;&atilde;o da turbul&ecirc;ncia para aplica&ccedil;&atilde;o em modelos de dispers&atilde;o de poluentes na camada limite planet&aacute;ria'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Parametrização da turbulência para aplicação em modelos de dispersão de poluentes na camada limite planetária<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Descrição: Neste projeto emprega-se a equação de difusão-advecção transiente na continuação da construção de um modelo semi-analítico que permite reproduzir o campo de concentração superficial de contaminantes liberados por fontes contínuas em todas as condições de estabilidade. Para tornar o modelo aplicável em mais situações será considerado o efeito do termo difusivo longitudinal, relevante em condições de ventos fracos. Um aspecto importante na presente análise será o desenvolvimento de coeficientes de difusão turbulentos que encerram a física da turbulência não homogênea. Mais especificamente, estes coeficientes de difusão descrevem o papel dos turbilhões mais energéticos e sua influência com a altura no processo de dispersão turbulenta.
+
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Especialização: (0)  / Mestrado acadêmico: (2)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Integrante / Gervasio Annes Degrazia - Integrante / Davidson Martins Moreira - Coordenador / Jonas da Costa Carvalho - Integrante / Tiziano Tirabassi - Integrante / Marco Túlio Vilhena - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro / Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Auxílio
+										financeiro / Universidade Luterana do Brasil - Auxílio
+										financeiro.</div>
+</div><a name='PP_Estudo do transporte de contaminantes durante o decaimento da camada limite convectiva'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo do transporte de contaminantes durante o decaimento da camada limite convectiva<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto tem como objetivo estimar a concentração de contaminentes emitidos por fontes altas durante o decaimento da CLC... <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Coordenador / Vanius Antonio Ledur - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Auxílio
+										financeiro.Número de orientações: 1</div>
+</div><a name='PP_Projeto Impacto Ambiental das Olarias'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Impacto Ambiental das Olarias<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto visa fazer ume estudo sobre o impacto ambiental gerado pela presença de olarias da região das Missões
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (7)  / Especialização: (1)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Antonio Gledson Oliveira Goulart - Integrante / Zuleica Souza dos Santos - Coordenador / Briseidy Marchesan - Integrante / Bernardo Both - Integrante / Cristina Paludo Santos - Integrante / Cristina Pedron Barros - Integrante / Mario Sergio Wolski - Integrante / Cristiane Raquel Sausen - Integrante / Tania Maria Copetti - Integrante.<br class="clear" />Financiador(es): Secretaria da Ciência e Tecnologia Rs - Auxílio
+										financeiro.Número de orientações: 1</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Geociências / Subárea: Meteorologia/Especialidade: Micrometeorologia. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Mecânica / Subárea: Fenômenos de Transporte/Especialidade: Mecânica dos Fluídos. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Trabalho Premiado no XII Congresso Brasileiro de Meteorologia, Sociedade Brasileira de Meteorologia. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science</div><div class="trab">Total de trabalhos:17</div><div class="cita">Total de citações:106</div><div class="fator">Fator H:4</div><div class="detalhes">Goulart A , Goulart AG, Goulart AOG&nbsp;&nbsp;Data:&nbsp;10/03/2013</div></div></div></div></div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">SCOPUS<a href="http://www.scopus.com/authid/detail.url?authorId=8606804700" target='_blank' ><img src="/buscatextual/images/curriculo/scopus.png"/></a></div><div class="detalhes"><a href="http://www.scopus.com/authid/detail.url?authorId=8606804700" target='_blank' ></a></div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, Davidson Martins</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.atmosenv.2013.10.045" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; MORAES, AMILTON CRAVO ; <b>Goulart, Antonio Gledson</b> ; DE ALMEIDA ALBUQUERQUE, TACIANA TOLEDO . A contribution to solve the atmospheric diffusion equation with eddy diffusivity depending on source distance. Atmospheric Environment (1994)<sup><img id='13522310_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13522310' /></sup>, v. 83, p. 254-259, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.atmosenv.2013.10.045&issn=13522310&volume=83&issue=&paginaInicial=254&titulo=A contribution to solve the atmospheric diffusion equation with eddy diffusivity depending on source distance&sequencial=1&nomePeriodico=Atmospheric Environment (1994)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIZZA, Umberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/met.1284" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a> ; MIGLIETTA, MARIO M. ; ACEVEDO, Otávio C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5770274675104746" target="_blank">ANABOR, VAGNER</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; DEGRAZIA, GERVASIO A. ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6886593430683676" target="_blank">ZIMMERMAN, HANS R.</a> . Large-eddy simulation of the planetary boundary layer under baroclinic conditions during daytime and sunset turbulence. Meteorological Applications (Print)<sup><img id='13504827_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13504827' /></sup>, v. 20, p. 56-71, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/met.1284&issn=13504827&volume=20&issue=&paginaInicial=56&titulo=Large-eddy simulation of the planetary boundary layer under baroclinic conditions during daytime and sunset turbulence&sequencial=2&nomePeriodico=Meteorological Applications (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Moreira, D.M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">Moreira, D.M.</a> ; <b>GOULART, A. G. O.</b> ; Moraes, Marcelo R. . A model employing integral transform method to simulate pollutant dispersion in atmosphere. Revista Brasileira de Meteorologia (Impresso)<sup><img id='01027786_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027786' /></sup>, v. 28, p. 373-381, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027786&volume=28&issue=&paginaInicial=373&titulo=A model employing integral transform method to simulate pollutant dispersion in atmosphere&sequencial=3&nomePeriodico=Revista Brasileira de Meteorologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, D. M.</a> ; PIMENTEL, Luiz Claudio Gomes ; Guerreiro, J. S. P. . A Solution of Nonlinear Equation for the Gravity Wave Spectra From Adomian Decomposition Method: A First Aproach. Revista Brasileira de Meteorologia (Impresso)<sup><img id='01027786_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027786' /></sup>, v. 28, p. 357-363, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027786&volume=28&issue=&paginaInicial=357&titulo=A Solution of Nonlinear Equation for the Gravity Wave Spectra From Adomian Decomposition Method: A First Aproach&sequencial=4&nomePeriodico=Revista Brasileira de Meteorologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, D. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, D. M.</a> ; <b>GOULART, A. G. O.</b> . A semi-analytical dispersion model from a steady source of short duration. Journal of Engineering Mathematics<sup><img id='00220833_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00220833' /></sup>, v. 1, p. 100, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00220833&volume=1&issue=&paginaInicial=100&titulo=A semi-analytical dispersion model from a steady source of short duration&sequencial=5&nomePeriodico=Journal of Engineering Mathematics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Goulart, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10546-010-9546-4" target="_blank"></a><b>Goulart, A. G.</b> ; BODMANN, B. E. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T. M. B.</a> ; Soares, P. M. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, D. M.</a> . On the Time Evolution of the Turbulent Kinetic Energy Spectrum for Decaying Turbulence in the Convective Boundary Layer. Boundary - Layer Meteorology<sup><img id='00068314_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00068314' /></sup>, v. 138, p. 61-75, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10546-010-9546-4&issn=00068314&volume=138&issue=&paginaInicial=61&titulo=On the Time Evolution of the Turbulent Kinetic Energy Spectrum for Decaying Turbulence in the Convective Boundary Layer&sequencial=6&nomePeriodico=Boundary - Layer Meteorology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Kipper, C.J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.physa.2011.04.019" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6432341940154857" target="_blank">Kipper, C.J.</a> ; <b>Goulart, A.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">Vilhena, M.T.</a> ; Soares, P.M. . Theoretical study of the decaying convective turbulence in a shear-buoyancy PBL. Physica. A (Print)<sup><img id='03784371_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03784371' /></sup>, v. 390, p. 3320-3328, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.physa.2011.04.019&issn=03784371&volume=390&issue=&paginaInicial=3320&titulo=Theoretical study of the decaying convective turbulence in a shear-buoyancy PBL&sequencial=7&nomePeriodico=Physica. A (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, Davidson Martins</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1504/IJNEST.2011.041650" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; Soares, Pedro M.M. ; <b>Goulart, Antonio Gledson</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">Vilhena, Marco Tullio</a> . On the new parameterisation of the eddy diffusivity for radioactive pollutant dispersion. International Journal of Nuclear Energy, Science and Technology (Print)<sup><img id='17416361_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='17416361' /></sup>, v. 6, p. 166, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1504/IJNEST.2011.041650&issn=17416361&volume=6&issue=&paginaInicial=166&titulo=On the new parameterisation of the eddy diffusivity for radioactive pollutant dispersion&sequencial=8&nomePeriodico=International Journal of Nuclear Energy, Science and Technology (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BULIGON, Lidiane</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4755671184790141" target="_blank">BULIGON, Lidiane</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otavio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2186097538587489" target="_blank">SZINVELSKI, Charles</a> ; <b>GOULART, A. G. O.</b> . semi-analytical solution for the mean wind profile in the atmospheric boundary layer: the convective case. Atmospheric Chemistry and Physics Discussion (Online)<sup><img id='16807375_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16807375' /></sup>, v. 10, p. 2227-2236, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16807375&volume=10&issue=&paginaInicial=2227&titulo=semi-analytical solution for the mean wind profile in the atmospheric boundary layer: the convective case&sequencial=9&nomePeriodico=Atmospheric Chemistry and Physics Discussion (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NUNES, A. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10546-009-9432-0" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1873505066686878" target="_blank">NUNES, A. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">Campos Velho, H. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3246339978224530" target="_blank">Satyamurty, P.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G.</a> ; <b>Goulart, A.</b> ; RIZZA, U. . Morning Boundary-Layer Turbulent Kinetic Energy by Theoretical Models. Boundary - Layer Meteorology<sup><img id='00068314_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00068314' /></sup>, v. 134, p. 23-39, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10546-009-9432-0&issn=00068314&volume=134&issue=&paginaInicial=23&titulo=Morning Boundary-Layer Turbulent Kinetic Energy by Theoretical Models&sequencial=10&nomePeriodico=Boundary - Layer Meteorology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Carvalho, Jonas C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.atmosres.2010.06.009" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">Carvalho, Jonas C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">Degrazia, Gervásio A.</a> ; ANFOSSI, Domenico ; <b>Goulart, Antônio G.</b> ; Cuchiara, Gustavo C. ; Mortarini, Luca . Simulating the characteristic patterns of the dispersion during sunset PBL. Atmospheric Research (Print)<sup><img id='01698095_11' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01698095' /></sup>, p. ., 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.atmosres.2010.06.009&issn=01698095&volume=&issue=&paginaInicial=.&titulo=Simulating the characteristic patterns of the dispersion during sunset PBL&sequencial=11&nomePeriodico=Atmospheric Research (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Moreira, D.M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.atmosenv.2010.02.025" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">Moreira, D.M.</a> ; Tirabassi, T. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">Vilhena, M.T.</a> ; <b>Goulart, A.G.</b> . A multi-layer model for pollutant dispersion with dry deposition to the ground. Atmospheric Environment<sup><img id='13522310_12' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13522310' /></sup>, v. 44, p. 1859-1865, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.atmosenv.2010.02.025&issn=13522310&volume=44&issue=&paginaInicial=1859&titulo=A multi-layer model for pollutant dispersion with dry deposition to the ground&sequencial=12&nomePeriodico=Atmospheric Environment" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEGRAZIA, G</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10546-009-9360-z" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G</a> ; RIZZA, U. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7752837354645381" target="_blank">PUHALES, F.</a> ; <b>Goulart, A</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, J. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3844331833780478" target="_blank">WELTER, Guilherme</a> ; Marques, E. . A Variable Mesh Spacing for Large-Eddy Simulation Models in the Convective Boundary Layer. Boundary - Layer Meteorology<sup><img id='00068314_13' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00068314' /></sup>, v. 131, p. 277-292, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10546-009-9360-z&issn=00068314&volume=131&issue=&paginaInicial=277&titulo=A Variable Mesh Spacing for Large-Eddy Simulation Models in the Convective Boundary Layer&sequencial=13&nomePeriodico=Boundary - Layer Meteorology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEGRAZIA, G. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G. A.</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, J. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2186097538587489" target="_blank">SZINVELSKI, Charles</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4755671184790141" target="_blank">BULIGON, Lidiane</a> . Turbulence Dissipation Rate Derivation for Meandering Ocurrences in a Stable Planetary. Atmospheric Chemistry and Physics<sup><img id='16807316_14' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16807316' /></sup>, v. 8, p. 1713-1721, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16807316&volume=8&issue=&paginaInicial=1713&titulo=Turbulence Dissipation Rate Derivation for Meandering Ocurrences in a Stable Planetary&sequencial=14&nomePeriodico=Atmospheric Chemistry and Physics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Goulart, A</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/1751-8113/41/42/425205" target="_blank"></a><b>Goulart, A</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">de Vilhena, M T M B</a> ; Bodmann, B E J ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">Moreira, D</a> . An analytical solution for the nonlinear energy spectrum equation by the decomposition method. Journal of Physics. A, Mathematical and Theoretical<sup><img id='17518113_15' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='17518113' /></sup>, v. 41, p. 425205, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1088/1751-8113/41/42/425205&issn=17518113&volume=41&issue=&paginaInicial=425205&titulo=An analytical solution for the nonlinear energy spectrum equation by the decomposition method&sequencial=15&nomePeriodico=Journal of Physics. A, Mathematical and Theoretical" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BULIGON, Lidiane</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.2174/1874282300802010153" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4755671184790141" target="_blank">BULIGON, Lidiane</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">Degrazia, Gervasio A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2186097538587489" target="_blank">Szinvelski, Charles R.P.</a> ; <b>Goulart, Antônio G.</b> . Algebraic Formulation for the Dispersion Parameters in an Unstable Planetary Boundary Layer: Application in the Air Pollution Gaussian Model. The Open Atmospheric Science Journal<sup><img id='18742823_16' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='18742823' /></sup>, v. 2, p. 153-159, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.2174/1874282300802010153&issn=18742823&volume=2&issue=&paginaInicial=153&titulo=Algebraic Formulation for the Dispersion Parameters in an Unstable Planetary Boundary Layer: Application in the Air Pollution Gaussian Model&sequencial=16&nomePeriodico=The Open Atmospheric Science Journal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Goulart, Antônio G. O.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10546-007-9179-4" target="_blank"></a><b>Goulart, Antônio G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">Degrazia, Gervásio A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">Acevedo, Otávio C.</a> ; ANFOSSI, Domenico . Theoretical considerations of meandering winds in simplified conditions. Boundary - Layer Meteorology<sup><img id='00068314_17' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00068314' /></sup>, v. 125, p. 279-287, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10546-007-9179-4&issn=00068314&volume=125&issue=&paginaInicial=279&titulo=Theoretical considerations of meandering winds in simplified conditions&sequencial=17&nomePeriodico=Boundary - Layer Meteorology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Goulart, A</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ecolmodel.2007.02.004" target="_blank"></a><b>Goulart, A</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G</a> ; FLORES, D . Vertical, lateral and longitudinal eddy diffusivities for a decaying turbulence in the convective boundary layer. Ecological Modelling<sup><img id='03043800_18' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03043800' /></sup>, v. 204, p. 516-522, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.ecolmodel.2007.02.004&issn=03043800&volume=204&issue=&paginaInicial=516&titulo=Vertical, lateral and longitudinal eddy diffusivities for a decaying turbulence in the convective boundary layer&sequencial=18&nomePeriodico=Ecological Modelling" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIZZA, Umberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0102-77862007000100002" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">Carvalho, Jonas C.</a> ; Moreira, Davidson M. ; Moraes, Marcelo R. ; <b>Goulart, Antônio G.</b> . A global analysis of the atmospheric pollutant modeling. Revista Brasileira de Meteorologia<sup><img id='01027786_19' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027786' /></sup>, v. 22, p. 1-9, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0102-77862007000100002&issn=01027786&volume=22&issue=&paginaInicial=1&titulo=A global analysis of the atmospheric pollutant modeling&sequencial=19&nomePeriodico=Revista Brasileira de Meteorologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10652-007-9035-6" target="_blank"></a><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, D. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T. M. B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G. A.</a> ; ZILITINKEVICH, S. S. . A new model for the CBL growth based on the turbulent kinetic energy equation. Environmental Fluid Mechanics (Dordrecht)<sup><img id='15677419_20' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='15677419' /></sup>, v. 7, p. 409-419, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10652-007-9035-6&issn=15677419&volume=7&issue=&paginaInicial=409&titulo=A new model for the CBL growth based on the turbulent kinetic energy equation&sequencial=20&nomePeriodico=Environmental Fluid Mechanics (Dordrecht)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARVALHO, J</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.physa.2005.11.060" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, J</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G</a> ; DEVILHENA, M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8564675492283232" target="_blank">MAGALHAES, S</a> ; <b>Goulart, A</b> ; ANFOSSI, D ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, O</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, O</a> . Parameterization of meandering phenomenon in a stable atmospheric boundary layer. Physica. A<sup><img id='03784371_21' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03784371' /></sup>, v. 368, p. 247-256, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.physa.2005.11.060&issn=03784371&volume=368&issue=&paginaInicial=247&titulo=Parameterization of meandering phenomenon in a stable atmospheric boundary layer&sequencial=21&nomePeriodico=Physica. A" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ANFOSSI, Domenico</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>ANFOSSI, Domenico ; OETTL, Dietmar ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio</a> ; <b>GOULART, A. G. O.</b> . An analysis of sonic anemometer observations in low wind
+speed conditions. Boundary - Layer Meteorology<sup><img id='00068314_22' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00068314' /></sup>, Holanda, v. 114, p. 179-203, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00068314&volume=114&issue=&paginaInicial=179&titulo=An analysis of sonic anemometer observations in low wind
+speed conditions&sequencial=22&nomePeriodico=Boundary - Layer Meteorology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>OETTL, D</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.atmosenv.2004.11.034" target="_blank"></a>OETTL, D ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio</a> ; ANFOSSI, Domenico . A new hypothesis on meandering atmospheric flows in low wind speed conditions. Atmospheric Environment (1994)<sup><img id='13522310_23' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13522310' /></sup>, Inglaterra, p. 1739-1748, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.atmosenv.2004.11.034&issn=13522310&volume=&issue=&paginaInicial=1739&titulo=A new hypothesis on meandering atmospheric flows in low wind speed conditions&sequencial=23&nomePeriodico=Atmospheric Environment (1994)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, Davidson Martins</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <b>GOULART, A. G. O.</b> ; TIRABASSI, T . Simulation of the dispersion of pllutants using two approaches for the case of a low source in a SBL: evaluation of turbulence parameterisations. Water, Air and Soil Pollution<sup><img id='00496979_24' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00496979' /></sup>, Netherlands, v. 161, p. 285-297, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00496979&volume=161&issue=&paginaInicial=285&titulo=Simulation of the dispersion of pllutants using two approaches for the case of a low source in a SBL: evaluation of turbulence parameterisations&sequencial=24&nomePeriodico=Water, Air and Soil Pollution" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEGRAZIA, Gervasio Annes</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otavio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo L L</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, Haroldo F Campos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson</a> . On the universality of the dissipation rate functional form and of the autocorrelation function exponential form. Atmospheric Environment<sup><img id='13522310_25' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13522310' /></sup>, Inglaterra, v. 39, p. 1917-1924, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13522310&volume=39&issue=&paginaInicial=1917&titulo=On the universality of the dissipation rate functional form and of the autocorrelation function exponential form&sequencial=25&nomePeriodico=Atmospheric Environment" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, Davidson Martins</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a> ; VILHENA, Marco Túlio ; <b>GOULART, A. G. O.</b> . Semi-analytical model for pollution dispersion in the Planetary Boundary Layer. Atmospheric Environment<sup><img id='13522310_26' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13522310' /></sup>, Inglaterra, v. 39, n.14, p. 2689-2697, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13522310&volume=39&issue=&paginaInicial=2689&titulo=Semi-analytical model for pollution dispersion in the Planetary Boundary Layer&sequencial=26&nomePeriodico=Atmospheric Environment" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SILVEIRA, Camila</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7088766680601322" target="_blank">SILVEIRA, Camila</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8190912738954082" target="_blank">CAMPOS, Claudia R J</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <b>GOULART, A. G. O.</b> . A Influência do Decaimento da Turbulência Convectiva no Cálculo da Concentração Superficial de Contaminantes. Revista Brasileira de Meteorologia<sup><img id='01027786_27' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027786' /></sup>, Rio de Janeiro, v. 20, n.1, p. 75-82, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027786&volume=20&issue=&paginaInicial=75&titulo=A Influência do Decaimento da Turbulência Convectiva no Cálculo da Concentração Superficial de Contaminantes&sequencial=27&nomePeriodico=Revista Brasileira de Meteorologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ANFOSSI, Domenico</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>ANFOSSI, Domenico ; SCHAYES, Guy ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio</a> ; <b>GOULART, A. G. O.</b> . Atmospheric Turbulence Decay During the Solar Eclipse of 11 August 1999. Boundary - Layer Meteorology<sup><img id='00068314_28' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00068314' /></sup>, v. 111, p. 301-311, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00068314&volume=111&issue=&paginaInicial=301&titulo=Atmospheric Turbulence Decay During the Solar Eclipse of 11 August 1999&sequencial=28&nomePeriodico=Boundary - Layer Meteorology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8190912738954082" target="_blank">CAMPOS, Claudia R J de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7088766680601322" target="_blank">SILVEIRA, Camila P</a> . Coeficientes de difusão turbulentos para a camada residual. Revista Brasileira de Meteorologia<sup><img id='01027786_29' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027786' /></sup>, São Paulo, v. 19, n.2, p. 123-128, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027786&volume=19&issue=&paginaInicial=123&titulo=Coeficientes de difusão turbulentos para a camada residual&sequencial=29&nomePeriodico=Revista Brasileira de Meteorologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson M</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; TIRABASSI, Tiziano . Derivation of eddy diffusivities from an unsteady turbulence spectrum. Atmospheric Environment<sup><img id='13522310_30' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='13522310' /></sup>, UK, v. 38, n.36, p. 6121-6124, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13522310&volume=38&issue=&paginaInicial=6121&titulo=Derivation of eddy diffusivities from an unsteady turbulence spectrum&sequencial=30&nomePeriodico=Atmospheric Environment" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> . Derivation of an Eddy Diffusivity Depending on Source Distance Under Moderately Unstable Conditions. Revista Brasileira de Geofísica<sup><img id='0102261X_31' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0102261X' /></sup>, Rio de Janeiro, v. 20, n.2, p. 112-121, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0102261X&volume=20&issue=&paginaInicial=112&titulo=Derivation of an Eddy Diffusivity Depending on Source Distance Under Moderately Unstable Conditions&sequencial=31&nomePeriodico=Revista Brasileira de Geofísica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, Davidson Martins</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a> ; MANGIA, Cristina . A Comparison of Two Turbulent Dispersion Parameterisations in the Stable Boundary Layer Using Lagrangian and Eulerian Models. Revista Brasileira de Geofísica<sup><img id='0102261X_32' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0102261X' /></sup>, Rio de Janeiro, v. 20, n.2, p. 103-112, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0102261X&volume=20&issue=&paginaInicial=103&titulo=A Comparison of Two Turbulent Dispersion Parameterisations in the Stable Boundary Layer Using Lagrangian and Eulerian Models&sequencial=32&nomePeriodico=Revista Brasileira de Geofísica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, Davidson Martins</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; VILHENA, Marco Tulio ; <b>GOULART, A. G. O.</b> . Dispersion of pollutants from an elevated source in the Residual Layer: the influence of the convective decaying turbulence in the ground-level concentration. Air Pollution Modeling And Its Application XVI, New York, p. 625-626, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=&issue=&paginaInicial=625&titulo=Dispersion of pollutants from an elevated source in the Residual Layer: the influence of the convective decaying turbulence in the ground-level concentration&sequencial=33&nomePeriodico=Air Pollution Modeling And Its Application XVI" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a> ; ANFOSSI, Domenico . A theoretical model for the study of the convective turbulence decay and comparison with LES data. Boundary - Layer Meteorology<sup><img id='00068314_34' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00068314' /></sup>, v. 107, p. 143-155, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00068314&volume=107&issue=&paginaInicial=143&titulo=A theoretical model for the study of the convective turbulence decay and comparison with LES data&sequencial=34&nomePeriodico=Boundary - Layer Meteorology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEGRAZIA, G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G.</a> ; <b>GOULART, A. G. O.</b> ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, Haroldo de Campos</a> ; LUKASZCYK, J. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1054193440923577" target="_blank">PALANDI, Joecir</a> . A Model Based on Heisenberg's Theory for the Eddy Diffusivity in Decaying Turbulence Applied to the Residual Layer. Il Nuovo Saggiatore<sup><img id='03934578_35' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03934578' /></sup>, v. 26, p. 39-51, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=03934578&volume=26&issue=&paginaInicial=39&titulo=A Model Based on Heisenberg's Theory for the Eddy Diffusivity in Decaying Turbulence Applied to the Residual Layer&sequencial=35&nomePeriodico=Il Nuovo Saggiatore" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6952076109453197" target="_blank">ROBERTI, Débora</a> ; ANFOSSI, Domenico ; OETTL, Dietman ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a> . Investigação Analítica do Fenômeno de Oscilações de Baixas Freqüências do Vento Horizontal Pelo Emprego das Equações de Navier-Stokes. Ciência e Natura<sup><img id='01008307_36' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01008307' /></sup>, Santa Maria, v. Esp., p. 87-91, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01008307&volume=Esp.&issue=&paginaInicial=87&titulo=Investigação Analítica do Fenômeno de Oscilações de Baixas Freqüências do Vento Horizontal Pelo Emprego das Equações de Navier-Stokes&sequencial=36&nomePeriodico=Ciência e Natura" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; VILHENA, Marco Tulio ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> . An Eddy Diffusivity Derivation for the non-isotropic convective decaying turbulence in the residual layer. Air Pollution Modeling And Its Application, New York, v. 26, p. 290-298, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=26&issue=&paginaInicial=290&titulo=An Eddy Diffusivity Derivation for the non-isotropic convective decaying turbulence in the residual layer&sequencial=37&nomePeriodico=Air Pollution Modeling And Its Application" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEGRAZIA, Gervásio</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8190912738954082" target="_blank">CAMPOS, Claudia R J</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, J. C.</a> ; ANFOSSI, Domenico ; <b>GOULART, A. G. O.</b> . Turbulence Parameterisation for Lagrangian Stochastic Dispersion Models. Revista Brasileira de Meteorologia<sup><img id='01027786_38' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027786' /></sup>, v. 16, n.2, p. 123-134, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027786&volume=16&issue=&paginaInicial=123&titulo=Turbulence Parameterisation for Lagrangian Stochastic Dispersion Models&sequencial=38&nomePeriodico=Revista Brasileira de Meteorologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEGRAZIA, G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G.</a> ; ANFOSSI, D. ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, O.</a> ; CASTELLI, S. . Eddy Diffusivity Parameterization in the Decaying Convective Residual Layer. Air Pollution Modeling And Application, New York, v. 13, p. 339-345, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=13&issue=&paginaInicial=339&titulo=Eddy Diffusivity Parameterization in the Decaying Convective Residual Layer&sequencial=39&nomePeriodico=Air Pollution Modeling And Application" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOULART, A. G. O.;Goulart, A;Goulart, Antônio G. O.;Goulart, Antônio G.;Goulart, A.;Goulart, A.G.;Goulart, A. G.;Goulart, Antonio Gledson;GOULART, ANTONIO G.;GOULART, A. G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, H. F. C.</a> . Decaimento da turbulência convectiva: uma estimativa do coeficiente de difusão turbulento na Camada Residual. Ciência e Natura<sup><img id='01008307_40' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01008307' /></sup>, Santa Maria, v. v.esp., p. 63-78, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01008307&volume=v.esp.&issue=&paginaInicial=63&titulo=Decaimento da turbulência convectiva: uma estimativa do coeficiente de difusão turbulento na Camada Residual&sequencial=40&nomePeriodico=Ciência e Natura" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DEGRAZIA, G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, O.</a> ; INAZAWA, E. E. ; <b>GOULART, A. G. O.</b> . Um modelo para os espectros de velocidades turbulentas na camada limite convectiva. Revista Brasileira de Meteorologia<sup><img id='01027786_41' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='01027786' /></sup>, v. 9, p. 38-43, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01027786&volume=9&issue=&paginaInicial=38&titulo=Um modelo para os espectros de velocidades turbulentas na camada limite convectiva&sequencial=41&nomePeriodico=Revista Brasileira de Meteorologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> . Estudo do Decaimento da Turbulência na Camada Limite Convectiva a Partir de Um Modelo Espectral. In: Davidson Martins Moreira; Jonas da Costa Carvalho; Marco Túlio Vilhena. (Org.). Tópicos em Turbulência e Modelagem da Dispersão de Poluentes na Camada Limite Planetária. Porto Alegre: Editora da UFRGS, 2005, v. , p. 49-57. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> . Turbulência e Dispersão de Contaminantes na Camada Limite Planetária. In: Sergio Viçosa Möller; Jorge Hugo Silvestrini. (Org.). Turbulência. 1ªed.Porto Alegre: ABCM, 2004, v. 4, p. 73-107. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; ANFOSSI, Domenico ; <b>GOULART, A. G. O.</b> . Decaimento da turbulência convectiva: uma estimativa do coeficiente de difusão turbulento na camada residual. In: Gervasio Annes Degrazia; Cláudia R. J. de Campos; Marco Túlio Vilhena. (Org.). Tópicos Especiais em Física da CLP e Modelagem de Processos de disperesão. Pelotas: Editora Gráfica Universitária - UFPEL, 2000, v. 1, p. 65-82. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, A. A. A. B. ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8051956713222836" target="_blank">SPERANDIO, M.</a> ; Moraes, Marcelo R. . Determinação de um modelo de previsão do potencial eólico de curto prazo para planejamento da operação de sistemas elétricos. In: 9th LATIN-AMERICAN CONGRESS ON ELECTRICITY GENERATION AND TRANSMISSION, 2011, Mar del Plata. 9th LATIN-AMERICAN CONGRESS ON ELECTRICITY GENERATION AND TRANSMISSION, 2011. p. 42. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FERREIRA, A. A. A. B. ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8051956713222836" target="_blank">SPERANDIO, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0417476686387784" target="_blank">MORAES, Marcelo Romero de</a> . Modelo de Previsão do Potencial Eólico e Geração de Energia em Curto Prazo para Parques Eólicos. In: VII Brazilian Micrometeorology Workshop, 2011, Santa Maria. Ciência e Natura. Santa Maria: Editora da UFSM, 2011. v. 33. p. 486. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson</a> ; VILHENA, Marco Tulio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> . One dimensional eddy diffusivities for growing turbulence in the Convective Boundary Layer. In: In: 28th NATO/CCMS International Technical Meeting on Air Polution Modeling and its Application, 2006, Leipzig. 28th NATO/CCMS International Technical Meeting on Air Polution Modeling and its Application. Londres: Kluwer Academic Plenum Publishers, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otavio</a> . A new parameterization for sub-filter scales in LES models. In: 28th NATO/CCMS International Technical Meeting on Air Polution Modeling and its Application, 2006, Leipzig. 28th NATO/CCMS International Technical Meeting on Air Polution Modeling and its Application. Londres: Kluwer Academic Plenum Publishers. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, Haroldo Campos</a> ; VILHENA, Marco Tulio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otavio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo</a> . Desenvolvimento de um modelo para o crescimento da CLC atmosférica a partir da equação dinâmica para o espectro de energia. In: Congresso Argentino de Meteorologia, 2005, Buenos Aires, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> . Cálculo do período do meandro do vento horizontal a partit de uma solução particular das equações de Navier Stokes. In: IV Workshop Brasileiro de Micrometeorologia, 2005, Santa Maria. IV Workshop Brasileiro de Micrometeorologia. Santa Maria: Editora da UFSM, 2005. p. 273-276. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio</a> ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2186097538587489" target="_blank">SZINVELSKI, Charles</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4755671184790141" target="_blank">BULIGON, Lidiane</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6952076109453197" target="_blank">ROBERTI, Debora</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otavio</a> . Taxa de dissipação turbulenta para eventos de meandro do vento horizontal. In: IV Workshop Brasileiro de Micrometeorologia, 2005, Santa Maria. IV Workshop Brasileiro de Micrometeorologia. Santa Maria: Editora da UFSM, 2005. p. 135-138. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, Haroldo Fraga de Campos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> . A model for describing the evolution of the energy density spectrum in the convective boundary layer growth. In: 27th NATO/CCMS International Technical Meeting on Air pollution modeling and its application XVII, 2004, Banff Centre. 27th NATO/CCMS International Technical Meeting on Air pollution modeling and its application XVII. Londres: Kluwer Academic/Plenum Publishers, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo Leal de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> . Uma derivação para a função de autocorrelação em condições de meandro do vento horizontal. In: XIII Congresso Brasileiro de Meteorologia, 2004, Fortaleza. XIIICBMET, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; VILHENA, Marco Túlio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <b>GOULART, A. G. O.</b> ; MALAMUT, C ; TIRABASSI, Tizziano . Simulation of the dispersion of tritium in the nuclear usine of Angra dos Reis utilizing a time-dependent hybrid model. In: Iberian Latin American Congress on Computational Methods in Engineering, 2004, Recife. XXV CILAMCE, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; COSTA, C ; VILHENA, Marco Tulio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <b>GOULART, A. G. O.</b> . Simulation of the dispersion pollutants considering nonlocal effects in the solution of the advection-diffusion equation. In: 27th NATO/CCMS International Technical Meeting on Air pollution modeling and its application XVII, 2004, Banff Centre. 27th NATO/CCMS International Technical Meeting on Air pollution modeling and its application XVII. Londres: Kluwer Academic/Plenum Publishers, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; VILHENA, Marco Tulio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; TIRABASSI, Tizziano . State-of-the-art of the ADMM Model for dispersion of pollutants in the atmosphere. In: XIII Congresso Brasileiro de Meteorologia, 2004, Fortaleza. XIIICBMET, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo Leal de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, Haroldo de Campos</a> ; VILHENA, Marco Túlio ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> . Influence of the autocorrelation function in the derivation of fundamental relationship for the dissipation rate. In: 27th NATO/CCMS International Technical Meeting on Air pollution modeling and its application XVII, 2004, Banff Centre. 27th NATO/CCMS International Technical Meeting on Air pollution modeling and its application XVII. Londres: Kluwer Academic/Plenum Publishers, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo Leal de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, Haroldo de Campos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> . Derivação de uma nova relação para a função de dissipação turbulenta In: XIII Congresso Brasileiro de Meteorologia. In: XIII Congresso Brasileiro de Meteorologia, 2004, Fortaleza. XIIICBMET 2004, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo Leal de</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, Haroldo de Campos</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> . Considerações sobre a universalidade de uma relação fundamental em turbulência bem desenvolvida. In: XIII Congresso Brasileiro de Meteorologia, 2004, Fortaleza. XIIICBMET 2004, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDEIROS, Luiz Eduardo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> ; MORAES, Osvalvo Luiz de . Evolução Temporal do Decaimento do Espectro Tri-dimensional de Energia. In: : XIII Congresso Brasileiro de Meteorologia, 2004, Fortaleza. XIIICBMET 2004, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; VILHENA, Marco Tulio ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> . An eddy diffusivity derivation for the non-isotropic convective decaying turbulence in the residual layer. In: 26th NATO/CCMS International Technical Meeting on Air Polution Modeling and its Application, 2003, Istambul, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; VILHENA, Marco Tulio ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas</a> ; FERREIRA NETO, P. V. . Dispersion of pollutants from an elevated source in Residual Layer: the influence of the convective decaying turbulence in the ground-level concentration. In: 26th NATO/CCMS International Technical Meeting on Air Polution Modeling and its Application, 2003, Istambul. NATO/CCMS, 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6952076109453197" target="_blank">ROBERTI, Debora</a> ; ANFOSSI, Domenico ; OETTL, Dietman ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otavio</a> . Investigação Analítica do Fenômeno de Oscilações de Baixas Freqüências do Vento Horizontal pelo Emprego da Equações de Navier-Stokes. In: III WORKSHOP BRASILEIRO DE MICROMETEOROLOGIA, 2003, Santa Maria. Ciência e Natura, 2003. v. Esp.. p. 87-91. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3844331833780478" target="_blank">WELTER, Guilherme</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson</a> ; <b>GOULART, A. G. O.</b> ; BRAUER, Cristian ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas</a> . Uma parametrização para o skewness na camada limite convectiva. In: III WORKSHOP BRASILEIRO DE MICROMETEOROLOGIA, 2003, Santa Maria. III WORKSHOP BRASILEIRO DE MICROMETEOROLOGIA, 2003. v. Esp.. p. 107-110. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEDEIROS, Luiz ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo</a> . Cálculo do Espectro 3-D na Camada Limite Convectiva a Partir das Componentes Unidimensionais Obtidas de Dados Esperimentais. In: III WORKSHOP BRASILEIRO DE MICROMETEOROLOGIA, 2003, Santa Maria. III WORKSHOP BRASILEIRO DE MICROMETEOROLOGIA, 2003. v. Esp.. p. 115-118. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, O. C.</a> ; ANFOSSI, Domenico . Modelling an eddy diffusivity for convective decaying turbulence in the residual layer . In: 15th Symposium on Boundary Layers and Turbulence, 2002, Boston. American Meteorological Society. Holanda: Wageningen, 2002. p. 267-268. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8190912738954082" target="_blank">CAMPOS, C. J.</a> ; SILVEIRA, C. R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1873505066686878" target="_blank">NUNES, A. B.</a> ; SASTRE, F. A. . Coeficientes de difusão turbulento para camada limite residual. In: XII Congresso Brasileiro de Meteorologia, 2002, Foz do Iguaçu. Anais do XII Congresso Brasileiro de Meteorologia, 2002. p. 1611-1620. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8190912738954082" target="_blank">CAMPOS, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas C</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> . A model based on the dynamical energy spectrum equation for the study of the convective turbulence decay. In: 25th NATO/CCMS International Technical Meeting on Air Pollution Modeling and its Aplication, 2001, Louvain-la-Neuve. 25th NATO/CCMS International Technical Meeting on Air Pollution Modeling and its Aplication, 2001. p. 411-412. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8190912738954082" target="_blank">CAMPOS, C. J.</a> ; <b>GOULART, A. G. O.</b> . Simulation of air pollution dispersion from a low source in the stable boudary layer: comparison between Eulerian and Lagrangian models. In: 25th NATO/CCMS International Technical Meeting on Air Pollution Modeling and its Aplication, 2001, Louvain-la-Neuve. 25th NATO/CCMS International Technical Meeting on Air Pollution Modeling and its Aplication, 2001. p. 311-317. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas C</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8190912738954082" target="_blank">CAMPOS, C. J.</a> ; <b>GOULART, A. G. O.</b> . Estimation of the Yanglom constant from turbulent velocity variance and Lagrangian decorrelation time scale.. In: 25th NATO/CCMS International Technical Meeting on Air Pollution Modeling and its Aplication, 2001, Louvian-la Neuve. 25th NATO/CCMS International Technical Meeting on Air Pollution Modeling and its Aplication, 2001. p. 421-422. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a> . Um Modelo Espectral Para o Estudo do Decaimento da Turbulência na Camada Limite Convectiva. In: V Seminário de Integração de Pesquisa e Pós-Graduação, 2001, Erechim. A Universidade o os Caminhos da Ciência. Erechim: ACTA, 2001. p. 24-31. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; ANFOSSI, Domenico . Decaimento da turbulência convectiva: uma proposta de fechamento para o coeficiente de viscosidade cinemático e buoyancy. In: XI Congresso Brasileiro de Meteorologia, 2000, Rio de Janeiro. CDROM. SBMet, 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio</a> ; ANFOSSI, Domenico ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5142426481528206" target="_blank">VELHO, Haroldo Fraga de Campos</a> . Decaimento da Turbulência Convectiva: Uma Estimativa do Coeficiente de Difusão Turbulento na Camada Residual. In: workshop on physics of the planetary boundary layer and dispersion process modelling, 1999, Santa Maria. Ciência e Natura. Santa Maria: Imprensa Universitaria, 1999. v. 2000. p. 63-78. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio</a> ; ANFOSSI, Domenico ; <b>GOULART, A. G. O.</b> . Decaimento da turbulência convectiva: uma estimativa do coeficiente de difusão turbulento na camada residual. In: Tópicos Especiais em Física da Camada Limite Planetária e Modelagem de Processos de Dispersão, 1999, Porto Alegre. Tópicos Especiais em Física da Camada Limite Planetária e Modelagem de Processos de Dispersão. Porto Alegre: Editora e Gráfica Universitária, 1999. p. 65-82. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; <b>GOULART, A. G. O.</b> . Simulação Numérica da Dispersão de Poluentes Em Uma Camada Limite Estável . In: Seminário de Supercomputação aplicada - Supercomp, 1994, Porto Alegre. Seminário de Supercomputação aplicada - Supercomp, 1994. p. 125-129. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervasio Annes</a> ; CAMPOS, C. R. J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9362686215096702" target="_blank">VILHENA, M. T. M. B.</a> . Tensor Espectral do Fluxo Turbulento Homogêneo.. In: II CONGRESSO EM FÍSICA DA CAMADA LIMITE PLANETÁRIA E MODELAGEM DE PROCESSOS DE DISPERSÃO, 2001, Santa Maria. Resumos do II Congresso em Física da Camada Limite Planetária e Modelagem de Processos de Dispersão, 2001. v. 1. p. 52. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a> ; <b>GOULART, A. G. O.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8190912738954082" target="_blank">CAMPOS, C. J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7088766680601322" target="_blank">SILVEIRA, Camila P</a> . Coeficiente de difusão turbulento durante o período de transição dia-noite. In: II CONGRESSO EM FÍSICA DA CAMADA LIMITE PLANETÁRIA E MODELAGEM DE PROCESSOS DE DISPERSÃO, 2001, Santa Maria. Resumos do IICFCLPMPD, 2001. v. 1. p. 52. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> . Desenvolvimento de um Modelo Espectral para o Estudo do Decaimento da Turbulência na Camada Limite Convectiva.
+							Santa Maria:
+									Editora da UFSM,  2001 (Tese de Doutorado). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b> . Uma Formulação Analítica Para os Parâmetros de Dispersão em Camadas Limites Planetárias.
+							Santa Maria:
+									Editora da UFSM,  1997 (Dissertação de Mestrado). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Goulart, A.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, D. M.</a>; DENARDIM, F.; SANTIAGO, G. F..  Participação em banca de Amilton Cravo Moraes. Um modelo para dispersão de poluentes na camada limite atmosférica com coeficientes de difusão dependentes da distância da fonte.. 2013. Dissertação (Mestrado em ENGENHARIA) - Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Goulart, A. G.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, D. M.</a>.  Participação em banca de Andler Magno Vieira de Melo. Avaliação de desempenho dos modelos AERMOD e CALPUFF associados ao modelo PRIME. 2011. Dissertação (Mestrado em Mestrado em Engenharia Ambiental) - Universidade Federal do Espírito Santo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; PIMENTEL, Luiz Claudio Gomes; BODMANN, B. E. J..  Participação em banca de Morgana Silva Franco. Solução da equação de Langevin assimptótica aleatório para dispersão de poluentes em condições de vento fraco. 2007. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; GARCIA, Roberto David M; FARINA, Leandro.  Participação em banca de Mariana Cassol. Solução Analítica do Problema Bidimensional Transiente de Dispersão de Poluentes Atmosféricos pelo Método GITT Dupla. 2006. Dissertação (Mestrado em Matemática Aplicada) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a>.  Participação em banca de Lisiane Ramires Meneses. Implementação de um novo método para o cálculo do plume rise em um modelo Lagrangeano. 2005. Dissertação (Mestrado em Meteorologia) - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; MORAES, Osvaldo Luiz Leal de; ACEVEDO, Otávio Costa.  Participação em banca de Hans Rogério Zimermann. Diferentes técnicas de Condicionamento em Séries Temporais Turbulentas. 2005. Dissertação (Mestrado em Física) - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; MALAMUT, Carlos; BARICHELLO, Liliane.  Participação em banca de Camila Pinto da Costa. Influência de Efeitos não-locais na dispersão de poluentes na Camada Limite Planetária. 2004. Dissertação (Mestrado em Matemática Aplicada) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; CHAPA, Srinivasa Rao; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio Annes</a>.  Participação em banca de André Becker Nunes. Comparação Entre Coeficientes de Difusão Turbulentos Para uma Camada Limite Planetária Gerada Pelos Fatores Térmicos e Mecânicos. 2003 - Universidade Federal de Pelotas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; TIRABASSI, Tiziano; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6553529534653449" target="_blank">RIZZA, Umberto</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4338284890563991" target="_blank">CARVALHO, Jonas da Costa</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, Davidson Martins</a>.  Participação em banca de Paulo de Vilhena Ferreira Neto. Desenvolvimento de um Modelo de Dispersão de Poluentes Atmosféricos para o Estudo de Impacto Ambiental em Fontes Isoladas. 2003 - Universidade Luterana do Brasil. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Goulart, A.</b>; SANTOS, J. M.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2331953711858907" target="_blank">MOREIRA, D. M.</a>; FURIERI, B.; ALMEIDA, M. P.; TEIXEIRA, E. C..  Participação em banca de Edislson Luiz do Nascimento. Suspensão e deposição de material particulado emitido por pilhas de estocagem de granulados: uma abordagem numérica empregando LES.. 2014. Tese (Doutorado em Engenharia Ambiental)  - Universidade Federal do Espírito Santo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0593135962205202" target="_blank">MORAES, Osvaldo L L</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otavio</a>; Sá, L.D.A.; Gonçalves, L.G..  Participação em banca de Cintya de Azambuja Martins. Características da Turbulência: Correlações e Espectros em Diferentes Topografias. 2008. Tese (Doutorado em Física)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PIMENTEL, Luiz Claudio Gomes; <b>GOULART, A. G. O.</b>; RAMOS, Francis Henrique.  Participação em banca de Ledina Lentz Pereira. Simulação da dispersão de poluentes na atmosfera resolvendo um problema advectivo-difusivo dependente do tempo com fonte arbitrária. 2007. Tese (Doutorado em Engenharia Mecânica)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; VILHENA, Marco Túlio; DOURADO, Marcelo; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8696858608013659" target="_blank">ACEVEDO, Otávio</a>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3195210233978887" target="_blank">DEGRAZIA, Gervásio</a>.  Participação em banca de Joecir Palandi. Modelo Espectral de Heisenberg Aplicado ao Decaimento da Turbulência na Camada Residual. 2005. Tese (Doutorado em Física)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>.  Participação em banca de Kelen Berra de Mello. Simulação da Dispersão de Poluentes Através da Solução da Equação de Langevin Pelo Método de Decomposição. 2008. Exame de qualificação (Doutorando em Engenharia Mecânica)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; PIMENTEL, Luiz Claudio Gomes; RAMOS, Francis Henrique.  Participação em banca de Ledina Lentz Pereira. Simulação da Dispersão de Poluentes na Atmosfera Resolvendo um Problema Advectivo-Difusivo Depentente do Tempo com Fonte Arbitrária. 2006. Exame de qualificação (Doutorando em Engenharia Mecânica)  - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; ACEVEDO, Otávio Costa; CHAPA, Srinivasa Rao.  Participação em banca de Rodrigo da Silva. Análise da influência das estruturas coerentes nos fluxos de massa e energia aplicando a análise de ondeletas. 2004. Exame de qualificação (Doutorando em Física)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; ANFOSSI, Domenico; MAGALHÃES, Sergio Garcia.  Participação em banca de Debora Regina Roberti. Fenômeno de Oscilação de Baixas Freqüências de Vento Horizontal: Uma Investigação Pelo Emprego das Equações de Navier-Stokes. 2003. Exame de qualificação (Doutorando em Física)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; VALHO, Haroldo Fraga de Campos; ACEVEDO, Otávio Costa.  Participação em banca de Cristian Ricardo Nin Brauer. Um estudo teórico e observacional da intermitência na camada limite estável. 2003. Exame de qualificação (Doutorando em Física)  - Universidade Federal de Santa Maria. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; SANTOS, Zuleica dos; CARRATU, Vanessa Santana.  Participação em banca de Angelita Lopes Dahmer. Central hidrelétrica e seu provável impacto ambiental nas águas do rio Ijuizinho, bacia hidrgráfica do Ijuí. 2005. Monografia (Aperfeiçoamento/Especialização em Ciências Ambientais)  - Universidade Regional Integrada do Alto Uruguai e das Missões. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; KRAUSE, J C; SANTOS, A V.  Participação em banca de Márcia Firedrich. Radioatividade. 2003. Monografia (Aperfeiçoamento/Especialização em Matemática e Física)  - Universidade Regional Integrada do Alto Uruguai e das Missões. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; KRAUSE, J C; SANTOS, A V.  Participação em banca de Valdi Roque Ferreira Kuhn. Superando a Fragmentação do Ensino de Física. 2003. Monografia (Aperfeiçoamento/Especialização em Matemática e Física)  - Universidade Regional Integrada do Alto Uruguai e das Missões. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; KRAUSE, J C; SANTOS, A V.  Participação em banca de Maricéia Taiana Vilani. Uso de uma distribuição binomial para simular espectros de campos hiperfinos. 2003. Monografia (Aperfeiçoamento/Especialização em Matemática e Física)  - Universidade Regional Integrada do Alto Uruguai e das Missões. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, R. A.; Alves, M. A. C.; <b>GOULART, A. G. O.</b>. Concurso Público para Professor Adjunto em Fenômenos de Transporte.
+							2012. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; OLIVEIRA, R.. Concurso Público para Professor Adjunto em Mecânica dos Fluídos.
+							2011. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GOULART, A. G. O.</b>; OLIVEIRA, R.; VENTURINI, C.. Concurso Público para Professor Adjunto em Mecânica dos Fluídos.
+							2010. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jaque Willian Scotton. Simulação do Campo de Concentração de Contaminantes na Camada Limite Planetária.
+						Início: 2014.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Geferson Lucatelli. Aplicação do método da decomposição e do cálculo fracionário na solução de equações diferenciais. Início: 2014. Iniciação científica (Graduando em Física)  - Universidade Federal do Rio Grande, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6643070022883135'><img src='images/curriculo/logolattes.gif' /></a>Adir Alexandre Bibiano Ferreira. Modelagem do campo de vento para avaliar o potencial eólico de Alegrete-RS.
+							2012.
+						
+					Dissertação  (Mestrado em ENGENHARIA ELÉTRICA)  - Universidade Federal do Pampa, . Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9427130197535163'><img src='images/curriculo/logolattes.gif' /></a>Mírian Marchezan. Espectro de energia de ondas de gravidade na baixa atmosfera.
+							2011.
+						
+					Dissertação  (Mestrado em ENGENHARIA)  - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carina da Silva Correa. Uma solução analítica para a equação que descreve o decaimento na CLC: Uma aproximação isotrópica.
+							2007.
+						
+					Dissertação  (Mestrado em Engenharia Mecânica)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Co-Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rogério André Abentroth. Parametrização da turbulência na Camada Limite Convectiva.
+							2007.
+						
+					Dissertação  (Mestrado em Engenharia Mecânica)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Co-Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Denise Temp Flores. Determinação do coeficiente de difusão unidimensional durante o decaimento da turbulência na Camada Limite Convectiva.
+							2004. 56 f.
+						
+					Dissertação  (Mestrado em Matemática Aplicada)  - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Co-Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Charles Rogério Paveglio Szinvelski.
+						Analise da evolução da Energia Cinética Turbulenta Durante o Crescimento da Camada Limite Convectiva.
+							2009. 0 f. Tese
+					 (Doutorado em Física)  - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Co-Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6432341940154857'><img src='images/curriculo/logolattes.gif' /></a>Carla Judite Kipper.
+						Emprego da parametrização de Heisenberg e do Método de Adomian no decaimento da CLC.
+							2009. 0 f. Tese
+					 (Doutorado em Física)  - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4755671184790141'><img src='images/curriculo/logolattes.gif' /></a>Lidiane Buligon.
+						Solução semianalítica para o perfil vertical do vento na Camada Limite Planetária.
+							2009. Tese
+					 (Doutorado em Física)  - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"> Joecir Palandi.
+						Modelo Espectral de Heisenberg aplicado ao decaimento da turbulência na camada residual.
+							2005. 110 f. Tese
+					 (Doutorado em Física)  - Universidade Federal de Santa Maria, . Co-Orientador: Antonio Gledson Oliveira Goulart. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jussara Silveira.
+							Análise da Radiação Ultravioleta e suas Utilização em Bronzeamento Artificial.
+							2003.
+							Monografia. (Aperfeiçoamento/Especialização em Matemática e Física)  - Universidade Regional Integrada do Alto Uruguai e das Missões. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ângela Denize Müller.
+							Estudo do decaimento da turbulência na camada limite convectiva.
+							2003.
+							Monografia. (Aperfeiçoamento/Especialização em Matemática e Física)  - Universidade Regional Integrada do Alto Uruguai e das Missões. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Katia Nascimento.
+							Importância do Laboratório no Ensino da Física.
+							2003. 53 f.
+							Monografia. (Aperfeiçoamento/Especialização em Matemática e Física)  - Universidade Regional Integrada do Alto Uruguai e das Missões. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renato Camponogara Panziera.
+							Solução de equações não lineares em problemas que envolvem turbulência na CLP.
+							2013.
+							Iniciação Científica. (Graduando em Engenhaira Macânica)  - Universidade Federal do Pampa,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Cláudia Wrasse.
+							Solução da equação não linear para ondas de gravidade na atmosfera terrestre empregando o método de decomposição de Adomian.
+							2010.
+							Iniciação Científica. (Graduando em Licenciatura em Física)  - Universidade Federal do Pampa,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Emanuel Antunes.
+							Emprego do método de decomposição e de soluções nas equações que descrevem o fenômeno de meandering do campo de vento horizontal.
+							2010.
+							Iniciação Científica. (Graduando em Engenharia de Energias Renováveis)  - Universidade Federal do Pampa,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Claudia Wrasse.
+							Solução para a equação da energia cinética turbulenta na Camada Limite Planetária empregando o método de decomposição de Adomian.
+							2009.
+							Iniciação Científica. (Graduando em Licenciatura em Física)  - Universidade Federal do Pampa,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Emanuel Antunes Vieira.
+							Cálculo do campo de concentração de contaminantes durante o crescimento da Camada Limite Convectiva..
+							2009.
+							Iniciação Científica. (Graduando em Engenharia de Energias Renováveis)  - Universidade Federal do Pampa,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Adriana Cancian.
+							Análise da difusividade durante o crescimento da Camada Limite Convectiva: aplicação em um modelo de dispersão Euleriano.
+							2007.
+							Iniciação Científica. (Graduando em Engenharia Civil)  - Universidade Federal de Santa Maria - UNIPAMPA,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fábio Goulart.
+							Estudo do fenômeno de  meandering  do vento horizontal e aplicação em modelos de dispersão de contaminantes.
+							2007.
+							Iniciação Científica. (Graduando em Engenharia Civil)  - Universidade Federal de Santa Maria - UNIPAMPA. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Irajá Damião Rosin Martins.
+							Cálculo da Concentração de Contaminantes na Baixa Atmosfera em Condições de Vento Fraco.
+							2006. 0 f.
+							Iniciação Científica. (Graduando em Matematica)  - Universidade Regional Integrada do Alto Uruguai e das Missões,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Raquel Ionara Stolben Machado.
+							Modelo Teórico Para a Função Espectro de Energia:Aplicação em Modelos de Sispersão de Contaminantes na Atmosfera.
+							2006. 0 f.
+							Iniciação Científica. (Graduando em Matematica)  - Universidade Regional Integrada do Alto Uruguai e das Missões,
+							Programa Institucional de Iniciação Científica. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Stolben Machado.
+							Estimativa do campo de concentração de Poluentes na atmosfera emitido por olarias da região das missões.
+							2003. 0 f.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Regional Integrada do Alto Uruguai e das Missões,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vanius Antonio Ledur.
+							Determinação do Campo de Concentração de Contaminantes Durante o Decaimento da Camada Limite Convectiva.
+							2003. 0 f.
+							Iniciação Científica. (Graduando em Matemática)  - Universidade Regional Integrada do Alto Uruguai e das Missões,
+							Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. Orientador: Antonio Gledson Oliveira Goulart.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/03/2015 &agrave;s 24:14:01</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=4677312523064693" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

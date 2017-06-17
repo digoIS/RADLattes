@@ -1,0 +1,2626 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Adriano De Cezaro)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0891028206544818" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4711810Z0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4711810Z0"><div class="infpessoa">
+<h2 class="nome">Adriano De Cezaro<br>
+<br>
+<span align="center" style="font-weight: bold" class="texto">Bolsista de Produtividade em Pesquisa do CNPq - N&iacute;vel 2</span>
+</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0891028206544818</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 16/12/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Matemática Licenciatura Plena pela Universidade Federal do Rio Grande (2003), Mestrado em Matemática e Computação Científica pela Universidade Federal de Santa Catarina (2006) e Doutorado em Matemática pela Associação Instituto Nacional de Matemática Pura e Aplicada (2010). Atualmente é Professor Adjunto II da Universidade Federal do Rio Grande. Tem experiência na área de Matemática, com ênfase em Problemas Inversos, atuando principalmente nos seguintes temas: regularização para problemas inversos, métodos iterativos e contínuos de regularização, métodos level set para problemas inversos, aplicações.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Adriano De Cezaro</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CEZARO, A. ou De Cezaro, A.;DECEZARO, A;De Cezaro, A.;Cezaro, A. De</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, IMEF - Instituto de Matemática Estatística e Física. <br class="clear" />Fundação Universidade do Rio Grande<br class="clear" />Carreiros<br class="clear" />96203900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 81281331<br class="clear" />URL da Homepage: <a target="blank" href="http://www.imef.furg.br/">http://www.imef.furg.br/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Matemática<span class="ajaxCAPES" data-param="&codigoCurso=31008011001P9&nivelCurso=D"></span>. <br class="clear" />Associação Instituto Nacional de Matemática Pura e Aplicada, IMPA, Brasil.
+		
+	<br class="clear" />Título: On a Parabolic Inverse Problem Arising in Quantitative Finance: Convex and Iterative Regularization, Ano de obtenção: 2010. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8675737468901580'><img src='images/curriculo/logolattes.gif' /></a>Jorge Passamani Zubelli. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: Problemas Inversos; Regularização para Problemas Inversos; Problamas Inversos em Finanças Quantitativas; Regulazação Convexa; Regulazação por Métodos Iterativos; Medidas de Risco Convexas. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Problemas Inversos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Matemática e Computação Científica<span class="ajaxCAPES" data-param="&codigoCurso=41001010001P6&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	<br class="clear" />Título: Métodos de Regularização Tipo Level Set para Problemas Inversos,Ano de Obtenção: 2006.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4744886169495346'><img src='images/curriculo/logolattes.gif' /></a>Antônio Carlos Gardel  Leitão.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Problemas Inversos; Métodos Level Set; Regularização para Problemas Inversos.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Problemas Inversos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1999 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Matemática Licenciatura Plena<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Sem monografia. <br class="clear" />Orientador: sem orientador. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />University of British Columbia.
+		
+	<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada / Especialidade: Análise Numérica. <br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada / Especialidade: Problemas Inversos. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Unique Continuation and Nonlinear Dispersive Equat.  (Carga horária: 30h). <br class="clear" />Associação Instituto Nacional de Matemática Pura e Aplicada, IMPA, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Escola de Verao 2004 - Algebra Linear e Analise.  (Carga horária: 42h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Nivelamento em Matemática. <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Verao 2003 - Algebra Linear e Analise.  (Carga horária: 42h). <br class="clear" />Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>University of Birmingham, BIRMINGHAM, Inglaterra.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Visitante, Enquadramento Funcional: Professor Visitante, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Brazil Visitor Fellows Scheme</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Adjunto II, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Adjunto I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Progressão funcional para classe de Adjunto II</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Asistente I, Carga horária: 40, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>07/2008 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , IMEF - Instituto de Matemática Estatística e Física, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Problemas Inversos'>Problemas Inversos</a><br class="clear" /><a href='#LP_Reconstrução de Parâmetros em EDP's'>Reconstrução de Parâmetros em EDP's</a><br class="clear" /><a href='#LP_Métodos de Regularização'>Métodos de Regularização</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>Associação Instituto Nacional de Matemática Pura e Aplicada, IMPA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Aluno de Doutorado, Enquadramento Funcional: Aluno de Doutorado, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Bolsista do CNPq no período.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de Santa Catarina, UFSC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Substituto, Enquadramento Funcional: ACT, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">O vinculo com a UFSC de Professor ACT foi durante o períudo desrito acima.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2005 - 02/2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Algebra Linear, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Geometria Analítica<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Problemas Inversos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Problemas Inversos</div>
+</div><a name='LP_Reconstru&ccedil;&atilde;o de Par&acirc;metros em EDP's'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Reconstrução de Parâmetros em EDP's</div>
+</div><a name='LP_M&eacute;todos de Regulariza&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Métodos de Regularização</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Modelagem de Estruturas Inteligentes: Teoria e Aplica&ccedil;&otilde;es'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelagem de Estruturas Inteligentes: Teoria e Aplicações<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O foco deste projeto está no estudo teórico e nas aplicações relacionada a modelos de equações diferencias parciais que descrevem fenômenos de comportamento dos chamados materiais inteligentes. Tais fenômenos são caracterizados pelas propriedades piezoelétricos, piezomagnéticos, termo piezoelétricos/piezomagnéticos, fenomenos dissipativos, deformações de cascas rasas tipo Marguerre-Vlasov e Nagdhi.
+
+Do ponto de vista teórico, abordaremos sistematicamente aspectos relacionados com a solução dos modelos, tais como taxas de decaimento, boa colocação, propriedades de continuação única, propriedades assintóticas e controle, utilizando condições de contorno apropriadas.
+
+Do ponto de vista das aplicações, materiais inteligentes tem chamado a atenção, dada suas estruturas leves e resistentes,  versatilidade de deformar sem danos à estrutura e efeitos de memória de forma. Esta última propriedade está ligada ao desenvolvimento de estruturas morfáveis, ou seja, que tem a capacidade de se transformar (sob a ação de atuadores e sensores) em uma forma pré-definida. Neste ponto abordaremos o problema de identificação das condições de contorno, da calibração dos coeficientes  de tração e/ou de condições de fonte da equação diferencial parcial que modela o problema, de forma que a estrutura composta por materiais inteligentes morfe para uma forma predefinida, com energia mínima e sem danos ao material.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Integrante / Fabiana Travessini De Cezaro - Coordenador / Julian Sejje - Integrante / Celene Buriol - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Auxílio
+										financeiro.</div>
+</div><a name='PP_Problemas de Identifica&ccedil;&atilde;o de Par&acirc;metros: Aspectos Te&oacute;ricos, Pr&aacute;ticos e Aplica&ccedil;&otilde;es'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Problemas de Identificação de Parâmetros: Aspectos Teóricos, Práticos e Aplicações<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Vários problemas nas ciências aplicadas podem ser caracterizados pela necessidade de inferir informações sobre parâmetros específicos de um modelo através de  medidas indiretas . Tais medidas, em geral, são obtidas a partir de medições, de observações, da dinâmica das soluções de tais modelos. Veja [3, 4, 10, 20, 21, 24, 27, 29, 40, 41, 44, 49, 50, 57] e referências para algumas aplicações interessantes.
+
+Problemas de identificação de parâmetros se caracterizam pela sua dificuldade intr&#305;nseca, associada a não-unicidade, instabilidades (ou mal-condicionamento) e por isso são classificados na grande classe dos chamados Problemas Inversos [20, 21, 24, 27, 29, 50, 57]. Além do mais, as  informações indiretas a respeito dos parâmetros de interesse no modelo são obtida a partir de medições (observações) e assim, sujeitas a ruídos, o que acentua ainda mais os fenômenos de associados a instabilidade do problema. Estudos detalhados dos fenômenos associados a esses problemas requerem aprofundamentos no estudo dos modelos associados (em geral modelados por equações diferenciais parciais) [3, 4, 10, 21, 29, 40, 41, 44, 49, 57] e de técnicas que permitam tratar a instabilidade e os ruídos nos dados, de forma a determinar soluções satisfatórias para tais problemas (métodos de regularização) [20, 21, 24, 27, 29, 50]. Motivado pelo grande interesse em aplicaões, vários avanços significativos, tanto no que diz respeito `a teoria quanto aspectos práticos relacionados aos problemas de identificação de parâmetros foram obtidos recentemente (veja [3, 4, 10, 20, 21, 24, 27, 29, 40, 41, 44, 49, 50, 57] e referências). No entanto, novos processos de medições, hipóteses menos restritivas nos parâmetros e aspectos numéricos relacionados aos problemas acima citados continuam impulsionando o desenvolvimento teórico e prático da área. 
+
+A característica diferenciada deste projeto está em atacar aspectos teóricos e práticos em problemas de identificação de parâmetros em problemas modelados por EDP s parabólicas. Do ponto de vista teórico, o diferencial deste projeto está em estudar aspectos relacionados a unicidade de reconstrução de múltiplos parâmetros da equaçãoo parabólica, mais específicamente, coeficientes e fonte. Para tal utilizaremos técnicas avançadas da teoria de EDP e controle como o princípio de continuação única [38, 36, 29] e estimativas de Carleman [8, 35, 55]. Outro aspecto inovador desta proposta está relacionado com métodos de regularização para problemas inversos. Neste ponto, o diferencial está em atacar a relação entre a instabilidade do problema e
+os níveis de discretização utilizados na implementação numérica dos métodos de regularização. Neste tópico, há muito pouca literatura e vários problemas permanecem em aberto [26, 46, 54].
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Coordenador / Jorge P. Zubelli - Integrante / Antonio C. G. Leitao - Integrante / Vinicius V. L. Albani - Integrante / Tomas B. Johansson - Integrante.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_Parameter Identification in Inverse Problems'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Parameter Identification in Inverse Problems<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: The need to infer information about specific parameters through the partial knowledge of the solutions of certain models (usually determined by partial differential equations) is of great importance both theoretically and in terms of applications. As examples of applications we can cite the identification and imaging profiles of basements (exploration of hydrocarbons), identification of doping profiles in stationary nonlinear models and transient models of doping in semiconductors, obtaining and image enhancement, whether from satellites, medical imaging (CT scan). Still, the interest of large financial institutions, major industries and government, we can mention applications related to identification of diffusion coefficients (calibration of volatility) models for buying and selling options (future) financial market. In these models, the issues of concern relate to the need to identify the volatility (parameter which measures market uncertainty), so that the model approach, with a certain accuracy, the values of the options given by the financial market. In these models, problems of interest are characterized by the need to identify discontinuities (non-homogeneous parameters) that describe characteristics of interest to industry. 
+The problems cited above are part of a large class of problems with similar characteristics, called Inverse Problems. Such problems are characterized by their intrinsic difficulty associated with instability (or ill-conditioning). Furthermore, data are usually obtained by measurements and so noisy, not to mention the difficulties related to the massive volume of data to be processed. Detailed studies of the phenomena associated with these problems require further study of the associated models (usually modeled by partial differential equations) and techniques for dealing with instability and noise in the data to determine satisfactory solutions to such problems. Such techniques are known as regularization methods in the theory of inver. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Coordenador / B. Tomas Johansson - Integrante.<br class="clear" />Financiador(es): Brazil Visitor Fellow Scheme Program - Auxílio
+										financeiro.</div>
+</div><a name='PP_Edital FAPERGS ARD Processo n&ordm; 0839 12-3'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Edital FAPERGS ARD Processo nº 0839 12-3<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A necessidade de inferir informações sobre parâmetros específicos através do conhecimento parcial de soluções de certos modelos de EDP s são de grande importância tanto teórica como do ponto de vista das aplicações.  Dentre as aplicações podemos citar, identificação de coeficientes descontínuos em modelos de tomografias, identificação de coeficientes de difusão em modelos de calibração de volatilidade, os quais descrevem características de interesse para a industria. Os problemas citados acima fazem parte de uma grande classe de problemas com características semelhantes, chamados de Problemas Inversos. 
+
+O caráter inovador do presente projeto se centra no ataque a problemas inversos de identificação de parâmetros em modelos com coeficientes descontínuos e de difusão em modelos de EDP s elípticas e hiperbólicas associadas a tomografias e a EDP s parabólicas associadas a modelos de precificação de ativos no mercado de futuros. A presença de não linearidades na relação entre parâmetros e dados, bem como a presença de ruídos nos últimos, amplifica a dificuldade associada e requer o desenvolvimento de novas técnicas. Neste projeto, estudaremos métodos de regularização contínuos e iterativos para os problemas inversos mencionados acima, bem como, a implementação numérica de tais métodos. 
+. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Coordenador.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul - Auxílio
+										financeiro.</div>
+</div><a name='PP_Problemas Inversos em Tomografias H&iacute;bridas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Problemas Inversos em Tomografias Híbridas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto está centrado no estudo de várias questões relativas a
+existência, unicidade e estabilidade, associados a problemas inversos em tomografias híbridas. Dado o recente estado da arte neste campo de estudos, existe uma grande variedade de questões em aberto. Resultados de existência e unicidade são conhecidos sob condições bastante fortes sobre a suavidade dos coeficientes e sobre
+a regularidade das soluções da respectivas EDP's que descrevem os fenômenos físicos.  Embora seja esperado que, o mal-condicionamento dos problemas inversos que aparecem em tomografias híbridas seja atenuado, ainda há uma grande necessidade de uma análise detalhada com respeito a estabilidade. Por fim, faz-se necessário a proposição, análise teórica e numérica de métodos de regularização
+que contemplem características especiais dos coeficientes, como descontinuidades, difusividades e/ou esparcidades.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Coordenador / Antonio C. G. Leitao - Integrante / Uri M. Ascher - Integrante.<br class="clear" /></div>
+</div><a name='PP_CNPq - processo 452713/2011-0 -  per&iacute;odo 15/julho a 28/julho'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CNPq - processo 452713/2011-0 -  período 15/julho a 28/julho<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Participação individual em evento científico - ICIAM 2011, Vancuver, BC, Canadá. 
+Visita de colaboração ao Prof. Uri Ascher no Center of Computer Science - UBC de 15 a 18 Julho de 2011. 
+
+. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Coordenador.<br class="clear" /></div>
+</div><a name='PP_FAPERGS - processo 11/0661-2 - per&iacute;odo 23/julho a 29/julho'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">FAPERGS - processo 11/0661-2 - período 23/julho a 29/julho<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Participação individual em evento científico: AMMCS 2011, Waterloo, Ontário, Canadá.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Coordenador.<br class="clear" /></div>
+</div><a name='PP_M&eacute;todos iterativos para problemas inversos: Identifica&ccedil;&atilde;o de coeficientes descont&iacute;nuos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Métodos iterativos para problemas inversos: Identificação de coeficientes descontínuos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O caráter inovador do presente projeto está no ataque a problemas inversos de identificação de parâmetros em modelos com coeficientes descontínuos e de difusão. A presença de não linearidades e descontinuidades na relação entre parâmetros e dados, bem como a presença de ruídos nos últimos, amplifica a dificuldade associada e requer o desenvolvimento de novas técnicas de obtenção de soluções estáveis para as aplicações relacionadas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1) . <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Coordenador.<br class="clear" />Número de orientações: 1</div>
+</div><a name='PP_Regulariza&ccedil;&atilde;o para Problemas Inversos em Equa&ccedil;&otilde;es Diferenciais Parciais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Regularização para Problemas Inversos em Equações Diferenciais Parciais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto visa desenvolver métodos de regularização para os problemas inversos associados a EDP's do tipo elipticas, parabólicas e hiperbólicas que aparecem naturalmente na modelagens de problemas de interesse, como: Problemas de recuperação de imagens médicas (Tomografia), problemas de saturação de semi-condutores, problemas de prospecção de hidorcarbonetos e problemas de calibrar coeficientes (volatilidade) em EDP's aplicadas a finanças.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (4) . <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Coordenador / Jorge P. Zubelli - Integrante / Otmar Scherzer - Integrante / LEITAO, A - Integrante / Tai X-C. - Integrante / Fabiana Travessini De Cezaro - Integrante / Mario Rocha Retamoso - Integrante.<br class="clear" /></div>
+</div><a name='PP_M&eacute;todos iterativos para problems inversos: aplica&ccedil;&otilde;es a semi-condutores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Métodos iterativos para problems inversos: aplicações a semi-condutores<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto aprovado para o "EDITAL UNIVERSAL 15/2007". <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Adriano De Cezaro - Integrante / ALVES, M. M. - Integrante / Jorge P. Zubelli - Integrante / Antonio C. G. Leitao - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Mathematical and Computer Modelling</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Inverse Problems in Science & Engineering (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Inverse Problems (Print)</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Applied Mathematics and Computation</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Mathematical Reviews</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Applied Numerical Mathematics</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Problemas Inversos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise/Especialidade: Análise Funcional Não-Linear. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Análise/Especialidade: Equações Diferenciais Parciais. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada/Especialidade: Análise Numérica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Finanças Quantitativas. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">International Academia Project Seletion, UBIAS. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PASI granst for participation of the INVERSE PROBLEMS and PDE CONTROL, January, 16-27 - 2012 - Santiago - Chile, Pan-American Advanced Studies Istitute. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Brazil Visitor Fellows Scheme (research collaboration project with Prof. Dr. B. Thomas Johansson, School of Mathematics), University of Birmingham. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CIMPA grant for participation of  CIPMA SUMMER SCHOOL IN INVERSE PROBLEMS AND APLICATIONS - SANTIAGO -CHILE, CIMPA. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mensão Honrosa na Categoria Teses de Doutorado - Prêmio Odelar Leite Linhares, SBMAC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Invitation to advanced graduate students and postdocs to join north-south research collaborations, American Mathematical Society and Sociedad Matemática de Chile. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PRÊMIO ODELAR LEITE LINHARES categoria DISSERTAÇÃO DE MESTRADO, SOCIEDADE BRASILEIRA DE MATEMÁTICA APLICADA E COMPUTACIONAL. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ALFA grant for research colaboration with Prof. Dr. Otmar Scherzer in the Univestitat of Innsbruck, Projeto ALFA (America Latina Formation Acadêmica). </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science</div><div class="trab">Total de trabalhos:8</div><div class="cita">Total de citações:19</div><div class="fator">Fator H:3</div><div class="detalhes">De Cezaro, DeCezaro&nbsp;&nbsp;Data:&nbsp;10/04/2013</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>De Cezaro, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1155/2013/123643" target="_blank"></a><b>De Cezaro, A.</b> . On a Level-Set Method for Ill-Posed Problems with Piecewise Nonconstant Coefficients. Journal of Applied Mathematics (Internet)<sup><img id='16870042_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16870042' /></sup>, v. 2013, p. 1-15, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1155/2013/123643&issn=16870042&volume=2013&issue=&paginaInicial=1&titulo=On a Level-Set Method for Ill-Posed Problems with Piecewise Nonconstant Coefficients&sequencial=1&nomePeriodico=Journal of Applied Mathematics (Internet)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CEZARO, A. ou De Cezaro, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/0266-5611/29/1/015003" target="_blank"></a><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao ; Tai, X-C . On piecewise constant level-set (PCLS) methods for the identification of discontinuous parameters in ill-posed problems. Inverse Problems (Print)<sup><img id='02665611_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02665611' /></sup>, v. 29, p. 015003, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1088/0266-5611/29/1/015003&issn=02665611&volume=29&issue=&paginaInicial=015003&titulo=On piecewise constant level-set (PCLS) methods for the identification of discontinuous parameters in ill-posed problems&sequencial=2&nomePeriodico=Inverse Problems (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>De Cezaro, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><b>De Cezaro, A.</b> ; A. Leitao . Corriguendum: Level-set approaches of L 2-type for recovering shape and contrast in ill-posed problems. Inverse Problems in Science & Engineering (Print)<sup><img id='17415977_3' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='17415977' /></sup>, v. 21, p. 739-740, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=17415977&volume=21&issue=&paginaInicial=739&titulo=Corriguendum: Level-set approaches of L 2-type for recovering shape and contrast in ill-posed problems&sequencial=3&nomePeriodico=Inverse Problems in Science & Engineering (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>De Cezaro, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/imamat/hxt037" target="_blank"></a><b>De Cezaro, A.</b> ; ZUBELLI, J. P. . The tangential cone condition for the iterative calibration of local volatility surfaces. IMA Journal of Applied Mathematics<sup><img id='02724960_4' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02724960' /></sup>, v. 80, p. 1-17, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/imamat/hxt037&issn=02724960&volume=80&issue=&paginaInicial=1&titulo=The tangential cone condition for the iterative calibration of local volatility surfaces&sequencial=4&nomePeriodico=IMA Journal of Applied Mathematics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>3</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CEZARO, A. ou De Cezaro, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/17415977.2011.639452" target="_blank"></a><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao .               Level-set approaches of              <i>L</i>              <sub>2</sub>              -type for recovering shape and contrast in ill-posed problems            . Inverse Problems in Science & Engineering (Print)<sup><img id='17415977_5' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='17415977' /></sup>, v. 20, p. 571-587, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1080/17415977.2011.639452&issn=17415977&volume=20&issue=&paginaInicial=571&titulo=              Level-set approaches of              <i>L</i>              <sub>2</sub>              -type for recovering shape and contrast in ill-posed problems            &sequencial=5&nomePeriodico=Inverse Problems in Science & Engineering (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>2</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>De Cezaro, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.na.2011.10.037" target="_blank"></a><b>De Cezaro, A.</b> ; Scherzer, O. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8675737468901580" target="_blank">Zubelli, J.P.</a> . Convex regularization of local volatility models from option prices: Convergence analysis and rates. Nonlinear Analysis<sup><img id='0362546X_6' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='0362546X' /></sup>, v. 75, p. 2398-2415, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.na.2011.10.037&issn=0362546X&volume=75&issue=&paginaInicial=2398&titulo=Convex regularization of local volatility models from option prices: Convergence analysis and rates&sequencial=6&nomePeriodico=Nonlinear Analysis" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>4</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Baumeister, Johann</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.3934/ipi.2011.5.1" target="_blank"></a>Baumeister, Johann ; <b>CEZARO, A. ou De Cezaro, A.</b> ; Leitão, Antonio . Modified iterated Tikhonov methods for solving systems of nonlinear ill-posed equations. Inverse Problems and Imaging (Springfield)<sup><img id='19308337_7' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19308337' /></sup>, v. 5, p. 1-17, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3934/ipi.2011.5.1&issn=19308337&volume=5&issue=&paginaInicial=1&titulo=Modified iterated Tikhonov methods for solving systems of nonlinear ill-posed equations&sequencial=7&nomePeriodico=Inverse Problems and Imaging (Springfield)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>6</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DECEZARO, A</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1088/0266-5611/25/3/035004" target="_blank"></a><b>DECEZARO, A</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4744886169495346" target="_blank">Leitão, A</a> ; Tai, X-C . On multiple level-set regularization methods for inverse problems. Inverse Problems<sup><img id='02665611_8' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='02665611' /></sup>, v. 25, p. 035004, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1088/0266-5611/25/3/035004&issn=02665611&volume=25&issue=&paginaInicial=035004&titulo=On multiple level-set regularization methods for inverse problems&sequencial=8&nomePeriodico=Inverse Problems" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>5</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CEZARO, A. ou De Cezaro, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-642-02256-2_5" target="_blank"></a><b>CEZARO, A. ou De Cezaro, A.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4744886169495346" target="_blank">LEITAO, A</a> ; Tai . On Level-Set Type Methods for Recovering Piecewise Constant Solutions of Ill-Posed Problems. Lecture Notes in Computer Science<sup><img id='03029743_9' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='03029743' /></sup>, v. 5567, p. 50-62, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/978-3-642-02256-2_5&issn=03029743&volume=5567&issue=&paginaInicial=50&titulo=On Level-Set Type Methods for Recovering Piecewise Constant Solutions of Ill-Posed Problems&sequencial=9&nomePeriodico=Lecture Notes in Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>7</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CEZARO, A. ou De Cezaro, A.;DECEZARO, A;De Cezaro, A.;Cezaro, A. De</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.amc.2008.03.010" target="_blank"></a><b>CEZARO, A. ou De Cezaro, A.</b> ; HALTMEIER, M ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4744886169495346" target="_blank">LEITAO, A</a> ; SCHERZER, O . On Steepest-Descent-Kaczmarz methods for regularizing systems of nonlinear ill-posed equations. Applied Mathematics and Computation<sup><img id='00963003_10' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='00963003' /></sup>, v. 202, p. 596-607, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.amc.2008.03.010&issn=00963003&volume=202&issue=&paginaInicial=596&titulo=On Steepest-Descent-Kaczmarz methods for regularizing systems of nonlinear ill-posed equations&sequencial=10&nomePeriodico=Applied Mathematics and Computation" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Travessini De Cezaro, F. . Problemas Inversos em Tomografias. 1. ed. São Carlos: SBMAC, 2012. v. 59. 132p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> ; Travessini De Cezaro, F. ; OLIVEIRA, A. M. . Identificação de Parâmetros em Equações Diferenciais: Teoreia e Aplicações. In: 2º Colóquio de Matemática da Região Nordeste, 2012, Teresina. 2º Colóquio de Matemática da Região Nordeste. Teresina: Editora da UFPI, 2012. p. 1-85. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . Problemas Inversos: Uma Introdução. In: 1 COLÓQUIO DE MATEMÁTICA DA REGIÃO SUL, 2010, Santa Maria. Notas de mini-cursos. Santa Maria: UFSM, 2010. p. iii-158. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli ; O. Scherzer . A Convex-Regularization Framework for Local-Volatility Calibration in Derivative Markets: The Connection with Convex-Risk Measures and Exponential Families. In: 6th World Congress of the Bachelier Finance Society, 2010, Toronto. 6th World Congress of the Bachelier Finance Society, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Travessini De Cezaro, F. . Problemas Inversos e a Matemática da Tomografia Computadorizada. In: V Bienal da Sociedade Brasileira de Matemática (SBM), 2010, João Pessoa. Anais da V Bienal da SBM. João Pessoa: Editora da UFPB, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Leitão, Antonio . Introdução aos Problemas Inversos Lineares. In: IV Bienal da Sociedade Brasileira de Matemática, 2008, Maringá. Anais da IV Bienal da SBM. Maringá: Editora da UEM, 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli ; Vinicius Albani . Volatility Surface Calibration: from Theory to Practice. In: Fifth Brazilian Conference on Statistical Modelling in Insurance and Finance, 2011, Maresias. Fifth Brazilian Conference on Statistical Modelling in Insurance and Finance. São Paulo: USP, 2011. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . Regularization Methodsof Level Sets type for Inverse Problems. In: Seminar on Inverse Problems and Applications, 2006, Rio de Janeiro. Anais do Seminar on Inverse Problems and Applications, 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . A Regularization  Level Sets Methods  for Inverse Problems. In: International Congress on Mathematical Physics - ICMP 2006, 2006, Rio de Janeiro. Anais do International Congress on Mathematical Physics - ICMP 2006, 2006. p. 108-108. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli . Iterative Calibration of Local Volatility Surface. In: ICIAM 2011 - International Congress on Industrial and Applied Mathematics, 2011, Vancouver. 7th International Congress on Industial and Applied Mathematics. Vancouver: ICIAM, 2011. v. 1. p. 133-134. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . On Level-Set Regularization Methods for Denoising of Binary Images. In: AMMCS 2011 - International Congress on Applied Mathematica, Modeling and Computational Science, 2011, Waterloo. AMMCS Book of Abrstracts. Waterloo: AMMCS@2011, 2011. v. 1. p. 24-24. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; O. Scherzer ; J.P. Zubelli . Convex Regularization Applied for Inverse Problems of Option Price:convergence analysis and rates. In: American Mathematical Society and Sociedade Brasileira de Matemática First Joint Meeting, 2008, Rio de Janeiro. AMS SBM - First Joint Meeting. Rio de Janeiro, 2008. p. 104-104. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> . On Level Set Regularization Approaches and some Applications. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> ; Travessini De Cezaro, F. . On a Tikhonov Type Regularization Method for Local Volatility Model in American Option: Convergence Analysis and Rates. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> . Problemas Inversos em Tomografias Multi-Físicas. 2013. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> . Calibration of the Local Volatility by Tikhonov type Regularization. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> . Regularization Methods for Inverse Problems Associated to the Black-Scholes PDE. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> . Convex and Iterative Regularization Methods for Inverse Problems Associated to the Black-Scholes PDE. 2012. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> ; Travessini De Cezaro, F. . Problemas Inversos em Tomografias. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . On Level-Set Regularization Methods for Denoising of Binary Images. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli . Iterative Calibration of Local Volatility Surface. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli . Calibration of Local Volatility Surface by Iterative Methods. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Travessini De Cezaro, F. ; <b>CEZARO, A. ou De Cezaro, A.</b> . The Optimal Stopping Time in American Options: A Level Set Approach.. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Travessini De Cezaro, F. . Problemas Inversos e a Matemática da Tomografia Computadorizada. 2010. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli . Iterative Calibration of Local Volatility Surface. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Travessini De Cezaro, F. . A Level Set Approach to Optimal Stopping Time in American Options. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli . A note on Tikhonov regularization to calibrate volatility under no-arbitrage condition. 2009. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli ; O. Scherzer . Convex Regularization Applied for Inverse Problems of Option Price: convergence analysis and rates. 2008. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4744886169495346" target="_blank">LEITAO, A</a> . Introdução aos Problema Inversos Lineares. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; J.P. Zubelli ; O. Scherzer . Convex Regularization applied to inverso problem of oprion prices: convergence analysis and rates - actualization 2008. 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; O. Scherzer ; J.P. Zubelli . Non-quadratic regularization applied for inverse problems os option price:convergence analysis and rates. 2007. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> . Métodos de regularização tipo level set para problemas inversos. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . Regularization Methods type Level Sets for Inverse Problems. 2006. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> ; Travessini De Cezaro, F. . REGULARIZATION APPROACHES FOR QUANTITATIVE PHOTOACOUSTIC TOMOGRAPHY USING THE RADIATIVE TRANSFER EQUATION 2014 (Artigo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinicius Albani ; <b>De Cezaro, A.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8675737468901580" target="_blank">Zubelli, J.P.</a> . Convex Regularization of Local Volatility Estimation in a Discrete Setting. SSRN,
+							 2014 (Artigo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vinicius Albani ; <b>De Cezaro, A.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8675737468901580" target="_blank">Zubelli, J.P.</a> . On the Choice of the Tikhonov Regularization Parameter and the Discretization Level: A Discrepancy-Based Strategy. SSRN,
+							 2014 (Artigo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> ; JOHANSSON, B. T. . A note on uniqueness in the identification of a spacewise dependent source and diffusion coefficient for the heat equation. arxiv,
+							 2012 (Artigo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> ; Travessini De Cezaro, F. . Uniqueness and regularization for unknown spacewise lower-order coefficient and source for the heat type equation.
+							Rio Grande:
+									FURG,  2012 (Artigo). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Travessini De Cezaro, F. ; OLIVEIRA, A. M. . Identificação de Parâmetros em Equações Diferenciais: Teoreia e Aplicações.
+							Teresina:
+									EDUFPI,  2012 (Notas de Mini-curso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . Problemas Inversos: Uma Introdução.
+							Santa Maria:
+									Editora da UFSM,  2010 (Notas de Mini-curso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Travessini De Cezaro, F. . Problemas Inversos e a Matemática da Tomografia Computadorizada.
+							Rio de Janeiro:
+									SBM,  2010 (Notas de Mini-curso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4744886169495346" target="_blank">LEITAO, A</a> . Introducao aos Problemas Inversos Lineares.
+							Maringá:
+									IV Bienal da SBM,  2008 (Notas de Mini-curso). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Travessini De Cezaro, F. . Problemas Inversos e a Matemática da Tomografia Computadorizada. 2011. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . Problemas Inversos: Uma Introdução. 2010. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; A. Leitao . Introducao aos Problemas Inversos Lineares. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">J.P. Zubelli; Solodov, M.; Carneiro, E.; A. Leitao; <b>De Cezaro, A.</b>.  Participação em banca de VINÍCIUS VIANA LUIZ ALBANI. VOLATILITY CALIBRATION IN EQUITY AND COMMODITY MARKETS BY CONVEX REGULARIZATION. 2012. Tese (Doutorado em Doutorado em Matemática)  - Associação Instituto Nacional de Matemática Pura e Aplicada. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Cezaro, A. De</b>; Seidel, E.J.; Felix, J.L.P.. Matemática.
+							2014. Universidade Federal do Pampa. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Moraes, R. A. R.; Peters, S.; Bedin, L.; <b>CEZARO, A. ou De Cezaro, A.</b>; Durigon, A.. Equações Diferenciais Parciais.
+							2012. Universidade Federal de Santa Catarina. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3 COLÓQUIO DE MATEMÁTICA DA REGIÃO SUL. On augmented Lagrangian approach for inverse problems. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2014 MBI Workshop for Young Researchers in Mathematical Biology. On an inverse problem in bioconversion of glycerol. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Reseach in Option 2014. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V SEMANA DE MATEMÁTICA DO PONTAL (V SEMAP) e I  COLÓQUIO DE ANÁLISE MATEMÁTICA DO PONTAL (I CAMP). Probemas Inversos em Tomografias Multi-Físicas. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PDE Seminar - University of Memphis.REGULARIZATION APPROACHES FOR QUANTITATIVE PHOTOACOUSTIC TOMOGRAPHY USING THE RADIATIVE TRANSFER EQUATION. 2014. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Brazilian Colloquium of Mathematics. On Level Set Regularization Approaches and some Applications. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Research in Option 2013. On a Tikhonov Type Regularization Method for Local Volatility Model in American Option. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Inverse Problems and PDE Control. Calibration of Local Volatility Models by Tikhonov type Regularization. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXIV CNMAC - Congresso Nacional de Matemática Aplicada e Computacional. Problemas Inversos em Tomografias. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Research in Options 2012. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mathematical Methods and Modeling of Biophysical Phenomena. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMP 2011 - Advances in the Numerical Solution of Constraint Differential Equations. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ICIAM 2011 - International Congress on Industrial and Applied Mathematics. Iterative Calibration of Local Volatility Surface. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMMCS 2011 - International Conference on Applied Mathematics, Modeling and Computational Science. On Level-Set Regularization Methods for Denoising of Binary Images. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RiO2011 - Research in Options 2011. Calibration of Local Volatility Surface by Iterative Methods. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Inverse Days under Capricorn.Level-set approaches of L^2 type for recovering shape and contrast in ill-posed problems.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WIPA2010 Workshop on Inverse Problems and Applications. Convex Regularization of the Local Volatility Model for Option Prices: Convergence Analysis and Rates. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">1 COLÓQUIO DE MATEMÁTICA DA REGIÃO SUL. Problemas Inversos: Uma Introdução. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Bienal da Sociedade Brasileira de Matemática. Problemas Inversos e a Matemática da Tomografia Computadorizada. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Research In Option 2010. Iterative Calibration of Local Volatility Surface. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV MCSUL e IX ERMAC. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">First Joint Meeting American Mathematical Society and sociedad Matemática de Chile. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CIMPA - Summer School in Inverse Problems and Applications.Convex Regularization of the Local Volatility Model for Option Prices: Convergence Analysis and Rates. 2010. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Conference on Applied Inverse Problems. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Research in Option 2009. A note on Tikhonov regularization to calibrate volatility under no-arbitrage condition. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">American Mathematical Society and Sociedade Brasileira de Matemática First Joint Meeting. Convex Regularization Aplied for Inverse Provblems of Option Price: convergence analysis and rates. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IV Bienal da Sociedade Brasileira de Matemática. Introdução aos Problema Inversos Lineares. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mathematics & Finance: Research in Oprion 2008. Convex Regularization applied to inverso problem of oprion prices: convergence analysis and rates - actualization 2008. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Mathematics and Finance: Research in Options. Non-quadratic regularization applied for inverse problem of option price: convergence analysis and rates. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">KDV, BO and Friends: 60th Birthday of Rafael Iório. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Seminar on Inverse Problems and Applications. Regularization Methods kind Level Sets for Inverse Problems. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Congress on Mathematical Physics - ICMP 2006. A Regularization  Level Sets Methods  for Inverse Problems. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVII CNMAC. Metodos de Regularizacao tipo Level Set para Poblemas Inversos. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Colóquio Brasileiro de Matemática. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano Medina Peres. Um problema de identificação de parâmetros em  bioconservação de glicerol em 1,3-propanediol.
+						Início: 2014.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Stefânia Glaeser. Problemas Inversos em Sistemas Biológicos: Aplicações ao Ritmo Circadiano.
+						Início: 2014.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Tiago Gautério. Identificação de parâmetros em bioquímica celular.
+						Início: 2014.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Estefani De Souza. Modelagem de fenômenos bioquímicos por derivadas fracionárias.
+						Início: 2014.
+						Dissertação (Mestrado em Modelagem Computacional)  - Universidade Federal do Rio Grande. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Arthur Mendes.
+							Precificação de Opções: Um modelo em tempo discreto.
+							2014.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática Aplicada)  - Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus G. Viero.
+							A Equação de Black-Scholes para Precificação de Opções.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Matemática Aplicada)  - Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Douglas Chielle.
+							Problemas Inversos e a Matemática da Tomogra&#64257;a Computadorizada.
+							2011.
+							Trabalho de Conclusão de Curso. (Graduação em Bacharelado em Matemática Aplicada)  - Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Arthur Mendes.
+							Precificação de Opções: Uma Abordagem Probabilistica (parte II).
+							2014.
+							Iniciação Científica. (Graduando em Bacharelado em Matemática Aplicada)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Arthur Mendes.
+							Precificação de Opções: Uma Abordagem Probabilistica.
+							2013.
+							Iniciação Científica. (Graduando em Bacharelado em Matemática Aplicada)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Stefânia Glaeser.
+							Problemas Inversos em Sistemas Biofísicos: Ritmo Circadiano.
+							2013.
+							Iniciação Científica. (Graduando em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano M. Peres.
+							Modelos de dinâmica populacional.
+							2012.
+							Iniciação Científica. (Graduando em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus G. Viero.
+							A Equação de Black-Scholes.
+							2012.
+							Iniciação Científica. (Graduando em Bacharelado em Matemática Aplicada)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luciano Medina.
+							Equações Diferenciais Aplicadas a Modelos Biológicos.
+							2011.
+							Iniciação Científica. (Graduando em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Douglas Chielle.
+							A Transformada de Radon e a tomografia por Raio-X.
+							2009.
+							Iniciação Científica. (Graduando em Bacharelado em Matemática Aplicada)  - Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jefferson A. Schmit.
+							Sistemas de equações lineares e o modelo de Leontief.
+							2009.
+							Iniciação Científica. (Graduando em Bacharelado em Matemática Aplicada)  - Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Matheus G. Viero.
+							Sistemas de Leontief.
+							2009.
+							Iniciação Científica. (Graduando em Bacharelado em Matemática Aplicada)  - Universidade Federal do Rio Grande,
+							Universidade Federal do Rio Grande. Orientador: Adriano De Cezaro.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="LivrosCapitulosEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Livros e capítulos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CEZARO, A. ou De Cezaro, A.</b> ; Travessini De Cezaro, F. . Problemas Inversos em Tomografias. 1. ed. São Carlos: SBMAC, 2012. v. 59. 132p . </div>
+</div>
+<br class="clear">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>De Cezaro, A.</b> ; Travessini De Cezaro, F. . Problemas Inversos em Tomografias. 2012. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">1- Participação do Projeto ALFA (America Latina Formation Acadêmica) no qual permaneceu por três meses junto ao Institut of Computer Science - University of Innsbruck -INNSBRUCK - Austria, sob a orientacação do Pr. Dr. Otmar Scherzer, desenvolvendo trabalhos de pesquisa em problemas inversos e problemas inversos aplicados a imagens.
+
+2- Participação do programa de Pós-Doutorado de Verão 2011 - IMPA - Rio de Janeiro, RJ, em colaboração com o Prof. Dr. Jorge P. Zubelli.
+
+3- Participação do programa de Pós-Doutorado de Verão 2012 - IMPA - Rio de Janeiro, RJ, em colaboração com o Prof. Dr. Jorge P. Zubelli.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/03/2015 &agrave;s 24:13:08</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0891028206544818" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

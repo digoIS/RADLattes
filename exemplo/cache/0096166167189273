@@ -1,0 +1,2955 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Ezequiel Gibbon Gaut&eacute;rio)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+				
+			});                 
+                                
+		</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0096166167189273" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosExtensao">Projetos de extensão</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4481156A8&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4481156A8"><div class="infpessoa">
+<h2 class="nome">Ezequiel Gibbon Gaut&eacute;rio</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0096166167189273</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 07/02/2015</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Mestre em Modelagem Computacional - FURG (2013), graduado em Matemática Licenciatura Plena pela Universidade Federal do Rio Grande - FURG (2009). Atualmente é docente substituto do IMEF (FURG) e coordenador de tutoria do Curso de Especialização para professores de Matemática pela UAB. Atuou como secretário da Coordenadora Adjunta do Curso de Matemática Pró-Licenciatura (PROLIC) na FURG pela Rede Gaúcha de Ensino à Distância (REGESD), trabalhando na Secretaria de Educação a Distância (SEaD). Atuou como docente Substituto no Instituto de Matemática, Estatística e Física - IMEF (FURG - 2010) ministrando aulas de Matemática I e II e Introdução a Matemática para os cursos de Ciências Econômicas, Administração e Ciências Biológicas. Além disso, desenvolveu atividades de ensino e coordenação em projetos de extensão (cursos pré-vestibular) pelo Programa de Apoio ao Ingresso nos Ensinos Técnico e Superior (PAIETS), onde atuou de forma voluntária na Educação de Jovens e Adultos. Na SEaD, já participou de cursos de formação continuada para professores e tutores, colaborando na realização de oficinas para Educação à Distância (EaD). Atua nos seguintes temas: matemática aplicada, teoria de grafos, roteamento de veículos, formação continuada, ensino de geometria e tecnologias, educação à distância.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ezequiel Gibbon Gautério</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">GAUTÉRIO, E. G.;GAUTÉRIO, EZEQUIEL GIBBON</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Federal do Rio Grande, Secretaria de Educação a Distância. <br class="clear" />Avenida Itália, Km 8<br class="clear" />Carreiros<br class="clear" />96201900 - Rio Grande, RS - Brasil<br class="clear" />Telefone: (53) 32935133<br class="clear" />URL da Homepage: <a target="blank" href="http://www.sead.furg.br">www.sead.furg.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Modelagem Computacional<span class="ajaxCAPES" data-param="&codigoCurso=42004012014P9&nivelCurso=M"></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	<br class="clear" />Título: Programação de veículos com coleta e entrega: metodologia heurística baseada no recozimento simulado,Ano de Obtenção: 2013.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7037520500128415'><img src='images/curriculo/logolattes.gif' /></a>Prof Dra Elaine Correa Pereira.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. <br class="clear" />Palavras-chave: Educação a Distância; programação de veículos; coleta e entrega; Recozimento Simulado.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" />Grande Área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional. <br class="clear" />Grande Área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional / Especialidade: Teoria dos Grafos. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em andamento em Matemática Aplicada - Bacharelado<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Matemática Licenciatura Plena<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Instituto Estadual de Educação São José.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino Médio (2º grau)<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Instituto Estadual de Educação São José.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Inglês Online. <br class="clear" />Englishtown Education First.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Logística de Operações Humanitárias.  (Carga horária: 4h). <br class="clear" />Centro de Análises de Sistemas Navais.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Verão - Análise na Reta.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Santa Maria.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Equações de Navier-Stokes.  (Carga horária: 4h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cálculo da Área de Superfícies paralelas em S30.  (Carga horária: 4h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A característica de Euler e a Curvatura de Gauss.  (Carga horária: 4h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação em EaD para Professores e Tutores.  (Carga horária: 40h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Oficina de Moodle (Organização, tópico, ...).  (Carga horária: 4h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação em EaD para Professores e Tutores.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Inserção cidadão na vida Universitária.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação Administrativa.  (Carga horária: 60h). <br class="clear" />Cinfor Consultoria e Cursos de Informática.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Inglês Técnico (Aplicado a Informática).  (Carga horária: 20h). <br class="clear" />Cinfor Consultoria e Cursos de Informática.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Liderança Cursos Preparatórios, LCP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor Contratado, Enquadramento Funcional: Contrato Temporário, Carga horária: 4</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ministrante de aulas de matemática para concurso. As aulas são ministradas em turmas de alunos que se preparam para o concurso da Escola de Aprendizes Marinheiros (EAM - 2010).</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande, FURG, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor Substituto, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Contrato, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Co-Orientador na disciplina de TCC do Curso de Matemática Licenciatura pelo PROLIC - REGESD.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Substituto, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Docente substituto do Instituto de Matemática, Estatística e Física - IMEF.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsa, Enquadramento Funcional: Bolsista Permanente, Carga horária: 10</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Obtive o direito a Bolsa Permanência no Programa de Apoio Institucional ao Estudante da FURG - PAIE, atuando no Projeto de Extensão Ousadia Pré-Vestibular Popular pelo IMEF.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: FISCAL, Enquadramento Funcional: Fiscal do PROCESSO SELETIVO 2009, Carga horária: 14</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: FISCAL, Enquadramento Funcional: Fiscal do PROCESSO SELETIVO 2008, Carga horária: 14</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Aplicada, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução ao uso dos recursos computacionais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Licenciatura Plena, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução ao Cálculo<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Financeira<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial e Integral I<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Especialização para Professores de Matemática, Nível: Especialização</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Trabalho de Conclusão de Curso<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 12/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil Empresarial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria Analítica (Anual)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2014 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Sistemas de Informação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Álgebra Linear e Geometria analítica (Semestral)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2013 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Contábeis, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Financeira<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2013 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Econômicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Financeira<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>06/2013 - 07/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Financeira<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 01/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia de Automação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Algebra Linear e Geometria Analítica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2013 - 01/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Licenciatura Plena, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática Financeira<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2012 - 12/2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Matemática Licenciatura Plena, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Trabalho de Conclusão de Curso<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2011 - 10/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Conselho de Ensino, Pesquisa e Extensão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Coordenador de atividades no Curso Pré-Universitário Ousadia Popular promovido pelo Programa de Apoio ao Ingresso nos Ensinos Técnico e Superior - PAIETS. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2011 - 10/2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Conselho de Ensino, Pesquisa e Extensão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante na disciplina de Matemática do Curso Pré-Universitário Ousadia Popular, com carga horária de 60h/aula. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>05/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Biológicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Introdução a Matemática<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Administração, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática para Administração I<br class="clear" />Matemática para Administração II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2010 - 12/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciências Econômicas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Matemática para Ciências Econômicas I<br class="clear" />Matemática para Ciências Econômicas II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 11/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Conselho de Ensino, Pesquisa e Extensão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Coordenador de atividades no Curso Pré-universitário Ousadia Popular promovido pelo Programa de Apoio ao Ingresso nos Ensinos Técnico e Superior - PAIETS. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2010 - 11/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Conselho de Ensino, Pesquisa e Extensão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante na disciplina de Matemática do Curso Pré-Universitário Ousadia Popular. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2010 - 06/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia Civil Empresarial, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Cálculo Diferencial e Integral II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 12/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Instituto de Matemática, Estatística e Física - IMEF, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Coordenador de atividades do Projeto e coordenador da área da matemática, durante o período de execução do Projeto, totalizando 200h/aula.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2009 - 11/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Instituto de Matemática, Estatística e Física - IMEF, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante da disciplina de Matemática no Projeto Ousadia Pré-Vestibular Popular em São José do Norte, totalizando 120h/aula. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 08/2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Superintendencia de Extensão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Participou do Programa de Auxílio ao Ingresso nos Ensinos Técnico e Superior - PAIETS como coordenador de atividades, elaborando projeto de implantação de Curso Pré-Vestibular Popular em São José do Norte.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Instituto de Matemática, Estatística e Física - IMEF, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante de matemática como Monitor para o Ensino Médio, no Instituto São José, em São José do Norte, totalizando 60h/aula.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Superintendencia de Extensão, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante da disciplina de Matemática no Curso Pré-Vestibular "Grupo de Estudos Paidéia", cumprindo um total de 80 horas/aula. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>03/2008 - 12/2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Diretório Central dos Estudantes, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante da disciplina de Matemática no Projeto "Curso pré-vestibular gratuito no Bairro Quinta, Rio Grande, RS", totalizando 150 horas/aula.. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/2007 - 12/2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Diretório Central dos Estudantes, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Ministrante da disciplina de Matemática no Projeto "Curso pré-vestibular gratuito no Bairro Quinta, Rio Grande, RS", totalizando 130 horas/aula.. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista FAURGS / PROLIC, Enquadramento Funcional: Secretário, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Secretário da Coordenadora Adjunta do Curso de Matemática do Pró-Licenciatura junto a FURG pela Rede Gaúcha de Ensino à Distância - REGESD (Educação à Distância), atuando na Secretaria de Educação a Distância (SEaD).</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Prefeitura Municipal de São José do Norte, PMSJN, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Estágio, Enquadramento Funcional: Estagiário, Carga horária: 20, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Digitar documentos administrativos e contábeis, separar e arquivar documentos e auxiliar os serviços de apoio administrativo</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Otimiza&ccedil;&atilde;o em Redes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Otimização em Redes<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Marilia Nunes Dall'Asta em 31/01/2013.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Modelos de Redes são importantes, do ponto de vista teórico como também computacional. Os problemas de otimização em redes inclui aplicações tradicionais que consistem em encontrar o modo mais eficiente de ligar várias localidades direta ou indiretamente, achar o caminho mais curto entre dois pontos, determinar o fluxo máximo em uma rede, que satisfaça requisitos de suprimento e demanda em diferentes locais e programar as atividades de um projeto. Portanto pretende-se trabalhar com Modelos de Redes, de forma simples e contextualizada na construção das idéias básicas de situações problemas reais que despertem o interesse e motivem para a busca de novas metodologias aplicadas a problemas de fluxos em redes. Os resultados serão publicados em anais de congresso e revistas científicas.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (1)  / Mestrado acadêmico: (3) . <br class="clear" /><br class="clear" />Integrantes: Ezequiel Gibbon Gautério - Integrante / Elaine Correa Pereira - Coordenador / Catia Maria dos Santos Machado - Integrante / Liliane Silva de Antiqueira - Integrante / Suvania Acosta de Oliveira - Integrante.<br class="clear" /></div>
+</div><a name='PP_LogTraM - Grupo de Estudos de Log&iacute;stica, Transportes e Meio Ambiente'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">LogTraM - Grupo de Estudos de Logística, Transportes e Meio Ambiente<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A criação do LogTraM será importante para o desenvolvimento da área de Logística e Transportes na Universidade, uma vez que envolverá conhecimentos multidisciplinares, contando com pesquisadores de três Unidades diferentes (EE, IMEF e ICHI).. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (8)  / Mestrado acadêmico: (3) . <br class="clear" /><br class="clear" />Integrantes: Ezequiel Gibbon Gautério - Integrante / Elaine Correa Pereira - Integrante / Rafael da Silva Correa - Integrante / Geovane Oliveira - Integrante / Catia Maria dos Santos Machado - Integrante / Milton Luiz Paiva de Lima - Coordenador / Liliane Silva de Antiqueira - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosExtensao">
+<h1>Projetos de extens&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Ousadia Pr&eacute;-Vestibular Popular'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ousadia Pré-Vestibular Popular<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto Ousadia Pré-Vestibular Popular começou as atividades na primeira quinzena do mês de março de 2010. Pretende, através de voluntários acadêmicos dos cursos de graduação-licenciaturas da FURG, proporcionar às camadas mais populares a oportunidade de ingresso na universidade por meio deste pré-vestibular popular e gratuito. Ao mesmo tempo, ampliar-se-á as possibilidades de acesso ao ensino superior e aliar-se-á conhecimentos teóricos desenvolvidos na universidade com a prática efetiva docente. É desenvolvido na cidade de São José do Norte e atende 55 jovens e adultos egressos do ensino médio das escolas públicas, na forma de um curso preparatório ao processo seletivo da FURG, em parceria com o Instituto Estadual de Educação São José que cede espaço para desenvolvimento das aulas semanalmente. As aulas ministradas são de responsabilidade dos professores devendo estar de acordo com o conteúdo do Manual do Candidato. O Projeto quer proporcionar uma formação continuada para estudantes egressos do ensino médio e que almejam ingressar numa universidade pública e gratuita, além do trabalho social que acreditamos ser de extrema importância neste contexto.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (10)  / Mestrado acadêmico: (2) . <br class="clear" /><br class="clear" />Integrantes: Ezequiel Gibbon Gautério - Coordenador / Marilia Nunes Dall'Asta - Integrante / Natália Moreira Viana - Integrante / Bruno Xavier Silveira - Integrante / Vanessa Gonçalves Dias - Integrante / Sandra Christ Hartwig - Integrante / Sícero Agostinho Miranda - Integrante.<br class="clear" /></div>
+</div><a name='PP_Programa de Aux&iacute;lio ao Ingresso nos Ensinos T&eacute;cnico e Superior - PAIETS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Programa de Auxílio ao Ingresso nos Ensinos Técnico e Superior - PAIETS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O PAIETS agrupa cursos preparatórios populares para o ingresso nos ensinos superior e técnico e visa
+proporcionar à comunidade a possibilidade de estudo numa universidade pública e gratuita. Para tal, 335
+acadêmicos de graduação e pós-graduação, e colaboradores já formados, comprometem-se em ministrar
+aulas de diferentes áreas do conhecimento que auxiliem no preparo ao ENEM e aos processos seletivos
+para o ensino técnico e superior. O Programa teve início em 2007, contemplado no edital PROEXT
+06/2007, e, em 2008, teve adesão de novos docentes e acadêmicos-educadores, implementando novas
+ações e oportunizando a criação de três novos cursos preparatórios populares. No ano de 2009, o trabalho
+foi ampliado para 500 estudantes, e 9 cursos estão em desenvolvimento nas vilas e bairros populares da
+cidade, além de ter sido aberta uma turma em São José do Norte e outra que está sendo organizada em
+Santa Vitória do Palmar, cidades de abrangência da FURG e inseridas no ecossistema costeiro e lagunar.
+Em 2010, pretende-se a continuidade e o fortalecimento do trabalho que vem sendo desenvolvido.. <br class="clear" />Situação: Em andamento; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (99)  / Especialização: (10)  / Mestrado acadêmico: (25)  / Doutorado: (5) . <br class="clear" /><br class="clear" />Integrantes: Ezequiel Gibbon Gautério - Coordenador / Diana P Salomão Freitas - Integrante / Marilia Nunes Dall'Asta - Integrante / Natália Moreira Viana - Integrante / Bruno Xavier Silveira - Integrante / Rita Patta Rache - Integrante / Paula Henning - Integrante / Carlos Roberto da Silva Machado - Integrante / Diego Mendes Cipriano - Integrante / Rita de Cássia de Duarte - Integrante / Sícero Agostinho Miranda - Integrante / Felipe Nóbrega Ferreira - Integrante / Neusiane Chaves de Souza - Integrante / Thayná Martins Brandão Correa - Integrante / Caren Fernandes Ricardo - Integrante / Luiza Mello da Silva - Integrante / Débora Müller - Integrante.<br class="clear" />Financiador(es): Ministério da Educação - Auxílio
+										financeiro.</div>
+</div><a name='PP_Projeto Ousadia Pr&eacute;-Vestibular Popular'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Ousadia Pré-Vestibular Popular<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto, em seu pioneirismo, inicia suas atividades no ano de 2009 a partir da primeira quinzena do mês de março. Pretende, através de voluntários acadêmicos dos cursos de graduação-licenciaturas da FURG, proporcionar aos alunos pertencentes às camadas mais populares a oportunidade de ingresso na FURG por meio de um pré-vestibular popular e gratuito. Ao mesmo tempo, ampliar-se-á as possibilidades de acesso ao ensino superior e aliar-se-á conhecimentos teóricos desenvolvidos na universidade com a prática efetiva docente, na tentativa de formar não apenas profissionais com experiência, mas também agentes transformadores comprometidos com a sociedade. O mesmo se estrutura na cidade de São José do Norte, direcionado a jovens e adultos egressos do ensino médio, na forma de um curso preparatório ao processo seletivo da FURG, em parceria com o Instituto Estadual de Educação São José, o qual cede suas dependências para que as aulas se desenvolvam semanalmente à noite, inclusive aos sábados. As aulas ministradas serão de responsabilidade dos acadêmicos voluntários e professores da comunidade devendo estar de acordo com o conteúdo do Manual do Candidato. Também cada disciplina desenvolvida para o vestibular terá um coordenador. As avaliações dos ministrantes quanto ao curso ocorrerão mensalmente. Quanto a simulados dirigidos aos alunos serão aplicados trimestralmente. A estimativa de atendimento ao público é de aproximadamente 50 pessoas, jovens e adultas oriundas de escola pública e residentes no município de São José do Norte, que anseiam por esta possível oportunidade de ingresso a um curso superior. Nossa preocupação com a necessidade de formação continuada para estudantes egressos do ensino médio e que almejam ingressar numa universidade pública e gratuita, além do trabalho social que acreditamos, foram as principais questões que nos levaram à elaboração do presente projeto.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Ezequiel Gibbon Gautério - Coordenador / Marilia Nunes Dall'Asta - Integrante / Natália Moreira Viana - Integrante / Bruno Xavier Silveira - Integrante / Vanessa Gonçalves Dias - Integrante / Patricia Wyse Mendes - Integrante / Carlene Fonseca de Moraes - Integrante / Maicon Dourado Bravo - Integrante / Letícia Souza Terra - Integrante / Tiago Cardoso - Integrante.<br class="clear" /></div>
+</div><a name='PP_Curso pr&eacute;-vestibular gratuito no Bairro Quinta, Rio Grande, RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso pré-vestibular gratuito no Bairro Quinta, Rio Grande, RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto  que começa no dia 10 de março e início das aulas
+ no dia 17 de março tem como objetivo não somente preparar, o aluno 
+inscrito no curso pré-vestiblar, para a o processo seletivo mas também 
+reavivar em cada um, a auto-estima.
+O Projeto tem como público alvo alunos que terminaram o ensino 
+médio e pretendem ingressar na Universidade. Estima-se 70 pessoas.
+Pelo segundo ano é  realizado em parceria com a Associação comunitária da
+Quinta(A.C.Q.)Depois da equipe formada foi realizada uma reunião para organizar os horários de cada disciplina e esclarecimento a cada um dos ministrantes, coordenadores e organizadores envolvidos. As disciplinas: Biologia, Química, História, Geografia, Física, Literatura, Matemática e Português serão ministradas durante a semana com 3 aulas de 45 minutos cada, sendo que haverão 4,2,4,3,3,1,1 e 2 ministradores de cada disciplina respectivamente. As disciplinas de Língua estrangeira: Inglês e espanhol e a Redação, serão ministradas com 2 aulas de 45 minutos cada, sendo que haverão 3,3e 1 ministradores de cada disciplina
+ respectivamente.Os ministradores se reunirão  
+em grupos por disciplina, grupos esses coordenados por um dos 
+ministrantes para que seja organizado o conteúdo
+ programático e os planos de aula a serem seguidos, bem como os 
+exercícios a serem resolvidos pelos alunos.
+ Haverá reuniões mensais, na sede do D. C. E. na FURG para discussões de 
+aproveitamento, sugestões e, se necessário, tomadas de medidas para melhorar a qualidade dos projeto.
+Esta previsto a realização de dois simulados, um por semestre,
+ durante esse ano do projeto.No final do curso acredita-se que os 
+alunos estejam confiando em si,baseados no conteúdo e postura 
+assimilados durante o curso. O suficiente para concorrerem seguros a 
+uma vaga na universidade durante o processo seletivo.
+. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Ezequiel Gibbon Gautério - Coordenador / Wagner Terra Silveira - Integrante / Diana P Salomão Freitas - Integrante / Luiz Laurino - Integrante / Régis de Lima - Integrante / Thayná M. B. Correia - Integrante / Ingrid Ferreira - Integrante.<br class="clear" /></div>
+</div><a name='PP_Projeto Monitoria para o Ensino M&eacute;dio'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto Monitoria para o Ensino Médio<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto irá começar dia 18 de Agosto de 2008 e atenderá estudantes do Ensino Médio, pertencentes ao Instituto Estadual de Educação São José (escola pública de São José do Norte) parceira do projeto. Os objetivos do projeto são: proporcionar aos alunos condições de tirarem dúvidas sobre conteúdos matemáticos, criarem hábitos de estudos e tornar o monitor capaz de buscar novas alternativas e metodologias para aprendizagem desses alunos. A metodologia empregada será basicamente a explicação de conteúdos e/ou resolução de exercícios (aulas teóricas), em conjunto com  os alunos e quando a aprendizagem não for alcançada por estes meios, buscar alternativas mais concretas (aulas práticas) se estas existirem. Espera-se que o projeto auxilie aos alunos da escola no ensino de Matemática paralelamente ao ensino da sala de aula, onde o aluno terá novas alternativas de aprendizagem e/ou reforço.. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (3) . <br class="clear" /><br class="clear" />Integrantes: Ezequiel Gibbon Gautério - Coordenador / Carlene Fonseca de Moraes - Integrante / Elaine Correa Pereira - Integrante / Letícia Souza Terra - Integrante.<br class="clear" /></div>
+</div><a name='PP_Curso pr&eacute;-vestibular gratuito no Bairro Quinta, Rio Grande, RS'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso pré-vestibular gratuito no Bairro Quinta, Rio Grande, RS<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O presente projeto terá início no dia dois de Abril de 2007. Com
+o Objetivo e de não somente preparar, o aluno inscrito no curso 
+Pré-vestibular, para a o processo seletivo, mas também reavivar em
+cada um, a auto-estima.
+O Projeto tem como público alvo alunos que terminaram o ensino
+médio e pretendem ingressar na Universidade. Estima-se 50 pessoas.
+O Projeto será realizado em parceria com a Associação comunitária da
+Quinta(A.C.Q.)Depois da equipe formada foi realizada uma reunião para organizar os horários de cada disciplina e cada pessoa envolvida. As disciplinas:
+Biologia, Química, História, Geografia, Física, Literatura, Matemática e
+Português serão ministradas durante a semana com 3 aulas de 45 minutos cada, sendo que haverá 5,2,4,4,3,3,2 e 1 ministradores de cada disciplina 
+respectivamente. As disciplinas de Língua estrangeira: Inglês e espanhol e a Redação, serão ministradas com 2 aulas de 45 minutos cada, sendo que
+ haverão 2,3e 1 ministradores de cada disciplina respectivamente.Os
+ ministradores se reunirão em grupos por disciplina para que seja
+ organizado o conteúdo programático e os planos de aula a serem 
+seguidos, bem como os exercícios a serem resolvidos pelos alunos
+no período das férias de Julho e nas últimas semanas do mês de 
+Dezembro.Haverá reuniões mensais, na sede do D. C. E. na FURG
+ para discussões de aproveitamento, sugestões e se necessário medidas de providência, fora do horário de aula do cursinho.
+Os professores se reunirão no final do mês de junho para a
+formulação de um Simulado Geral.No final do curso acredita-se
+que os alunos estejam confiantes em si,aptos o
+suficiente para concorrer a uma vaga na universidade durante 
+o processo seletivo.
+. <br class="clear" />Situação: Concluído; Natureza: Extensão. <br class="clear" /><br class="clear" />Integrantes: Ezequiel Gibbon Gautério - Coordenador / Wagner Terra Silveira - Integrante / Diana P Salomão Freitas - Integrante / Raquel Quadrado - Integrante / Luiz Laurino - Integrante / Régis de Lima - Integrante / Peter Botelho da Silva - Integrante / Ingrid Ferreira - Integrante / Tiago Cardoso - Integrante / Fábio Espindola Cozza - Integrante.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: ICCEEg</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Matemática Aplicada. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Pesquisa Operacional/Especialidade: Teoria dos Grafos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Matemática / Subárea: Geometria Espacial. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação / Subárea: Ensino-Aprendizagem/Especialidade: Métodos e Técnicas de Ensino. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação / Subárea: Tópicos Específicos de Educação/Especialidade: Educação de Adultos. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Destaque. Co-autor de trabalho destacado na IX Mostra da Produção Universitária - FURG, Superintendência de Extensão - FURG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Jovem Extensionista (2º Lugar) Área 4 - Educação. VIII Mostra da Produção Universitária, Superintendência de Extensão - FURG. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Destaque - Área 4 - Educação - 7ª Mostra da Produção Universitária, Superintendência de Extensão - FURG. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GAUTÉRIO, EZEQUIEL GIBBON</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.14488/1676-1901.v14i2.1592" target="_blank"></a><b>GAUTÉRIO, EZEQUIEL GIBBON</b> ; MATTOS, VIVIANE LEITE DIAS DE . Utilização de controle estatístico de processo na avaliação do desempenho acadêmico. Revista Produção Online<sup><img id='16761901_1' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='16761901' /></sup>, v. 14, p. 744-763, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.14488/1676-1901.v14i2.1592&issn=16761901&volume=14&issue=&paginaInicial=744&titulo=Utilização de controle estatístico de processo na avaliação do desempenho acadêmico&sequencial=1&nomePeriodico=Revista Produção Online" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GAUTÉRIO, E. G.;GAUTÉRIO, EZEQUIEL GIBBON</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GAUTÉRIO, E. G.</b> ; DALLASTA, M. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> . Aplicações cotidianas no ensino fundamental sob um olhar da teoria de grafos. Udesc em Ação<sup><img id='19827776_2' src='/buscatextual/images/curriculo/jcr.gif' class='ajaxJCR' data-issn='19827776' /></sup>, v. 5, p. 1-8, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=19827776&volume=5&issue=&paginaInicial=1&titulo=Aplicações cotidianas no ensino fundamental sob um olhar da teoria de grafos&sequencial=2&nomePeriodico=Udesc em Ação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b> (Org.) ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> (Org.) ; MACHADO, C. M. S. (Org.) ; MACHADO, C. C. (Org.) ; ALVES, A. M. M. (Org.) ; FREITAS, D. S. (Org.) ; PINHO, D. S. (Org.) ; SPEROTTO, F. A. (Org.) ; GARCIA, N. M. (Org.) ; SAVICKI, D. L. (Org.) . Formação Continuada de Matemática: pressupostos teóricos metodológicos e práticas de ensino. 1. ed. Rio Grande: Editora da FURG, 2014. 119p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> . O Ensino de geometria e suas dificuldades. In: Vilmar Alves Pereira; Daniele Simões Borges; Neusiane Chaves de Souza. (Org.). Ventos que sopram no Sul: vivências de educação popular e de transformação social no PAIETS-FURG. 1ªed.Rio Grande: Editora da FURG, 2012, v. único, p. 131-134. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> . Alunos do Pré-Vestibular Popular Ousadia são aprovados na FURG. AGORA - O jornal do Sul, Rio Grande, 19 fev.  2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b> ; ANTIQUEIRA, L. S. ; QUADROS, C. ; FREITAS, C. R. ; SILVEIRA, J. . Mobilidade urbana em Rio Grande - RS: uma visão interdisciplinar. In: Simpósio Internacional sobre interdisciplinaridade no Ensino, na Pesquisa e na Extensão - Região Sul, 2013, Florianópolis. Anais do SIIEPE - Sul 2013. Florianópolis: EGC - UFSC, 2013. p. 1-16. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> . Logística da EaD: aplicação para o problema dial-a-ride. In: XV Simpósio de Pesquisa Operacional & Logística da Marinha, 2012, Rio de Janeiro. Anais do XV Simpósio de Pesquisa Operacional & Logística da Marinha. Rio de Janeiro: CASNAV, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7037520500128415" target="_blank">CORREA, R. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7037520500128415" target="_blank">OLIVEIRA, G.</a> . Implementação do Algoritmo de Dijkstra num problema real. In: V Conferência Sul de Modelagem Computacional, 2012, Rio Grande. Anais da V Conferencia Sul em Modelagem Computacionall. Rio Grande, 2012. p. 128-131. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; HARTWIG, S. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> ; MACHADO, C. M. S. . Análise de Custos por Roteamento em EaD. In: 4ª Conferência Sul de Modelagem Computacional e IX Encontro Regional de Matemática Aplicada e Computacional, 2010, Rio Grande. Anais do 4ª MCSul e IX ERMAC, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> ; DALLASTA, M. N. . Grafos e Aplicações. In: 4ª Conferência Sul de Modelagem Computacional e IX Encontro Regional de Matemática Aplicada e Computacional, 2010, Rio Grande. Anais do 4ª MCSul e IX ERMAC, 2010. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; DALLASTA, M. N. ; HARTWIG, S. C. . Construção e Utilização de sólidos geométricos. In: I Semana Acadêmica do IMEF - A importância do aprender, saber, ensinar e fazer ciência, 2009, Rio Grande. I Semana Acadêmica do IMEF, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; COUTO, Z. F. S. ; SILVEIRA, J. . A tecnologia como recurso didático-pedagógico. In: I Semana Acadêmica do IMEF - A importância do aprender, saber, ensinar e fazer ciência, 2009, Rio Grande. Anais da I Semana Acadêmica do IMEF, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; SILVA, L. P. . Um olhar sobre a geometria: metodologias diferenciadas. In: Iª Escola de Inverno de Educação Matemática, 2008, Santa Maria. Anais da 1ª Escola de Inverno de Educação Matemática de Santa Maria, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; DALLASTA, M. N. ; SILVA, L. P. . Um olhar sobre a Geometria: metodologias diferenciadas. In: 7ª Mostra da Produção Universitária, 2008, Rio Grande. Anais da 7ª Mostra da Produção Universitária. Rio Grande: FURG, 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> . Roteamento de Veículos do tipo dial-a-ride aplicado na EaD. In: XVI Congresso Latino-Iberoamericano de Investigación Operativa, XLIV Simpósio Brasileiro de Pesquisa Operacional, 2012, Rio de Janeiro. Anais do CLAIO/SBPO. Rio de Janeiro, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> . Roteamento de veículos aplicado na logística da educação a distância. In: X Mostra da Produção Universitária - XIII Encontro de Pós-Graduação, 2011, Rio Grande. Anais da X Mostra da Produção Universitária, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; HARTWIG, S. C. ; NUNES, L. R. ; GONCALVES, R. A. . Construção de Maquetes na Aprendizagem de Matemática. In: V Congresso Internacional de Ensino de Matemática, 2010, Canoas. Anais do V Congresso Internacional de Ensino da Matemática, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; VIANA, N. M. ; SILVEIRA, B. X. . Não há doscência sem discencia: reflexões sobre as práticas educativas do projeto Ousadia. In: IX Mostra da Produção Universitária, 2010, Rio Grande. Anais da IX Mostra da Produção Universitária, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; DALLASTA, M. N. ; SILVEIRA, B. X. ; VIANA, N. M. ; DIAS, V. G. . Projeto de Extensão: Ousadia Pré-Vestibular Popular. In: 27º Seminário de Extensão Universitária da Região Sul, 2009, Santa Maria. Seminário de Extensão da Região Sul, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; DALLASTA, M. N. ; DIAS, V. G. ; SILVEIRA, B. X. ; VIANA, N. M. . Ousadia Pré-Vestibular Popular. In: VIII Mostra da Produção Universitária, 2009, Rio Grande. Anais da VIII Mostra da Produção Universitária, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARROS, R. A. ; CORREIA, T. M. B. ; <b>GAUTÉRIO, E. G.</b> ; FERREIRA, I. ; FREITAS, D. P. S. ; SILVEIRA, W. T. . Curso pré-vestibular gratuito no bairro quinta, Rio Grande, RS. In: 3º Salão de Extensão e Cultura - 1ª Semana de Ensino e Extensão, 2008, Pelotas. Anais do 3º Salão de Extensão e Cultura, 2008. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> . Logística da EaD: aplicação para o problema dial-a-ride. 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> ; DALLASTA, M. N. . Trabalhando com Grafos: possibilidade interdisciplinar ao alcance da educação básica. 2012. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> . Roteamento de veículos aplicado na logística da educação a distância. 2011. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> ; HARTWIG, S. C. . Análise de Custos por Roteamento em EaD. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; DALLASTA, M. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> . Grafos e Aplicações. 2010. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		DALLASTA, M. N. ; <b>GAUTÉRIO, E. G.</b> ; SILVEIRA, B. X. ; VIANA, N. M. ; DIAS, V. G. . Ousadia Pré-Vestibular Popular. 2009. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; DALLASTA, M. N. ; SILVA, L. P. . Um olhar sobre a Geometria: metodologias diferenciadas. 2008. (Apresentação de Trabalho/Comunicação). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b> . Teoria de Grafos: atividades práticas para solução de problemas reais. 2014. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; COUTO, Z. F. S. ; SILVEIRA, J. . Mini-curso: A tecnologia como recurso didático-pedagógico. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; DALLASTA, M. N. ; HARTWIG, S. C. . Oficina: Construção e utilização de sólidos geométricos. 2009. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> . Oficina de Normas da ABNT e Editor de Texto. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>GAUTÉRIO, E. G.</b> ; COUTO, Z. F. S. . Oficina de Power Point (Office 2007): Elaboração de Apresentação. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> . Oficina de Power Point 2007. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; TUSNSKI, L. F. M. ; PECINATO, M. L. ; LOBATO, L. C. . Oficina de Moodle 2 (avançado): utilização de outros recursos e ferramentas. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; BICCA, F. D. . Oficina de Áudio: Produção e edição de arquivos de áudio. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; TUSNSKI, L. F. M. ; BICCA, F. D. ; ARAUJO, R. R. . Oficina de Word (office 2007): Disponibilização e utilização dos recursos atuais. 2008. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Monografias de cursos de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Ariel Medeiros Espinosa. Estatística através de uma atividade esportiva. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Maria Alice Gomes. Necessidades educativas especiais e aprendizagem matemática: desafios e possibilidades. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Morgana Aline Reinheimer. Entendendo os números Reais através da reta numérica. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Daiana Isabel de Oliveira. Geometria Analítica: uma abordagem artística no Ensino Médio. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Eduardo Martin. A matemática e o conjunto dos números inteiros. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Luiz Fernando da Silva. Introdução ao estudo da teoria dos grafos: uma proposta para educação básica. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, EZEQUIEL GIBBON</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Pâmela Stumpf. Álgebra: concepções de professores de Matemática. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Márcia Viviane dos Santos Adam Ximenes. Experimentando a resolução de problemas nas aulas de matemática. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Márcia Cristina Viana Amorim. Matemática divertida: reflexões sobre os jogos como métodos de ensino. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Juliane Maria Jaskulski Zacker. O ensino de geometria aplicada ao cotidiano, de forma significativa no processo de aprendizagem dos estudantes. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Fabricio Maurer. Proposta de utilização do Geogebra na representação dos Reais na reta numérica. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; PINHO, D. S.; JELINEK, K..  Participação em banca de Daiane Simas Ortiz. Reflexões sobre avaliação na disciplina de matemática: o erro como um meio de diagnosticar dificuldades. 2014. Monografia (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a>; SPEROTTO, F. A..  Participação em banca de Maria Conceição da Silva dos Santos.Uma análise do ensino da geometria no ensino fundamental na cidade de Santa Rosa.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; SAADI, A. S.; PINHO, D. S..  Participação em banca de Aline Michele Jappe.Uma nova metodologia no ensino de Área e Perímetro.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; SAADI, A. S.; PINHO, D. S..  Participação em banca de Grasieli Klein Krindges Lautenschleger.Trabalhando a geometria no meio em que vivemos.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a>.  Participação em banca de Nilsa de Oliveira Preissler Copetti.Aplicações do Tangram no ensino fundamental do município de Alegria.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a>.  Participação em banca de Janete Maria Savariz.O Ensino da Geometria por meio do Software Geogebra.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; SAADI, A. S.; PINHO, D. S..  Participação em banca de Cléria Vogt.Construção do número nas séries iniciais.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; SAADI, A. S.; PINHO, D. S..  Participação em banca de Vladiane Silva dos Santos.Educação Financeira na escola: um alento para a vida.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; DALLASTA, M. N..  Participação em banca de Diana Speth.Uma reflexão sobre o lúdico em aulas de Matemática.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; DALLASTA, M. N..  Participação em banca de Daniela de Campos Freitas.O lúdico no ensino de Matemática.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; DALLASTA, M. N..  Participação em banca de Tânia Beatriz Schueller dos Santos.A importância do Estágio Supervisionado em EaD.
+							2012. Trabalho de Conclusão de Curso (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; PEREIRA, A. E. L.; PINHO, D. S.; DALLASTA, M. N.. Banca de Seleção Tutor/Bolsista Presencial do Curso de Especialização para Professores de Matemática. Portaria 776/2014.
+							2014.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SILVA, R. P.; SCHMITT, L.; MALTA, S. O.. Banca de Seleção Tutor/Bolsista a Distância do Curso de Administração. Portaria 2223/2013.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; PINHO, D. S.; GARCIA, N. M.; SAVICKI, D. L.. Banca de Seleção Tutor/Bolsista a Distância do Curso de Especialização para Professores de Matemática. Portaria 1618/2013.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; PINHO, D. S.; GARCIA, N. M.; SAVICKI, D. L.. Banca de Seleção Tutor/Bolsista a Distância do Curso de Especialização para Professores de Matemática. Portaria 1619/2013.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; MALTA, S. O.; SCHMITT, L.; OLEIRO, W. N.. Banca de Seleção Tutor/Bolsista Presencial do Curso de Administração. Portaria 2174/2013.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; SPEROTTO, F. A.; PEREIRA, A. E. L.; TAUFER, E.. Banca de Seleção Tutor/Bolsista a Distância do Curso de Especialização para Professores de Matemática. Portaria 2536/2013.
+							2013.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; MIRANDA, S. A.; PEREIRA, V. A.; PODEWILS, T.; NEVES, J.. Comissão de Seleção do Programa de Educação Tutorial - PET Conexões de Saberes da Educação Popular e Saberes Acadêmicos.
+							2012.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b>; TEIXEIRA, P. R. F.; VIEIRA, H.. Banca da XI Mostra da Produção Universitária (Congresso de Iniciação Científica).
+							2012.
+							Universidade Federal do Rio Grande. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congresso Internacional Navegar 2012 - Feira do Polo Naval. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">V Conferência Sul de Modelagem Computacional. Implementação do Algoritmo de Dijkstra num problema real. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Congresso Latino-Iberoamericano de Investigación Operativa, XLIV Simpósio Brasileiro de Pesquisa Operacional. Roteamento de Veículos do tipo dial-a-ride aplicado na EaD. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário diálogos em Educação a Distância e XI Encontro para Ações em EaD na FURG. 2012. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XV Simpósio de Pesquisa Operacional & Logística da Marinha.Logística da EaD: aplicação para o problema dial-a-ride.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Workshop de Logística.
+							2012. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVI Encontro Nacional dos Grupos PET (ENAPET).
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Mostra da Produção Universitária - XIII Encontro de Pós-Graduação.Roteamento de Veículos aplicado na logística da Educação a Distância.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Encontro para ações em EaD na FURG.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Capacitação de professores e tutores para ações em educação a distância.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Mostra da Produção Universitária.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">4ª Conferência Sul de Modelagem Computacional e IX Encontro Regional de Matemática Aplicada e Computacional.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Capacitação de Professores e Tutores para ações em EaD da FURG.
+							2010. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dia das Profissões do IMEF - O Mercado de Trabalho para os Matemáticos, Estatísticos e Físicos. 2010. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">27º Seminário de Extensão Universitária da Região Sul.Projeto de Extensão: Ousadia Pré-Vestibular Popular. 2009. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Simpósio Sul-Brasileiro de Física e Astrofísica.
+							2009. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Mostra da Produção Universitária.Ousadia Pré-Vestibular Popular.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Semana Acadêmica do IMEF - A importância do aprender, saber, ensinar e fazer ciência.
+							2009. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">A Educação Popular no PAIETS: Reflexão sobre suas práticas. 2008. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Iª Escola de Inverno de Educação Matemática.Um olhar sobre a geometria: metodologias diferenciadas.
+							2008. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7ª Mostra da Produção Universitária.Um olhar sobre a geometria: metodologias diferenciadas. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana Acadêmica de Matemática - Ser matemática. 2008. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana Acadêmica de Matemática "Viver é a maior das aventuras, e só a matemática pode nos levar a Terra do Nunca".
+							2007. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dia Nacional da Matemática - A Matemática no Contexto Social.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana Acadêmica de Matemática - Nem Tudo e Obvio, 1+1=3.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro de Matemática Universitária.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">I Seminário Sobre Medida Sócio Educativa. 2004. (Seminário). </div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> ; PINTO, I. M. ; LOBATO, L. C. ; MIRANDA, S. A. ; NOVELO, T. P. . I Seminário diálogos em Educação a Distância e XI Encontro para ações em EaD na FURG. 2012. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; ARAUJO, R. R. ; BARBOSA, V. F. ; BARROS, R. A. ; COUTO, Z. F. S. ; LAURINO, D. P. ; LOBATO, L. C. ; NOVELO, T. P. ; PECINATO, M. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6185142675049044" target="_blank">PEREIRA, E. C.</a> ; PINTO, I. M. ; TUSNSKI, L. F. M. . Capacitação de Professores e Tutores para ações de EaD na FURG. 2009. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>GAUTÉRIO, E. G.</b> ; ARAUJO, R. R. ; BARROS, R. A. ; TUSNSKI, L. F. M. ; COUTO, Z. F. S. ; NOVELO, T. P. ; LAURINO, D. P. ; PINTO, I. M. . Curso de Capacitação em EAD para Professores e Tutores da FURG. 2008. (Outro). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		ARAUJO, R. R. ; COUTO, Z. F. S. ; <b>GAUTÉRIO, E. G.</b> ; LAURINO, D. P. ; LOBATO, L. C. ; PECINATO, M. L. ; NOVELO, T. P. . Oficinas Permanentes de Formação Continuada em EaD. 2008. (Outro). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Monografia de conclusão de curso de aperfeiçoamento/especialização</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Fabricio Maurer.
+							Proposta de utilização do Geogebra na representação dos Reais na reta numérica.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daiane Simas Ortiz.
+							Reflexões sobre avaliação na disciplina de matemática: o erro como um meio de diagnosticar dificuldades.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juliane Maria Jaskulski Zacker.
+							O ensino de geometria aplicada ao cotidiano, de forma significativa no processo de aprendizagem dos estudantes.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Márcia Cristina Viana Amorim.
+							Matemática divertida: reflexões sobre os jogos como métodos de ensino.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Márcia Viviane dos Santos Adam Ximenes.
+							Experimentando a resolução de problemas nas aulas de matemática.
+							2014.
+							Monografia. (Aperfeiçoamento/Especialização em Especialização para Professores de Matemática)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Janete Maria Savariz.
+							O Ensino da Geometria por meio do Software Geogebra.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Aline Michele Jappe.
+							Uma nova metodologia no ensino de Área e Perímetro.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nilsa de Oliveira Preissler Copetti.
+							Aplicações do Tangram no ensino fundamental do município de Alegria.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Conceição da Silva dos Santos.
+							Uma análise do ensino da geometria no ensino fundamental na cidade de Santa Rosa.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Grasieli Klein Krindges Lautenschleger.
+							Trabalhando a geometria no meio em que vivemos.
+							2012.
+							Trabalho de Conclusão de Curso. (Graduação em Matemática Licenciatura Plena)  - Universidade Federal do Rio Grande. Orientador: Ezequiel Gibbon Gautério.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">- Revisor de Trabalho no XIX Congresso de Iniciação Científica/ II Mostra Científica/ XII Encontro de Pós-Graduação realizado na UFPEL em 11/2010.
+- Obteve aprovação na prova de Proficiência em Inglês da Universidade Católica de Pelotas, realizada em 12/2011.
+
+- Participação em Banca na XI Mostra da Produção Universitária (Congresso de Iniciação Científica) 2012.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/03/2015 &agrave;s 24:44:21</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0096166167189273" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

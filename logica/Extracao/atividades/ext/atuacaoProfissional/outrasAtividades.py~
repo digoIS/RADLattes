@@ -1,0 +1,11 @@
+from atuacaoProfissional import *
+class outrasAtividades(atuacaoProfissional):
+	descricao = ''
+	cargo = ''
+
+		return s
+	def __str__(self):
+        	s  = "\n[ATUACAO PROFISSIONAL - OUTRAS ATIVIDADES] \n"
+        	s += "+ CARGO    : " + str(self.descricao) + "\n"
+        	s += "+ DESCRICAO: " + str(self.nivel) + "\n"
+        	return s
